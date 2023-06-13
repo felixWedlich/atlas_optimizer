@@ -1,0 +1,31 @@
+.tooltip{
+  pointer-events: none;
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  //display: inline-block;
+  width: 300px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  hr {
+    width:100%;
+  }
+  .reminder-text{
+  font-style: italic;
+  }
+  .flavour-text{
+  font-style: italic;
+  }
+
+  .stats{
+  font-size: medium;
+  }
+  .name{
+    font-size: large;
+    font-weight: bold;
+
+  }
+}
+

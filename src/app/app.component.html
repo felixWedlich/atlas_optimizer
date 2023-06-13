@@ -1,0 +1,7 @@
+<div>
+  <canvas #canvas width="600" height="600"></canvas>
+  <app-tooltip [node]="hoverNode" [position]="mousePos"></app-tooltip>
+  <app-sidepanel [nodes]="sidebarNodes" (findNodeEvent)="findNodesbyString($event)"></app-sidepanel>
+</div>
+<app-nodecount-display class="node-counter" [nodeCount]="sidebarNodes.size"
+                       [totalPoints]="data.points.totalPoints"></app-nodecount-display>

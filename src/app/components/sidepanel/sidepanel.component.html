@@ -1,0 +1,20 @@
+<app-nodecount-display [nodeCount]="nodes.size" [totalPoints]="132"></app-nodecount-display>
+<input class="search-bar" type="text" placeholder="Find nodes..." (change)="findNodeEvent.emit(searchBar.value)" #searchBar>
+<ul class="node-info">
+  <li *ngFor="let cat of categories">
+    <ul class= "category-stats" >
+      <div class="category-title">{{cat.name}}</div>
+      <li *ngFor="let groupedstat of cat.groupedStats">
+        <ng-container *ngFor="let section of groupedstat.sections">
+          <span *ngIf="section.isNumeric" class="numeric">{{section.content}}</span>
+          <ng-container *ngIf="section.isNumeric">
+            %
+          </ng-container>
+          <ng-container *ngIf="!section.isNumeric">
+            {{section.content}}
+          </ng-container>
+        </ng-container>
+      </li>
+    </ul>
+  </li>
+</ul>
