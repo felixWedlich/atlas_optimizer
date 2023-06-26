@@ -92,6 +92,8 @@ function KeyToPoint(key: number): Point {
   return {x: Math.floor(key / 10000), y: key % 10000};
 }
 
+const gggZoomConstant = 0.3835;
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -290,15 +292,15 @@ export class AppComponent implements OnInit, OnDestroy {
             startAngle -= Math.PI / 2;
             endAngle -= Math.PI / 2;
 
-            this.ctx.arc(group_pos.x * 0.3835, group_pos.y * 0.3835, this.data.constants.orbitRadii[node.orbit] * 0.3835, startAngle, endAngle, counterClockWiseShorter);
+            this.ctx.arc(group_pos.x * gggZoomConstant, group_pos.y * gggZoomConstant, this.data.constants.orbitRadii[node.orbit] * gggZoomConstant, startAngle, endAngle, counterClockWiseShorter);
             this.ctx.stroke();
             this.ctx.closePath();
           } else {
             //line
             this.ctx.lineWidth = 5;
             this.ctx.beginPath();
-            this.ctx.moveTo(node_cords.x * 0.3835, node_cords.y * 0.3835);
-            this.ctx.lineTo(in_node_cords.x * 0.3835, in_node_cords.y * 0.3835);
+            this.ctx.moveTo(node_cords.x * gggZoomConstant, node_cords.y * gggZoomConstant);
+            this.ctx.lineTo(in_node_cords.x * gggZoomConstant, in_node_cords.y * gggZoomConstant);
             this.ctx.stroke();
             this.ctx.closePath();
           }
@@ -370,9 +372,9 @@ export class AppComponent implements OnInit, OnDestroy {
     }
 
     // d_i_cords = {x:node_cords.x * 0.3835 - img_cords.w * 0.3835,y:node_cords.y * 0.3835 - img_cords.h * 0.3835}
-    d_i_cords = {x: node_cords.x * 0.3835 - img_cords.w / 2, y: node_cords.y * 0.3835 - img_cords.h / 2}
+    d_i_cords = {x: node_cords.x * gggZoomConstant - img_cords.w / 2, y: node_cords.y * gggZoomConstant - img_cords.h / 2}
     // d_f_cords = {x:node_cords.x * 0.3835 - frame_cords.w * 0.3835 / 2,y:node_cords.y * 0.3835 - frame_cords.h * 0.3835 / 2};
-    d_f_cords = {x: node_cords.x * 0.3835 - frame_cords.w / 2, y: node_cords.y * 0.3835 - frame_cords.h / 2};
+    d_f_cords = {x: node_cords.x * gggZoomConstant - frame_cords.w / 2, y: node_cords.y * gggZoomConstant - frame_cords.h / 2};
     const startPosition = node.orbitIndex;
     this.ctx.drawImage(image, img_cords.x, img_cords.y, img_cords.w, img_cords.h, d_i_cords.x, d_i_cords.y, img_cords.w, img_cords.h);
     // var first = true;
@@ -405,8 +407,8 @@ export class AppComponent implements OnInit, OnDestroy {
     const s_y = coords.y;
     const s_w = coords.w;
     const s_h = coords.h;
-    const d_x = group_x * 0.3835 - s_w / 2;
-    const d_y = group_y * 0.3835 - s_h / 2;
+    const d_x = group_x * gggZoomConstant - s_w / 2;
+    const d_y = group_y * gggZoomConstant - s_h / 2;
     this.ctx.drawImage(image, s_x, s_y, s_w, s_h, d_x, d_y, s_w, s_h);
 
 
@@ -416,8 +418,8 @@ export class AppComponent implements OnInit, OnDestroy {
     const ptrn = this.ctx.createPattern(this.images['background-3.png'], 'repeat');
     if (!ptrn) return;
     this.ctx.fillStyle = ptrn;
-    this.ctx.fillRect((-1570 / 0.3835) * 2, (-1514 / 0.3835) * 2, (1570 / 0.3835) * 4, (1514 / 0.3835) * 4);
-    this.ctx.drawImage(this.images['atlas-background-3.jpg'], (-1570 / 0.3835) / 2, (-1514 / 0.3835), 1570 / 0.3835, 1514 / 0.3835);
+    this.ctx.fillRect((-1570 / gggZoomConstant) * 2, (-1514 / gggZoomConstant) * 2, (1570 / gggZoomConstant) * 4, (1514 / gggZoomConstant) * 4);
+    this.ctx.drawImage(this.images['atlas-background-3.jpg'], (-1570 / gggZoomConstant) / 2, (-1514 / gggZoomConstant), 1570 / gggZoomConstant, 1514 / gggZoomConstant);
 
 
     // draw startNode
@@ -556,7 +558,7 @@ export class AppComponent implements OnInit, OnDestroy {
       }
       const node_pos = this.nodeCoords[node.skill!.toString()];
       this.ctx.beginPath();
-      this.ctx.arc(node_pos.x * 0.3835, node_pos.y * 0.3835, radius, 0, 2 * Math.PI);
+      this.ctx.arc(node_pos.x * gggZoomConstant, node_pos.y * gggZoomConstant, radius, 0, 2 * Math.PI);
       this.ctx.stroke();
     }
   }
