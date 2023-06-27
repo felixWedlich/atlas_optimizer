@@ -286,10 +286,6 @@ export class AppComponent implements OnInit, OnDestroy {
     }
   }
 
-  private isNodeAllocated(node: AtlasNodeGGG): boolean {
-    return this.allocatedNodes.has(node.skill!.toString()) || this.travelNodes.has(node.skill!.toString());
-  }
-
   private initNodeCoords() {
     for (let [key, group] of Object.entries(this.data.groups)) {
       //somehow the group offset is only relevant for the background image, so can skip here
