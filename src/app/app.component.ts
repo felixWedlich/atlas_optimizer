@@ -110,7 +110,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   // information for the tooltip
   nodeCoords: { [key: string]: Point } = {};
-  hoverNode: AtlasNodeGGG | null = null;
+  hoverNode: AtlasNode | null = null;
   mousePos: Point = {x: 0, y: 0};
 
   // set of node.skill that are allocated
@@ -418,7 +418,12 @@ export class AppComponent implements OnInit, OnDestroy {
   setHoverNode(e: MouseEvent) {
     const node_id = this.checkHashCollision(e);
     if (node_id) {
-      this.hoverNode = this.getNodebyId(node_id);
+      const node = atlasNodes.get(node_id);
+      if(!node){
+        console.log("node not found for id", node_id);
+        return;
+      }
+      this.hoverNode = node;
     } else {
       this.hoverNode = null;
     }

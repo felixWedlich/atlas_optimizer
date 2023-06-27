@@ -1,16 +1,16 @@
 <div class="tooltip" *ngIf="node" [style.top]="position.y+'px'"  [style.left]="position.x+10+'px'">
   <div class="name">{{node.name}}</div>
-  <ng-container *ngIf="node.stats">
+  <ng-container *ngIf="node.stats.length">
     <hr>
     <ul>
       <li class = "stats" *ngFor="let stat of node.stats">{{stat}}</li>
     </ul>
   </ng-container>
-  <ng-container *ngIf="node.flavourText">
+  <ng-container *ngIf="node.flavourText.length">
     <hr>
     <div class="flavour-text">{{node.flavourText}}</div>
   </ng-container>
-  <ng-container *ngIf="node.reminderText">
+  <ng-container *ngIf="node.reminderText.length">
     <hr>
     <div class="reminder-text">{{node.reminderText}}</div>
   </ng-container>
