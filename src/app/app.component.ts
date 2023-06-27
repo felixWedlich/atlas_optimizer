@@ -116,7 +116,7 @@ export class AppComponent implements OnInit, OnDestroy {
   // set of node.skill that are allocated
   allocatedPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
   travelPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
-  sidebarNodes: Set<AtlasNodeGGG> = new Set<AtlasNodeGGG>();
+  sidebarNodes: Set<AtlasNode> = new Set<AtlasNode>();
   highlightedNodes: Set<AtlasNode> = new Set<AtlasNode>();
   searchString: string = "";
   hash_initialised: boolean = false;
@@ -401,12 +401,12 @@ export class AppComponent implements OnInit, OnDestroy {
       }
       if (precNode.isTerminal){
         this.allocatedPreCNodes.delete(precNode);
-        this.sidebarNodes.delete(this.getNodebyId(node_id));
+        this.sidebarNodes.delete(precNode);
         precNode.isTerminal = false;
       }
       else if (!precNode.isTravel){
         this.allocatedPreCNodes.add(precNode);
-        this.sidebarNodes.add(this.getNodebyId(node_id));
+        this.sidebarNodes.add(precNode);
         precNode.isTerminal = true;
       }
       await this.requestStpSolve();
@@ -494,7 +494,7 @@ export class AppComponent implements OnInit, OnDestroy {
         node.isTravel = false;
       }
       this.travelPreCNodes = new Set<AtlasNode>();
-      this.sidebarNodes = new Set<AtlasNodeGGG>();
+      this.sidebarNodes = new Set<AtlasNode>();
       for (const node_id of solution["travel_nodes"]) {
         const node = atlasNodes.get(node_id);
         if(!node){
@@ -502,7 +502,7 @@ export class AppComponent implements OnInit, OnDestroy {
         }
         node.isTravel = true;
         this.travelPreCNodes.add(node);
-        this.sidebarNodes.add(this.getNodebyId(node_id));
+        this.sidebarNodes.add(node);
       }
     });
 

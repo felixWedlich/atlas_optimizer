@@ -2,6 +2,7 @@ import {Component, Input, OnChanges, SimpleChanges} from '@angular/core';
 import {AtlasNodeGGG, AtlasTreeInfoGGG} from "../../data/atlas-tree-info";
 import {ATLAS_DATA} from "../../data/data";
 import {Output, EventEmitter} from "@angular/core";
+import {AtlasNode, atlasNodes, AtlasNodeType} from "../../data/precomputed-data";
 
 @Component({
   selector: 'app-sidepanel',
@@ -12,11 +13,11 @@ export class SidepanelComponent implements OnChanges{
 
 
   @Input()
-  nodes: Set<AtlasNodeGGG> = new Set<AtlasNodeGGG>();
+  nodes: Set<AtlasNode> = new Set<AtlasNode>();
   @Output()
   findNodeEvent = new EventEmitter<string>();
   categories:Category[] = [];
-  nodeToMasteryName:Map<AtlasNodeGGG,string> = new Map<AtlasNodeGGG, string>();
+  nodeToMasteryName:Map<AtlasNode,string> = new Map<AtlasNode, string>();
   masteryNames:Set<string> = new Set<string>()
   ngOnChanges(changes: SimpleChanges) {
     if(changes['nodes']){
@@ -37,8 +38,9 @@ export class SidepanelComponent implements OnChanges{
       }
       if (masteryNode){
         for (let node_id of group.nodes) {
-          let node = ATLAS_DATA.nodes[node_id];
-          if (!node.isMastery){
+          let node = atlasNodes.get(node_id);
+
+          if (node && node.type == AtlasNodeType.Mastery){
             this.nodeToMasteryName.set(node,masteryNode.name!);
           }
         }
@@ -49,7 +51,7 @@ export class SidepanelComponent implements OnChanges{
   seperateNodesIntoCategories(){
     this.categories = [];
     for (let node of this.nodes){
-      if (node.skill!.toString() == "29045"){
+      if (node.id == "29045"){
         continue;
       }
       // primary assignment: check if node is in a group that has a mastery -> choose mastery's name
