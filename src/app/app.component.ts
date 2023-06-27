@@ -4,7 +4,7 @@ import {ATLAS_DATA} from "./data/data";
 import {Location} from "@angular/common";
 import {HttpClient} from "@angular/common/http";
 import {firstValueFrom, fromEvent, Observable, Subscription} from "rxjs";
-
+import {atlasNodes, atlasEdges,atlasEdgeArcs, nodeCategories, AtlasNode} from "./data/precomputed-data";
 // let cameraOffset = { x: window.innerWidth/2, y: window.innerHeight/2 }
 // let cameraOffset = {x: (1570 / 0.3835) / 2, y: (1514 / 0.3835) / 2}
 // let cameraOffset = {x: 0, y: 0}
@@ -115,7 +115,9 @@ export class AppComponent implements OnInit, OnDestroy {
 
   // set of node.skill that are allocated
   allocatedNodes: Set<string> = new Set<string>();
+  allocatedPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
   travelNodes: Set<string> = new Set<string>();
+  travelPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
   sidebarNodes: Set<AtlasNodeGGG> = new Set<AtlasNodeGGG>();
   highlightedNodes: Set<AtlasNodeGGG> = new Set<AtlasNodeGGG>();
   searchString: string = "";
@@ -140,6 +142,14 @@ export class AppComponent implements OnInit, OnDestroy {
         const pathLength = this._location.path().length;
         const endPos = this._location.path().at(pathLength - 1) == "=" ? pathLength - 1 : pathLength;
         this.allocatedNodes = new Set<string>(JSON.parse(atob(this._location.path().substring(startPos, endPos))));
+        for(let nodeID of JSON.parse(atob(this._location.path().substring(startPos, endPos)))){
+          const node =atlasNodes.get(nodeID);
+          if(!node){
+            continue;
+          }
+          node.isTerminal = true;
+          this.allocatedPreCNodes.add(node);
+        }
         await this.requestStpSolve();
       } catch (e) {
         console.log(e);
@@ -247,66 +257,34 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private drawLines() {
-    for (let [key, group] of Object.entries(this.data.groups)) {
-      for (let node_str of group.nodes) {
-        const node = this.getNodebyId(node_str);
-        const allocated: boolean = this.isNodeAllocated(node);
-        const node_cords = this.nodeCoords[node.skill!.toString()];
-        const group_pos = {x: group.x, y: group.y};
-        if (group.background && group.background.offsetX && group.background.offsetY) {
-          group_pos.x += group.background.offsetX;
-          group_pos.y += group.background.offsetY;
-        }
 
-        for (let in_coming of node.in) {
-          const target_node = this.getNodebyId(in_coming);
-          if (node.isWormhole && target_node.isWormhole) {
-            continue;
-          }
-          const in_node_cords = this.nodeCoords[in_coming];
-          const in_allocated = this.allocatedNodes.has(in_coming) || this.travelNodes.has(in_coming);
-          if (in_allocated && allocated) {
-            this.ctx.strokeStyle = "green";
-          } else {
-            this.ctx.strokeStyle = "grey";
-          }
-          if (node.orbit == target_node.orbit && node.group == target_node.group) {
-            //arc
-            this.ctx.beginPath();
-            let startAngle = 0;
-            let endAngle = 0;
-            const totalPositions = this.data.constants.skillsPerOrbit[node.orbit];
-
-            if (node.orbit == 2 || node.orbit == 3) {
-              startAngle = angleOfOrbitTwoAndThree(node.orbitIndex);
-              endAngle = angleOfOrbitTwoAndThree(target_node.orbitIndex);
-            } else {
-              startAngle = (node.orbitIndex / totalPositions) * 2 * Math.PI;
-              endAngle = (target_node.orbitIndex / totalPositions) * 2 * Math.PI;
-            }
-            const clockwiseArc = (target_node.orbitIndex - node.orbitIndex + totalPositions) % totalPositions;
-            const counterclockwiseArc = (node.orbitIndex - target_node.orbitIndex + totalPositions) % totalPositions;
-            const counterClockWiseShorter = clockwiseArc >= counterclockwiseArc;
-
-
-            startAngle -= Math.PI / 2;
-            endAngle -= Math.PI / 2;
-
-            this.ctx.arc(group_pos.x * gggZoomConstant, group_pos.y * gggZoomConstant, this.data.constants.orbitRadii[node.orbit] * gggZoomConstant, startAngle, endAngle, counterClockWiseShorter);
-            this.ctx.stroke();
-            this.ctx.closePath();
-          } else {
-            //line
-            this.ctx.lineWidth = 5;
-            this.ctx.beginPath();
-            this.ctx.moveTo(node_cords.x * gggZoomConstant, node_cords.y * gggZoomConstant);
-            this.ctx.lineTo(in_node_cords.x * gggZoomConstant, in_node_cords.y * gggZoomConstant);
-            this.ctx.stroke();
-            this.ctx.closePath();
-          }
-
-        }
+    for (let edgeLine of atlasEdges){
+      const allocated = (edgeLine.from.isTerminal || edgeLine.from.isTravel) && (edgeLine.to.isTerminal || edgeLine.to.isTravel);
+      if (allocated) {
+        this.ctx.strokeStyle = "green";
+      } else {
+        this.ctx.strokeStyle = "grey";
       }
+      this.ctx.lineWidth = 5;
+      this.ctx.beginPath();
+      this.ctx.moveTo(edgeLine.from.position.x * gggZoomConstant, edgeLine.from.position.y * gggZoomConstant);
+      this.ctx.lineTo(edgeLine.to.position.x * gggZoomConstant, edgeLine.to.position.y * gggZoomConstant);
+      this.ctx.stroke();
+      this.ctx.closePath();
+    }
+
+    for (let edgeArc of atlasEdgeArcs){
+      const allocated = (edgeArc.from.isTerminal || edgeArc.from.isTravel) && (edgeArc.to.isTerminal || edgeArc.to.isTravel);
+      if (allocated) {
+        this.ctx.strokeStyle = "green";
+      } else {
+        this.ctx.strokeStyle = "grey";
+      }
+      this.ctx.beginPath();
+      this.ctx.lineWidth = 5;
+      this.ctx.arc(edgeArc.center.x * gggZoomConstant, edgeArc.center.y * gggZoomConstant, edgeArc.radius, edgeArc.startAngle, edgeArc.endAngle, edgeArc.counterclockwise);
+      this.ctx.stroke();
+      this.ctx.closePath();
     }
   }
 
@@ -449,14 +427,21 @@ export class AppComponent implements OnInit, OnDestroy {
     const node_id = this.checkHashCollision(e)
     if (node_id) {
       const node = this.getNodebyId(node_id);
+      const precNode = atlasNodes.get(node_id);
+      if(!precNode){
+        console.log("no precNode");
+        return;
+      }
       var allocated: boolean = this.allocatedNodes.has(node.skill!.toString());
       if (allocated) {
         this.allocatedNodes.delete(node.skill!.toString());
         this.sidebarNodes.delete(this.getNodebyId(node_id));
+        precNode.isTerminal = false;
       } else {
         if (!this.travelNodes.has(node.skill!.toString())) {
           this.allocatedNodes.add(node.skill!.toString());
           this.sidebarNodes.add(this.getNodebyId(node_id));
+          precNode.isTerminal = true;
         }
       }
       await this.requestStpSolve();
@@ -534,10 +519,19 @@ export class AppComponent implements OnInit, OnDestroy {
       }
     })).then((res: any) => {
       const solution = res
+      // clean up old travel nodes:
+      for (const node of this.travelPreCNodes) {
+        node.isTravel = false;
+      }
       this.travelNodes = new Set(solution["travel_nodes"]);
       this.sidebarNodes = new Set<AtlasNodeGGG>();
       for (const node_id of solution["travel_nodes"]) {
-
+        const node = atlasNodes.get(node_id);
+        if(!node){
+          continue;
+        }
+        node.isTravel = true;
+        this.travelPreCNodes.add(node);
         this.sidebarNodes.add(this.getNodebyId(node_id));
       }
     });
