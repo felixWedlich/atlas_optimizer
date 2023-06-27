@@ -164,7 +164,6 @@ export class AppComponent implements OnInit, OnDestroy {
     this.ctx = context;
     this.setupListeners();
     await this.loadAllImages();
-    this.initNodeCoords();
     // draw once
     requestAnimationFrame(this.draw.bind(this));
     this.resizeSubscription = fromEvent(window, 'resize').subscribe((evt) => {
@@ -281,19 +280,6 @@ export class AppComponent implements OnInit, OnDestroy {
       this.ctx.arc(edgeArc.center.x * gggZoomConstant, edgeArc.center.y * gggZoomConstant, edgeArc.radius, edgeArc.startAngle, edgeArc.endAngle, edgeArc.counterclockwise);
       this.ctx.stroke();
       this.ctx.closePath();
-    }
-  }
-
-  private initNodeCoords() {
-    for (let [key, group] of Object.entries(this.data.groups)) {
-      //somehow the group offset is only relevant for the background image, so can skip here
-      const g_coords = {x: group.x, y: group.y};
-      for (let node_str of group.nodes) {
-        const node = this.getNodebyId(node_str);
-        const totalPositions = this.data.constants.skillsPerOrbit[node.orbit];
-        const radius = this.data.constants.orbitRadii[node.orbit];
-        this.nodeCoords[node_str] = getClockwiseCoordinates(g_coords, radius, node.orbitIndex, totalPositions);
-      }
     }
   }
 
