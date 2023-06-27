@@ -119,8 +119,7 @@ export class AppComponent implements OnInit, OnDestroy {
   travelNodes: Set<string> = new Set<string>();
   travelPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
   sidebarNodes: Set<AtlasNodeGGG> = new Set<AtlasNodeGGG>();
-  highlightedNodes: Set<AtlasNodeGGG> = new Set<AtlasNodeGGG>();
-  highlightedPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
+  highlightedNodes: Set<AtlasNode> = new Set<AtlasNode>();
   searchString: string = "";
   hash_initialised: boolean = false;
 
@@ -527,7 +526,7 @@ export class AppComponent implements OnInit, OnDestroy {
   private drawHighlights() {
     //draw a circle around the node, radius is determined if it is a keystone, wormhole,notable, mastery or normal node
     this.ctx.strokeStyle = 'red';
-    for (const node of this.highlightedPreCNodes){
+    for (const node of this.highlightedNodes){
       let radius = 12;
       switch (node.type) {
         case AtlasNodeType.Keystone:
@@ -548,10 +547,10 @@ export class AppComponent implements OnInit, OnDestroy {
   findNodesbyString(s: string) {
     if (s.length < 3) return;
     s = s.toLowerCase();
-    this.highlightedPreCNodes = new Set<AtlasNode>();
+    this.highlightedNodes = new Set<AtlasNode>();
     for (let node of atlasNodes.values()){
       if (nodeToString(node).includes(s)){
-        this.highlightedPreCNodes.add(node);
+        this.highlightedNodes.add(node);
       }
     }
     this.requestDraw();
