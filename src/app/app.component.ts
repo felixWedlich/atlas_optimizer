@@ -115,7 +115,6 @@ export class AppComponent implements OnInit, OnDestroy {
 
   // set of node.skill that are allocated
   allocatedPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
-  travelNodes: Set<string> = new Set<string>();
   travelPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
   sidebarNodes: Set<AtlasNodeGGG> = new Set<AtlasNodeGGG>();
   highlightedNodes: Set<AtlasNode> = new Set<AtlasNode>();
