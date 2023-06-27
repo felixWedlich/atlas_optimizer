@@ -200,6 +200,10 @@ for (let [groupID, group] of Object.entries(ATLAS_DATA.groups)) {
         console.log("node not found",outNeighbor_str);
         continue;
       }
+      //skip wormhole to wormhole lines
+      if (outNeighbor.type == AtlasNodeType.Wormhole && node.type == AtlasNodeType.Wormhole) {
+        continue
+      }
       if (gggOutNeighbor.group.toString() === groupID && gggOutNeighbor.orbit === gggNode.orbit) {
         //arc edge
         //todo calculate start and end angle
