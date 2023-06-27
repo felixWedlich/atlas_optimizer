@@ -4,7 +4,7 @@ import {ATLAS_DATA} from "./data/data";
 import {Location} from "@angular/common";
 import {HttpClient} from "@angular/common/http";
 import {firstValueFrom, fromEvent, Subscription} from "rxjs";
-import {atlasEdgeArcs, atlasEdges, AtlasNode, atlasNodes, AtlasNodeType} from "./data/precomputed-data";
+import {atlasEdgeArcs, atlasEdges, AtlasNode, atlasNodes, AtlasNodeType, nodeToString} from "./data/precomputed-data";
 // let cameraOffset = { x: window.innerWidth/2, y: window.innerHeight/2 }
 // let cameraOffset = {x: (1570 / 0.3835) / 2, y: (1514 / 0.3835) / 2}
 // let cameraOffset = {x: 0, y: 0}
@@ -120,6 +120,7 @@ export class AppComponent implements OnInit, OnDestroy {
   travelPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
   sidebarNodes: Set<AtlasNodeGGG> = new Set<AtlasNodeGGG>();
   highlightedNodes: Set<AtlasNodeGGG> = new Set<AtlasNodeGGG>();
+  highlightedPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
   searchString: string = "";
   hash_initialised: boolean = false;
 
@@ -524,30 +525,33 @@ export class AppComponent implements OnInit, OnDestroy {
 
 
   private drawHighlights() {
+    //draw a circle around the node, radius is determined if it is a keystone, wormhole,notable, mastery or normal node
     this.ctx.strokeStyle = 'red';
-    for (const node of this.highlightedNodes){
-      //draw a circle around the node, radius is determined if it is a keystone, wormhole,notable, mastery or normal node
+    for (const node of this.highlightedPreCNodes){
       let radius = 12;
-      if (node.isKeystone || node.isWormhole || node.isMastery){
-        radius = 32;
+      switch (node.type) {
+        case AtlasNodeType.Keystone:
+        case AtlasNodeType.Wormhole:
+        case AtlasNodeType.Mastery:
+          radius = 32;
+          break;
+        case AtlasNodeType.Notable:
+          radius = 20;
+          break;
       }
-      else if (node.isNotable){
-        radius = 20;
-      }
-      const node_pos = this.nodeCoords[node.skill!.toString()];
       this.ctx.beginPath();
-      this.ctx.arc(node_pos.x * gggZoomConstant, node_pos.y * gggZoomConstant, radius, 0, 2 * Math.PI);
+      this.ctx.arc(node.position.x * gggZoomConstant, node.position.y * gggZoomConstant, radius, 0, 2 * Math.PI);
       this.ctx.stroke();
     }
   }
 
   findNodesbyString(s: string) {
     if (s.length < 3) return;
-    this.highlightedNodes = new Set<AtlasNodeGGG>();
-    for (let [skill, node] of Object.entries(this.data.nodes)){
-      if (!node.name) continue;
-      if (node.name.toLowerCase().includes(s.toLowerCase())) {
-        this.highlightedNodes.add(node);
+    s = s.toLowerCase();
+    this.highlightedPreCNodes = new Set<AtlasNode>();
+    for (let node of atlasNodes.values()){
+      if (nodeToString(node).includes(s)){
+        this.highlightedPreCNodes.add(node);
       }
     }
     this.requestDraw();

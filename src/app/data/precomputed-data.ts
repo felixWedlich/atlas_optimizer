@@ -2,6 +2,7 @@ import {ATLAS_DATA} from "./data";
 
 export {atlasNodes,nodeCategories, atlasEdges, atlasEdgeArcs}
 export {AtlasNode, AtlasNodeType,AtlasEdge, AtlasEdgeArc}
+export {nodeToString}
 const gggZoomConstant = 0.3835;
 /*
 
@@ -60,7 +61,7 @@ function nodeToString(node: AtlasNode) {
       break;
   }
   let categoryName = node.category? node.category.name : "";
-  return node.name + " " + categoryName + " " +node.stats.map((stat) => stat.replace(/\n/g, " ")).join(" ") + " " + typeString;
+  return (node.name + " " + categoryName + " " +node.stats.map((stat) => stat.replace(/\n/g, " ")).join(" ") + " " + typeString).toLowerCase();
 }
 
 interface NodeCategory {
