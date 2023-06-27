@@ -114,7 +114,6 @@ export class AppComponent implements OnInit, OnDestroy {
   mousePos: Point = {x: 0, y: 0};
 
   // set of node.skill that are allocated
-  allocatedNodes: Set<string> = new Set<string>();
   allocatedPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
   travelNodes: Set<string> = new Set<string>();
   travelPreCNodes: Set<AtlasNode> = new Set<AtlasNode>();
@@ -141,8 +140,8 @@ export class AppComponent implements OnInit, OnDestroy {
         const startPos = this._location.path().at(0) == "?" ? 1 : 0;
         const pathLength = this._location.path().length;
         const endPos = this._location.path().at(pathLength - 1) == "=" ? pathLength - 1 : pathLength;
-        this.allocatedNodes = new Set<string>(JSON.parse(atob(this._location.path().substring(startPos, endPos))));
-        for(let nodeID of JSON.parse(atob(this._location.path().substring(startPos, endPos)))){
+        const allocatedIDs= new Set<string>(JSON.parse(atob(this._location.path().substring(startPos, endPos))));
+        for(let nodeID of allocatedIDs){
           const node =atlasNodes.get(nodeID);
           if(!node){
             continue;
@@ -200,7 +199,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private updateUrl() {
-    this._location.go("/?" + btoa(JSON.stringify(Array.from(this.allocatedNodes))));
+    this._location.go("/?" + btoa(JSON.stringify(Array.from(this.allocatedPreCNodes.values()).map(node => node.id))));
   }
 
   requestDraw() {
@@ -410,23 +409,20 @@ export class AppComponent implements OnInit, OnDestroy {
   async allocateCollision(e: MouseEvent) {
     const node_id = this.checkHashCollision(e)
     if (node_id) {
-      const node = this.getNodebyId(node_id);
       const precNode = atlasNodes.get(node_id);
       if(!precNode){
-        console.log("no precNode");
+        console.log("preC node not found for id", node_id);
         return;
       }
-      var allocated: boolean = this.allocatedNodes.has(node.skill!.toString());
-      if (allocated) {
-        this.allocatedNodes.delete(node.skill!.toString());
+      if (precNode.isTerminal){
+        this.allocatedPreCNodes.delete(precNode);
         this.sidebarNodes.delete(this.getNodebyId(node_id));
         precNode.isTerminal = false;
-      } else {
-        if (!this.travelNodes.has(node.skill!.toString())) {
-          this.allocatedNodes.add(node.skill!.toString());
-          this.sidebarNodes.add(this.getNodebyId(node_id));
-          precNode.isTerminal = true;
-        }
+      }
+      else if (!precNode.isTravel){
+        this.allocatedPreCNodes.add(precNode);
+        this.sidebarNodes.add(this.getNodebyId(node_id));
+        precNode.isTerminal = true;
       }
       await this.requestStpSolve();
       this.updateUrl();
@@ -494,7 +490,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   public requestStpSolve() {
 
-    const terminals = Array.from(this.allocatedNodes);
+    const terminals = Array.from(this.allocatedPreCNodes).map(node => node.id);
     // send an request to backend server, in the request body send the terminals and receive a list of nodes
     return firstValueFrom(this.http.post("https://atlas.sniixed.com/api/stp/", JSON.stringify({terminal_ids: terminals}), {
       headers: {
@@ -507,7 +503,7 @@ export class AppComponent implements OnInit, OnDestroy {
       for (const node of this.travelPreCNodes) {
         node.isTravel = false;
       }
-      this.travelNodes = new Set(solution["travel_nodes"]);
+      this.travelPreCNodes = new Set<AtlasNode>();
       this.sidebarNodes = new Set<AtlasNodeGGG>();
       for (const node_id of solution["travel_nodes"]) {
         const node = atlasNodes.get(node_id);
