@@ -35,6 +35,7 @@ interface AtlasNode {
   isTerminal: boolean; // maybe not neceessary, will be seen
   stats: string[];
   flavorText: string[];
+  icon: string;
 
 }
 
@@ -168,7 +169,7 @@ for (let [id, gggNode] of Object.entries(ATLAS_DATA.nodes)) {
   }
   // categories will be assigned later, as they may not yet all exist
   // @ts-ignore
-  let node: AtlasNode = {category:null, id:id,isTravel:false,isTerminal:false, name:name,neighbors:[],position:{x:0,y:0},type:type, stats:gggNode.stats || [], flavorText:gggNode.flavorText || []};
+  let node: AtlasNode = {category:null, id:id,isTravel:false,isTerminal:false, name:name,neighbors:[],position:{x:0,y:0},type:type, stats:gggNode.stats || [], flavorText:gggNode.flavorText || [], icon: gggNode.icon || "" };
   nodes.push(node);
   atlasNodes.set(id,node);
 }

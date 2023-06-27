@@ -3,8 +3,8 @@ import {AtlasNodeGGG, AtlasTreeInfoGGG} from "./data/atlas-tree-info";
 import {ATLAS_DATA} from "./data/data";
 import {Location} from "@angular/common";
 import {HttpClient} from "@angular/common/http";
-import {firstValueFrom, fromEvent, Observable, Subscription} from "rxjs";
-import {atlasNodes, atlasEdges,atlasEdgeArcs, nodeCategories, AtlasNode} from "./data/precomputed-data";
+import {firstValueFrom, fromEvent, Subscription} from "rxjs";
+import {atlasEdgeArcs, atlasEdges, AtlasNode, atlasNodes, AtlasNodeType} from "./data/precomputed-data";
 // let cameraOffset = { x: window.innerWidth/2, y: window.innerHeight/2 }
 // let cameraOffset = {x: (1570 / 0.3835) / 2, y: (1514 / 0.3835) / 2}
 // let cameraOffset = {x: 0, y: 0}
@@ -249,10 +249,8 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private drawNodes() {
-    for (let [key, group] of Object.entries(this.data.groups)) {
-      for (let node_str of group.nodes) {
-        this.drawNode(this.getNodebyId(node_str))
-      }
+    for (let node of atlasNodes.values()) {
+      this.drawNode(node);
     }
   }
 
@@ -309,68 +307,58 @@ export class AppComponent implements OnInit, OnDestroy {
     return this.data.nodes[id];
   }
 
-  drawNode(node: AtlasNodeGGG) {
-    if (node.icon == "") {
-      return;
-    }
-    const totalPositions = this.data.constants.skillsPerOrbit[node.orbit];
-    const radius = this.data.constants.orbitRadii[node.orbit];
-    // const node_cords = getClockwiseCoordinates(group_coords, radius, node.orbitIndex, totalPositions);
-    const node_cords = this.nodeCoords[node.skill!.toString()];
+  drawNode(node: AtlasNode) {
+    const node_cords = node.position;
 
-    var image: HTMLImageElement;
-    var frame_image = this.images['atlas-frame-3.png'];
-    var img_cords;
-    var d_i_cords: Point;
-    var frame_cords = {x: 0, y: 0, h: 0, w: 0};
-    var d_f_cords: Point;
-    var allocated: boolean = this.allocatedNodes.has(node.skill!.toString()) || this.travelNodes.has(node.skill!.toString());
-    if (allocated) {
-    }
-    if (node.isMastery) {
-      image = this.images['atlas-mastery-3.png'];
-      img_cords = this.data.sprites.mastery["0.3835"].coords[node.icon!];
-
-    } else if (node.isKeystone) {
-      image = this.images[allocated ? 'atlas-skills-3.jpg' : 'atlas-skills-disabled-3.jpg'];
-      img_cords = this.data.sprites.keystoneInactive["0.3835"].coords[node.icon!];
-      frame_cords = this.data.sprites.frame["0.3835"].coords[allocated ? "KeystoneFrameAllocated" : "KeystoneFrameUnallocated"];
-    } else if (node.isNotable) {
-      image = this.images[allocated ? 'atlas-skills-3.jpg' : 'atlas-skills-disabled-3.jpg'];
-      img_cords = this.data.sprites.notableInactive["0.3835"].coords[node.icon!];
-      frame_cords = this.data.sprites.frame["0.3835"].coords[allocated ? "NotableFrameAllocated" : "NotableFrameUnallocated"];
-    } else if (node.isWormhole) {
-      image = this.images[allocated ? 'atlas-skills-3.jpg' : 'atlas-skills-disabled-3.jpg'];
-      img_cords = this.data.sprites.wormholeInactive["0.3835"].coords["Wormhole"];
-      frame_cords = this.data.sprites.frame["0.3835"].coords[allocated ? "WormholeFrameAllocated" : "WormholeFrameUnallocated"];
-    } else {
-      image = this.images[allocated ? 'atlas-skills-3.jpg' : 'atlas-skills-disabled-3.jpg'];
-      img_cords = this.data.sprites.normalInactive["0.3835"].coords[node.icon!];
-      frame_cords = this.data.sprites.frame["0.3835"].coords[allocated ? "PSSkillFrameActive" : "PSSkillFrame"];
+    let image: HTMLImageElement;
+    let frame_image = this.images['atlas-frame-3.png'];
+    let img_cords;
+    let d_i_cords: Point;
+    let frame_cords = {x: 0, y: 0, h: 0, w: 0};
+    let d_f_cords: Point;
+    let allocated = node.isTerminal || node.isTravel;
+    switch (node.type) {
+      case AtlasNodeType.Start:
+        return;
+      case AtlasNodeType.Mastery:
+        image = this.images['atlas-mastery-3.png'];
+        img_cords = this.data.sprites.mastery["0.3835"].coords[node.icon!];
+        break;
+      case AtlasNodeType.Keystone:
+        image = this.images[allocated ? 'atlas-skills-3.jpg' : 'atlas-skills-disabled-3.jpg'];
+        img_cords = this.data.sprites.keystoneInactive["0.3835"].coords[node.icon!];
+        frame_cords = this.data.sprites.frame["0.3835"].coords[allocated ? "KeystoneFrameAllocated" : "KeystoneFrameUnallocated"];
+        break;
+      case AtlasNodeType.Notable:
+        image = this.images[allocated ? 'atlas-skills-3.jpg' : 'atlas-skills-disabled-3.jpg'];
+        img_cords = this.data.sprites.notableInactive["0.3835"].coords[node.icon!];
+        frame_cords = this.data.sprites.frame["0.3835"].coords[allocated ? "NotableFrameAllocated" : "NotableFrameUnallocated"];
+        break;
+      case AtlasNodeType.Wormhole:
+        image = this.images[allocated ? 'atlas-skills-3.jpg' : 'atlas-skills-disabled-3.jpg'];
+        img_cords = this.data.sprites.wormholeInactive["0.3835"].coords["Wormhole"];
+        frame_cords = this.data.sprites.frame["0.3835"].coords[allocated ? "WormholeFrameAllocated" : "WormholeFrameUnallocated"];
+        break;
+      default:
+        image = this.images[allocated ? 'atlas-skills-3.jpg' : 'atlas-skills-disabled-3.jpg'];
+        img_cords = this.data.sprites.normalInactive["0.3835"].coords[node.icon!];
+        frame_cords = this.data.sprites.frame["0.3835"].coords[allocated ? "PSSkillFrameActive" : "PSSkillFrame"];
     }
 
-    // d_i_cords = {x:node_cords.x * 0.3835 - img_cords.w * 0.3835,y:node_cords.y * 0.3835 - img_cords.h * 0.3835}
     d_i_cords = {x: node_cords.x * gggZoomConstant - img_cords.w / 2, y: node_cords.y * gggZoomConstant - img_cords.h / 2}
-    // d_f_cords = {x:node_cords.x * 0.3835 - frame_cords.w * 0.3835 / 2,y:node_cords.y * 0.3835 - frame_cords.h * 0.3835 / 2};
     d_f_cords = {x: node_cords.x * gggZoomConstant - frame_cords.w / 2, y: node_cords.y * gggZoomConstant - frame_cords.h / 2};
-    const startPosition = node.orbitIndex;
     this.ctx.drawImage(image, img_cords.x, img_cords.y, img_cords.w, img_cords.h, d_i_cords.x, d_i_cords.y, img_cords.w, img_cords.h);
-    // var first = true;
-    if (!this.hash_initialised && !node.isMastery) {
+    if (!this.hash_initialised && node.type != AtlasNodeType.Mastery){
       for (let x_offset = 0; x_offset < img_cords.w; x_offset++) {
         for (let y_offset = 0; y_offset < img_cords.h; y_offset++) {
           const p: Point = {x: d_i_cords.x + x_offset, y: d_i_cords.y + y_offset};
-          // if (first){
-          //   first = false;
-          //   console.log(p);
-          // }
-          this.hashNodes.set(pointToKey(p), node.skill!.toString());
+          this.hashNodes.set(pointToKey(p), node.id);
         }
       }
     }
 
     // add the appropriate frame
-    if (!node.isMastery) {
+    if (node.type != AtlasNodeType.Mastery) {
       this.ctx.drawImage(frame_image, frame_cords.x, frame_cords.y, frame_cords.w, frame_cords.h, d_f_cords.x, d_f_cords.y, frame_cords.w, frame_cords.h);
     }
 
