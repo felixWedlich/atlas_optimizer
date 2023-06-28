@@ -101,6 +101,7 @@ export class AppComponent implements OnInit, OnDestroy {
         await this.requestStpSolve();
       } catch (e) {
         console.log(e);
+        this.updateUrl();
       }
     }
     const canvas = this.canvas.nativeElement;
