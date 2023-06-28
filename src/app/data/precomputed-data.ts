@@ -274,7 +274,7 @@ for (let node of nodes) {
   // secondary option, check which mastery names or keywords match the node's stat -> then choose prioritize the match that isnt 'Maps'
   let secondaryOptions: Set<NodeCategory> = new Set<NodeCategory>();
   for (let cat of categories) {
-    if (nodeToString(node).includes(cat.name)) {
+    if (nodeToString(node).includes(cat.name.toLowerCase())) {
       secondaryOptions.add(cat);
     }
   }
