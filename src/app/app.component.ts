@@ -21,55 +21,6 @@ interface Point {
   y: number;
 }
 
-function angleOfOrbitTwoAndThree(position:number) {
-  switch (position) {
-    case 0:
-      return Math.PI * 0 / 180;
-    case 1:
-      return Math.PI * 30 / 180;
-    case 2:
-      return Math.PI * 45 / 180;
-    case 3:
-      return Math.PI * 60 / 180;
-    case 4:
-      return Math.PI * 90 / 180;
-    case 5:
-      return Math.PI * 120 / 180;
-    case 6:
-      return Math.PI * 135 / 180;
-    case 7:
-      return Math.PI * 150 / 180;
-    case 8:
-      return Math.PI * 180 / 180;
-    case 9:
-      return Math.PI * 210 / 180;
-    case 10:
-      return Math.PI * 225 / 180;
-    case 11:
-      return Math.PI * 240 / 180;
-    case 12:
-      return Math.PI * 270 / 180;
-    case 13:
-      return Math.PI * 300 / 180;
-    case 14:
-      return Math.PI * 315 / 180;
-    case 15:
-      return Math.PI * 330 / 180;
-    default:
-      return 0;
-  }
-}
-
-function getClockwiseCoordinates(center: Point, radius: number, position: number, totalPositions: number): Point {
-  let angle = (position - (totalPositions / 4)) * (2 * Math.PI / totalPositions);
-  if (radius == 162 || radius == 335) {
-    angle = angleOfOrbitTwoAndThree(position) - (Math.PI / 2);
-  }
-  const x = center.x + (radius * Math.cos(angle));
-  const y = center.y + (radius * Math.sin(angle));
-  return {x, y};
-}
-
 function screenToWorld(point: Point, cameraOffset: Point, cameraZoom: number): Point {
 
   const centerX = window.innerWidth / 2;
@@ -109,7 +60,6 @@ export class AppComponent implements OnInit, OnDestroy {
   hashNodes: Map<number, string> = new Map<number, string>();
 
   // information for the tooltip
-  nodeCoords: { [key: string]: Point } = {};
   hoverNode: AtlasNode | null = null;
   mousePos: Point = {x: 0, y: 0};
 
@@ -281,10 +231,6 @@ export class AppComponent implements OnInit, OnDestroy {
       this.ctx.stroke();
       this.ctx.closePath();
     }
-  }
-
-  getNodebyId(id: string) {
-    return this.data.nodes[id];
   }
 
   drawNode(node: AtlasNode) {
