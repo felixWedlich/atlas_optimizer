@@ -260,7 +260,7 @@ for (let node of nodes) {
   for (let groupNodeID of group.nodes) {
     let groupNode = atlasNodes.get(groupNodeID);
     if (groupNode && groupNode.type === AtlasNodeType.Mastery) {
-      let category = nodeCategories.get(groupNode.name);
+      category = nodeCategories.get(groupNode.name);
       if (category) {
         node.category = category;
         category.nodes.push(node);
