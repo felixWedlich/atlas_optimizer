@@ -2,7 +2,7 @@ import {Component, Input, OnChanges, SimpleChanges} from '@angular/core';
 import {AtlasNodeGGG, AtlasTreeInfoGGG} from "../../data/atlas-tree-info";
 import {ATLAS_DATA} from "../../data/data";
 import {Output, EventEmitter} from "@angular/core";
-import {AtlasNode, atlasNodes, AtlasNodeType} from "../../data/precomputed-data";
+import {AtlasNode, atlasNodes, AtlasNodeType, nodeCategories} from "../../data/precomputed-data";
 
 @Component({
   selector: 'app-sidepanel',
@@ -54,33 +54,7 @@ export class SidepanelComponent implements OnChanges{
       if (node.id == "29045"){
         continue;
       }
-      // primary assignment: check if node is in a group that has a mastery -> choose mastery's name
-      let categoryName:string|undefined = this.nodeToMasteryName.get(node);
-      // secondary option, check which mastery names or keywords match the node's stat -> then choose prioritize the match that isnt 'Maps'
-      if(!categoryName){
-        let secondaryOptions:Set<string> = new Set<string>();
-        for (let stat of node.stats!){
-          for (let masteryName of this.masteryNames){
-            if (stat.includes(masteryName)){
-              secondaryOptions.add(masteryName);
-            }
-          }
-        }
-        if (secondaryOptions.size == 1){
-          categoryName = secondaryOptions.values().next().value;
-        }
-        if (secondaryOptions.size == 2){
-          if (secondaryOptions.has('Maps')){
-            secondaryOptions.delete('Maps');
-          }
-          categoryName = secondaryOptions.values().next().value;
-        }
-      }
-      // tertiary option, asign it to category 'assorted'
-      if(!categoryName){
-        categoryName = 'Assorted';
-      }
-      // check if category of this name already exists
+      let categoryName = node.category.name;
       let category = this.categories.find((category) => category.name == categoryName);
       if (!category){
         category = {name:categoryName,stats:[],groupedStats:[]};
