@@ -13,7 +13,7 @@ let cameraZoom = 0.5
 // let cameraZoom = 0.3
 let MAX_ZOOM = 2
 let MIN_ZOOM = 0.25
-let SCROLL_SENSITIVITY = 0.0005
+let SCROLL_SENSITIVITY = 0.0004
 let FPS = 60;
 
 interface Point {
@@ -412,7 +412,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   onScroll(e: WheelEvent) {
     e.preventDefault()
-    this.adjustZoom(e.deltaY * SCROLL_SENSITIVITY);
+    this.adjustZoom(-e.deltaY * SCROLL_SENSITIVITY);
   }
 
   adjustZoom(zoomAmount: number) {
