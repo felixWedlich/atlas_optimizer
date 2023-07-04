@@ -127,7 +127,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   loadAllImages() {
-    const image_paths = ["atlas-background-3.jpg", "atlas-frame-3.png", "atlas-group-background-3.png", "atlas-line-3.png", "atlas-mastery-3.png", "atlas-mastery-overlay.png", "atlas-skills-3.jpg", "atlas-skills-disabled-3.jpg", "background-3.png"]
+    const image_paths = ["atlas-background-transparent.png","atlas-background-3.jpg", "atlas-frame-3.png", "atlas-group-background-3.png", "atlas-line-3.png", "atlas-mastery-3.png", "atlas-mastery-overlay.png", "atlas-skills-3.jpg", "atlas-skills-disabled-3.jpg", "background-3.png"]
     // for (let image_path of image_paths) {
     //   let image = new Image();
     //   image.src = "/assets/" + image_path;
@@ -312,7 +312,7 @@ export class AppComponent implements OnInit, OnDestroy {
     if (!ptrn) return;
     this.ctx.fillStyle = ptrn;
     this.ctx.fillRect((-1570 / gggZoomConstant) * 2, (-1514 / gggZoomConstant) * 2, (1570 / gggZoomConstant) * 4, (1514 / gggZoomConstant) * 4);
-    this.ctx.drawImage(this.images['atlas-background-3.jpg'], (-1570 / gggZoomConstant) / 2, (-1514 / gggZoomConstant), 1570 / gggZoomConstant, 1514 / gggZoomConstant);
+    this.ctx.drawImage(this.images['atlas-background-transparent.png'], (-1570 / gggZoomConstant) / 2, (-1514 / gggZoomConstant), 1570 / gggZoomConstant, 1514 / gggZoomConstant);
 
 
     // draw startNode
