@@ -478,7 +478,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   findNodesbyString(s: string) {
-    if (s.length < 3) return;
+    if (s.length < 1) return;
     s = s.toLowerCase();
     this.highlightedNodes = new Set<AtlasNode>();
     for (let node of atlasNodes.values()){
