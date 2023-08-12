@@ -8,6 +8,7 @@ import { TooltipComponent } from './components/tooltip/tooltip.component';
 import { SidepanelComponent } from './components/sidepanel/sidepanel.component';
 import { NodecountDisplayComponent } from './components/nodecount-display/nodecount-display.component';
 import { ResetAllocationComponent } from './components/reset-allocation/reset-allocation.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -17,11 +18,12 @@ import { ResetAllocationComponent } from './components/reset-allocation/reset-al
     NodecountDisplayComponent,
     ResetAllocationComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        FormsModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
