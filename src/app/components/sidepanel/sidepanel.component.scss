@@ -1,48 +1,97 @@
-app-nodecount-display{
+.node-count-box{
   top:0%;
-  height: 10%;
+  height: 8%;
   width: 100%;
   position: absolute;
-  background: grey;
   margin: 0;
   padding: 0;
+  background: black;
+  box-sizing:border-box;
+  border-radius: 8px;
+  .description{
+    font-size: .875rem;
+    font-weight: 400;
+  }
+  .reset-button{
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0%;
+    top:0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: red;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 8px;
+    user-select:none;
+    &:hover {
+      background-color: #8D3832;
+    }
+  }
+
 }
-.search-bar{
-  top:10%;
-  height: 10%;
+
+app-nodecount-display{
+
+}
+.search-box{
+  top:9%;
+  height: 5%;
   width: 100%;
   position: absolute;
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
+  background-color: #1E1E1E;
+
+  .search-bar{
+    width: 80%;
+    padding: 4px;
+    box-sizing:border-box;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+
+  }
+}
+.node-box{
+  top: 15%;
+  height: 85%;
+  width: 100%;
+  position: absolute;
+  overflow:auto;
+  background: white;
+  box-sizing:border-box;
+  padding: inherit;
 }
 
 .node-info{
-  margin: 0;
-  overflow:auto;
-  position: absolute;
-  //flex-grow: 1;
-  top: 20%;
-  height: 80%;
-  width: 100%;
-  color: white;
   font-size: .875rem;
   font-weight: 400;
-  padding: 0;
-
+  margin: 0;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
   .numeric{
-    color: blue;
+    color: red;
     font-weight: 500;
   }
   .category-title{
-    background: rgb(64, 66, 88);
-    padding: 4px;
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: -10px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: #272727;
+    text-align: center;
   }
   .category-stats{
-    background: rgb(71, 78, 104);
-    margin-left: -30px;
-    list-style: none;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #1E1E1E;
+    margin-bottom: 4px;
   }
 }
+

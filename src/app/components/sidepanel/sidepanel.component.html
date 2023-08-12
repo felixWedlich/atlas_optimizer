@@ -1,20 +1,38 @@
-<app-nodecount-display [nodeCount]="nodes.size" [totalPoints]="132"></app-nodecount-display>
-<input class="search-bar" type="text" placeholder="Find nodes..." (change)="findNodeEvent.emit(searchBar.value)" #searchBar>
-<ul class="node-info">
-  <li *ngFor="let cat of categories">
-    <ul class= "category-stats" >
-      <div class="category-title">{{cat.name}}</div>
-      <li *ngFor="let groupedstat of cat.groupedStats">
-        <ng-container *ngFor="let section of groupedstat.sections">
-          <span *ngIf="section.isNumeric" class="numeric">{{section.content}}</span>
-          <ng-container *ngIf="section.isNumeric">
-            %
-          </ng-container>
-          <ng-container *ngIf="!section.isNumeric">
-            {{section.content}}
-          </ng-container>
-        </ng-container>
-      </li>
-    </ul>
-  </li>
-</ul>
+<div class="padding-fix">
+  <div class="node-count-box">
+    <app-nodecount-display [nodeCount]="nodes.size" [totalPoints]="132"></app-nodecount-display>
+    <div class="description">
+      Allocated Nodes
+    </div>
+    <div class="reset-button">
+      RESET
+    </div>
+
+  </div>
+  <div class="search-box">
+    <input class="search-bar" type="text" placeholder="Find nodes..."[(ngModel)]="searchstring" (ngModelChange)="onInputChange()"
+           #searchBar>
+  </div>
+  <div class="node-box">
+    <div class="node-info">
+      <div *ngFor="let cat of categories">
+        <div class="category-stats">
+          <div class="category-title">{{cat.name}}</div>
+          <hr>
+          <div *ngFor="let groupedstat of cat.groupedStats; let i = index;">
+            <ng-container *ngFor="let section of groupedstat.sections">
+              <span *ngIf="section.isNumeric" class="numeric">{{section.content}}</span>
+              <ng-container *ngIf="section.isNumeric">
+                %
+              </ng-container>
+              <ng-container *ngIf="!section.isNumeric">
+                {{section.content}}
+              </ng-container>
+            </ng-container>
+            <hr *ngIf="i < cat.groupedStats.length - 1">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
