@@ -120,6 +120,7 @@ let categories: NodeCategory[] = [];
 
 // hardcode the two categories that can not be derived from the masteries
 const mavenCategory = {name:"Maven",nodes:[]};
+const mapsCategory = {name:"Maps",nodes:[]};
 const assortedCategory = {name:"Assorted",nodes:[]}
 categories.push(mavenCategory);
 categories.push(assortedCategory);
@@ -254,6 +255,18 @@ for (let node of nodes) {
     continue;
   }
   let category;
+
+  // harcoded assignemnts: basically the travel nodes:
+  if (node.name === "Map Drop Duplication" || node.name === "Adjacent Map Drop Chance"){
+    category = mapsCategory;
+    node.category = category;
+    // @ts-ignore #todo figure out why never[] is a thing and how to fix
+    category.nodes.push(node);
+  }
+
+  if (category){
+    continue;
+  }
   // primary assignment: check if node is in a group that has a mastery -> choose mastery's name
   let gggNode = ATLAS_DATA.nodes[node.id];
   let group = ATLAS_DATA.groups[gggNode.group];
