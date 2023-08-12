@@ -4,6 +4,26 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
   "tree": "Atlas",
   "groups": {
     "1": {
+      "x": -5363.09,
+      "y": -5858.1,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "62654"
+      ]
+    },
+    "2": {
+      "x": -5363.09,
+      "y": -4638.42,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "58043"
+      ]
+    },
+    "3": {
       "x": -5068.04,
       "y": -6708.26,
       "orbits": [
@@ -29,47 +49,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "8146"
       ]
     },
-    "2": {
-      "x": -4953.1,
-      "y": -4655.31,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground1"
-      },
-      "nodes": [
-        "28204",
-        "44994",
-        "8235",
-        "49074",
-        "41753",
-        "28166",
-        "1238"
-      ]
-    },
-    "3": {
-      "x": -4950.3,
-      "y": -5858.1,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "21569",
-        "54875",
-        "31485",
-        "5239",
-        "29946"
-      ]
-    },
     "4": {
       "x": -4949.35,
-      "y": -5252.13,
+      "y": -5252.12,
       "orbits": [
         0,
         2,
@@ -89,8 +71,65 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       ]
     },
     "5": {
-      "x": -4571,
-      "y": -2336.57,
+      "x": -4927.65,
+      "y": -5939.1,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "13627",
+        "17011",
+        "30484",
+        "39402"
+      ]
+    },
+    "6": {
+      "x": -4927.65,
+      "y": -4557.42,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground2"
+      },
+      "nodes": [
+        "62476",
+        "43055",
+        "47488",
+        "60286",
+        "54190"
+      ]
+    },
+    "7": {
+      "x": -4819.48,
+      "y": -3059.5,
+      "orbits": [
+        0,
+        2,
+        3
+      ],
+      "background": {
+        "image": "PSGroupBackground3"
+      },
+      "nodes": [
+        "14639",
+        "40700",
+        "57784",
+        "13900",
+        "22004",
+        "18387",
+        "58698",
+        "16938"
+      ]
+    },
+    "8": {
+      "x": -4559.85,
+      "y": -2335.83,
       "orbits": [
         0
       ],
@@ -98,7 +137,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "13842"
       ]
     },
-    "6": {
+    "9": {
       "x": -4484.48,
       "y": -3792.42,
       "orbits": [
@@ -126,7 +165,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "64218"
       ]
     },
-    "7": {
+    "10": {
       "x": -4484.44,
       "y": -7250.08,
       "orbits": [
@@ -147,8 +186,8 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "5586"
       ]
     },
-    "8": {
-      "x": -4484.13,
+    "11": {
+      "x": -4484.12,
       "y": -6719.48,
       "orbits": [
         0
@@ -157,8 +196,8 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "16780"
       ]
     },
-    "9": {
-      "x": -4484.13,
+    "12": {
+      "x": -4484.12,
       "y": -5858.1,
       "orbits": [
         0
@@ -167,8 +206,8 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "31498"
       ]
     },
-    "10": {
-      "x": -4484.13,
+    "13": {
+      "x": -4484.12,
       "y": -5252.5,
       "orbits": [
         0
@@ -177,25 +216,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "31171"
       ]
     },
-    "11": {
-      "x": -4478.85,
-      "y": -2894.69,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "186",
-        "32676",
-        "10631",
-        "4272",
-        "26913"
-      ]
-    },
-    "12": {
+    "14": {
       "x": -4290.86,
       "y": -7767.25,
       "orbits": [
@@ -205,9 +226,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "54499"
       ]
     },
-    "13": {
-      "x": -4178.33,
-      "y": -6179.69,
+    "15": {
+      "x": -4267.53,
+      "y": -6352.33,
       "orbits": [
         0
       ],
@@ -215,25 +236,48 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "40933"
       ]
     },
-    "14": {
-      "x": -4016.97,
-      "y": -4974.61,
+    "16": {
+      "x": -4121.4,
+      "y": -4955.21,
       "orbits": [
         0,
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
       },
       "nodes": [
-        "62476",
-        "43055",
-        "47488",
-        "60286",
-        "54190"
+        "28204",
+        "44994",
+        "8235",
+        "49074",
+        "41753",
+        "28166",
+        "1238"
       ]
     },
-    "15": {
+    "17": {
+      "x": -3900.71,
+      "y": -5777.1,
+      "orbits": [
+        0,
+        2,
+        3
+      ],
+      "background": {
+        "image": "PSGroupBackground3"
+      },
+      "nodes": [
+        "46891",
+        "58236",
+        "56397",
+        "37260",
+        "37197",
+        "48336",
+        "54192"
+      ]
+    },
+    "18": {
       "x": -3898.36,
       "y": -6719.48,
       "orbits": [
@@ -252,7 +296,25 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "22910"
       ]
     },
-    "16": {
+    "19": {
+      "x": -3756.77,
+      "y": -2853.7,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground2"
+      },
+      "nodes": [
+        "186",
+        "32676",
+        "10631",
+        "4272",
+        "26913"
+      ]
+    },
+    "20": {
       "x": -3756.77,
       "y": -2168.33,
       "orbits": [
@@ -273,7 +335,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "39027"
       ]
     },
-    "17": {
+    "21": {
       "x": -3733.81,
       "y": -8088.54,
       "orbits": [],
@@ -285,7 +347,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "53603"
       ]
     },
-    "18": {
+    "22": {
       "x": -3733.81,
       "y": -7153.25,
       "orbits": [
@@ -295,28 +357,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "2929"
       ]
     },
-    "19": {
-      "x": -3733.81,
-      "y": -5715,
-      "orbits": [
-        0,
-        2,
-        3
-      ],
-      "background": {
-        "image": "PSGroupBackground3"
-      },
-      "nodes": [
-        "46891",
-        "58236",
-        "56397",
-        "37260",
-        "37197",
-        "48336",
-        "54192"
-      ]
-    },
-    "20": {
+    "23": {
       "x": -3733.76,
       "y": -8200.52,
       "orbits": [
@@ -326,7 +367,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "36777"
       ]
     },
-    "21": {
+    "24": {
       "x": -3733.76,
       "y": -7433.75,
       "orbits": [],
@@ -337,7 +378,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "57451"
       ]
     },
-    "22": {
+    "25": {
       "x": -3733.75,
       "y": -7767.25,
       "orbits": [
@@ -352,7 +393,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "65499"
       ]
     },
-    "23": {
+    "26": {
       "x": -3733.21,
       "y": -6287.48,
       "orbits": [
@@ -362,29 +403,25 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "57123"
       ]
     },
-    "24": {
-      "x": -3472.16,
-      "y": -2950.07,
+    "27": {
+      "x": -3638.48,
+      "y": -4851.32,
       "orbits": [
         0,
-        2,
-        3
+        2
       ],
       "background": {
-        "image": "PSGroupBackground3"
+        "image": "PSGroupBackground1"
       },
       "nodes": [
-        "14639",
-        "40700",
-        "57784",
-        "13900",
-        "22004",
-        "18387",
-        "58698",
-        "16938"
+        "53581",
+        "34811",
+        "52648",
+        "26310",
+        "56946"
       ]
     },
-    "25": {
+    "28": {
       "x": -3434.36,
       "y": -1468.85,
       "orbits": [
@@ -402,7 +439,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "56394"
       ]
     },
-    "26": {
+    "29": {
       "x": -3166.56,
       "y": -7767.25,
       "orbits": [
@@ -412,25 +449,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "55003"
       ]
     },
-    "27": {
-      "x": -3081.42,
-      "y": -2179.94,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "36986",
-        "37170",
-        "21051",
-        "59436",
-        "16908"
-      ]
-    },
-    "28": {
+    "30": {
       "x": -3075.1,
       "y": -4397.28,
       "orbits": [
@@ -449,13 +468,34 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "49607",
         "21467",
         "35138",
-        "9455",
+        "44043",
         "23718"
       ]
     },
-    "29": {
+    "31": {
+      "x": -3021.98,
+      "y": -3201.92,
+      "orbits": [
+        0,
+        3
+      ],
+      "background": {
+        "image": "PSGroupBackground3"
+      },
+      "nodes": [
+        "13088",
+        "63521",
+        "37552",
+        "43701",
+        "22806",
+        "26802",
+        "4316",
+        "53570"
+      ]
+    },
+    "32": {
       "x": -2989.5,
-      "y": -8222.47,
+      "y": -8102.48,
       "orbits": [
         0,
         2
@@ -473,7 +513,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "57153"
       ]
     },
-    "30": {
+    "33": {
       "x": -2989.5,
       "y": -7582.96,
       "orbits": [
@@ -483,7 +523,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "18383"
       ]
     },
-    "31": {
+    "34": {
       "x": -2989.5,
       "y": -6900.71,
       "orbits": [
@@ -513,7 +553,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "43239"
       ]
     },
-    "32": {
+    "35": {
       "x": -2989.5,
       "y": -5858.1,
       "orbits": [
@@ -523,12 +563,41 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "5338"
       ]
     },
-    "33": {
+    "36": {
       "x": -2989.5,
-      "y": -5391.98,
+      "y": -2190.7,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1Alt"
+      },
+      "nodes": [
+        "36986",
+        "37170",
+        "21051",
+        "59436",
+        "16908"
+      ]
+    },
+    "37": {
+      "x": -2989.5,
+      "y": -1725.7,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "35217"
+      ]
+    },
+    "38": {
+      "x": -2987.55,
+      "y": -5400.96,
       "orbits": [
         0,
         2,
+        3,
         4
       ],
       "background": {
@@ -546,38 +615,17 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "41003"
       ]
     },
-    "34": {
-      "x": -2989.5,
-      "y": -1725.7,
+    "39": {
+      "x": -2979.33,
+      "y": -4993.06,
       "orbits": [
         0
       ],
       "nodes": [
-        "35217"
+        "1733"
       ]
     },
-    "35": {
-      "x": -2832.91,
-      "y": -3219.25,
-      "orbits": [
-        0,
-        3
-      ],
-      "background": {
-        "image": "PSGroupBackground3"
-      },
-      "nodes": [
-        "13088",
-        "63521",
-        "37552",
-        "43701",
-        "22806",
-        "26802",
-        "4316",
-        "53570"
-      ]
-    },
-    "36": {
+    "40": {
       "x": -2684.93,
       "y": -3794.31,
       "orbits": [
@@ -587,7 +635,30 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "51133"
       ]
     },
-    "37": {
+    "41": {
+      "x": -2573,
+      "y": -8591.66,
+      "orbits": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "background": {
+        "image": "PSGroupBackground2"
+      },
+      "nodes": [
+        "25892",
+        "37533",
+        "25151",
+        "42344",
+        "43694",
+        "50745",
+        "8020",
+        "43020"
+      ]
+    },
+    "42": {
       "x": -2540.31,
       "y": -4044.8,
       "orbits": [
@@ -597,15 +668,34 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "34389"
       ]
     },
-    "38": {
-      "x": -2508.11,
-      "y": -2568.54,
+    "43": {
+      "x": -2527.05,
+      "y": -7501.96,
       "orbits": [
         0,
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "34456",
+        "34793",
+        "5568",
+        "2524",
+        "61771",
+        "43214"
+      ]
+    },
+    "44": {
+      "x": -2520.99,
+      "y": -2484.61,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
       },
       "nodes": [
         "8668",
@@ -615,7 +705,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "32367"
       ]
     },
-    "39": {
+    "45": {
       "x": -2369.32,
       "y": -1170.36,
       "orbits": [
@@ -638,7 +728,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "39679"
       ]
     },
-    "40": {
+    "46": {
       "x": -2333.35,
       "y": -3578.31,
       "orbits": [
@@ -648,9 +738,26 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "54197"
       ]
     },
-    "41": {
+    "47": {
+      "x": -2333.35,
+      "y": -3029.79,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1Alt"
+      },
+      "nodes": [
+        "28939",
+        "65246",
+        "35608",
+        "56530"
+      ]
+    },
+    "48": {
       "x": -2288.13,
-      "y": -4528.13,
+      "y": -4528.12,
       "orbits": [
         0,
         2
@@ -666,7 +773,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "58512"
       ]
     },
-    "42": {
+    "49": {
       "x": -2241.43,
       "y": -5426.19,
       "orbits": [
@@ -676,26 +783,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "7771"
       ]
     },
-    "43": {
-      "x": -2240.35,
-      "y": -8481.6,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "9011",
-        "42038",
-        "12875",
-        "47818",
-        "27792",
-        "31"
-      ]
-    },
-    "44": {
+    "50": {
       "x": -2240.35,
       "y": -8015.48,
       "orbits": [
@@ -705,26 +793,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "36820"
       ]
     },
-    "45": {
-      "x": -2240.35,
-      "y": -7549.35,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "34456",
-        "34793",
-        "5568",
-        "2524",
-        "61771",
-        "43214"
-      ]
-    },
-    "46": {
+    "51": {
       "x": -2240.19,
       "y": -2157.58,
       "orbits": [
@@ -734,25 +803,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "32029"
       ]
     },
-    "47": {
-      "x": -2239.09,
-      "y": -1815.3,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "6177",
-        "6171",
-        "7382",
-        "2249",
-        "62407"
-      ]
-    },
-    "48": {
+    "52": {
       "x": -2238.8,
       "y": -5928.73,
       "orbits": [
@@ -770,8 +821,58 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "42505"
       ]
     },
-    "49": {
-      "x": -2194.09,
+    "53": {
+      "x": -2193.89,
+      "y": -9658.79,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "29939"
+      ]
+    },
+    "54": {
+      "x": -2099.89,
+      "y": -1815.07,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "6177",
+        "6171",
+        "7382",
+        "2249",
+        "62407"
+      ]
+    },
+    "55": {
+      "x": -2091.77,
+      "y": -6528,
+      "orbits": [
+        0,
+        2,
+        3
+      ],
+      "background": {
+        "image": "PSGroupBackground2"
+      },
+      "nodes": [
+        "25709",
+        "27002",
+        "12563",
+        "49338",
+        "44471",
+        "22695",
+        "31414",
+        "2657"
+      ]
+    },
+    "56": {
+      "x": -2054.09,
       "y": -4997.9,
       "orbits": [
         0,
@@ -789,47 +890,34 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "11320"
       ]
     },
-    "50": {
-      "x": -2193.89,
-      "y": -9658.79,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "29939"
-      ]
-    },
-    "51": {
-      "x": -2091.77,
-      "y": -6528,
-      "orbits": [
-        0,
-        2,
-        3
-      ],
-      "background": {
-        "image": "PSGroupBackground1"
-      },
-      "nodes": [
-        "25709",
-        "27002",
-        "12563",
-        "49338",
-        "44471",
-        "22695",
-        "31414",
-        "2657"
-      ]
-    },
-    "52": {
-      "x": -2082.18,
-      "y": -2948.67,
+    "57": {
+      "x": -2043.79,
+      "y": -7675.02,
       "orbits": [
         0,
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "9011",
+        "42038",
+        "12875",
+        "47818",
+        "27792",
+        "31"
+      ]
+    },
+    "58": {
+      "x": -1919.28,
+      "y": -2669.56,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
       },
       "nodes": [
         "53193",
@@ -839,9 +927,19 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "27185"
       ]
     },
-    "53": {
-      "x": -1897.72,
-      "y": -617.475,
+    "59": {
+      "x": -1901.69,
+      "y": -8446,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "65205"
+      ]
+    },
+    "60": {
+      "x": -1894.88,
+      "y": -612.435,
       "orbits": [
         0,
         2
@@ -857,7 +955,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "16772"
       ]
     },
-    "54": {
+    "61": {
       "x": -1894.03,
       "y": -9139.39,
       "orbits": [
@@ -877,27 +975,17 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "52473"
       ]
     },
-    "55": {
-      "x": -1656.15,
-      "y": -7866.61,
+    "62": {
+      "x": -1782.51,
+      "y": -5847.73,
       "orbits": [
-        0,
-        2
+        0
       ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
       "nodes": [
-        "26152",
-        "8888",
-        "29261",
-        "64625",
-        "59085",
-        "36280",
-        "52752"
+        "21453"
       ]
     },
-    "56": {
+    "63": {
       "x": -1577.57,
       "y": -1687.01,
       "orbits": [
@@ -912,7 +1000,27 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "27860"
       ]
     },
-    "57": {
+    "64": {
+      "x": -1534.33,
+      "y": -7833.13,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "26152",
+        "8888",
+        "29261",
+        "64625",
+        "59085",
+        "36280",
+        "52752"
+      ]
+    },
+    "65": {
       "x": -1496.54,
       "y": -5457.04,
       "orbits": [
@@ -932,7 +1040,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "64160"
       ]
     },
-    "58": {
+    "66": {
       "x": -1496.53,
       "y": -4997.9,
       "orbits": [
@@ -942,27 +1050,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "13448"
       ]
     },
-    "59": {
+    "67": {
       "x": -1494.97,
-      "y": -4389.1,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "35075",
-        "788",
-        "54004",
-        "61918",
-        "59610"
-      ]
-    },
-    "60": {
-      "x": -1494.97,
-      "y": -3192.22,
+      "y": -3207.42,
       "orbits": [
         0,
         2
@@ -971,14 +1061,14 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "image": "PSGroupBackground1"
       },
       "nodes": [
-        "53581",
-        "34811",
-        "52648",
-        "26310",
-        "56946"
+        "37848",
+        "13187",
+        "2461",
+        "31285",
+        "9345"
       ]
     },
-    "61": {
+    "68": {
       "x": -1494.97,
       "y": -2588.56,
       "orbits": [
@@ -988,7 +1078,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "37245"
       ]
     },
-    "62": {
+    "69": {
       "x": -1493.69,
       "y": -8446,
       "orbits": [
@@ -998,16 +1088,34 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "46214"
       ]
     },
-    "63": {
-      "x": -1466.6,
-      "y": -7350.15,
+    "70": {
+      "x": -1480.82,
+      "y": -4377.42,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "28705",
+        "6331",
+        "39180",
+        "44997",
+        "10529"
+      ]
+    },
+    "71": {
+      "x": -1367.34,
+      "y": -7348.1,
       "orbits": [
         0,
         2,
         3
       ],
       "background": {
-        "image": "PSGroupBackground3"
+        "image": "PSGroupBackground1Alt"
       },
       "nodes": [
         "35069",
@@ -1020,7 +1128,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "47547"
       ]
     },
-    "64": {
+    "72": {
       "x": -1359.65,
       "y": -6604,
       "orbits": [
@@ -1030,7 +1138,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "38059"
       ]
     },
-    "65": {
+    "73": {
       "x": -1359.65,
       "y": -6287.81,
       "orbits": [
@@ -1040,7 +1148,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "59361"
       ]
     },
-    "66": {
+    "74": {
       "x": -1239.84,
       "y": -8003.17,
       "orbits": [
@@ -1050,7 +1158,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "13284"
       ]
     },
-    "67": {
+    "75": {
       "x": -1217.2,
       "y": -3792.42,
       "orbits": [
@@ -1076,25 +1184,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "51123"
       ]
     },
-    "68": {
-      "x": -1213.58,
-      "y": -6914.65,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "2811",
-        "62989",
-        "4044",
-        "36791",
-        "49058"
-      ]
-    },
-    "69": {
+    "76": {
       "x": -1212.52,
       "y": -5791.52,
       "orbits": [
@@ -1115,7 +1205,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "54856"
       ]
     },
-    "70": {
+    "77": {
       "x": -1199.03,
       "y": -679.185,
       "orbits": [
@@ -1136,15 +1226,53 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "63311"
       ]
     },
-    "71": {
-      "x": -1125.67,
-      "y": -9272.31,
+    "78": {
+      "x": -1188.18,
+      "y": -2053.93,
+      "orbits": [
+        0,
+        3
+      ],
+      "background": {
+        "image": "PSGroupBackground1Alt"
+      },
+      "nodes": [
+        "35279",
+        "65464",
+        "39896",
+        "62028",
+        "64740",
+        "18958"
+      ]
+    },
+    "79": {
+      "x": -1174.57,
+      "y": -6912.48,
       "orbits": [
         0,
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "2811",
+        "62989",
+        "4044",
+        "36791",
+        "49058"
+      ]
+    },
+    "80": {
+      "x": -1155.71,
+      "y": -9235.64,
+      "orbits": [
+        0,
+        2,
+        3
+      ],
+      "background": {
+        "image": "PSGroupBackground3"
       },
       "nodes": [
         "39765",
@@ -1156,7 +1284,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "23772"
       ]
     },
-    "72": {
+    "81": {
       "x": -1049.7,
       "y": -8363.38,
       "orbits": [
@@ -1179,26 +1307,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "29344"
       ]
     },
-    "73": {
-      "x": -1046.3,
-      "y": -1814.89,
-      "orbits": [
-        0,
-        3
-      ],
-      "background": {
-        "image": "PSGroupBackground1Alt"
-      },
-      "nodes": [
-        "35279",
-        "65464",
-        "39896",
-        "62028",
-        "64740",
-        "18958"
-      ]
-    },
-    "74": {
+    "82": {
       "x": -1009.03,
       "y": -7603.4,
       "orbits": [
@@ -1208,7 +1317,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "3939"
       ]
     },
-    "75": {
+    "83": {
       "x": -898.115,
       "y": -8789.47,
       "orbits": [
@@ -1218,7 +1327,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "22844"
       ]
     },
-    "76": {
+    "84": {
       "x": -858.395,
       "y": -1320.74,
       "orbits": [
@@ -1226,7 +1335,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
       },
       "nodes": [
         "38605",
@@ -1235,7 +1344,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "14907"
       ]
     },
-    "77": {
+    "85": {
       "x": -830.295,
       "y": -5277.04,
       "orbits": [
@@ -1256,24 +1365,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "34177"
       ]
     },
-    "78": {
-      "x": -817.405,
-      "y": -2505.94,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "26293",
-        "54407",
-        "24609",
-        "36203"
-      ]
-    },
-    "79": {
+    "86": {
       "x": -800.935,
       "y": -2988.54,
       "orbits": [
@@ -1283,7 +1375,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "8132"
       ]
     },
-    "80": {
+    "87": {
       "x": -746.145,
       "y": -4564.67,
       "orbits": [
@@ -1293,9 +1385,19 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "28971"
       ]
     },
-    "81": {
-      "x": -686.675,
-      "y": -7790.17,
+    "88": {
+      "x": -723.945,
+      "y": -9235.64,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "36064"
+      ]
+    },
+    "89": {
+      "x": -703.525,
+      "y": -7828.19,
       "orbits": [
         0,
         2
@@ -1312,9 +1414,65 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "30929"
       ]
     },
-    "82": {
-      "x": -545.045,
-      "y": -9563.96,
+    "90": {
+      "x": -643.055,
+      "y": -4155.4,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "8171"
+      ]
+    },
+    "91": {
+      "x": -495.205,
+      "y": -6952.42,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "21569",
+        "54875",
+        "31485",
+        "5239",
+        "29946"
+      ]
+    },
+    "92": {
+      "x": -495.205,
+      "y": -6433.57,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "62184",
+        "5828",
+        "55696",
+        "19964",
+        "30180"
+      ]
+    },
+    "93": {
+      "x": -487.235,
+      "y": -4419.06,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "10473"
+      ]
+    },
+    "94": {
+      "x": -444.755,
+      "y": -9750.83,
       "orbits": [
         0,
         2,
@@ -1334,54 +1492,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "2908"
       ]
     },
-    "83": {
-      "x": -544.775,
-      "y": -4108.83,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "8171"
-      ]
-    },
-    "84": {
-      "x": -495.205,
-      "y": -6433.57,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground1"
-      },
-      "nodes": [
-        "62184",
-        "5828",
-        "55696",
-        "19964",
-        "30180"
-      ]
-    },
-    "85": {
-      "x": -456.175,
-      "y": -6982.42,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground1"
-      },
-      "nodes": [
-        "13627",
-        "1135",
-        "17011",
-        "21304",
-        "30484",
-        "39402"
-      ]
-    },
-    "86": {
+    "95": {
       "x": -444.755,
       "y": -9051.22,
       "orbits": [
@@ -1391,7 +1502,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "42882"
       ]
     },
-    "87": {
+    "96": {
       "x": -436.045,
       "y": -5101.8,
       "orbits": [
@@ -1401,7 +1512,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "42156"
       ]
     },
-    "88": {
+    "97": {
       "x": -398.475,
       "y": -3226.78,
       "orbits": [
@@ -1411,19 +1522,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "36137"
       ]
     },
-    "89": {
-      "x": -398.065,
-      "y": -4363.71,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "10473"
-      ]
-    },
-    "90": {
-      "x": -355.285,
-      "y": -2841.33,
+    "98": {
+      "x": -309.795,
+      "y": -2866.98,
       "orbits": [
         0,
         2
@@ -1436,19 +1537,18 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "55736",
         "10961",
         "41861",
-        "26334",
         "40323"
       ]
     },
-    "91": {
-      "x": -288.725,
-      "y": -1130.73,
+    "99": {
+      "x": -283.085,
+      "y": -1158.78,
       "orbits": [
         0,
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
       },
       "nodes": [
         "52858",
@@ -1459,17 +1559,57 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "27393"
       ]
     },
-    "92": {
-      "x": -0.585,
-      "y": -1472.83,
+    "100": {
+      "x": -1.655,
+      "y": -2192.9,
+      "orbits": [
+        0,
+        3,
+        4
+      ],
+      "background": {
+        "image": "PSGroupBackground2Alt"
+      },
+      "nodes": [
+        "10884",
+        "45894",
+        "27142",
+        "11237",
+        "60347",
+        "7235",
+        "33757",
+        "57739",
+        "63608"
+      ]
+    },
+    "101": {
+      "x": -1.655,
+      "y": -926.925,
       "orbits": [
         0
       ],
       "nodes": [
-        "33757"
+        "64048"
       ]
     },
-    "93": {
+    "102": {
+      "x": -0.385,
+      "y": -7881.38,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "61358",
+        "34662",
+        "866",
+        "35951"
+      ]
+    },
+    "103": {
       "x": -0.385,
       "y": -7290.65,
       "orbits": [
@@ -1487,7 +1627,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "36694"
       ]
     },
-    "94": {
+    "104": {
       "x": -0.385,
       "y": -6719.26,
       "orbits": [
@@ -1514,7 +1654,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "58767"
       ]
     },
-    "95": {
+    "105": {
       "x": -0.385,
       "y": -6193.69,
       "orbits": [
@@ -1533,28 +1673,19 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "14902"
       ]
     },
-    "96": {
+    "106": {
       "x": -0.385,
-      "y": -5179.04,
+      "y": -5314.44,
       "orbits": [
-        0,
-        2
+        0
       ],
-      "background": {
-        "image": "PSGroupBackground1"
-      },
       "nodes": [
-        "7778",
-        "22597",
-        "34841",
-        "44048",
-        "39979",
-        "63738"
+        "41153"
       ]
     },
-    "97": {
+    "107": {
       "x": -0.385,
-      "y": -4671.63,
+      "y": -4711.63,
       "orbits": [
         0,
         3
@@ -1563,17 +1694,18 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "image": "PSGroupBackground3"
       },
       "nodes": [
+        "52359",
+        "38833",
         "23165",
         "32888",
-        "61358",
         "41865",
+        "34946",
         "59176",
         "23991",
-        "6530",
         "30340"
       ]
     },
-    "98": {
+    "108": {
       "x": -0.385,
       "y": -3792.42,
       "orbits": [
@@ -1601,48 +1733,19 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "34087"
       ]
     },
-    "99": {
-      "x": -0.385,
-      "y": -2570.19,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "10884"
-      ]
-    },
-    "100": {
-      "x": -0.385,
-      "y": -1999.57,
-      "orbits": [
-        0,
-        3
-      ],
-      "background": {
-        "image": "PSGroupBackground1Alt"
-      },
-      "nodes": [
-        "45894",
-        "27142",
-        "11237",
-        "60347",
-        "57739"
-      ]
-    },
-    "101": {
+    "109": {
       "x": -0.385,
       "y": 0.235,
       "orbits": [
         0
       ],
       "nodes": [
-        "64048",
         "55117",
         "42692",
         "29045"
       ]
     },
-    "102": {
+    "110": {
       "x": 1.555,
       "y": -10375.9,
       "orbits": [
@@ -1666,7 +1769,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "25381"
       ]
     },
-    "103": {
+    "111": {
       "x": 1.555,
       "y": -9308.13,
       "orbits": [
@@ -1676,9 +1779,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "64178"
       ]
     },
-    "104": {
+    "112": {
       "x": 1.555,
-      "y": -8413.62,
+      "y": -8373.62,
       "orbits": [
         2,
         3,
@@ -1686,6 +1789,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       ],
       "nodes": [
         "56188",
+        "34384",
         "18900",
         "12302",
         "58508",
@@ -1695,7 +1799,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "62212"
       ]
     },
-    "105": {
+    "113": {
       "x": 220.655,
       "y": -9848.24,
       "orbits": [
@@ -1705,7 +1809,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "52636"
       ]
     },
-    "106": {
+    "114": {
       "x": 278.235,
       "y": -9698.21,
       "orbits": [
@@ -1715,15 +1819,15 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "10591"
       ]
     },
-    "107": {
-      "x": 287.955,
-      "y": -1130.61,
+    "115": {
+      "x": 282.315,
+      "y": -1158.78,
       "orbits": [
         0,
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
       },
       "nodes": [
         "4065",
@@ -1734,7 +1838,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "13373"
       ]
     },
-    "108": {
+    "116": {
       "x": 298.235,
       "y": -10032.8,
       "orbits": [
@@ -1744,9 +1848,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "50203"
       ]
     },
-    "109": {
-      "x": 355.385,
-      "y": -2841.14,
+    "117": {
+      "x": 306.665,
+      "y": -2867.91,
       "orbits": [
         0,
         2
@@ -1762,17 +1866,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "42943"
       ]
     },
-    "110": {
-      "x": 383.745,
-      "y": -4356.17,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "11915"
-      ]
-    },
-    "111": {
+    "118": {
       "x": 383.745,
       "y": -3226.78,
       "orbits": [
@@ -1782,7 +1876,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "23513"
       ]
     },
-    "112": {
+    "119": {
       "x": 426.345,
       "y": -9827.43,
       "orbits": [
@@ -1792,7 +1886,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "45159"
       ]
     },
-    "113": {
+    "120": {
       "x": 440.875,
       "y": -5092.09,
       "orbits": [
@@ -1802,7 +1896,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "62796"
       ]
     },
-    "114": {
+    "121": {
       "x": 444.375,
       "y": -9051.51,
       "orbits": [
@@ -1812,26 +1906,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "60645"
       ]
     },
-    "115": {
-      "x": 455.405,
-      "y": -6982.42,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground1"
-      },
-      "nodes": [
-        "44380",
-        "26706",
-        "53322",
-        "55783",
-        "33114",
-        "38161"
-      ]
-    },
-    "116": {
+    "122": {
       "x": 483.775,
       "y": -10094.2,
       "orbits": [
@@ -1841,7 +1916,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "41712"
       ]
     },
-    "117": {
+    "123": {
       "x": 494.445,
       "y": -6433.57,
       "orbits": [
@@ -1859,17 +1934,36 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "13670"
       ]
     },
-    "118": {
-      "x": 530.565,
-      "y": -4108.83,
+    "124": {
+      "x": 494.485,
+      "y": -6952.42,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "44380",
+        "26706",
+        "53322",
+        "55783",
+        "33114",
+        "38161"
+      ]
+    },
+    "125": {
+      "x": 495.975,
+      "y": -4419.06,
       "orbits": [
         0
       ],
       "nodes": [
-        "48952"
+        "11915"
       ]
     },
-    "119": {
+    "126": {
       "x": 558.295,
       "y": -9476.05,
       "orbits": [
@@ -1887,7 +1981,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "19599"
       ]
     },
-    "120": {
+    "127": {
       "x": 618.805,
       "y": -9905.02,
       "orbits": [
@@ -1897,9 +1991,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "9338"
       ]
     },
-    "121": {
-      "x": 657.025,
-      "y": -7867.06,
+    "128": {
+      "x": 648.255,
+      "y": -7809.59,
       "orbits": [
         0,
         2
@@ -1916,7 +2010,17 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "57363"
       ]
     },
-    "122": {
+    "129": {
+      "x": 666.575,
+      "y": -4155.4,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "48952"
+      ]
+    },
+    "130": {
       "x": 682.015,
       "y": -10120.8,
       "orbits": [
@@ -1926,7 +2030,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "58409"
       ]
     },
-    "123": {
+    "131": {
       "x": 745.115,
       "y": -4565.15,
       "orbits": [
@@ -1936,7 +2040,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "32019"
       ]
     },
-    "124": {
+    "132": {
       "x": 765.015,
       "y": -9640.38,
       "orbits": [
@@ -1946,7 +2050,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "30611"
       ]
     },
-    "125": {
+    "133": {
       "x": 796.195,
       "y": -2988.54,
       "orbits": [
@@ -1956,24 +2060,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "53410"
       ]
     },
-    "126": {
-      "x": 813.835,
-      "y": -2505.94,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "28939",
-        "65246",
-        "35608",
-        "56530"
-      ]
-    },
-    "127": {
+    "134": {
       "x": 829.515,
       "y": -5277.04,
       "orbits": [
@@ -1993,7 +2080,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "54530"
       ]
     },
-    "128": {
+    "135": {
       "x": 830.445,
       "y": -9854.5,
       "orbits": [
@@ -2003,7 +2090,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "9238"
       ]
     },
-    "129": {
+    "136": {
       "x": 849.745,
       "y": -10074,
       "orbits": [
@@ -2013,7 +2100,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "4284"
       ]
     },
-    "130": {
+    "137": {
       "x": 861.785,
       "y": -1332.05,
       "orbits": [
@@ -2021,7 +2108,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
       },
       "nodes": [
         "2156",
@@ -2030,7 +2117,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "23708"
       ]
     },
-    "131": {
+    "138": {
       "x": 897.345,
       "y": -8789.97,
       "orbits": [
@@ -2040,7 +2127,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "63460"
       ]
     },
-    "132": {
+    "139": {
       "x": 953.025,
       "y": -9702.35,
       "orbits": [
@@ -2050,7 +2137,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "44086"
       ]
     },
-    "133": {
+    "140": {
       "x": 1007.54,
       "y": -7602.15,
       "orbits": [
@@ -2060,7 +2147,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "26601"
       ]
     },
-    "134": {
+    "141": {
       "x": 1033.05,
       "y": -9925.04,
       "orbits": [
@@ -2070,26 +2157,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "5515"
       ]
     },
-    "135": {
-      "x": 1034.69,
-      "y": -1802.36,
-      "orbits": [
-        0,
-        3
-      ],
-      "background": {
-        "image": "PSGroupBackground1Alt"
-      },
-      "nodes": [
-        "10530",
-        "21745",
-        "32784",
-        "25301",
-        "37120",
-        "15263"
-      ]
-    },
-    "136": {
+    "142": {
       "x": 1041.61,
       "y": -5931.29,
       "orbits": [
@@ -2108,9 +2176,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "18841"
       ]
     },
-    "137": {
-      "x": 1043.4,
-      "y": -8366.54,
+    "143": {
+      "x": 1043.39,
+      "y": -8364.31,
       "orbits": [
         0,
         2
@@ -2126,7 +2194,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "29807"
       ]
     },
-    "138": {
+    "144": {
       "x": 1116.01,
       "y": -9140.52,
       "orbits": [
@@ -2146,7 +2214,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "7787"
       ]
     },
-    "139": {
+    "145": {
       "x": 1184.35,
       "y": -3792.42,
       "orbits": [
@@ -2172,7 +2240,26 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "60045"
       ]
     },
-    "140": {
+    "146": {
+      "x": 1186.82,
+      "y": -2057.02,
+      "orbits": [
+        0,
+        3
+      ],
+      "background": {
+        "image": "PSGroupBackground1Alt"
+      },
+      "nodes": [
+        "10530",
+        "21745",
+        "32784",
+        "25301",
+        "37120",
+        "15263"
+      ]
+    },
+    "147": {
       "x": 1193.65,
       "y": -7068.09,
       "orbits": [
@@ -2190,7 +2277,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "17931"
       ]
     },
-    "141": {
+    "148": {
       "x": 1195.94,
       "y": -689.765,
       "orbits": [
@@ -2211,7 +2298,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "58224"
       ]
     },
-    "142": {
+    "149": {
       "x": 1239.76,
       "y": -8004.36,
       "orbits": [
@@ -2221,7 +2308,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "12291"
       ]
     },
-    "143": {
+    "150": {
       "x": 1358.89,
       "y": -6603.11,
       "orbits": [
@@ -2231,7 +2318,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "40658"
       ]
     },
-    "144": {
+    "151": {
       "x": 1358.89,
       "y": -6286.92,
       "orbits": [
@@ -2241,7 +2328,44 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "22683"
       ]
     },
-    "145": {
+    "152": {
+      "x": 1448.02,
+      "y": -4377.42,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "35075",
+        "788",
+        "54004",
+        "61918",
+        "59610"
+      ]
+    },
+    "153": {
+      "x": 1489.54,
+      "y": -5428.1,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "7778",
+        "22597",
+        "34841",
+        "44048",
+        "39979",
+        "63738"
+      ]
+    },
+    "154": {
       "x": 1489.54,
       "y": -4990.94,
       "orbits": [
@@ -2251,9 +2375,62 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "6990"
       ]
     },
-    "146": {
-      "x": 1490.36,
-      "y": -5457.05,
+    "155": {
+      "x": 1491.69,
+      "y": -3207.42,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1Alt"
+      },
+      "nodes": [
+        "40521",
+        "51617",
+        "49919",
+        "64977",
+        "47322"
+      ]
+    },
+    "156": {
+      "x": 1491.84,
+      "y": -2588.56,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "17321"
+      ]
+    },
+    "157": {
+      "x": 1494.34,
+      "y": -8445.31,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "6091"
+      ]
+    },
+    "158": {
+      "x": 1574.47,
+      "y": -1680.33,
+      "orbits": [
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1Alt"
+      },
+      "nodes": [
+        "2493",
+        "46461",
+        "29991"
+      ]
+    },
+    "159": {
+      "x": 1629.83,
+      "y": -5931.29,
       "orbits": [
         0,
         2
@@ -2270,78 +2447,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "21347"
       ]
     },
-    "147": {
-      "x": 1491.41,
-      "y": -4389.1,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground1"
-      },
-      "nodes": [
-        "28705",
-        "6331",
-        "39180",
-        "44997",
-        "10529"
-      ]
-    },
-    "148": {
-      "x": 1491.84,
-      "y": -3195.76,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground1"
-      },
-      "nodes": [
-        "40521",
-        "51617",
-        "49919",
-        "64977",
-        "47322"
-      ]
-    },
-    "149": {
-      "x": 1491.84,
-      "y": -2588.56,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "17321"
-      ]
-    },
-    "150": {
-      "x": 1494.34,
-      "y": -8445.31,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "6091"
-      ]
-    },
-    "151": {
-      "x": 1574.47,
-      "y": -1680.33,
-      "orbits": [
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground1Alt"
-      },
-      "nodes": [
-        "2493",
-        "46461",
-        "29991"
-      ]
-    },
-    "152": {
+    "160": {
       "x": 1687.69,
       "y": -7603.4,
       "orbits": [
@@ -2366,9 +2472,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "16180"
       ]
     },
-    "153": {
-      "x": 1894.65,
-      "y": -628.055,
+    "161": {
+      "x": 1891.36,
+      "y": -623.265,
       "orbits": [
         0,
         2
@@ -2386,7 +2492,35 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "44702"
       ]
     },
-    "154": {
+    "162": {
+      "x": 1903.22,
+      "y": -8445.31,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "57512"
+      ]
+    },
+    "163": {
+      "x": 1906.19,
+      "y": -2674.16,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1"
+      },
+      "nodes": [
+        "6201",
+        "28069",
+        "27774",
+        "20361",
+        "40130"
+      ]
+    },
+    "164": {
       "x": 1984.74,
       "y": -9254.59,
       "orbits": [
@@ -2409,27 +2543,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "45689"
       ]
     },
-    "155": {
-      "x": 2006.19,
-      "y": -2674.16,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "6201",
-        "28069",
-        "27774",
-        "20361",
-        "40130"
-      ]
-    },
-    "156": {
-      "x": 2011.59,
-      "y": -6645.85,
+    "165": {
+      "x": 2011.61,
+      "y": -6750.19,
       "orbits": [
         0,
         2,
@@ -2437,7 +2553,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         4
       ],
       "background": {
-        "image": "PSGroupBackground3"
+        "image": "PSGroupBackground2"
       },
       "nodes": [
         "30585",
@@ -2451,7 +2567,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "27476"
       ]
     },
-    "157": {
+    "166": {
       "x": 2105.38,
       "y": -1826.88,
       "orbits": [
@@ -2459,7 +2575,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
       },
       "nodes": [
         "50434",
@@ -2469,7 +2585,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "9459"
       ]
     },
-    "158": {
+    "167": {
       "x": 2167.99,
       "y": -4549.92,
       "orbits": [
@@ -2487,7 +2603,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "46743"
       ]
     },
-    "159": {
+    "168": {
       "x": 2186.17,
       "y": -4990.94,
       "orbits": [
@@ -2507,7 +2623,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "53105"
       ]
     },
-    "160": {
+    "169": {
       "x": 2221.43,
       "y": -5809.73,
       "orbits": [
@@ -2525,26 +2641,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "22985"
       ]
     },
-    "161": {
-      "x": 2236.21,
-      "y": -8481.6,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "49827",
-        "17227",
-        "54630",
-        "22499",
-        "30852",
-        "20537"
-      ]
-    },
-    "162": {
+    "170": {
       "x": 2236.21,
       "y": -8015.5,
       "orbits": [
@@ -2554,7 +2651,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "40286"
       ]
     },
-    "163": {
+    "171": {
       "x": 2236.21,
       "y": -5426.19,
       "orbits": [
@@ -2564,7 +2661,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "50686"
       ]
     },
-    "164": {
+    "172": {
       "x": 2244.17,
       "y": -2154.83,
       "orbits": [
@@ -2574,7 +2671,24 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "4321"
       ]
     },
-    "165": {
+    "173": {
+      "x": 2324.17,
+      "y": -3030.45,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground1Alt"
+      },
+      "nodes": [
+        "26293",
+        "54407",
+        "24609",
+        "36203"
+      ]
+    },
+    "174": {
       "x": 2333.96,
       "y": -3563.02,
       "orbits": [
@@ -2584,7 +2698,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "2017"
       ]
     },
-    "166": {
+    "175": {
       "x": 2355.73,
       "y": -1162.8,
       "orbits": [
@@ -2607,17 +2721,54 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "37680"
       ]
     },
-    "167": {
-      "x": 2486.8,
-      "y": -7583.13,
+    "176": {
+      "x": 2389.07,
+      "y": -8442.25,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground2"
+      },
+      "nodes": [
+        "49827",
+        "17227",
+        "54630",
+        "22499",
+        "30852",
+        "20537"
+      ]
+    },
+    "177": {
+      "x": 2439.67,
+      "y": -7500.08,
+      "orbits": [
+        0,
+        2
+      ],
+      "background": {
+        "image": "PSGroupBackground2"
+      },
+      "nodes": [
+        "1474",
+        "44289",
+        "33070",
+        "58795",
+        "63874"
+      ]
+    },
+    "178": {
+      "x": 2439.67,
+      "y": -7019.55,
       "orbits": [
         0
       ],
       "nodes": [
-        "57512"
+        "43160"
       ]
     },
-    "168": {
+    "179": {
       "x": 2500.36,
       "y": -4044.8,
       "orbits": [
@@ -2627,15 +2778,15 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "65225"
       ]
     },
-    "169": {
-      "x": 2601.72,
-      "y": -2514.31,
+    "180": {
+      "x": 2504.97,
+      "y": -2471.86,
       "orbits": [
         0,
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1"
       },
       "nodes": [
         "30021",
@@ -2645,7 +2796,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "23788"
       ]
     },
-    "170": {
+    "181": {
       "x": 2652.76,
       "y": -3792.42,
       "orbits": [
@@ -2655,7 +2806,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "33684"
       ]
     },
-    "171": {
+    "182": {
       "x": 2664.01,
       "y": -6408.21,
       "orbits": [
@@ -2665,7 +2816,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "32868"
       ]
     },
-    "172": {
+    "183": {
       "x": 2738.15,
       "y": -7007.61,
       "orbits": [
@@ -2675,7 +2826,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "22086"
       ]
     },
-    "173": {
+    "184": {
       "x": 2825.16,
       "y": -6408.21,
       "orbits": [
@@ -2685,7 +2836,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "45427"
       ]
     },
-    "174": {
+    "185": {
       "x": 2986.31,
       "y": -6749.9,
       "orbits": [
@@ -2709,7 +2860,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "20892"
       ]
     },
-    "175": {
+    "186": {
       "x": 2986.31,
       "y": -5855.08,
       "orbits": [
@@ -2719,7 +2870,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "27093"
       ]
     },
-    "176": {
+    "187": {
       "x": 2986.31,
       "y": -5245.46,
       "orbits": [
@@ -2742,7 +2893,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "59968"
       ]
     },
-    "177": {
+    "188": {
       "x": 2986.78,
       "y": -8049.6,
       "orbits": [
@@ -2760,7 +2911,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "17872"
       ]
     },
-    "178": {
+    "189": {
       "x": 2986.78,
       "y": -7583.48,
       "orbits": [
@@ -2770,7 +2921,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "40327"
       ]
     },
-    "179": {
+    "190": {
       "x": 2988.24,
       "y": -2190.35,
       "orbits": [
@@ -2778,7 +2929,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         2
       ],
       "background": {
-        "image": "PSGroupBackground2"
+        "image": "PSGroupBackground1Alt"
       },
       "nodes": [
         "9178",
@@ -2788,7 +2939,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "5021"
       ]
     },
-    "180": {
+    "191": {
       "x": 2988.24,
       "y": -1725.26,
       "orbits": [
@@ -2798,9 +2949,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "55454"
       ]
     },
-    "181": {
-      "x": 2989.35,
-      "y": -3190.13,
+    "192": {
+      "x": 2989.44,
+      "y": -3201.92,
       "orbits": [
         0,
         3
@@ -2819,7 +2970,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "42100"
       ]
     },
-    "182": {
+    "193": {
       "x": 3077.22,
       "y": -4394.71,
       "orbits": [
@@ -2836,13 +2987,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "4489",
         "47572",
         "42276",
-        "54109",
         "9726",
         "63058",
+        "13802",
         "28389"
       ]
     },
-    "183": {
+    "194": {
       "x": 3147.47,
       "y": -6408.21,
       "orbits": [
@@ -2852,7 +3003,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "59124"
       ]
     },
-    "184": {
+    "195": {
       "x": 3235.96,
       "y": -7007.61,
       "orbits": [
@@ -2862,8 +3013,8 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "62316"
       ]
     },
-    "185": {
-      "x": 3308.63,
+    "196": {
+      "x": 3308.62,
       "y": -6408.21,
       "orbits": [
         0
@@ -2872,7 +3023,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "58918"
       ]
     },
-    "186": {
+    "197": {
       "x": 3391.04,
       "y": -1492.69,
       "orbits": [
@@ -2890,7 +3041,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "65379"
       ]
     },
-    "187": {
+    "198": {
       "x": 3579.96,
       "y": -7536.1,
       "orbits": [
@@ -2900,7 +3051,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "41397"
       ]
     },
-    "188": {
+    "199": {
       "x": 3730.28,
       "y": -7758.6,
       "orbits": [
@@ -2927,7 +3078,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "41053"
       ]
     },
-    "189": {
+    "200": {
       "x": 3730.28,
       "y": -7154.23,
       "orbits": [
@@ -2937,28 +3088,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "20866"
       ]
     },
-    "190": {
-      "x": 3730.28,
-      "y": -5711.92,
-      "orbits": [
-        0,
-        2,
-        3
-      ],
-      "background": {
-        "image": "PSGroupBackground3"
-      },
-      "nodes": [
-        "33008",
-        "9252",
-        "52881",
-        "23539",
-        "46589",
-        "24106",
-        "28157"
-      ]
-    },
-    "191": {
+    "201": {
       "x": 3730.29,
       "y": -6287.48,
       "orbits": [
@@ -2968,7 +3098,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "12341"
       ]
     },
-    "192": {
+    "202": {
       "x": 3755.95,
       "y": -2168.48,
       "orbits": [
@@ -2989,7 +3119,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "24945"
       ]
     },
-    "193": {
+    "203": {
       "x": 3880.85,
       "y": -7536.17,
       "orbits": [
@@ -2999,7 +3129,28 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "3296"
       ]
     },
-    "194": {
+    "204": {
+      "x": 3897.79,
+      "y": -5774.11,
+      "orbits": [
+        0,
+        2,
+        3
+      ],
+      "background": {
+        "image": "PSGroupBackground3"
+      },
+      "nodes": [
+        "33008",
+        "9252",
+        "52881",
+        "23539",
+        "46589",
+        "24106",
+        "28157"
+      ]
+    },
+    "205": {
       "x": 3905.81,
       "y": -6719.26,
       "orbits": [
@@ -3017,7 +3168,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "1032"
       ]
     },
-    "195": {
+    "206": {
       "x": 3944.26,
       "y": -3800.4,
       "orbits": [
@@ -3033,69 +3184,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "28701"
       ]
     },
-    "196": {
-      "x": 4051.57,
-      "y": -5000.88,
-      "orbits": [
-        0,
-        2
-      ],
-      "background": {
-        "image": "PSGroupBackground2"
-      },
-      "nodes": [
-        "55070",
-        "62053",
-        "25676",
-        "15023",
-        "64252",
-        "9866",
-        "25829"
-      ]
-    },
-    "197": {
-      "x": 4189.4,
-      "y": -6193.6,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "25648"
-      ]
-    },
-    "198": {
-      "x": 4238.44,
-      "y": -4035.76,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "60691"
-      ]
-    },
-    "199": {
-      "x": 4417.1,
-      "y": -4163.65,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "41935"
-      ]
-    },
-    "200": {
-      "x": 4477.15,
-      "y": -3395.77,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "27663"
-      ]
-    },
-    "201": {
-      "x": 4480.11,
-      "y": -3042.79,
+    "207": {
+      "x": 4122.09,
+      "y": -4950.09,
       "orbits": [
         0,
         2
@@ -3111,7 +3202,47 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "734"
       ]
     },
-    "202": {
+    "208": {
+      "x": 4238.44,
+      "y": -4035.76,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "60691"
+      ]
+    },
+    "209": {
+      "x": 4275.31,
+      "y": -6347.38,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "25648"
+      ]
+    },
+    "210": {
+      "x": 4417.1,
+      "y": -4163.65,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "41935"
+      ]
+    },
+    "211": {
+      "x": 4477.15,
+      "y": -3395.77,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "27663"
+      ]
+    },
+    "212": {
       "x": 4483.11,
       "y": -6719.26,
       "orbits": [
@@ -3121,8 +3252,8 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "50896"
       ]
     },
-    "203": {
-      "x": 4483.11,
+    "213": {
+      "x": 4484.86,
       "y": -5855.11,
       "orbits": [
         0
@@ -3131,7 +3262,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "23246"
       ]
     },
-    "204": {
+    "214": {
       "x": 4484.86,
       "y": -3792.42,
       "orbits": [],
@@ -3143,17 +3274,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "206"
       ]
     },
-    "205": {
-      "x": 4508.07,
-      "y": -2335.19,
-      "orbits": [
-        0
-      ],
-      "nodes": [
-        "17000"
-      ]
-    },
-    "206": {
+    "215": {
       "x": 4529.44,
       "y": -3612.01,
       "orbits": [
@@ -3163,7 +3284,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "4358"
       ]
     },
-    "207": {
+    "216": {
       "x": 4536.75,
       "y": -4022.51,
       "orbits": [
@@ -3173,7 +3294,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "32691"
       ]
     },
-    "208": {
+    "217": {
       "x": 4553.88,
       "y": -3792.77,
       "orbits": [
@@ -3183,7 +3304,41 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "54596"
       ]
     },
-    "209": {
+    "218": {
+      "x": 4591.51,
+      "y": -2928.78,
+      "orbits": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "background": {
+        "image": "PSGroupBackground3"
+      },
+      "nodes": [
+        "48004",
+        "55070",
+        "62053",
+        "25676",
+        "15023",
+        "64252",
+        "9866",
+        "56599",
+        "25829"
+      ]
+    },
+    "219": {
+      "x": 4591.52,
+      "y": -2335.98,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "17000"
+      ]
+    },
+    "220": {
       "x": 4628.51,
       "y": -4199.61,
       "orbits": [
@@ -3193,9 +3348,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "51650"
       ]
     },
-    "210": {
-      "x": 4646.73,
-      "y": -5252.06,
+    "221": {
+      "x": 4646.86,
+      "y": -5252.15,
       "orbits": [
         0,
         2,
@@ -3205,21 +3360,14 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "image": "PSGroupBackground2"
       },
       "nodes": [
-        "44049",
-        "27485",
-        "65089",
         "64599",
-        "49222",
         "49699",
         "16132",
-        "30336",
-        "21927",
-        "53027",
         "37979",
         "47052"
       ]
     },
-    "211": {
+    "222": {
       "x": 4678.98,
       "y": -3370.66,
       "orbits": [
@@ -3229,7 +3377,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "24191"
       ]
     },
-    "212": {
+    "223": {
       "x": 4774.23,
       "y": -7398,
       "orbits": [
@@ -3252,7 +3400,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "6319"
       ]
     },
-    "213": {
+    "224": {
       "x": 4776.23,
       "y": -3613.06,
       "orbits": [
@@ -3262,7 +3410,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "43038"
       ]
     },
-    "214": {
+    "225": {
       "x": 4779.5,
       "y": -4025.54,
       "orbits": [
@@ -3272,7 +3420,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "57114"
       ]
     },
-    "215": {
+    "226": {
       "x": 4867.71,
       "y": -3809.21,
       "orbits": [
@@ -3282,7 +3430,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "47711"
       ]
     },
-    "216": {
+    "227": {
       "x": 4883.17,
       "y": -3356.45,
       "orbits": [
@@ -3292,9 +3440,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "30813"
       ]
     },
-    "217": {
-      "x": 4951,
-      "y": -4655.31,
+    "228": {
+      "x": 4953.63,
+      "y": -4638.42,
       "orbits": [
         0,
         2
@@ -3310,7 +3458,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "11110"
       ]
     },
-    "218": {
+    "229": {
       "x": 5070.15,
       "y": -4023.25,
       "orbits": [
@@ -3320,7 +3468,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "9409"
       ]
     },
-    "219": {
+    "230": {
       "x": 5086.4,
       "y": -3624.06,
       "orbits": [
@@ -3330,7 +3478,17 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "19267"
       ]
     },
-    "220": {
+    "231": {
+      "x": 5096.31,
+      "y": -5252.15,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "53027"
+      ]
+    },
+    "232": {
       "x": 5217.48,
       "y": -6739.85,
       "orbits": [
@@ -3354,9 +3512,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "21368"
       ]
     },
-    "221": {
-      "x": 5259.09,
-      "y": -5882.73,
+    "233": {
+      "x": 5220.17,
+      "y": -5855.11,
       "orbits": [
         0,
         2,
@@ -3376,7 +3534,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "14005"
       ]
     },
-    "222": {
+    "234": {
       "x": 5264.38,
       "y": -3817.23,
       "orbits": [
@@ -3384,6 +3542,50 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       ],
       "nodes": [
         "45606"
+      ]
+    },
+    "235": {
+      "x": 5292.4,
+      "y": -5252.15,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "21927"
+      ]
+    },
+    "236": {
+      "x": 5292.4,
+      "y": -4990.34,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "30336"
+      ]
+    },
+    "237": {
+      "x": 5298.73,
+      "y": -5499.58,
+      "orbits": [
+        0
+      ],
+      "nodes": [
+        "49222"
+      ]
+    },
+    "238": {
+      "x": 5524.27,
+      "y": -5252.15,
+      "orbits": [
+        0,
+        3
+      ],
+      "nodes": [
+        "44049",
+        "27485",
+        "65089",
+        "51310"
       ]
     }
   },
@@ -3397,6 +3599,55 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       ],
       "in": []
     },
+    "62654": {
+      "skill": 62654,
+      "name": "Speaker of the Dead",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.png",
+      "isKeystone": true,
+      "stats": [
+        "Tormented Spirits in your Maps can Possess Players for 20 seconds\nTormented Spirits in your Maps cannot Possess Monsters"
+      ],
+      "reminderText": [
+        "(Players can Touch up to 50 nearby normal or magic Monsters for each Tormented Spirit Possessing them)"
+      ],
+      "flavourText": [
+        "For nine hundred years, they have had no voice, no hope.",
+        "Finally, they have found a kindred soul... in you."
+      ],
+      "group": 1,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "39402"
+      ],
+      "in": []
+    },
+    "58043": {
+      "skill": 58043,
+      "name": "Endless Tide",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.png",
+      "isKeystone": true,
+      "stats": [
+        "Beyond Portals in your Maps cannot spawn Unique Bosses",
+        "Beyond Portals in your Maps have 50% less Merging Radius"
+      ],
+      "reminderText": [
+        "(Beyond Portals and Demons stop spawning after a Unique Beyond Boss is spawned)",
+        "(Merging Radius is the distance at which Beyond Portals can merge with one another to spawn Beyond Demons)"
+      ],
+      "flavourText": [
+        "You fight on, muscles burning, limbs leaden,",
+        "hoping for that singular moment of victory that",
+        "might finally bring relief... but it never comes."
+      ],
+      "group": 2,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "62476"
+      ]
+    },
     "2624": {
       "skill": 2624,
       "name": "Bestiary Red Beast Chance",
@@ -3404,7 +3655,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps that contain capturable Beasts have 5% chance to contain an additional Red Beast"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -3423,7 +3674,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Beasts in your Maps are more likely to be less common varieties"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -3438,7 +3689,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps that contain capturable Beasts have 5% chance to contain an additional Red Beast"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
@@ -3456,7 +3707,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps that contain capturable Beasts have 5% chance to contain an additional Red Beast"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -3474,7 +3725,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps that contain capturable Beasts have 5% chance to contain an additional Red Beast"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -3492,7 +3743,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps that contain capturable Beasts have 5% chance to contain an additional Red Beast"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [
@@ -3510,7 +3761,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps that contain capturable Beasts have 5% chance to contain an additional Red Beast"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -3528,7 +3779,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Red Beasts in your Maps have 100% increased chance to be from The Deep"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [],
@@ -3544,7 +3795,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Red Beasts in your Maps have 100% increased chance to be from The Wilds"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [
@@ -3560,7 +3811,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Red Beasts in your Maps have 100% increased chance to be from The Caverns"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [],
@@ -3576,7 +3827,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Red Beasts in your Maps have 100% increased chance to be from The Sands"
       ],
-      "group": 1,
+      "group": 3,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [],
@@ -3590,205 +3841,11 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBestiary.png",
       "isMastery": true,
       "stats": [],
-      "group": 1,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "28204": {
-      "skill": 28204,
-      "name": "Ritual",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryRitual.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 2,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "44994": {
-      "skill": 44994,
-      "name": "Increased Ritual Intensity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Ritual Altars in your Maps can have 20% increased number of Spawned Monsters at once",
-        "Ritual Altars in your Maps spawn Monsters 8% faster"
-      ],
-      "group": 2,
-      "orbit": 2,
-      "orbitIndex": 7,
-      "out": [
-        "49074"
-      ],
-      "in": [
-        "8235"
-      ]
-    },
-    "8235": {
-      "skill": 8235,
-      "name": "Ritual Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Your Maps have +5% chance to contain Ritual Altars"
-      ],
-      "group": 2,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [
-        "40369",
-        "1238",
-        "44994"
-      ],
-      "in": []
-    },
-    "49074": {
-      "skill": 49074,
-      "name": "Increased Ritual Intensity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Ritual Altars in your Maps can have 20% increased number of Spawned Monsters at once",
-        "Ritual Altars in your Maps spawn Monsters 8% faster"
-      ],
-      "group": 2,
-      "orbit": 2,
-      "orbitIndex": 9,
-      "out": [
-        "41753"
-      ],
-      "in": [
-        "44994"
-      ]
-    },
-    "41753": {
-      "skill": 41753,
-      "name": "Sacrificial Due",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png",
-      "isNotable": true,
-      "stats": [
-        "Completing the final Ritual Altar in your Maps has 15% chance to drop a Blood-filled Vessel"
-      ],
-      "group": 2,
-      "orbit": 2,
-      "orbitIndex": 12,
-      "out": [],
-      "in": [
-        "49074",
-        "28166"
-      ]
-    },
-    "28166": {
-      "skill": 28166,
-      "name": "Increased Ritual Splinters",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Ritual Splinters offered at Ritual Altars in your Maps have 10% increased Stack Size"
-      ],
-      "group": 2,
-      "orbit": 2,
-      "orbitIndex": 15,
-      "out": [
-        "41753"
-      ],
-      "in": [
-        "1238"
-      ]
-    },
-    "1238": {
-      "skill": 1238,
-      "name": "Increased Ritual Splinters",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Ritual Splinters offered at Ritual Altars in your Maps have 10% increased Stack Size"
-      ],
-      "group": 2,
-      "orbit": 2,
-      "orbitIndex": 1,
-      "out": [
-        "28166"
-      ],
-      "in": [
-        "8235"
-      ]
-    },
-    "21569": {
-      "skill": 21569,
-      "name": "Torment",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryTorment.png",
-      "isMastery": true,
-      "stats": [],
       "group": 3,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
-    },
-    "54875": {
-      "skill": 54875,
-      "name": "Tormented Monster Item Quantity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
-      "stats": [
-        "20% increased Quantity of Items dropped by Possessed or Touched Monsters in your Maps"
-      ],
-      "group": 3,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [
-        "31485"
-      ],
-      "in": [
-        "31498"
-      ]
-    },
-    "31485": {
-      "skill": 31485,
-      "name": "Tormented Monster Item Quantity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
-      "stats": [
-        "20% increased Quantity of Items dropped by Possessed or Touched Monsters in your Maps"
-      ],
-      "group": 3,
-      "orbit": 2,
-      "orbitIndex": 9,
-      "out": [],
-      "in": [
-        "54875",
-        "29946"
-      ]
-    },
-    "5239": {
-      "skill": 5239,
-      "name": "Seance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png",
-      "isNotable": true,
-      "stats": [
-        "Up to 5 Rare Monsters in each of your Maps are Possessed and their Minions are Touched"
-      ],
-      "group": 3,
-      "orbit": 2,
-      "orbitIndex": 15,
-      "out": [
-        "29946"
-      ],
-      "in": []
-    },
-    "29946": {
-      "skill": 29946,
-      "name": "Tormented Monster Item Quantity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
-      "stats": [
-        "20% increased Quantity of Items dropped by Possessed or Touched Monsters in your Maps"
-      ],
-      "group": 3,
-      "orbit": 2,
-      "orbitIndex": 12,
-      "out": [
-        "31485"
-      ],
-      "in": [
-        "5239"
-      ]
     },
     "54355": {
       "skill": 54355,
@@ -3843,7 +3900,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "name": "Heist Contract Chance",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
       "stats": [
-        "8% increased quantity of Heist Contracts found in your Maps"
+        "8% increased Heist Contracts found in your Maps"
       ],
       "group": 4,
       "orbit": 2,
@@ -3862,7 +3919,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "name": "Heist Contract Chance",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
       "stats": [
-        "8% increased quantity of Heist Contracts found in your Maps"
+        "8% increased Heist Contracts found in your Maps"
       ],
       "group": 4,
       "orbit": 2,
@@ -3879,7 +3936,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "name": "Heist Contract Chance",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
       "stats": [
-        "8% increased quantity of Heist Contracts found in your Maps"
+        "8% increased Heist Contracts found in your Maps"
       ],
       "group": 4,
       "orbit": 2,
@@ -3903,6 +3960,281 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "out": [],
       "in": []
     },
+    "13627": {
+      "skill": 13627,
+      "name": "Torment",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryTorment.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 5,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "17011": {
+      "skill": 17011,
+      "name": "Tormented Spirit Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
+      "stats": [
+        "Your Maps have a 10% chance to be haunted by an additional Tormented Spirit"
+      ],
+      "group": 5,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [],
+      "in": [
+        "39402",
+        "31498"
+      ]
+    },
+    "30484": {
+      "skill": 30484,
+      "name": "Unrelenting Torment",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png",
+      "isNotable": true,
+      "stats": [
+        "Map Bosses have 10% chance to be surrounded by Tormented Spirits",
+        "30% more Quantity of Items dropped by Possessed Monsters in your Maps"
+      ],
+      "group": 5,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "39402"
+      ]
+    },
+    "39402": {
+      "skill": 39402,
+      "name": "Tormented Spirit Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
+      "stats": [
+        "Your Maps have a 10% chance to be haunted by an additional Tormented Spirit"
+      ],
+      "group": 5,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "17011",
+        "30484"
+      ],
+      "in": [
+        "62654"
+      ]
+    },
+    "62476": {
+      "skill": 62476,
+      "name": "Beyond Demon Experience",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "Beyond Demons in your Maps grant 10% increased Experience"
+      ],
+      "group": 6,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "43055",
+        "58043"
+      ],
+      "in": [
+        "60286"
+      ]
+    },
+    "43055": {
+      "skill": 43055,
+      "name": "Scent of Blood",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png",
+      "isNotable": true,
+      "stats": [
+        "10% chance for your Maps to attract Beyond Demons"
+      ],
+      "group": 6,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "62476"
+      ]
+    },
+    "47488": {
+      "skill": 47488,
+      "name": "Beyond Demon Experience",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "Beyond Demons in your Maps grant 10% increased Experience"
+      ],
+      "group": 6,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "60286",
+        "40369"
+      ],
+      "in": []
+    },
+    "60286": {
+      "skill": 60286,
+      "name": "Beyond Demon Experience",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "Beyond Demons in your Maps grant 10% increased Experience"
+      ],
+      "group": 6,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "62476"
+      ],
+      "in": [
+        "47488"
+      ]
+    },
+    "54190": {
+      "skill": 54190,
+      "name": "Beyond",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBeyond.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 6,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "14639": {
+      "skill": 14639,
+      "name": "Metamorph",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMetamorph.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 7,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "40700": {
+      "skill": 40700,
+      "name": "Unethical Experiments",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png",
+      "isNotable": true,
+      "stats": [
+        "Metamorphs in your Maps grant 1000% increased Experience per 10% of Vat Filled",
+        "Metamorphs in your Maps have 0.5% chance to drop an additional Metamorph Scarab for each 10% of Vat Filled"
+      ],
+      "group": 7,
+      "orbit": 3,
+      "orbitIndex": 11,
+      "out": [],
+      "in": [
+        "58698"
+      ]
+    },
+    "57784": {
+      "skill": 57784,
+      "name": "Wealth of Knowledge",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png",
+      "isNotable": true,
+      "stats": [
+        "Metamorphs in your Maps have a random Modifier to Dropped Items",
+        "250% increased Quantity of Items Dropped by Metamorphs in your Maps for each Monster Modifier on them",
+        "1000% increased Rarity of Items Dropped by Metamorphs in your Maps for each Monster Modifier on them"
+      ],
+      "group": 7,
+      "orbit": 3,
+      "orbitIndex": 13,
+      "out": [],
+      "in": [
+        "22004"
+      ]
+    },
+    "13900": {
+      "skill": 13900,
+      "name": "Metamorph Target Rarity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Monsters in your Maps that drop Metamorph Organs have 10% chance to upgrade their Rarity"
+      ],
+      "group": 7,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "22004"
+      ],
+      "in": [
+        "16938"
+      ]
+    },
+    "22004": {
+      "skill": 22004,
+      "name": "Metamorph Target Rarity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Monsters in your Maps that drop Metamorph Organs have 10% chance to upgrade their Rarity"
+      ],
+      "group": 7,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "57784"
+      ],
+      "in": [
+        "13900"
+      ]
+    },
+    "18387": {
+      "skill": 18387,
+      "name": "Metamorph Vat Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Metamorph Vat Meters in your Maps require 10% reduced Power to fill"
+      ],
+      "group": 7,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "58698"
+      ],
+      "in": [
+        "16938"
+      ]
+    },
+    "58698": {
+      "skill": 58698,
+      "name": "Metamorph Vat Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Metamorph Vat Meters in your Maps require 10% reduced Power to fill"
+      ],
+      "group": 7,
+      "orbit": 2,
+      "orbitIndex": 9,
+      "out": [
+        "40700"
+      ],
+      "in": [
+        "18387"
+      ]
+    },
+    "16938": {
+      "skill": 16938,
+      "name": "Metamorph Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain a Metamorph Encounter"
+      ],
+      "group": 7,
+      "orbit": 3,
+      "orbitIndex": 4,
+      "out": [
+        "13900",
+        "18387"
+      ],
+      "in": [
+        "53540"
+      ]
+    },
     "13842": {
       "skill": 13842,
       "name": "Mortal Gateway",
@@ -3917,7 +4249,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "Life and Death are two sides of the same coin."
       ],
-      "group": 5,
+      "group": 8,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -3934,7 +4266,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Lanes of Blight Encounters in your Maps have 5% chance for an additional Reward Chest",
         "2% chance on Completing your Maps to gain a free use of the Blight Map Crafting Option"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -3952,7 +4284,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "5% chance on Completing your Maps to gain a free use of the Blight Map Crafting Option"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -3970,7 +4302,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "8% chance for Blight Chests to contain an additional Reward",
         "Varieties of Items contained in 1 Blight Chest in your Maps are Lucky"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -3989,7 +4321,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Blight Map Crafting Option is always available",
         "50% reduced cost of the Blight Map Crafting Option"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [],
@@ -4005,7 +4337,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Lanes of Blight Encounters in your Maps have 10% chance for an additional Reward Chest"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [
@@ -4022,7 +4354,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Lanes of Blight Encounters in your Maps have 10% chance for an additional Reward Chest"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 3,
       "orbitIndex": 2,
       "out": [
@@ -4041,7 +4373,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Varieties of Items contained in 3 Blight Chests in your Maps are Lucky",
         "Blight Chests in your Maps have 80% more chance to contain Blighted Maps"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -4058,7 +4390,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "5% chance on Completing your Maps to gain a free use of the Blight Map Crafting Option"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 3,
       "orbitIndex": 6,
       "out": [
@@ -4076,7 +4408,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "8% chance for Blight Chests to contain an additional Reward",
         "Varieties of Items contained in 1 Blight Chest in your Maps are Lucky"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -4093,7 +4425,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 6,
       "orbitIndex": 18,
       "out": [
@@ -4114,16 +4446,16 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 6,
       "orbitIndex": 0,
       "out": [
         "31171"
       ],
       "in": [
-        "8235",
+        "47488",
         "64218",
-        "47488"
+        "8235"
       ]
     },
     "972": {
@@ -4132,7 +4464,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBlight.png",
       "isMastery": true,
       "stats": [],
-      "group": 6,
+      "group": 9,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -4145,12 +4477,11 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 6,
       "orbitIndex": 24,
       "out": [
-        "53540",
-        "16938"
+        "53540"
       ],
       "in": [
         "41694"
@@ -4163,11 +4494,12 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 6,
       "orbitIndex": 30,
       "out": [
-        "186"
+        "186",
+        "16938"
       ],
       "in": [
         "41425",
@@ -4181,14 +4513,15 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 6,
+      "group": 9,
       "orbit": 6,
       "orbitIndex": 9,
       "out": [
         "40369"
       ],
       "in": [
-        "41694"
+        "41694",
+        "52648"
       ]
     },
     "7486": {
@@ -4197,7 +4530,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryRitual.png",
       "isMastery": true,
       "stats": [],
-      "group": 7,
+      "group": 10,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -4212,7 +4545,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Deferring Favours at Ritual Altars in your Maps costs 15% reduced Tribute",
         "Favours Deferred at Ritual Altars in your Maps reappear 50% sooner"
       ],
-      "group": 7,
+      "group": 10,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [],
@@ -4228,7 +4561,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Deferring Favours at Ritual Altars in your Maps costs 5% reduced Tribute"
       ],
-      "group": 7,
+      "group": 10,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -4245,7 +4578,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Deferring Favours at Ritual Altars in your Maps costs 5% reduced Tribute"
       ],
-      "group": 7,
+      "group": 10,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -4262,7 +4595,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +5% chance to contain Ritual Altars"
       ],
-      "group": 7,
+      "group": 10,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -4280,7 +4613,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Favours Deferred at Ritual Altars in your Maps reappear 20% sooner"
       ],
-      "group": 7,
+      "group": 10,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -4297,7 +4630,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Favours Deferred at Ritual Altars in your Maps reappear 20% sooner"
       ],
-      "group": 7,
+      "group": 10,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -4314,7 +4647,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 8,
+      "group": 11,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -4336,13 +4669,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 9,
+      "group": 12,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "16780",
         "58236",
-        "54875"
+        "17011"
       ],
       "in": [
         "31171"
@@ -4355,7 +4688,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 10,
+      "group": 13,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -4366,94 +4699,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "40369"
       ]
     },
-    "186": {
-      "skill": 186,
-      "name": "Beyond Portal Merging Radius",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
-      "stats": [
-        "Beyond Portals in your Maps have 8% increased Merging Radius"
-      ],
-      "reminderText": [
-        "(Merging Radius is the distance at which Beyond Portals can merge with one another to spawn Beyond Demons)"
-      ],
-      "group": 11,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [
-        "10631"
-      ],
-      "in": [
-        "53540"
-      ]
-    },
-    "32676": {
-      "skill": 32676,
-      "name": "Beyond Portal Merging Radius",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
-      "stats": [
-        "Beyond Portals in your Maps have 8% increased Merging Radius"
-      ],
-      "reminderText": [
-        "(Merging Radius is the distance at which Beyond Portals can merge with one another to spawn Beyond Demons)"
-      ],
-      "group": 11,
-      "orbit": 2,
-      "orbitIndex": 9,
-      "out": [
-        "4272"
-      ],
-      "in": [
-        "10631"
-      ]
-    },
-    "10631": {
-      "skill": 10631,
-      "name": "Beyond Portal Merging Radius",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
-      "stats": [
-        "Beyond Portals in your Maps have 8% increased Merging Radius"
-      ],
-      "reminderText": [
-        "(Merging Radius is the distance at which Beyond Portals can merge with one another to spawn Beyond Demons)"
-      ],
-      "group": 11,
-      "orbit": 2,
-      "orbitIndex": 7,
-      "out": [
-        "32676"
-      ],
-      "in": [
-        "186"
-      ]
-    },
-    "4272": {
-      "skill": 4272,
-      "name": "Fiendish Opulence",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png",
-      "isNotable": true,
-      "stats": [
-        "25% increased Quantity of Tainted Currency dropped by Beyond Demons in your Maps"
-      ],
-      "group": 11,
-      "orbit": 2,
-      "orbitIndex": 15,
-      "out": [],
-      "in": [
-        "32676"
-      ]
-    },
-    "26913": {
-      "skill": 26913,
-      "name": "Beyond",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBeyond.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 11,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
     "54499": {
       "skill": 54499,
       "name": "Baptised by Fire",
@@ -4462,7 +4707,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 10% chance to award double progress towards encountering The Searing Exarch"
       ],
-      "group": 12,
+      "group": 14,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -4486,7 +4731,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "The curious gaze up at the stars..."
       ],
-      "group": 13,
+      "group": 15,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -4496,79 +4741,238 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "25648"
       ]
     },
-    "62476": {
-      "skill": 62476,
-      "name": "Beyond Demon Experience",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
-      "stats": [
-        "Beyond Demons in your Maps grant 10% increased Experience"
-      ],
-      "group": 14,
-      "orbit": 2,
-      "orbitIndex": 2,
-      "out": [
-        "43055"
-      ],
-      "in": [
-        "60286"
-      ]
-    },
-    "43055": {
-      "skill": 43055,
-      "name": "Scent of Blood",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png",
-      "isNotable": true,
-      "stats": [
-        "10% chance for your Maps to attract Beyond Demons"
-      ],
-      "group": 14,
-      "orbit": 2,
-      "orbitIndex": 6,
+    "28204": {
+      "skill": 28204,
+      "name": "Ritual",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryRitual.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 16,
+      "orbit": 0,
+      "orbitIndex": 0,
       "out": [],
+      "in": []
+    },
+    "44994": {
+      "skill": 44994,
+      "name": "Increased Ritual Intensity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "Ritual Altars in your Maps can have 20% increased number of Spawned Monsters at once",
+        "Ritual Altars in your Maps spawn Monsters 8% faster"
+      ],
+      "group": 16,
+      "orbit": 2,
+      "orbitIndex": 12,
+      "out": [
+        "49074"
+      ],
       "in": [
-        "62476"
+        "8235"
       ]
     },
-    "47488": {
-      "skill": 47488,
-      "name": "Beyond Demon Experience",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+    "8235": {
+      "skill": 8235,
+      "name": "Ritual Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
       "stats": [
-        "Beyond Demons in your Maps grant 10% increased Experience"
+        "Your Maps have +5% chance to contain Ritual Altars"
       ],
-      "group": 14,
+      "group": 16,
       "orbit": 2,
       "orbitIndex": 10,
       "out": [
-        "60286",
-        "40369"
+        "40369",
+        "1238",
+        "44994"
       ],
       "in": []
     },
-    "60286": {
-      "skill": 60286,
-      "name": "Beyond Demon Experience",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+    "49074": {
+      "skill": 49074,
+      "name": "Increased Ritual Intensity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
       "stats": [
-        "Beyond Demons in your Maps grant 10% increased Experience"
+        "Ritual Altars in your Maps can have 20% increased number of Spawned Monsters at once",
+        "Ritual Altars in your Maps spawn Monsters 8% faster"
       ],
-      "group": 14,
+      "group": 16,
       "orbit": 2,
       "orbitIndex": 14,
       "out": [
-        "62476"
+        "41753"
       ],
       "in": [
-        "47488"
+        "44994"
       ]
     },
-    "54190": {
-      "skill": 54190,
-      "name": "Beyond",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBeyond.png",
+    "41753": {
+      "skill": 41753,
+      "name": "Sacrificial Due",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png",
+      "isNotable": true,
+      "stats": [
+        "Completing the final Ritual Altar in your Maps has 15% chance to drop a Blood-filled Vessel"
+      ],
+      "group": 16,
+      "orbit": 2,
+      "orbitIndex": 2,
+      "out": [],
+      "in": [
+        "49074",
+        "28166"
+      ]
+    },
+    "28166": {
+      "skill": 28166,
+      "name": "Increased Ritual Splinters",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "Ritual Splinters offered at Ritual Altars in your Maps have 10% increased Stack Size"
+      ],
+      "group": 16,
+      "orbit": 2,
+      "orbitIndex": 6,
+      "out": [
+        "41753"
+      ],
+      "in": [
+        "1238"
+      ]
+    },
+    "1238": {
+      "skill": 1238,
+      "name": "Increased Ritual Splinters",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "Ritual Splinters offered at Ritual Altars in your Maps have 10% increased Stack Size"
+      ],
+      "group": 16,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "28166"
+      ],
+      "in": [
+        "8235"
+      ]
+    },
+    "46891": {
+      "skill": 46891,
+      "name": "Searing Exarch Influence Pack Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFireNode.png",
+      "stats": [
+        "Monster Packs Influenced by The Searing Exarch in your Maps have 5% increased Pack Size"
+      ],
+      "group": 17,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "58236"
+      ],
+      "in": [
+        "37197"
+      ]
+    },
+    "58236": {
+      "skill": 58236,
+      "name": "Searing Exarch Influence Pack Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFireNode.png",
+      "stats": [
+        "Monster Packs Influenced by The Searing Exarch in your Maps have 5% increased Pack Size"
+      ],
+      "group": 17,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "48336"
+      ],
+      "in": [
+        "31498",
+        "46891"
+      ]
+    },
+    "56397": {
+      "skill": 56397,
+      "name": "Searing Exarch Influence Pack Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFireNode.png",
+      "stats": [
+        "Monster Packs Influenced by The Searing Exarch in your Maps have 5% increased Pack Size"
+      ],
+      "group": 17,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "37197",
+        "37260"
+      ],
+      "in": []
+    },
+    "37260": {
+      "skill": 37260,
+      "name": "Searing Exarch Influence Pack Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFireNode.png",
+      "stats": [
+        "Monster Packs Influenced by The Searing Exarch in your Maps have 5% increased Pack Size"
+      ],
+      "group": 17,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "5338",
+        "48336"
+      ],
+      "in": [
+        "56397"
+      ]
+    },
+    "37197": {
+      "skill": 37197,
+      "name": "Word of the Exarch",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png",
+      "isNotable": true,
+      "stats": [
+        "Eldritch Embers found in your Maps influenced by The Searing Exarch have 10% chance to be Duplicated",
+        "Monster Packs Influenced by The Searing Exarch in your Maps have 2% chance to contain an additional Possessing Flame Wraith"
+      ],
+      "group": 17,
+      "orbit": 3,
+      "orbitIndex": 1,
+      "out": [
+        "46891"
+      ],
+      "in": [
+        "56397"
+      ]
+    },
+    "48336": {
+      "skill": 48336,
+      "name": "Wrath of the Cosmos",
+      "icon": "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png",
+      "isKeystone": true,
+      "stats": [
+        "Eldritch Altars Influenced by The Searing Exarch have 50% chance to have an additional Upside",
+        "Eldritch Altars Influenced by The Searing Exarch which have an additional Upside have 100% increased Effect of Downsides"
+      ],
+      "flavourText": [
+        "A fiery dawn illumines the horizon, and it becomes apparent that all that glitters is not gold..."
+      ],
+      "group": 17,
+      "orbit": 3,
+      "orbitIndex": 9,
+      "out": [],
+      "in": [
+        "58236",
+        "37260"
+      ]
+    },
+    "54192": {
+      "skill": 54192,
+      "name": "The Searing Exarch",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryCleansingFire.png",
       "isMastery": true,
       "stats": [],
-      "group": 14,
+      "group": 17,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -4581,7 +4985,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Slaying Enemies in your Maps has a 15% increased chance to spawn a Beyond Portal"
       ],
-      "group": 15,
+      "group": 18,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -4598,7 +5002,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Slaying Enemies in your Maps has a 15% increased chance to spawn a Beyond Portal"
       ],
-      "group": 15,
+      "group": 18,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -4619,7 +5023,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Merging Radius is the distance at which Beyond Portals can merge with one another to spawn Beyond Demons)"
       ],
-      "group": 15,
+      "group": 18,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -4639,7 +5043,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Merging Radius is the distance at which Beyond Portals can merge with one another to spawn Beyond Demons)"
       ],
-      "group": 15,
+      "group": 18,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -4657,7 +5061,10 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Beyond Portals in your Maps have 30% increased chance to spawn a Unique Boss"
       ],
-      "group": 15,
+      "reminderText": [
+        "(Beyond Portals and Demons stop spawning after a Unique Beyond Boss is spawned)"
+      ],
+      "group": 18,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -4673,7 +5080,95 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBeyond.png",
       "isMastery": true,
       "stats": [],
-      "group": 15,
+      "group": 18,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "186": {
+      "skill": 186,
+      "name": "Beyond Portal Merging Radius",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "Beyond Portals in your Maps have 8% increased Merging Radius"
+      ],
+      "reminderText": [
+        "(Merging Radius is the distance at which Beyond Portals can merge with one another to spawn Beyond Demons)"
+      ],
+      "group": 19,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "10631"
+      ],
+      "in": [
+        "53540"
+      ]
+    },
+    "32676": {
+      "skill": 32676,
+      "name": "Beyond Portal Merging Radius",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "Beyond Portals in your Maps have 8% increased Merging Radius"
+      ],
+      "reminderText": [
+        "(Merging Radius is the distance at which Beyond Portals can merge with one another to spawn Beyond Demons)"
+      ],
+      "group": 19,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "4272"
+      ],
+      "in": [
+        "10631"
+      ]
+    },
+    "10631": {
+      "skill": 10631,
+      "name": "Beyond Portal Merging Radius",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "Beyond Portals in your Maps have 8% increased Merging Radius"
+      ],
+      "reminderText": [
+        "(Merging Radius is the distance at which Beyond Portals can merge with one another to spawn Beyond Demons)"
+      ],
+      "group": 19,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "32676"
+      ],
+      "in": [
+        "186"
+      ]
+    },
+    "4272": {
+      "skill": 4272,
+      "name": "Fiendish Opulence",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png",
+      "isNotable": true,
+      "stats": [
+        "25% increased Quantity of Tainted Currency dropped by Beyond Demons in your Maps"
+      ],
+      "group": 19,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "32676"
+      ]
+    },
+    "26913": {
+      "skill": 26913,
+      "name": "Beyond",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBeyond.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 19,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -4686,7 +5181,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps that contain capturable Beasts contain 1 additional Yellow Beast"
       ],
-      "group": 16,
+      "group": 20,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -4703,7 +5198,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps that contain capturable Beasts contain 1 additional Yellow Beast"
       ],
-      "group": 16,
+      "group": 20,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -4720,7 +5215,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Einhar Mission on Completion"
       ],
-      "group": 16,
+      "group": 20,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
@@ -4737,7 +5232,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Einhar Mission on Completion"
       ],
-      "group": 16,
+      "group": 20,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -4756,7 +5251,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Einhar Mission on Completion"
       ],
-      "group": 16,
+      "group": 20,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [
@@ -4776,7 +5271,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Einhar deals 1000% more Damage to Unique Monsters in your Maps",
         "Einhar remains in your Maps after his Mission is Complete"
       ],
-      "group": 16,
+      "group": 20,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [],
@@ -4792,7 +5287,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Yellow Beasts in your Maps have 15% chance to be replaced with Red Beasts"
       ],
-      "group": 16,
+      "group": 20,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [],
@@ -4806,7 +5301,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBestiary.png",
       "isMastery": true,
       "stats": [],
-      "group": 16,
+      "group": 20,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -4819,7 +5314,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Searing Exarch in your Maps have 0.2% chance to drop an Item with a Searing Exarch Implicit Modifier"
       ],
-      "group": 17,
+      "group": 21,
       "orbit": 5,
       "orbitIndex": 40,
       "out": [
@@ -4836,7 +5331,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Searing Exarch in your Maps have 0.2% chance to drop an Item with a Searing Exarch Implicit Modifier"
       ],
-      "group": 17,
+      "group": 21,
       "orbit": 5,
       "orbitIndex": 32,
       "out": [
@@ -4853,7 +5348,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Searing Exarch in your Maps have 0.2% chance to drop an Item with a Searing Exarch Implicit Modifier"
       ],
-      "group": 17,
+      "group": 21,
       "orbit": 5,
       "orbitIndex": 44,
       "out": [
@@ -4869,7 +5364,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Searing Exarch in your Maps have 0.2% chance to drop an Item with a Searing Exarch Implicit Modifier"
       ],
-      "group": 17,
+      "group": 21,
       "orbit": 5,
       "orbitIndex": 36,
       "out": [],
@@ -4886,7 +5381,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Searing Exarch in your Maps have 0.2% chance to drop an Item with a Searing Exarch Implicit Modifier"
       ],
-      "group": 17,
+      "group": 21,
       "orbit": 5,
       "orbitIndex": 28,
       "out": [
@@ -4902,7 +5397,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 18,
+      "group": 22,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -4912,127 +5407,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "in": [
         "16780"
       ]
-    },
-    "46891": {
-      "skill": 46891,
-      "name": "Searing Exarch Influence Pack Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFireNode.png",
-      "stats": [
-        "Monster Packs Influenced by The Searing Exarch in your Maps have 5% increased Pack Size"
-      ],
-      "group": 19,
-      "orbit": 2,
-      "orbitIndex": 15,
-      "out": [
-        "58236"
-      ],
-      "in": [
-        "37197"
-      ]
-    },
-    "58236": {
-      "skill": 58236,
-      "name": "Searing Exarch Influence Pack Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFireNode.png",
-      "stats": [
-        "Monster Packs Influenced by The Searing Exarch in your Maps have 5% increased Pack Size"
-      ],
-      "group": 19,
-      "orbit": 2,
-      "orbitIndex": 12,
-      "out": [
-        "48336"
-      ],
-      "in": [
-        "31498",
-        "46891"
-      ]
-    },
-    "56397": {
-      "skill": 56397,
-      "name": "Searing Exarch Influence Pack Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFireNode.png",
-      "stats": [
-        "Monster Packs Influenced by The Searing Exarch in your Maps have 5% increased Pack Size"
-      ],
-      "group": 19,
-      "orbit": 2,
-      "orbitIndex": 1,
-      "out": [
-        "37197",
-        "37260"
-      ],
-      "in": []
-    },
-    "37260": {
-      "skill": 37260,
-      "name": "Searing Exarch Influence Pack Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFireNode.png",
-      "stats": [
-        "Monster Packs Influenced by The Searing Exarch in your Maps have 5% increased Pack Size"
-      ],
-      "group": 19,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [
-        "5338",
-        "48336"
-      ],
-      "in": [
-        "56397"
-      ]
-    },
-    "37197": {
-      "skill": 37197,
-      "name": "Word of the Exarch",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png",
-      "isNotable": true,
-      "stats": [
-        "Eldritch Embers found in your Maps influenced by The Searing Exarch have 10% chance to be Duplicated",
-        "Monster Packs Influenced by The Searing Exarch in your Maps have 2% chance to contain an additional Possessing Flame Wraith"
-      ],
-      "group": 19,
-      "orbit": 3,
-      "orbitIndex": 0,
-      "out": [
-        "46891"
-      ],
-      "in": [
-        "56397"
-      ]
-    },
-    "48336": {
-      "skill": 48336,
-      "name": "Wrath of the Cosmos",
-      "icon": "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png",
-      "isKeystone": true,
-      "stats": [
-        "Eldritch Altars Influenced by The Searing Exarch have 50% chance to have an additional Upside",
-        "Eldritch Altars Influenced by The Searing Exarch which have an additional Upside have 100% increased Effect of Downsides"
-      ],
-      "flavourText": [
-        "A fiery dawn illumines the horizon, and it becomes apparent that all that glitters is not gold..."
-      ],
-      "group": 19,
-      "orbit": 3,
-      "orbitIndex": 8,
-      "out": [],
-      "in": [
-        "58236",
-        "37260"
-      ]
-    },
-    "54192": {
-      "skill": 54192,
-      "name": "The Searing Exarch",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryCleansingFire.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 19,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
     },
     "36777": {
       "skill": 36777,
@@ -5046,7 +5420,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "Constellations are systematically incinerated in the wake of an ever-expanding archive of minds."
       ],
-      "group": 20,
+      "group": 23,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -5062,7 +5436,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Searing Exarch in your Maps have 0.2% chance to drop an Item with a Searing Exarch Implicit Modifier"
       ],
-      "group": 21,
+      "group": 24,
       "orbit": 5,
       "orbitIndex": 64,
       "out": [],
@@ -5078,7 +5452,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Searing Exarch in your Maps have 0.2% chance to drop an Item with a Searing Exarch Implicit Modifier"
       ],
-      "group": 21,
+      "group": 24,
       "orbit": 5,
       "orbitIndex": 68,
       "out": [
@@ -5094,7 +5468,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Searing Exarch in your Maps have 0.2% chance to drop an Item with a Searing Exarch Implicit Modifier"
       ],
-      "group": 21,
+      "group": 24,
       "orbit": 5,
       "orbitIndex": 4,
       "out": [
@@ -5110,7 +5484,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Searing Exarch in your Maps have 0.2% chance to drop an Item with a Searing Exarch Implicit Modifier"
       ],
-      "group": 21,
+      "group": 24,
       "orbit": 5,
       "orbitIndex": 8,
       "out": [
@@ -5126,7 +5500,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryCleansingFire.png",
       "isMastery": true,
       "stats": [],
-      "group": 22,
+      "group": 25,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -5139,7 +5513,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 23,
+      "group": 26,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -5149,138 +5523,82 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "5338"
       ]
     },
-    "14639": {
-      "skill": 14639,
-      "name": "Metamorph",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMetamorph.png",
+    "53581": {
+      "skill": 53581,
+      "name": "Imprisoned Monster Additional Essence Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png",
+      "stats": [
+        "Imprisoned Monsters in your Maps have 5% chance to have an additional Essence"
+      ],
+      "group": 27,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "34811"
+      ],
+      "in": [
+        "26310"
+      ]
+    },
+    "34811": {
+      "skill": 34811,
+      "name": "Imprisoned Monster Additional Essence Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png",
+      "stats": [
+        "Imprisoned Monsters in your Maps have 5% chance to have an additional Essence"
+      ],
+      "group": 27,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [],
+      "in": [
+        "53581",
+        "52648"
+      ]
+    },
+    "52648": {
+      "skill": 52648,
+      "name": "Imprisoned Monster Additional Essence Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png",
+      "stats": [
+        "Imprisoned Monsters in your Maps have 5% chance to have an additional Essence"
+      ],
+      "group": 27,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "34811",
+        "64218"
+      ],
+      "in": []
+    },
+    "26310": {
+      "skill": 26310,
+      "name": "Crystal Lattice",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png",
+      "isNotable": true,
+      "stats": [
+        "Imprisoned Monsters in your Maps have 15% chance to have 3 additional Essences"
+      ],
+      "group": 27,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "53581"
+      ],
+      "in": []
+    },
+    "56946": {
+      "skill": 56946,
+      "name": "Essence",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryEssence.png",
       "isMastery": true,
       "stats": [],
-      "group": 24,
+      "group": 27,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
-    },
-    "40700": {
-      "skill": 40700,
-      "name": "Unethical Experiments",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png",
-      "isNotable": true,
-      "stats": [
-        "Metamorphs in your Maps grant 1000% increased Experience per 10% of Vat Filled",
-        "Metamorphs in your Maps have 0.5% chance to drop an additional Metamorph Scarab for each 10% of Vat Filled"
-      ],
-      "group": 24,
-      "orbit": 3,
-      "orbitIndex": 5,
-      "out": [],
-      "in": [
-        "58698"
-      ]
-    },
-    "57784": {
-      "skill": 57784,
-      "name": "Wealth of Knowledge",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png",
-      "isNotable": true,
-      "stats": [
-        "Metamorphs in your Maps have a random Modifier to Dropped Items",
-        "250% increased Quantity of Items Dropped by Metamorphs in your Maps for each Monster Modifier on them",
-        "1000% increased Rarity of Items Dropped by Metamorphs in your Maps for each Monster Modifier on them"
-      ],
-      "group": 24,
-      "orbit": 3,
-      "orbitIndex": 8,
-      "out": [],
-      "in": [
-        "22004"
-      ]
-    },
-    "13900": {
-      "skill": 13900,
-      "name": "Metamorph Target Rarity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
-      "stats": [
-        "Monsters in your Maps that drop Metamorph Organs have 10% chance to upgrade their Rarity"
-      ],
-      "group": 24,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "22004"
-      ],
-      "in": [
-        "16938"
-      ]
-    },
-    "22004": {
-      "skill": 22004,
-      "name": "Metamorph Target Rarity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
-      "stats": [
-        "Monsters in your Maps that drop Metamorph Organs have 10% chance to upgrade their Rarity"
-      ],
-      "group": 24,
-      "orbit": 2,
-      "orbitIndex": 10,
-      "out": [
-        "57784"
-      ],
-      "in": [
-        "13900"
-      ]
-    },
-    "18387": {
-      "skill": 18387,
-      "name": "Metamorph Vat Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
-      "stats": [
-        "Metamorph Vat Meters in your Maps require 10% reduced Power to fill"
-      ],
-      "group": 24,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "58698"
-      ],
-      "in": [
-        "16938"
-      ]
-    },
-    "58698": {
-      "skill": 58698,
-      "name": "Metamorph Vat Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
-      "stats": [
-        "Metamorph Vat Meters in your Maps require 10% reduced Power to fill"
-      ],
-      "group": 24,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [
-        "40700"
-      ],
-      "in": [
-        "18387"
-      ]
-    },
-    "16938": {
-      "skill": 16938,
-      "name": "Metamorph Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain a Metamorph Encounter"
-      ],
-      "group": 24,
-      "orbit": 3,
-      "orbitIndex": 15,
-      "out": [
-        "13900",
-        "18387"
-      ],
-      "in": [
-        "41425"
-      ]
     },
     "51296": {
       "skill": 51296,
@@ -5289,7 +5607,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Kirac Mission on Completion"
       ],
-      "group": 25,
+      "group": 28,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -5305,7 +5623,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Kirac Mission on Completion"
       ],
-      "group": 25,
+      "group": 28,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -5322,7 +5640,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Kirac Mission on Completion"
       ],
-      "group": 25,
+      "group": 28,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -5344,7 +5662,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Comprehensive Scouting Reports reroll all of Kirac's Atlas Missions, adding additional mission options that can include new outcomes)"
       ],
-      "group": 25,
+      "group": 28,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [],
@@ -5358,7 +5676,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryKirac.png",
       "isMastery": true,
       "stats": [],
-      "group": 25,
+      "group": 28,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -5372,92 +5690,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "50% chance to spawn a Searing Exarch Altar when the Influence of The Searing Exarch first appears in your Maps"
       ],
-      "group": 26,
+      "group": 29,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": [
         "53603",
         "57451"
-      ]
-    },
-    "36986": {
-      "skill": 36986,
-      "name": "Ritual",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryRitual.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 27,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "37170": {
-      "skill": 37170,
-      "name": "Ritual Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Your Maps have +5% chance to contain Ritual Altars"
-      ],
-      "group": 27,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "21051"
-      ],
-      "in": [
-        "35217"
-      ]
-    },
-    "21051": {
-      "skill": 21051,
-      "name": "Ritual Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Your Maps have +5% chance to contain Ritual Altars"
-      ],
-      "group": 27,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "59436"
-      ],
-      "in": [
-        "37170"
-      ]
-    },
-    "59436": {
-      "skill": 59436,
-      "name": "Ritual Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Your Maps have +5% chance to contain Ritual Altars"
-      ],
-      "group": 27,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "16908"
-      ],
-      "in": [
-        "21051"
-      ]
-    },
-    "16908": {
-      "skill": 16908,
-      "name": "Sacred Lands",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png",
-      "isNotable": true,
-      "stats": [
-        "Your Maps have +15% chance to contain Ritual Altars"
-      ],
-      "group": 27,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [],
-      "in": [
-        "59436"
       ]
     },
     "28736": {
@@ -5467,7 +5706,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Fog in your Maps lasts 3 additional seconds before dissipating"
       ],
-      "group": 28,
+      "group": 30,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -5484,7 +5723,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Fog in your Maps lasts 3 additional seconds before dissipating"
       ],
-      "group": 28,
+      "group": 30,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [
@@ -5501,14 +5740,15 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Fog in your Maps dissipates 8% slower"
       ],
-      "group": 28,
+      "group": 30,
       "orbit": 3,
       "orbitIndex": 11,
-      "out": [],
+      "out": [
+        "44043"
+      ],
       "in": [
         "41694",
-        "35138",
-        "9455"
+        "35138"
       ]
     },
     "15324": {
@@ -5519,7 +5759,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium in your Maps increases 50% faster with distance from the mirror"
       ],
-      "group": 28,
+      "group": 30,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -5538,7 +5778,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Delirium Fog in your Maps dissipates 25% slower",
         "Delirium Fog in your Maps lasts 10 additional seconds before dissipating"
       ],
-      "group": 28,
+      "group": 30,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [],
@@ -5554,11 +5794,11 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium in your Maps increases 10% faster with distance from the mirror"
       ],
-      "group": 28,
+      "group": 30,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
-        "9455"
+        "44043"
       ],
       "in": [
         "21467",
@@ -5572,7 +5812,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium in your Maps increases 10% faster with distance from the mirror"
       ],
-      "group": 28,
+      "group": 30,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -5588,7 +5828,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Fog in your Maps dissipates 8% slower"
       ],
-      "group": 28,
+      "group": 30,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -5597,21 +5837,25 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       ],
       "in": []
     },
-    "9455": {
-      "skill": 9455,
-      "name": "Delirium Difficulty and Persistence",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
+    "44043": {
+      "skill": 44043,
+      "name": "Unending Nightmare",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/UnendingNightmare.png",
+      "isKeystone": true,
       "stats": [
-        "Delirium in your Maps increases 5% faster with distance from the mirror",
-        "Delirium Fog in your Maps dissipates 4% slower"
+        "Delirium Fog in your Maps never dissipates",
+        "Delirium Orbs cannot be found in your Maps",
+        "Simulacrum Splinters cannot be found in your Maps"
       ],
-      "group": 28,
+      "flavourText": [
+        "What if it's all just in your head?"
+      ],
+      "group": 30,
       "orbit": 3,
       "orbitIndex": 8,
-      "out": [
-        "52171"
-      ],
+      "out": [],
       "in": [
+        "52171",
         "49607"
       ]
     },
@@ -5621,7 +5865,137 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelirium.png",
       "isMastery": true,
       "stats": [],
-      "group": 28,
+      "group": 30,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "13088": {
+      "skill": 13088,
+      "name": "Incursion Mission Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
+      "stats": [
+        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
+      ],
+      "group": 31,
+      "orbit": 3,
+      "orbitIndex": 3,
+      "out": [
+        "22806"
+      ],
+      "in": [
+        "4316",
+        "51123"
+      ]
+    },
+    "63521": {
+      "skill": 63521,
+      "name": "Incursion Mission Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
+      "stats": [
+        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
+      ],
+      "group": 31,
+      "orbit": 3,
+      "orbitIndex": 13,
+      "out": [
+        "41694",
+        "43701",
+        "4316"
+      ],
+      "in": []
+    },
+    "37552": {
+      "skill": 37552,
+      "name": "Incursion Item Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
+      "stats": [
+        "5% increased Quantity of Items dropped in Incursions in your Maps"
+      ],
+      "group": 31,
+      "orbit": 3,
+      "orbitIndex": 11,
+      "out": [
+        "26802"
+      ],
+      "in": [
+        "43701"
+      ]
+    },
+    "43701": {
+      "skill": 43701,
+      "name": "Incursion Item Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
+      "stats": [
+        "5% increased Quantity of Items dropped in Incursions in your Maps"
+      ],
+      "group": 31,
+      "orbit": 3,
+      "orbitIndex": 12,
+      "out": [
+        "37552"
+      ],
+      "in": [
+        "63521"
+      ]
+    },
+    "22806": {
+      "skill": 22806,
+      "name": "Vaal Oligarchs",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png",
+      "isNotable": true,
+      "stats": [
+        "Incursions in your Maps contain a Vaal Flesh Merchant"
+      ],
+      "group": 31,
+      "orbit": 3,
+      "orbitIndex": 4,
+      "out": [],
+      "in": [
+        "13088"
+      ]
+    },
+    "26802": {
+      "skill": 26802,
+      "name": "Artefacts of the Vaal",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode2.png",
+      "isNotable": true,
+      "stats": [
+        "Your Maps with Incursions always have four Incursions"
+      ],
+      "group": 31,
+      "orbit": 3,
+      "orbitIndex": 9,
+      "out": [],
+      "in": [
+        "37552"
+      ]
+    },
+    "4316": {
+      "skill": 4316,
+      "name": "Incursion Mission Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
+      "stats": [
+        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
+      ],
+      "group": 31,
+      "orbit": 3,
+      "orbitIndex": 0,
+      "out": [
+        "13088"
+      ],
+      "in": [
+        "63521"
+      ]
+    },
+    "53570": {
+      "skill": 53570,
+      "name": "Incursion",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAlva.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 31,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -5634,7 +6008,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Einhar Mission on Completion"
       ],
-      "group": 29,
+      "group": 32,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [],
@@ -5650,7 +6024,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Einhar Mission on Completion"
       ],
-      "group": 29,
+      "group": 32,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -5669,7 +6043,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps with Einhar Missions have 8% chance to contain additional Packs of Beasts instead of other Monsters"
       ],
-      "group": 29,
+      "group": 32,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -5686,7 +6060,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Einhar Mission on Completion"
       ],
-      "group": 29,
+      "group": 32,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -5703,7 +6077,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Red Beasts in your Maps have 4% chance to appear in Pairs"
       ],
-      "group": 29,
+      "group": 32,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -5720,7 +6094,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Red Beasts in your Maps have 4% chance to appear in Pairs"
       ],
-      "group": 29,
+      "group": 32,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -5736,7 +6110,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBestiary.png",
       "isMastery": true,
       "stats": [],
-      "group": 29,
+      "group": 32,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -5749,12 +6123,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 30,
+      "group": 33,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "27852",
-        "36820"
+        "36820",
+        "34793"
       ],
       "in": [
         "2929",
@@ -5768,7 +6143,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Encounters in your Maps have 4% chance to generate an additional Reward type"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 4,
       "orbitIndex": 26,
       "out": [
@@ -5785,7 +6160,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Encounters in your Maps are 16% more likely to spawn Unique Bosses"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 4,
       "orbitIndex": 14,
       "out": [
@@ -5802,7 +6177,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Mirror of Delirium"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [],
@@ -5818,7 +6193,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Mirror of Delirium"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -5835,7 +6210,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Maps found in your Maps have 1% chance to have layers of Delirium"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -5853,7 +6228,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Maps found in your Maps have 3% chance to have layers of Delirium"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -5869,7 +6244,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Delirium Encounters in your Maps are 8% more likely to spawn Unique Bosses",
         "Delirium Encounters in your Maps have 2% chance to generate an additional Reward type"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -5886,7 +6261,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Mirror of Delirium"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -5902,7 +6277,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Encounters in your Maps have 4% chance to generate an additional Reward type"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 4,
       "orbitIndex": 23,
       "out": [
@@ -5919,7 +6294,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Encounters in your Maps have 4% chance to generate an additional Reward type"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 4,
       "orbitIndex": 28,
       "out": [
@@ -5937,7 +6312,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Encounters in your Maps have 8% chance to generate three additional Reward types"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 4,
       "orbitIndex": 30,
       "out": [],
@@ -5952,7 +6327,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Encounters in your Maps are 16% more likely to spawn Unique Bosses"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 4,
       "orbitIndex": 12,
       "out": [
@@ -5968,7 +6343,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Delirium Encounters in your Maps are 16% more likely to spawn Unique Bosses"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 4,
       "orbitIndex": 17,
       "out": [],
@@ -5987,7 +6362,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Delirium Bosses in your Maps drop 50% increased Simulacrum Splinters",
         "Delirium Bosses in your Maps have 50% increased chance to drop Unique Cluster Jewels"
       ],
-      "group": 31,
+      "group": 34,
       "orbit": 4,
       "orbitIndex": 10,
       "out": [],
@@ -6001,7 +6376,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelirium.png",
       "isMastery": true,
       "stats": [],
-      "group": 31,
+      "group": 34,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -6014,7 +6389,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 32,
+      "group": 35,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -6028,13 +6403,112 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "7771"
       ]
     },
+    "36986": {
+      "skill": 36986,
+      "name": "Ritual",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryRitual.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 36,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "37170": {
+      "skill": 37170,
+      "name": "Ritual Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "Your Maps have +5% chance to contain Ritual Altars"
+      ],
+      "group": 36,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "21051"
+      ],
+      "in": [
+        "35217"
+      ]
+    },
+    "21051": {
+      "skill": 21051,
+      "name": "Ritual Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "Your Maps have +5% chance to contain Ritual Altars"
+      ],
+      "group": 36,
+      "orbit": 2,
+      "orbitIndex": 4,
+      "out": [
+        "59436"
+      ],
+      "in": [
+        "37170"
+      ]
+    },
+    "59436": {
+      "skill": 59436,
+      "name": "Ritual Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "Your Maps have +5% chance to contain Ritual Altars"
+      ],
+      "group": 36,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "16908"
+      ],
+      "in": [
+        "21051"
+      ]
+    },
+    "16908": {
+      "skill": 16908,
+      "name": "Sacred Lands",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png",
+      "isNotable": true,
+      "stats": [
+        "Your Maps have +15% chance to contain Ritual Altars"
+      ],
+      "group": 36,
+      "orbit": 2,
+      "orbitIndex": 12,
+      "out": [],
+      "in": [
+        "59436"
+      ]
+    },
+    "35217": {
+      "skill": 35217,
+      "name": "Adjacent Map Drop Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
+      "stats": [
+        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
+      ],
+      "group": 37,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "37170"
+      ],
+      "in": [
+        "1683",
+        "51296",
+        "22085",
+        "32029"
+      ]
+    },
     "43728": {
       "skill": 43728,
       "name": "Ritual",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryRitual.png",
       "isMastery": true,
       "stats": [],
-      "group": 33,
+      "group": 38,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -6047,7 +6521,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +5% chance to contain Ritual Altars"
       ],
-      "group": 33,
+      "group": 38,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -6065,7 +6539,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Favours Rerolled at Ritual Altars in your Maps have 0.5% chance to cost no Tribute"
       ],
-      "group": 33,
+      "group": 38,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [],
@@ -6081,7 +6555,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Rerolling Favours at Ritual Altars in your Maps costs 6% reduced Tribute"
       ],
-      "group": 33,
+      "group": 38,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -6099,9 +6573,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Ritual Altars in your Maps allow rerolling Favours 2 additional times"
       ],
-      "group": 33,
+      "group": 38,
       "orbit": 4,
-      "orbitIndex": 23,
+      "orbitIndex": 29,
       "out": [],
       "in": [
         "13917"
@@ -6114,9 +6588,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Favours Rerolled at Ritual Altars in your Maps have 0.5% chance to cost no Tribute"
       ],
-      "group": 33,
-      "orbit": 2,
-      "orbitIndex": 11,
+      "group": 38,
+      "orbit": 3,
+      "orbitIndex": 12,
       "out": [
         "28752",
         "54829",
@@ -6131,9 +6605,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Rerolling Favours at Ritual Altars in your Maps costs 6% reduced Tribute"
       ],
-      "group": 33,
-      "orbit": 2,
-      "orbitIndex": 5,
+      "group": 38,
+      "orbit": 3,
+      "orbitIndex": 4,
       "out": [
         "47178",
         "48067",
@@ -6149,9 +6623,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Rerolling Favours at Ritual Altars in your Maps costs 18% reduced Tribute"
       ],
-      "group": 33,
+      "group": 38,
       "orbit": 4,
-      "orbitIndex": 17,
+      "orbitIndex": 11,
       "out": [],
       "in": [
         "57969"
@@ -6165,164 +6639,37 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Favours Rerolled at Ritual Altars in your Maps have 0.25% chance to cost no Tribute",
         "Rerolling Favours at Ritual Altars in your Maps costs 3% reduced Tribute"
       ],
-      "group": 33,
+      "group": 38,
       "orbit": 2,
       "orbitIndex": 8,
-      "out": [],
+      "out": [
+        "1733"
+      ],
       "in": [
         "13917",
         "57969"
       ]
     },
-    "35217": {
-      "skill": 35217,
-      "name": "Adjacent Map Drop Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
+    "1733": {
+      "skill": 1733,
+      "name": "Arbitrary Tenets",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ArbitraryTenets.png",
+      "isKeystone": true,
       "stats": [
-        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
+        "Favours at Ritual Altars in your Maps randomly cost between 90% less and 80% more"
       ],
-      "group": 34,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [
-        "37170"
+      "flavourText": [
+        "They are unforgivable sinners and fools...",
+        "We pray each Sacrato. They pray each Kaso.",
+        "They are absolutely mad!"
       ],
-      "in": [
-        "1683",
-        "51296",
-        "22085",
-        "32029"
-      ]
-    },
-    "13088": {
-      "skill": 13088,
-      "name": "Incursion Mission Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
-      "stats": [
-        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
-      ],
-      "group": 35,
-      "orbit": 3,
-      "orbitIndex": 3,
-      "out": [
-        "22806"
-      ],
-      "in": [
-        "4316",
-        "51123"
-      ]
-    },
-    "63521": {
-      "skill": 63521,
-      "name": "Incursion Mission Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
-      "stats": [
-        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
-      ],
-      "group": 35,
-      "orbit": 3,
-      "orbitIndex": 13,
-      "out": [
-        "41694",
-        "43701",
-        "4316"
-      ],
-      "in": []
-    },
-    "37552": {
-      "skill": 37552,
-      "name": "Incursion Item Quantity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
-      "stats": [
-        "5% increased Quantity of Items dropped in Incursions in your Maps"
-      ],
-      "group": 35,
-      "orbit": 3,
-      "orbitIndex": 11,
-      "out": [
-        "26802"
-      ],
-      "in": [
-        "43701"
-      ]
-    },
-    "43701": {
-      "skill": 43701,
-      "name": "Incursion Item Quantity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
-      "stats": [
-        "5% increased Quantity of Items dropped in Incursions in your Maps"
-      ],
-      "group": 35,
-      "orbit": 3,
-      "orbitIndex": 12,
-      "out": [
-        "37552"
-      ],
-      "in": [
-        "63521"
-      ]
-    },
-    "22806": {
-      "skill": 22806,
-      "name": "Vaal Oligarchs",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png",
-      "isNotable": true,
-      "stats": [
-        "Incursions in your Maps contain a Vaal Flesh Merchant"
-      ],
-      "group": 35,
-      "orbit": 3,
-      "orbitIndex": 4,
-      "out": [],
-      "in": [
-        "13088"
-      ]
-    },
-    "26802": {
-      "skill": 26802,
-      "name": "Artefacts of the Vaal",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode2.png",
-      "isNotable": true,
-      "stats": [
-        "Your Maps with Incursions always have four Incursions"
-      ],
-      "group": 35,
-      "orbit": 3,
-      "orbitIndex": 9,
-      "out": [],
-      "in": [
-        "37552"
-      ]
-    },
-    "4316": {
-      "skill": 4316,
-      "name": "Incursion Mission Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode.png",
-      "stats": [
-        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
-      ],
-      "group": 35,
-      "orbit": 3,
-      "orbitIndex": 0,
-      "out": [
-        "13088"
-      ],
-      "in": [
-        "63521"
-      ]
-    },
-    "53570": {
-      "skill": 53570,
-      "name": "Incursion",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAlva.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 35,
+      "group": 39,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
-      "in": []
+      "in": [
+        "41003"
+      ]
     },
     "51133": {
       "skill": 51133,
@@ -6331,7 +6678,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 36,
+      "group": 40,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -6341,6 +6688,141 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "in": [
         "45563"
       ]
+    },
+    "25892": {
+      "skill": 25892,
+      "name": "Swarming Hive",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss1.png",
+      "isNotable": true,
+      "stats": [
+        "Beyond Demons in your Maps have 100% increased chance to be followers of K'tash",
+        "30% more Divination Cards found from Beyond Demons in your Maps\nthat are followers of K'Tash"
+      ],
+      "group": 41,
+      "orbit": 3,
+      "orbitIndex": 1,
+      "out": [],
+      "in": [
+        "50745"
+      ]
+    },
+    "37533": {
+      "skill": 37533,
+      "name": "Pale Clarion",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss2.png",
+      "isNotable": true,
+      "stats": [
+        "Beyond Demons in your Maps have 100% increased chance to be followers of Beidat",
+        "30% more Basic Currency Items found from Beyond Demons in your Maps\nthat are followers of Beidat"
+      ],
+      "reminderText": [
+        "(Basic Currency includes any currency that drops from non-league content)"
+      ],
+      "group": 41,
+      "orbit": 4,
+      "orbitIndex": 37,
+      "out": [],
+      "in": [
+        "43694"
+      ]
+    },
+    "25151": {
+      "skill": 25151,
+      "name": "Voracious Throng",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss3.png",
+      "isNotable": true,
+      "stats": [
+        "Beyond Demons in your Maps have 100% increased chance to be followers of Ghorr",
+        "30% more Unique Items found from Beyond Demons in your Maps\nthat are followers of Ghorr"
+      ],
+      "group": 41,
+      "orbit": 3,
+      "orbitIndex": 12,
+      "out": [],
+      "in": [
+        "42344"
+      ]
+    },
+    "42344": {
+      "skill": 42344,
+      "name": "Beyond Demon Item Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "5% increased Quantity of Items dropped by Beyond Demons in your Maps"
+      ],
+      "group": 41,
+      "orbit": 3,
+      "orbitIndex": 8,
+      "out": [
+        "25151"
+      ],
+      "in": [
+        "8020"
+      ]
+    },
+    "43694": {
+      "skill": 43694,
+      "name": "Beyond Demon Item Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "5% increased Quantity of Items dropped by Beyond Demons in your Maps"
+      ],
+      "group": 41,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "37533"
+      ],
+      "in": [
+        "8020"
+      ]
+    },
+    "50745": {
+      "skill": 50745,
+      "name": "Beyond Demon Item Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "5% increased Quantity of Items dropped by Beyond Demons in your Maps"
+      ],
+      "group": 41,
+      "orbit": 3,
+      "orbitIndex": 5,
+      "out": [
+        "25892"
+      ],
+      "in": [
+        "8020"
+      ]
+    },
+    "8020": {
+      "skill": 8020,
+      "name": "Beyond Demon Item Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNode1.png",
+      "stats": [
+        "5% increased Quantity of Items dropped by Beyond Demons in your Maps"
+      ],
+      "group": 41,
+      "orbit": 2,
+      "orbitIndex": 7,
+      "out": [
+        "43694",
+        "42344",
+        "50745",
+        "36820"
+      ],
+      "in": []
+    },
+    "43020": {
+      "skill": 43020,
+      "name": "Beyond",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBeyond.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 41,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
     },
     "34389": {
       "skill": 34389,
@@ -6353,13 +6835,110 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "The landscape twists before your eyes, morphing into realms of unspeakable horror."
       ],
-      "group": 37,
+      "group": 42,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": [
         "51133"
       ]
+    },
+    "34456": {
+      "skill": 34456,
+      "name": "Blight Boss Additional Reward",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNode1.png",
+      "stats": [
+        "Blight Bosses in your Maps have 25% chance to add an additional Reward"
+      ],
+      "group": 43,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "61771"
+      ],
+      "in": [
+        "2524"
+      ]
+    },
+    "34793": {
+      "skill": 34793,
+      "name": "Blight Boss Additional Reward",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNode1.png",
+      "stats": [
+        "Blight Bosses in your Maps have 25% chance to add an additional Reward"
+      ],
+      "group": 43,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "2524"
+      ],
+      "in": [
+        "18383"
+      ]
+    },
+    "5568": {
+      "skill": 5568,
+      "name": "Distilled Fungus",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png",
+      "isNotable": true,
+      "stats": [
+        "Blight Bosses in your Maps drop an additional Anointed Jewellery Item",
+        "Blight Encounters in your Maps contain up to 1 additional Blight Boss"
+      ],
+      "group": 43,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "61771"
+      ]
+    },
+    "2524": {
+      "skill": 2524,
+      "name": "Blight Boss Additional Reward",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNode1.png",
+      "stats": [
+        "Blight Bosses in your Maps have 25% chance to add an additional Reward"
+      ],
+      "group": 43,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "34456"
+      ],
+      "in": [
+        "34793"
+      ]
+    },
+    "61771": {
+      "skill": 61771,
+      "name": "Blight Boss Additional Reward",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNode1.png",
+      "stats": [
+        "Blight Bosses in your Maps have 25% chance to add an additional Reward"
+      ],
+      "group": 43,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "5568"
+      ],
+      "in": [
+        "34456"
+      ]
+    },
+    "43214": {
+      "skill": 43214,
+      "name": "Blight",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBlight.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 43,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
     },
     "8668": {
       "skill": 8668,
@@ -6369,7 +6948,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Huck accompanies you on opening the first Smuggler's Cache in each of your Maps"
       ],
-      "group": 38,
+      "group": 44,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [],
@@ -6384,9 +6963,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Smuggler's Cache"
       ],
-      "group": 38,
+      "group": 44,
       "orbit": 2,
-      "orbitIndex": 8,
+      "orbitIndex": 5,
       "out": [
         "11012"
       ],
@@ -6401,9 +6980,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Smuggler's Cache"
       ],
-      "group": 38,
+      "group": 44,
       "orbit": 2,
-      "orbitIndex": 11,
+      "orbitIndex": 8,
       "out": [
         "40142"
       ],
@@ -6418,9 +6997,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Smuggler's Cache"
       ],
-      "group": 38,
+      "group": 44,
       "orbit": 2,
-      "orbitIndex": 13,
+      "orbitIndex": 11,
       "out": [
         "8668"
       ],
@@ -6434,7 +7013,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHeist.png",
       "isMastery": true,
       "stats": [],
-      "group": 38,
+      "group": 44,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -6447,7 +7026,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Blight Encounter"
       ],
-      "group": 39,
+      "group": 45,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -6465,7 +7044,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Blight Encounters in your Maps spawn 8% more Non-Unique Monsters"
       ],
-      "group": 39,
+      "group": 45,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -6483,7 +7062,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Blight Encounter"
       ],
-      "group": 39,
+      "group": 45,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [],
@@ -6499,7 +7078,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Blight Encounters in your Maps spawn 8% more Non-Unique Monsters"
       ],
-      "group": 39,
+      "group": 45,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [],
@@ -6516,7 +7095,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Maps found in your Maps have 3% chance to have an 'Area contains a Blight Encounter' Enchantment Modifier"
       ],
-      "group": 39,
+      "group": 45,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [
@@ -6533,7 +7112,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Blight Encounters in your Maps spawn 4% more Non-Unique Monsters",
         "Maps found in your Maps have 1% chance to have an 'Area contains a Blight Encounter' Enchantment Modifier"
       ],
-      "group": 39,
+      "group": 45,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [
@@ -6549,7 +7128,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "20% reduced Cost of Building and Upgrading Towers"
       ],
-      "group": 39,
+      "group": 45,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -6566,7 +7145,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "20% reduced Cost of Building and Upgrading Towers"
       ],
-      "group": 39,
+      "group": 45,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -6585,7 +7164,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Blight Encounters in your Maps spawn 50% more Non-Unique Monsters",
         "Blight Monsters in your Maps spawn 100% faster"
       ],
-      "group": 39,
+      "group": 45,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -6601,7 +7180,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBlight.png",
       "isMastery": true,
       "stats": [],
-      "group": 39,
+      "group": 45,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -6621,7 +7200,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "Thought cannot exist without Memory."
       ],
-      "group": 40,
+      "group": 46,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -6631,6 +7210,69 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "2017"
       ]
     },
+    "28939": {
+      "skill": 28939,
+      "name": "Higher Map Tier Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
+      "stats": [
+        "Maps found have 5% chance to be 1 tier higher"
+      ],
+      "group": 47,
+      "orbit": 2,
+      "orbitIndex": 1,
+      "out": [
+        "65246"
+      ],
+      "in": [
+        "51123"
+      ]
+    },
+    "65246": {
+      "skill": 65246,
+      "name": "Higher Map Tier Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
+      "stats": [
+        "Maps found have 5% chance to be 1 tier higher"
+      ],
+      "group": 47,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "35608"
+      ],
+      "in": [
+        "28939"
+      ]
+    },
+    "35608": {
+      "skill": 35608,
+      "name": "Shaping the Skies",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png",
+      "isNotable": true,
+      "stats": [
+        "3% chance on Completing your Maps to gain a free use of a special Map Crafting option",
+        "Maps found have 15% chance to be 1 tier higher"
+      ],
+      "group": 47,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "65246"
+      ]
+    },
+    "56530": {
+      "skill": 56530,
+      "name": "Maps",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMap.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 47,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
     "44009": {
       "skill": 44009,
       "name": "Fungal Bloom",
@@ -6639,7 +7281,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +10% chance to contain a Blight Encounter"
       ],
-      "group": 41,
+      "group": 48,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [],
@@ -6654,7 +7296,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Blight Encounter"
       ],
-      "group": 41,
+      "group": 48,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -6671,7 +7313,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Blight Encounter"
       ],
-      "group": 41,
+      "group": 48,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -6688,7 +7330,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Blight Encounter"
       ],
-      "group": 41,
+      "group": 48,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -6704,7 +7346,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBlight.png",
       "isMastery": true,
       "stats": [],
-      "group": 41,
+      "group": 48,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -6717,7 +7359,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 42,
+      "group": 49,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -6728,101 +7370,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "13448"
       ]
     },
-    "9011": {
-      "skill": 9011,
-      "name": "Scarabs",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryScarab.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 43,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "42038": {
-      "skill": 42038,
-      "name": "Atlas Scarab Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNode1.png",
-      "stats": [
-        "Final Map Boss in each Map has 1% chance to drop an additional Scarab"
-      ],
-      "group": 43,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "27792"
-      ],
-      "in": [
-        "12875"
-      ]
-    },
-    "12875": {
-      "skill": 12875,
-      "name": "Atlas Scarab Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNode1.png",
-      "stats": [
-        "Final Map Boss in each Map has 1% chance to drop an additional Scarab"
-      ],
-      "group": 43,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "42038",
-        "31"
-      ],
-      "in": []
-    },
-    "47818": {
-      "skill": 47818,
-      "name": "Atlas Scarab Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNode1.png",
-      "stats": [
-        "Final Map Boss in each Map has 1% chance to drop an additional Scarab"
-      ],
-      "group": 43,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "36820"
-      ],
-      "in": [
-        "31"
-      ]
-    },
-    "27792": {
-      "skill": 27792,
-      "name": "Subtle Manipulations",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png",
-      "isNotable": true,
-      "stats": [
-        "Map Device has 10% chance not to consume Scarabs"
-      ],
-      "group": 43,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [],
-      "in": [
-        "42038"
-      ]
-    },
-    "31": {
-      "skill": 31,
-      "name": "Atlas Scarab Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNode1.png",
-      "stats": [
-        "Final Map Boss in each Map has 1% chance to drop an additional Scarab"
-      ],
-      "group": 43,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [
-        "47818"
-      ],
-      "in": [
-        "12875"
-      ]
-    },
     "36820": {
       "skill": 36820,
       "name": "Map Modifier Effect",
@@ -6830,7 +7377,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 44,
+      "group": 50,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -6838,105 +7385,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       ],
       "in": [
         "18383",
-        "47818",
-        "34793"
+        "8020",
+        "47818"
       ]
-    },
-    "34456": {
-      "skill": 34456,
-      "name": "Blight Boss Additional Reward",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNode1.png",
-      "stats": [
-        "Blight Bosses in your Maps have 25% chance to add an additional Reward"
-      ],
-      "group": 45,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "61771"
-      ],
-      "in": [
-        "2524"
-      ]
-    },
-    "34793": {
-      "skill": 34793,
-      "name": "Blight Boss Additional Reward",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNode1.png",
-      "stats": [
-        "Blight Bosses in your Maps have 25% chance to add an additional Reward"
-      ],
-      "group": 45,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "36820",
-        "2524"
-      ],
-      "in": []
-    },
-    "5568": {
-      "skill": 5568,
-      "name": "Distilled Fungus",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png",
-      "isNotable": true,
-      "stats": [
-        "Blight Bosses in your Maps drop an additional Anointed Jewellery Item",
-        "Blight Encounters in your Maps contain up to 1 additional Blight Boss"
-      ],
-      "group": 45,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [],
-      "in": [
-        "61771"
-      ]
-    },
-    "2524": {
-      "skill": 2524,
-      "name": "Blight Boss Additional Reward",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNode1.png",
-      "stats": [
-        "Blight Bosses in your Maps have 25% chance to add an additional Reward"
-      ],
-      "group": 45,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "34456"
-      ],
-      "in": [
-        "34793"
-      ]
-    },
-    "61771": {
-      "skill": 61771,
-      "name": "Blight Boss Additional Reward",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNode1.png",
-      "stats": [
-        "Blight Bosses in your Maps have 25% chance to add an additional Reward"
-      ],
-      "group": 45,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "5568"
-      ],
-      "in": [
-        "34456"
-      ]
-    },
-    "43214": {
-      "skill": 43214,
-      "name": "Blight",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBlight.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 45,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
     },
     "32029": {
       "skill": 32029,
@@ -6945,7 +7396,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 46,
+      "group": 51,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -6957,13 +7408,115 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "37245"
       ]
     },
+    "2989": {
+      "skill": 2989,
+      "name": "Sturdy Construction",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png",
+      "isNotable": true,
+      "stats": [
+        "Blight Monsters in your Maps take 12% increased Damage",
+        "Ichor Pumps in your Maps have 100% increased Durability"
+      ],
+      "group": 52,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "5261"
+      ]
+    },
+    "61370": {
+      "skill": 61370,
+      "name": "Blight Monster Increased Damage Taken",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable1.png",
+      "stats": [
+        "Blight Monsters in your Maps take 8% increased Damage"
+      ],
+      "group": 52,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "21453"
+      ],
+      "in": [
+        "32766"
+      ]
+    },
+    "32766": {
+      "skill": 32766,
+      "name": "Blight Monster Increased Damage Taken",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable1.png",
+      "stats": [
+        "Blight Monsters in your Maps take 8% increased Damage"
+      ],
+      "group": 52,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "5261",
+        "61370"
+      ],
+      "in": [
+        "7771"
+      ]
+    },
+    "5261": {
+      "skill": 5261,
+      "name": "Blight Monster Increased Damage Taken",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable1.png",
+      "stats": [
+        "Blight Monsters in your Maps take 8% increased Damage"
+      ],
+      "group": 52,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "2989"
+      ],
+      "in": [
+        "32766"
+      ]
+    },
+    "42505": {
+      "skill": 42505,
+      "name": "Blight",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBlight.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 52,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "29939": {
+      "skill": 29939,
+      "name": "Memento Mori",
+      "icon": "Art/2DArt/SkillIcons/passives/CortexKeystone.png",
+      "isKeystone": true,
+      "stats": [
+        "The Cortex is level 85\nVenarius' full power is unleashed in the Cortex",
+        "Venarius drops 3 additional Rare Items with 3 less common Synthesised Implicit Modifiers",
+        "100% increased effect of Additional Modifiers in the Cortex"
+      ],
+      "flavourText": [
+        "When memories become twisted by a corrupted mind, history is rewritten, time after time."
+      ],
+      "group": 53,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "121"
+      ]
+    },
     "6177": {
       "skill": 6177,
       "name": "Metamorph",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMetamorph.png",
       "isMastery": true,
       "stats": [],
-      "group": 47,
+      "group": 54,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -6976,9 +7529,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Metamorph Encounter"
       ],
-      "group": 47,
+      "group": 54,
       "orbit": 2,
-      "orbitIndex": 13,
+      "orbitIndex": 0,
       "out": [
         "62407"
       ],
@@ -6994,7 +7547,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +10% chance to contain a Metamorph Encounter"
       ],
-      "group": 47,
+      "group": 54,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [],
@@ -7009,9 +7562,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Metamorph Encounter"
       ],
-      "group": 47,
+      "group": 54,
       "orbit": 2,
-      "orbitIndex": 0,
+      "orbitIndex": 13,
       "out": [
         "6171"
       ],
@@ -7026,9 +7579,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Metamorph Encounter"
       ],
-      "group": 47,
+      "group": 54,
       "orbit": 2,
-      "orbitIndex": 11,
+      "orbitIndex": 3,
       "out": [
         "7382"
       ],
@@ -7036,85 +7589,140 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "6171"
       ]
     },
-    "2989": {
-      "skill": 2989,
-      "name": "Sturdy Construction",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png",
-      "isNotable": true,
-      "stats": [
-        "Blight Towers and their Minions in your Maps deal 20% more Damage",
-        "Ichor Pumps in your Maps have 100% increased Durability"
-      ],
-      "group": 48,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [],
-      "in": [
-        "61370"
-      ]
-    },
-    "61370": {
-      "skill": 61370,
-      "name": "Blighted Monsters Increased Damage Taken",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable1.png",
-      "stats": [
-        "Blight Monsters in your Maps take 8% increased Damage"
-      ],
-      "group": 48,
-      "orbit": 2,
-      "orbitIndex": 1,
-      "out": [
-        "2989"
-      ],
-      "in": [
-        "5261"
-      ]
-    },
-    "32766": {
-      "skill": 32766,
-      "name": "Blighted Monsters Increased Damage Taken",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable1.png",
-      "stats": [
-        "Blight Monsters in your Maps take 8% increased Damage"
-      ],
-      "group": 48,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "5261"
-      ],
-      "in": [
-        "7771"
-      ]
-    },
-    "5261": {
-      "skill": 5261,
-      "name": "Blighted Monsters Increased Damage Taken",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable1.png",
-      "stats": [
-        "Blight Monsters in your Maps take 8% increased Damage"
-      ],
-      "group": 48,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [
-        "61370"
-      ],
-      "in": [
-        "32766"
-      ]
-    },
-    "42505": {
-      "skill": 42505,
-      "name": "Blight",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBlight.png",
+    "25709": {
+      "skill": 25709,
+      "name": "Metamorph",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMetamorph.png",
       "isMastery": true,
       "stats": [],
-      "group": 48,
+      "group": 55,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
+    },
+    "27002": {
+      "skill": 27002,
+      "name": "Catalysing Fluids",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png",
+      "isNotable": true,
+      "stats": [
+        "Metamorphs have 10% chance to drop an additional Catalyst for each Magic Monster Sample used to create them",
+        "Metamorphs have 20% chance to drop an additional Catalyst for each Rare Monster Sample used to create them",
+        "Metamorphs have 50% chance to drop an additional Catalyst for each Unique Monster Sample used to create them"
+      ],
+      "group": 55,
+      "orbit": 3,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "31414"
+      ]
+    },
+    "12563": {
+      "skill": 12563,
+      "name": "Metamorph Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain a Metamorph Encounter"
+      ],
+      "group": 55,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "22695"
+      ],
+      "in": [
+        "49338"
+      ]
+    },
+    "49338": {
+      "skill": 49338,
+      "name": "Metamorph Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain a Metamorph Encounter"
+      ],
+      "group": 55,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "12563"
+      ],
+      "in": [
+        "31414",
+        "59361"
+      ]
+    },
+    "44471": {
+      "skill": 44471,
+      "name": "Metamorph Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain a Metamorph Encounter"
+      ],
+      "group": 55,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "31414",
+        "2657"
+      ],
+      "in": [
+        "5338"
+      ]
+    },
+    "22695": {
+      "skill": 22695,
+      "name": "Escaped Experiment",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png",
+      "isNotable": true,
+      "stats": [
+        "Your Maps have 40% chance to contain a rogue Metamorph"
+      ],
+      "group": 55,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "12563",
+        "2657"
+      ]
+    },
+    "31414": {
+      "skill": 31414,
+      "name": "Metamorph Catalyst Reward Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Monster Samples found in your Maps have 10% increased chance to have Catalyst Rewards"
+      ],
+      "group": 55,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "49338",
+        "27002"
+      ],
+      "in": [
+        "44471"
+      ]
+    },
+    "2657": {
+      "skill": 2657,
+      "name": "Metamorph Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain a Metamorph Encounter"
+      ],
+      "group": 55,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "22695"
+      ],
+      "in": [
+        "44471"
+      ]
     },
     "41336": {
       "skill": 41336,
@@ -7123,7 +7731,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Rogue Exiles in your Maps have 5% chance to drop an additional Currency Item"
       ],
-      "group": 49,
+      "group": 56,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -7140,7 +7748,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Rogue Exiles in your Maps have 5% chance to drop an additional Currency Item"
       ],
-      "group": 49,
+      "group": 56,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -7157,7 +7765,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Rogue Exiles in your Maps have 5% chance to drop an additional Currency Item"
       ],
-      "group": 49,
+      "group": 56,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -7174,7 +7782,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Rogue Exiles in your Maps have 5% chance to drop an additional Currency Item"
       ],
-      "group": 49,
+      "group": 56,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -7195,7 +7803,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Rogue Exile Bodyguards take 50% less damage, and have additional Rewards.)"
       ],
-      "group": 49,
+      "group": 56,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -7209,166 +7817,105 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAnarchy.png",
       "isMastery": true,
       "stats": [],
-      "group": 49,
+      "group": 56,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
     },
-    "29939": {
-      "skill": 29939,
-      "name": "Memento Mori",
-      "icon": "Art/2DArt/SkillIcons/passives/CortexKeystone.png",
-      "isKeystone": true,
-      "stats": [
-        "The Cortex is level 85\nVenarius' full power is unleashed in the Cortex",
-        "Venarius drops 3 additional Rare Items with 3 less common Synthesised Implicit Modifiers",
-        "100% increased effect of Additional Modifiers in the Cortex"
-      ],
-      "flavourText": [
-        "When memories become twisted by a corrupted mind, history is rewritten, time after time."
-      ],
-      "group": 50,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": [
-        "121"
-      ]
-    },
-    "25709": {
-      "skill": 25709,
-      "name": "Metamorph",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMetamorph.png",
+    "9011": {
+      "skill": 9011,
+      "name": "Scarabs",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryScarab.png",
       "isMastery": true,
       "stats": [],
-      "group": 51,
+      "group": 57,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
     },
-    "27002": {
-      "skill": 27002,
-      "name": "Catalysing Fluids",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png",
+    "42038": {
+      "skill": 42038,
+      "name": "Atlas Scarab Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNode1.png",
+      "stats": [
+        "Final Map Boss in each Map has 1% chance to drop an additional Scarab"
+      ],
+      "group": 57,
+      "orbit": 2,
+      "orbitIndex": 7,
+      "out": [
+        "27792"
+      ],
+      "in": [
+        "12875"
+      ]
+    },
+    "12875": {
+      "skill": 12875,
+      "name": "Atlas Scarab Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNode1.png",
+      "stats": [
+        "Final Map Boss in each Map has 1% chance to drop an additional Scarab"
+      ],
+      "group": 57,
+      "orbit": 2,
+      "orbitIndex": 4,
+      "out": [
+        "42038",
+        "31"
+      ],
+      "in": []
+    },
+    "47818": {
+      "skill": 47818,
+      "name": "Atlas Scarab Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNode1.png",
+      "stats": [
+        "Final Map Boss in each Map has 1% chance to drop an additional Scarab"
+      ],
+      "group": 57,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "36820"
+      ],
+      "in": [
+        "31"
+      ]
+    },
+    "27792": {
+      "skill": 27792,
+      "name": "Subtle Manipulations",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png",
       "isNotable": true,
       "stats": [
-        "Metamorphs have 10% chance to drop an additional Catalyst for each Magic Monster Sample used to create them",
-        "Metamorphs have 20% chance to drop an additional Catalyst for each Rare Monster Sample used to create them",
-        "Metamorphs have 50% chance to drop an additional Catalyst for each Unique Monster Sample used to create them"
+        "Map Device has 10% chance not to consume Scarabs"
       ],
-      "group": 51,
-      "orbit": 3,
-      "orbitIndex": 0,
+      "group": 57,
+      "orbit": 2,
+      "orbitIndex": 9,
       "out": [],
       "in": [
-        "31414"
+        "42038"
       ]
     },
-    "12563": {
-      "skill": 12563,
-      "name": "Metamorph Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
+    "31": {
+      "skill": 31,
+      "name": "Atlas Scarab Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNode1.png",
       "stats": [
-        "Your Maps have +4% chance to contain a Metamorph Encounter"
+        "Final Map Boss in each Map has 1% chance to drop an additional Scarab"
       ],
-      "group": 51,
+      "group": 57,
       "orbit": 2,
-      "orbitIndex": 5,
+      "orbitIndex": 1,
       "out": [
-        "22695"
+        "47818"
       ],
       "in": [
-        "49338"
-      ]
-    },
-    "49338": {
-      "skill": 49338,
-      "name": "Metamorph Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain a Metamorph Encounter"
-      ],
-      "group": 51,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "12563"
-      ],
-      "in": [
-        "31414",
-        "59361"
-      ]
-    },
-    "44471": {
-      "skill": 44471,
-      "name": "Metamorph Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain a Metamorph Encounter"
-      ],
-      "group": 51,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "31414",
-        "2657"
-      ],
-      "in": [
-        "5338"
-      ]
-    },
-    "22695": {
-      "skill": 22695,
-      "name": "Escaped Experiment",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png",
-      "isNotable": true,
-      "stats": [
-        "Your Maps have 40% chance to contain a rogue Metamorph"
-      ],
-      "group": 51,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [],
-      "in": [
-        "12563",
-        "2657"
-      ]
-    },
-    "31414": {
-      "skill": 31414,
-      "name": "Metamorph Catalyst Reward Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
-      "stats": [
-        "Monster Samples found in your Maps have 10% increased chance to have Catalyst Rewards"
-      ],
-      "group": 51,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "49338",
-        "27002"
-      ],
-      "in": [
-        "44471"
-      ]
-    },
-    "2657": {
-      "skill": 2657,
-      "name": "Metamorph Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain a Metamorph Encounter"
-      ],
-      "group": 51,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [
-        "22695"
-      ],
-      "in": [
-        "44471"
+        "12875"
       ]
     },
     "53193": {
@@ -7378,7 +7925,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Mirror of Delirium"
       ],
-      "group": 52,
+      "group": 58,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -7395,9 +7942,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +10% chance to contain a Mirror of Delirium"
       ],
-      "group": 52,
+      "group": 58,
       "orbit": 2,
-      "orbitIndex": 13,
+      "orbitIndex": 11,
       "out": [],
       "in": [
         "33820"
@@ -7410,9 +7957,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Mirror of Delirium"
       ],
-      "group": 52,
+      "group": 58,
       "orbit": 2,
-      "orbitIndex": 8,
+      "orbitIndex": 3,
       "out": [
         "33820"
       ],
@@ -7427,9 +7974,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Mirror of Delirium"
       ],
-      "group": 52,
+      "group": 58,
       "orbit": 2,
-      "orbitIndex": 11,
+      "orbitIndex": 13,
       "out": [
         "42605"
       ],
@@ -7443,11 +7990,30 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelirium.png",
       "isMastery": true,
       "stats": [],
-      "group": 52,
+      "group": 58,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
+    },
+    "65205": {
+      "skill": 65205,
+      "name": "Meticulous Appraiser",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MeticulousAppraiser.png",
+      "isKeystone": true,
+      "stats": [
+        "Modifiers to Quantity of Items found in your Maps instead apply to Rarity of Items found in your Maps at 300% of their value"
+      ],
+      "flavourText": [
+        "Within every treasure can be found shades of gold, should one have the patience to look."
+      ],
+      "group": 59,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "46214"
+      ]
     },
     "37091": {
       "skill": 37091,
@@ -7456,7 +8022,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 10% chance to contain an additional Rogue Exile"
       ],
-      "group": 53,
+      "group": 60,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -7472,7 +8038,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 10% chance to contain an additional Rogue Exile"
       ],
-      "group": 53,
+      "group": 60,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -7489,7 +8055,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 10% chance to contain an additional Rogue Exile"
       ],
-      "group": 53,
+      "group": 60,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -7511,7 +8077,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Wild Rogue Exiles are Rogue Exiles that are spawned randomly within the Area)"
       ],
-      "group": 53,
+      "group": 60,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [],
@@ -7525,7 +8091,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAnarchy.png",
       "isMastery": true,
       "stats": [],
-      "group": 53,
+      "group": 60,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -7537,7 +8103,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasterySynthesis.png",
       "isMastery": true,
       "stats": [],
-      "group": 54,
+      "group": 61,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -7550,7 +8116,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "4% increased Synthesised Monster Pack size"
       ],
-      "group": 54,
+      "group": 61,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -7568,7 +8134,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "+1.5% chance for a Synthesis Map to drop from Final Map Boss in each Map (Tier 11+)"
       ],
-      "group": 54,
+      "group": 61,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -7585,7 +8151,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "4% increased Synthesised Monster Pack size"
       ],
-      "group": 54,
+      "group": 61,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [
@@ -7602,7 +8168,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "4% increased Synthesised Monster Pack size"
       ],
-      "group": 54,
+      "group": 61,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [],
@@ -7618,7 +8184,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "4% increased Synthesised Monster Pack size"
       ],
-      "group": 54,
+      "group": 61,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [
@@ -7635,7 +8201,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "4% increased Synthesised Monster Pack size"
       ],
-      "group": 54,
+      "group": 61,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [],
@@ -7644,122 +8210,25 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "31476"
       ]
     },
-    "26152": {
-      "skill": 26152,
-      "name": "Paranoid Fixation",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png",
-      "isNotable": true,
+    "21453": {
+      "skill": 21453,
+      "name": "Cassia's Pride",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/CassiasPride.png",
+      "isKeystone": true,
       "stats": [
-        "Delirious Unique Monsters in your Maps have a 2% chance to drop an additional Cluster Jewel",
-        "Delirious Unique Monsters in your Maps have a 1% chance to drop an additional Delirium Orb"
+        "Blight Monsters in your Maps take 75% less Damage from Players and their Minions",
+        "Blight Towers and their Minions in your Maps deal 300% more Damage"
       ],
-      "group": 55,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [],
-      "in": [
-        "29261",
-        "59085"
-      ]
-    },
-    "8888": {
-      "skill": 8888,
-      "name": "Cluster Jewel Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "Delirium Monsters in your Maps have 10% increased chance to drop Cluster Jewels"
+      "flavourText": [
+        "She'll certainly never give you credit now."
       ],
-      "group": 55,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "29261"
-      ],
-      "in": [
-        "64625"
-      ]
-    },
-    "29261": {
-      "skill": 29261,
-      "name": "Cluster Jewel Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "Delirium Monsters in your Maps have 10% increased chance to drop Cluster Jewels"
-      ],
-      "group": 55,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "26152"
-      ],
-      "in": [
-        "8888"
-      ]
-    },
-    "64625": {
-      "skill": 64625,
-      "name": "Delirium Orb Reward Chance and Cluster Jewel Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "Delirium Rewards in your Maps have 5% increased chance to give Delirium Orbs",
-        "Delirium Monsters in your Maps have 5% increased chance to drop Cluster Jewels"
-      ],
-      "group": 55,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "8888",
-        "36280"
-      ],
-      "in": [
-        "13284"
-      ]
-    },
-    "59085": {
-      "skill": 59085,
-      "name": "Delirium Orb Reward Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "Delirium Rewards in your Maps have 10% increased chance to give Delirium Orbs"
-      ],
-      "group": 55,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "26152"
-      ],
-      "in": [
-        "36280"
-      ]
-    },
-    "36280": {
-      "skill": 36280,
-      "name": "Delirium Orb Reward Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "Delirium Rewards in your Maps have 10% increased chance to give Delirium Orbs"
-      ],
-      "group": 55,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "59085"
-      ],
-      "in": [
-        "64625"
-      ]
-    },
-    "52752": {
-      "skill": 52752,
-      "name": "Delirium",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelirium.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 55,
+      "group": 62,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
-      "in": []
+      "in": [
+        "61370"
+      ]
     },
     "36386": {
       "skill": 36386,
@@ -7777,7 +8246,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Atlassian aberrations engage in a deadly dance.",
         "Will you be joining them in the fray?"
       ],
-      "group": 56,
+      "group": 63,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [],
@@ -7792,7 +8261,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 56,
+      "group": 63,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
@@ -7809,7 +8278,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 56,
+      "group": 63,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -7819,6 +8288,123 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       ],
       "in": []
     },
+    "26152": {
+      "skill": 26152,
+      "name": "Paranoid Fixation",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png",
+      "isNotable": true,
+      "stats": [
+        "Delirious Unique Monsters in your Maps have a 2% chance to drop an additional Cluster Jewel",
+        "Delirious Unique Monsters in your Maps have a 1% chance to drop an additional Delirium Orb"
+      ],
+      "group": 64,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [],
+      "in": [
+        "29261",
+        "59085"
+      ]
+    },
+    "8888": {
+      "skill": 8888,
+      "name": "Cluster Jewel Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
+      "stats": [
+        "Delirium Monsters in your Maps have 10% increased chance to drop Cluster Jewels"
+      ],
+      "group": 64,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "29261"
+      ],
+      "in": [
+        "64625"
+      ]
+    },
+    "29261": {
+      "skill": 29261,
+      "name": "Cluster Jewel Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
+      "stats": [
+        "Delirium Monsters in your Maps have 10% increased chance to drop Cluster Jewels"
+      ],
+      "group": 64,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "26152"
+      ],
+      "in": [
+        "8888"
+      ]
+    },
+    "64625": {
+      "skill": 64625,
+      "name": "Delirium Orb Reward Chance and Cluster Jewel Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
+      "stats": [
+        "Delirium Rewards in your Maps have 5% increased chance to give Delirium Orbs",
+        "Delirium Monsters in your Maps have 5% increased chance to drop Cluster Jewels"
+      ],
+      "group": 64,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "8888",
+        "36280"
+      ],
+      "in": [
+        "13284"
+      ]
+    },
+    "59085": {
+      "skill": 59085,
+      "name": "Delirium Orb Reward Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
+      "stats": [
+        "Delirium Rewards in your Maps have 10% increased chance to give Delirium Orbs"
+      ],
+      "group": 64,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "26152"
+      ],
+      "in": [
+        "36280"
+      ]
+    },
+    "36280": {
+      "skill": 36280,
+      "name": "Delirium Orb Reward Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
+      "stats": [
+        "Delirium Rewards in your Maps have 10% increased chance to give Delirium Orbs"
+      ],
+      "group": 64,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "59085"
+      ],
+      "in": [
+        "64625"
+      ]
+    },
+    "52752": {
+      "skill": 52752,
+      "name": "Delirium",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelirium.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 64,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
     "2075": {
       "skill": 2075,
       "name": "Essence Chance",
@@ -7826,7 +8412,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 5% chance to contain an additional Essence"
       ],
-      "group": 57,
+      "group": 65,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -7844,7 +8430,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Imprisoned Monsters in your Maps have 5% chance to have an additional Essence"
       ],
-      "group": 57,
+      "group": 65,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -7861,7 +8447,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Imprisoned Monsters in your Maps have 5% chance to have an additional Essence"
       ],
-      "group": 57,
+      "group": 65,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -7878,7 +8464,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Imprisoned by Essences have a 10% chance to contain a Remnant of Corruption"
       ],
-      "group": 57,
+      "group": 65,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -7896,7 +8482,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Monsters Imprisoned by a Shrieking Essence in your Maps will be Duplicated when released",
         "Corrupting Imprisoned Monsters in your Maps cannot release them"
       ],
-      "group": 57,
+      "group": 65,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [],
@@ -7912,7 +8498,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Imprisoned by Essences have a 10% chance to contain a Remnant of Corruption"
       ],
-      "group": 57,
+      "group": 65,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -7928,7 +8514,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryEssence.png",
       "isMastery": true,
       "stats": [],
-      "group": 57,
+      "group": 65,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -7941,7 +8527,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 58,
+      "group": 66,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -7955,166 +8541,85 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "28971"
       ]
     },
-    "35075": {
-      "skill": 35075,
-      "name": "Vaal Side Areas",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryVaal.png",
+    "37848": {
+      "skill": 37848,
+      "name": "Torment",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryTorment.png",
       "isMastery": true,
       "stats": [],
-      "group": 59,
+      "group": 67,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
     },
-    "788": {
-      "skill": 788,
-      "name": "Vaal Side Area Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalsideareasNode.png",
+    "13187": {
+      "skill": 13187,
+      "name": "Tormented Spirit Duration",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
       "stats": [
-        "Your Maps have +2% chance to contain a Vaal Side Area"
+        "Tormented Spirits in your Maps have 25% increased Duration"
       ],
-      "group": 59,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "54004",
-        "57182"
-      ],
-      "in": []
-    },
-    "54004": {
-      "skill": 54004,
-      "name": "Vaal Side Area Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalsideareasNode.png",
-      "stats": [
-        "Your Maps have +2% chance to contain a Vaal Side Area"
-      ],
-      "group": 59,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "28971",
-        "59610"
-      ],
-      "in": [
-        "788"
-      ]
-    },
-    "61918": {
-      "skill": 61918,
-      "name": "For Love of the Queen",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png",
-      "isNotable": true,
-      "stats": [
-        "Vaal Side Areas in your Maps have 20% chance to be an Alluring Vaal Side Area",
-        "Your Maps have +4% chance to contain a Vaal Side Area"
-      ],
-      "reminderText": [
-        "(Alluring Vaal Side Areas are more dangerous and drop Mortal Fragments)"
-      ],
-      "group": 59,
+      "group": 67,
       "orbit": 2,
       "orbitIndex": 0,
-      "out": [],
+      "out": [
+        "2461"
+      ],
       "in": [
-        "59610"
+        "51123"
       ]
     },
-    "59610": {
-      "skill": 59610,
-      "name": "Vaal Side Area Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalsideareasNode.png",
+    "2461": {
+      "skill": 2461,
+      "name": "Tormented Spirit Duration",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
       "stats": [
-        "Your Maps have +2% chance to contain a Vaal Side Area"
+        "Tormented Spirits in your Maps have 25% increased Duration"
       ],
-      "group": 59,
+      "group": 67,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
-        "61918"
-      ],
-      "in": [
-        "54004"
-      ]
-    },
-    "53581": {
-      "skill": 53581,
-      "name": "Imprisoned Monster Additional Essence Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png",
-      "stats": [
-        "Imprisoned Monsters in your Maps have 5% chance to have an additional Essence"
-      ],
-      "group": 60,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "34811"
-      ],
-      "in": [
-        "52648",
+        "31285",
         "8132"
+      ],
+      "in": [
+        "13187"
       ]
     },
-    "34811": {
-      "skill": 34811,
-      "name": "Imprisoned Monster Additional Essence Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png",
+    "31285": {
+      "skill": 31285,
+      "name": "Tormented Spirit Duration",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
       "stats": [
-        "Imprisoned Monsters in your Maps have 5% chance to have an additional Essence"
+        "Tormented Spirits in your Maps have 25% increased Duration"
       ],
-      "group": 60,
+      "group": 67,
       "orbit": 2,
       "orbitIndex": 5,
-      "out": [],
+      "out": [
+        "9345"
+      ],
       "in": [
-        "53581",
-        "26310"
+        "2461"
       ]
     },
-    "52648": {
-      "skill": 52648,
-      "name": "Imprisoned Monster Additional Essence Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png",
-      "stats": [
-        "Imprisoned Monsters in your Maps have 5% chance to have an additional Essence"
-      ],
-      "group": 60,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "51123",
-        "53581"
-      ],
-      "in": []
-    },
-    "26310": {
-      "skill": 26310,
-      "name": "Crystal Lattice",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png",
+    "9345": {
+      "skill": 9345,
+      "name": "Paranormal Meeting",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable3.png",
       "isNotable": true,
       "stats": [
-        "Imprisoned Monsters in your Maps have 15% chance to have 3 additional Essences"
+        "Your Maps are haunted by an additional Tormented Spirit"
       ],
-      "group": 60,
+      "group": 67,
       "orbit": 2,
       "orbitIndex": 8,
-      "out": [
-        "34811"
-      ],
-      "in": []
-    },
-    "56946": {
-      "skill": 56946,
-      "name": "Essence",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryEssence.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 60,
-      "orbit": 0,
-      "orbitIndex": 0,
       "out": [],
-      "in": []
+      "in": [
+        "31285"
+      ]
     },
     "37245": {
       "skill": 37245,
@@ -8123,7 +8628,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 61,
+      "group": 68,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -8134,8 +8639,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "in": [
         "53193",
         "12836",
-        "18958",
-        "54407"
+        "18958"
       ]
     },
     "46214": {
@@ -8145,12 +8649,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 62,
+      "group": 69,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "52905",
-        "30508"
+        "30508",
+        "65205"
       ],
       "in": [
         "36820",
@@ -8159,13 +8664,93 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "22844"
       ]
     },
+    "28705": {
+      "skill": 28705,
+      "name": "Labyrinth Trial Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AscendancyNode.png",
+      "stats": [
+        "Your Maps have +2% chance to contain a Trial of Ascendancy"
+      ],
+      "group": 70,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "6331",
+        "57182"
+      ],
+      "in": []
+    },
+    "6331": {
+      "skill": 6331,
+      "name": "Labyrinth Trial Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AscendancyNode.png",
+      "stats": [
+        "Your Maps have +2% chance to contain a Trial of Ascendancy"
+      ],
+      "group": 70,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "28971"
+      ],
+      "in": [
+        "28705",
+        "44997"
+      ]
+    },
+    "39180": {
+      "skill": 39180,
+      "name": "Trial of Glory",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Ascendancy.png",
+      "isNotable": true,
+      "stats": [
+        "Labyrinth Trials in your Maps have 20% chance to award an Improved Offering to the Goddess",
+        "Your Maps have +4% chance to contain a Trial of Ascendancy"
+      ],
+      "group": 70,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "44997"
+      ],
+      "in": []
+    },
+    "44997": {
+      "skill": 44997,
+      "name": "Labyrinth Trial Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AscendancyNode.png",
+      "stats": [
+        "Your Maps have +2% chance to contain a Trial of Ascendancy"
+      ],
+      "group": 70,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "6331"
+      ],
+      "in": [
+        "39180"
+      ]
+    },
+    "10529": {
+      "skill": 10529,
+      "name": "Labyrinth",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryLabyrinth.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 70,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
     "35069": {
       "skill": 35069,
       "name": "Metamorph",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMetamorph.png",
       "isMastery": true,
       "stats": [],
-      "group": 63,
+      "group": 71,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -8181,7 +8766,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Metamorphs in your Maps have 150% more Life",
         "30% chance for Rewards from Metamorphs in your Maps to be Doubled"
       ],
-      "group": 63,
+      "group": 71,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [],
@@ -8196,7 +8781,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Metamorphs in your Maps have 5% reduced Action Speed"
       ],
-      "group": 63,
+      "group": 71,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -8213,7 +8798,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "3% chance for Rewards from Metamorphs in your Maps to be Doubled"
       ],
-      "group": 63,
+      "group": 71,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [
@@ -8230,7 +8815,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "3% chance for Rewards from Metamorphs in your Maps to be Doubled"
       ],
-      "group": 63,
+      "group": 71,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -8249,7 +8834,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "30% reduced magnitude of Damage granted to Metamorphs from Vat Fill in your Maps",
         "30% reduced magnitude of Life granted to Metamorphs from Vat Fill in your Maps"
       ],
-      "group": 63,
+      "group": 71,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [],
@@ -8264,7 +8849,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Metamorphs in your Maps have 5% reduced Action Speed"
       ],
-      "group": 63,
+      "group": 71,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -8281,7 +8866,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "3% chance for Rewards from Metamorphs in your Maps to be Doubled"
       ],
-      "group": 63,
+      "group": 71,
       "orbit": 2,
       "orbitIndex": 2,
       "out": [
@@ -8301,13 +8886,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Your Maps have 1% increased Pack Size per Allocated Notable Atlas Passive Skill"
       ],
       "reminderText": [
-        "(Atlas Passive Skills that are not Notable or Keystones are Small)"
+        "(Atlas Passive Skills that are not Notable, Keystones or Gateways are Small)"
       ],
       "flavourText": [
         "Ignore everything but your obsession, Nomad.",
         "A mortal life is too short a season to entertain distractions."
       ],
-      "group": 64,
+      "group": 72,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -8322,7 +8907,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 65,
+      "group": 73,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -8340,7 +8925,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 66,
+      "group": 74,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -8358,7 +8943,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 6,
       "orbitIndex": 54,
       "out": [
@@ -8378,7 +8963,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 6,
       "orbitIndex": 60,
       "out": [
@@ -8387,7 +8972,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "49577"
       ],
       "in": [
-        "788",
+        "28705",
         "45563"
       ]
     },
@@ -8397,7 +8982,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMetamorph.png",
       "isMastery": true,
       "stats": [],
-      "group": 67,
+      "group": 75,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -8410,7 +8995,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "+1 Metamorph Monster Samples in your Maps have Rewards"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [
@@ -8428,7 +9013,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Metamorph Encounter"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -8445,7 +9030,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Metamorph Vat Meters in your Maps require 10% reduced Power to fill"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [],
@@ -8461,7 +9046,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Metamorph Vat Meters in your Maps require 10% reduced Power to fill"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -8479,7 +9064,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "+1 Metamorph Monster Samples in your Maps have Rewards"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
@@ -8496,7 +9081,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "+1 Metamorph Monster Samples in your Maps have Rewards"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -8514,7 +9099,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "You can assemble an additional Metamorph in your Maps after the first is Dead"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -8529,7 +9114,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Metamorph Encounter"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [
@@ -8548,7 +9133,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Metamorph Bosses which drop an Itemised Sample drop an additional Itemised Sample",
         "Itemised Samples found in your Maps have an additional Reward"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [
@@ -8563,95 +9148,18 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 67,
+      "group": 75,
       "orbit": 6,
       "orbitIndex": 48,
       "out": [
         "45563",
-        "13088"
+        "13088",
+        "13187",
+        "28939"
       ],
       "in": [
-        "52648",
         "37245"
       ]
-    },
-    "2811": {
-      "skill": 2811,
-      "name": "Incursion Mission Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode2.png",
-      "stats": [
-        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
-      ],
-      "group": 68,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [],
-      "in": [
-        "62989",
-        "36791"
-      ]
-    },
-    "62989": {
-      "skill": 62989,
-      "name": "Incursion Mission Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode2.png",
-      "stats": [
-        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
-      ],
-      "group": 68,
-      "orbit": 2,
-      "orbitIndex": 7,
-      "out": [
-        "37420",
-        "2811"
-      ],
-      "in": []
-    },
-    "4044": {
-      "skill": 4044,
-      "name": "Time Dilation",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png",
-      "isNotable": true,
-      "stats": [
-        "Incursions in your Maps have 33% chance for all Monsters to be at least Magic",
-        "Time gained from Kills is Doubled for Incursions in your Maps"
-      ],
-      "group": 68,
-      "orbit": 2,
-      "orbitIndex": 12,
-      "out": [
-        "36791"
-      ],
-      "in": []
-    },
-    "36791": {
-      "skill": 36791,
-      "name": "Incursion Mission Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode2.png",
-      "stats": [
-        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
-      ],
-      "group": 68,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "2811"
-      ],
-      "in": [
-        "4044"
-      ]
-    },
-    "49058": {
-      "skill": 49058,
-      "name": "Incursion",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAlva.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 68,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
     },
     "31951": {
       "skill": 31951,
@@ -8660,7 +9168,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Heist Contracts found in your Maps are 100% more likely to require level 3 Jobs"
       ],
-      "group": 69,
+      "group": 76,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [
@@ -8677,7 +9185,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Heist Contracts found in your Maps are 100% more likely to require level 4 Jobs"
       ],
-      "group": 69,
+      "group": 76,
       "orbit": 3,
       "orbitIndex": 2,
       "out": [
@@ -8694,7 +9202,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Smuggler's Cache"
       ],
-      "group": 69,
+      "group": 76,
       "orbit": 4,
       "orbitIndex": 5,
       "out": [
@@ -8713,7 +9221,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Heist Contracts found in your Maps are 100% more likely to require level 5 Jobs"
       ],
-      "group": 69,
+      "group": 76,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -8732,7 +9240,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Heist Contracts found in your Maps are 80% more likely to target High Value Targets",
         "Heist Contracts found in your Maps are 55% more likely to target Precious Targets"
       ],
-      "group": 69,
+      "group": 76,
       "orbit": 2,
       "orbitIndex": 2,
       "out": [],
@@ -8748,7 +9256,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHeist.png",
       "isMastery": true,
       "stats": [],
-      "group": 69,
+      "group": 76,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -8762,7 +9270,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 4% chance to grant an additional Einhar Mission on Completion"
       ],
-      "group": 70,
+      "group": 77,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [],
@@ -8778,7 +9286,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "3% chance to create a copy of Beasts Captured in your Maps"
       ],
-      "group": 70,
+      "group": 77,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -8795,7 +9303,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "3% chance to create a copy of Beasts Captured in your Maps"
       ],
-      "group": 70,
+      "group": 77,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -8811,7 +9319,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBestiary.png",
       "isMastery": true,
       "stats": [],
-      "group": 70,
+      "group": 77,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -8824,7 +9332,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 70,
+      "group": 77,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -8844,7 +9352,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 70,
+      "group": 77,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [
@@ -8861,7 +9369,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 70,
+      "group": 77,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
@@ -8871,267 +9379,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "in": [
         "29045"
       ]
-    },
-    "39765": {
-      "skill": 39765,
-      "name": "Ritual",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryRitual.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 71,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "36257": {
-      "skill": 36257,
-      "name": "Ritual Special Reward Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "25% increased chance of Ritual Altars with Special Rewards"
-      ],
-      "group": 71,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [],
-      "in": [
-        "27446",
-        "37380"
-      ]
-    },
-    "27446": {
-      "skill": 27446,
-      "name": "Ritual Special Reward Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "25% increased chance of Ritual Altars with Special Rewards"
-      ],
-      "group": 71,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [
-        "36257"
-      ],
-      "in": [
-        "23772"
-      ]
-    },
-    "41442": {
-      "skill": 41442,
-      "name": "Ritual Tribute Quantity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Monsters Sacrificed at Ritual Altars in your Maps grant 5% increased Tribute"
-      ],
-      "group": 71,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "5473",
-        "23772"
-      ],
-      "in": []
-    },
-    "5473": {
-      "skill": 5473,
-      "name": "Ritual Tribute Quantity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Monsters Sacrificed at Ritual Altars in your Maps grant 5% increased Tribute"
-      ],
-      "group": 71,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "37380"
-      ],
-      "in": [
-        "41442"
-      ]
-    },
-    "37380": {
-      "skill": 37380,
-      "name": "Occult Devotion",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png",
-      "isNotable": true,
-      "stats": [
-        "Your Maps with Ritual Altars always have four Ritual Altars"
-      ],
-      "group": 71,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "36257"
-      ],
-      "in": [
-        "5473"
-      ]
-    },
-    "23772": {
-      "skill": 23772,
-      "name": "Ritual Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
-      "stats": [
-        "Your Maps have +5% chance to contain Ritual Altars"
-      ],
-      "group": 71,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "27446",
-        "22844"
-      ],
-      "in": [
-        "41442"
-      ]
-    },
-    "18466": {
-      "skill": 18466,
-      "name": "Casing the Joint",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png",
-      "isNotable": true,
-      "stats": [
-        "Smuggler's Caches in your Maps have 100% increased chance to drop Blueprints",
-        "Blueprints that drop in your Maps have 10% chance to be fully Revealed"
-      ],
-      "group": 72,
-      "orbit": 3,
-      "orbitIndex": 5,
-      "out": [],
-      "in": [
-        "50800"
-      ]
-    },
-    "30508": {
-      "skill": 30508,
-      "name": "Additional Smuggler's Cache Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
-      "stats": [
-        "Your Maps that contain Smuggler's Caches have a 10% chance to contain an additional Smuggler's Cache"
-      ],
-      "group": 72,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "6032"
-      ],
-      "in": [
-        "46214"
-      ]
-    },
-    "26314": {
-      "skill": 26314,
-      "name": "Additional Smuggler's Cache Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
-      "stats": [
-        "Your Maps that contain Smuggler's Caches have a 10% chance to contain an additional Smuggler's Cache"
-      ],
-      "group": 72,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "33418",
-        "6032"
-      ],
-      "in": []
-    },
-    "33418": {
-      "skill": 33418,
-      "name": "No Honour Among Thieves",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png",
-      "isNotable": true,
-      "stats": [
-        "Smuggler's Caches in your Maps have 10% increased chance to contain Blueprints for each Smuggler's Cache opened in the Map",
-        "Smuggler's Caches drop 10% more Rogue Markers for each Smuggler's Cache opened in the Area",
-        "Your Maps that contain Smuggler's Caches have a 5% chance to contain 6 additional Smuggler's Caches"
-      ],
-      "group": 72,
-      "orbit": 3,
-      "orbitIndex": 3,
-      "out": [],
-      "in": [
-        "26314"
-      ]
-    },
-    "6032": {
-      "skill": 6032,
-      "name": "Additional Smuggler's Cache Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
-      "stats": [
-        "Your Maps that contain Smuggler's Caches have a 10% chance to contain an additional Smuggler's Cache"
-      ],
-      "group": 72,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [],
-      "in": [
-        "30508",
-        "26314"
-      ]
-    },
-    "50800": {
-      "skill": 50800,
-      "name": "Heist Blueprint Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png",
-      "stats": [
-        "8% increased Blueprints found in your Maps"
-      ],
-      "group": 72,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "18466"
-      ],
-      "in": [
-        "51503"
-      ]
-    },
-    "51503": {
-      "skill": 51503,
-      "name": "Heist Blueprint Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png",
-      "stats": [
-        "8% increased Blueprints found in your Maps"
-      ],
-      "group": 72,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "50800"
-      ],
-      "in": [
-        "52905"
-      ]
-    },
-    "52905": {
-      "skill": 52905,
-      "name": "Heist Blueprint Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png",
-      "stats": [
-        "8% increased Blueprints found in your Maps"
-      ],
-      "group": 72,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [
-        "51503"
-      ],
-      "in": [
-        "46214"
-      ]
-    },
-    "29344": {
-      "skill": 29344,
-      "name": "Heist",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHeist.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 72,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
     },
     "35279": {
       "skill": 35279,
@@ -9145,7 +9392,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 73,
+      "group": 78,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [],
@@ -9165,7 +9412,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 73,
+      "group": 78,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [],
@@ -9185,7 +9432,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 73,
+      "group": 78,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [],
@@ -9205,7 +9452,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 73,
+      "group": 78,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [],
@@ -9225,7 +9472,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 73,
+      "group": 78,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [],
@@ -9240,7 +9487,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 73,
+      "group": 78,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -9255,6 +9502,347 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "38605"
       ]
     },
+    "2811": {
+      "skill": 2811,
+      "name": "Incursion Mission Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode2.png",
+      "stats": [
+        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
+      ],
+      "group": 79,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [],
+      "in": [
+        "62989",
+        "36791"
+      ]
+    },
+    "62989": {
+      "skill": 62989,
+      "name": "Incursion Mission Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode2.png",
+      "stats": [
+        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
+      ],
+      "group": 79,
+      "orbit": 2,
+      "orbitIndex": 7,
+      "out": [
+        "37420",
+        "2811"
+      ],
+      "in": []
+    },
+    "4044": {
+      "skill": 4044,
+      "name": "Time Dilation",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png",
+      "isNotable": true,
+      "stats": [
+        "Incursions in your Maps have 33% chance for all Monsters to be at least Magic",
+        "Time gained from Kills is Doubled for Incursions in your Maps"
+      ],
+      "group": 79,
+      "orbit": 2,
+      "orbitIndex": 12,
+      "out": [
+        "36791"
+      ],
+      "in": []
+    },
+    "36791": {
+      "skill": 36791,
+      "name": "Incursion Mission Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AlvaNode2.png",
+      "stats": [
+        "Your Maps have 1% chance to grant an additional Alva Mission on Completion"
+      ],
+      "group": 79,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "2811"
+      ],
+      "in": [
+        "4044"
+      ]
+    },
+    "49058": {
+      "skill": 49058,
+      "name": "Incursion",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAlva.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 79,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "39765": {
+      "skill": 39765,
+      "name": "Ritual",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryRitual.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 80,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "36257": {
+      "skill": 36257,
+      "name": "Ritual Special Reward Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "25% increased chance of Ritual Altars with Special Rewards"
+      ],
+      "group": 80,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [],
+      "in": [
+        "27446",
+        "37380"
+      ]
+    },
+    "27446": {
+      "skill": 27446,
+      "name": "Ritual Special Reward Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "25% increased chance of Ritual Altars with Special Rewards"
+      ],
+      "group": 80,
+      "orbit": 2,
+      "orbitIndex": 9,
+      "out": [
+        "36257"
+      ],
+      "in": [
+        "23772"
+      ]
+    },
+    "41442": {
+      "skill": 41442,
+      "name": "Ritual Tribute Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "Monsters Sacrificed at Ritual Altars in your Maps grant 5% increased Tribute"
+      ],
+      "group": 80,
+      "orbit": 2,
+      "orbitIndex": 4,
+      "out": [
+        "5473",
+        "23772"
+      ],
+      "in": [
+        "36064"
+      ]
+    },
+    "5473": {
+      "skill": 5473,
+      "name": "Ritual Tribute Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "Monsters Sacrificed at Ritual Altars in your Maps grant 5% increased Tribute"
+      ],
+      "group": 80,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "37380"
+      ],
+      "in": [
+        "41442"
+      ]
+    },
+    "37380": {
+      "skill": 37380,
+      "name": "Occult Devotion",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png",
+      "isNotable": true,
+      "stats": [
+        "Your Maps with Ritual Altars always have four Ritual Altars"
+      ],
+      "group": 80,
+      "orbit": 3,
+      "orbitIndex": 15,
+      "out": [
+        "36257"
+      ],
+      "in": [
+        "5473"
+      ]
+    },
+    "23772": {
+      "skill": 23772,
+      "name": "Ritual Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNode1.png",
+      "stats": [
+        "Your Maps have +5% chance to contain Ritual Altars"
+      ],
+      "group": 80,
+      "orbit": 2,
+      "orbitIndex": 7,
+      "out": [
+        "27446",
+        "22844"
+      ],
+      "in": [
+        "41442"
+      ]
+    },
+    "18466": {
+      "skill": 18466,
+      "name": "Casing the Joint",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png",
+      "isNotable": true,
+      "stats": [
+        "Smuggler's Caches in your Maps have 100% increased chance to drop Blueprints",
+        "Blueprints that drop in your Maps have 10% chance to be fully Revealed"
+      ],
+      "group": 81,
+      "orbit": 3,
+      "orbitIndex": 5,
+      "out": [],
+      "in": [
+        "50800"
+      ]
+    },
+    "30508": {
+      "skill": 30508,
+      "name": "Additional Smuggler's Cache Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
+      "stats": [
+        "Your Maps that contain Smuggler's Caches have a 10% chance to contain an additional Smuggler's Cache"
+      ],
+      "group": 81,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "6032"
+      ],
+      "in": [
+        "46214"
+      ]
+    },
+    "26314": {
+      "skill": 26314,
+      "name": "Additional Smuggler's Cache Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
+      "stats": [
+        "Your Maps that contain Smuggler's Caches have a 10% chance to contain an additional Smuggler's Cache"
+      ],
+      "group": 81,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "33418",
+        "6032"
+      ],
+      "in": []
+    },
+    "33418": {
+      "skill": 33418,
+      "name": "No Honour Among Thieves",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png",
+      "isNotable": true,
+      "stats": [
+        "Smuggler's Caches in your Maps have 10% increased chance to contain Blueprints for each Smuggler's Cache opened in the Map",
+        "Smuggler's Caches drop 10% more Rogue Markers for each Smuggler's Cache opened in the Area",
+        "Your Maps that contain Smuggler's Caches have a 5% chance to contain 6 additional Smuggler's Caches"
+      ],
+      "group": 81,
+      "orbit": 3,
+      "orbitIndex": 3,
+      "out": [],
+      "in": [
+        "26314"
+      ]
+    },
+    "6032": {
+      "skill": 6032,
+      "name": "Additional Smuggler's Cache Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
+      "stats": [
+        "Your Maps that contain Smuggler's Caches have a 10% chance to contain an additional Smuggler's Cache"
+      ],
+      "group": 81,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "30508",
+        "26314"
+      ]
+    },
+    "50800": {
+      "skill": 50800,
+      "name": "Heist Blueprint Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png",
+      "stats": [
+        "8% increased Blueprints found in your Maps"
+      ],
+      "group": 81,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "18466"
+      ],
+      "in": [
+        "51503"
+      ]
+    },
+    "51503": {
+      "skill": 51503,
+      "name": "Heist Blueprint Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png",
+      "stats": [
+        "8% increased Blueprints found in your Maps"
+      ],
+      "group": 81,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "50800"
+      ],
+      "in": [
+        "52905"
+      ]
+    },
+    "52905": {
+      "skill": 52905,
+      "name": "Heist Blueprint Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png",
+      "stats": [
+        "8% increased Blueprints found in your Maps"
+      ],
+      "group": 81,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "51503"
+      ],
+      "in": [
+        "46214"
+      ]
+    },
+    "29344": {
+      "skill": 29344,
+      "name": "Heist",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHeist.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 81,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
     "3939": {
       "skill": 3939,
       "name": "Map Drop Duplication",
@@ -9262,7 +9850,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 74,
+      "group": 82,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -9281,7 +9869,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 75,
+      "group": 83,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -9299,7 +9887,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "5% increased Quantity of Items dropped in Incursions in your Maps"
       ],
-      "group": 76,
+      "group": 84,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -9315,7 +9903,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "5% increased Quantity of Items dropped in Incursions in your Maps"
       ],
-      "group": 76,
+      "group": 84,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -9333,7 +9921,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 4% chance to grant an additional Alva Mission on Completion"
       ],
-      "group": 76,
+      "group": 84,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [],
@@ -9348,7 +9936,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAlva.png",
       "isMastery": true,
       "stats": [],
-      "group": 76,
+      "group": 84,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -9361,7 +9949,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Incursions in your Maps have 5% increased Pack Size"
       ],
-      "group": 77,
+      "group": 85,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
@@ -9378,7 +9966,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Incursions in your Maps have 5% increased Pack Size"
       ],
-      "group": 77,
+      "group": 85,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -9399,7 +9987,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Non-resident Architects are those that can be killed to upgrade the Incursion room)"
       ],
-      "group": 77,
+      "group": 85,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -9419,7 +10007,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Non-resident Architects are those that can be killed to upgrade the Incursion room)"
       ],
-      "group": 77,
+      "group": 85,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [],
@@ -9438,7 +10026,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Resident Architects are those that can be killed to change the Incursion room)"
       ],
-      "group": 77,
+      "group": 85,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [],
@@ -9453,7 +10041,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Incursions in your Maps have 5% increased Pack Size"
       ],
-      "group": 77,
+      "group": 85,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [
@@ -9469,69 +10057,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAlva.png",
       "isMastery": true,
       "stats": [],
-      "group": 77,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "26293": {
-      "skill": 26293,
-      "name": "Higher Map Tier Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
-      "stats": [
-        "Maps found have 5% chance to be 1 tier higher"
-      ],
-      "group": 78,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "24609"
-      ],
-      "in": [
-        "54407"
-      ]
-    },
-    "54407": {
-      "skill": 54407,
-      "name": "Higher Map Tier Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
-      "stats": [
-        "Maps found have 5% chance to be 1 tier higher"
-      ],
-      "group": 78,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "26293",
-        "37245"
-      ],
-      "in": []
-    },
-    "24609": {
-      "skill": 24609,
-      "name": "Shaping the Mountains",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png",
-      "isNotable": true,
-      "stats": [
-        "10% chance on Completing your Maps to gain a free use of a random Map Crafting option",
-        "Maps found have 15% chance to be 1 tier higher"
-      ],
-      "group": 78,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [],
-      "in": [
-        "26293"
-      ]
-    },
-    "36203": {
-      "skill": 36203,
-      "name": "Maps",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMap.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 78,
+      "group": 85,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -9544,14 +10070,14 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 79,
+      "group": 86,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
-        "53581",
         "53234"
       ],
       "in": [
+        "2461",
         "37245",
         "36137",
         "8555"
@@ -9564,17 +10090,39 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 80,
+      "group": 87,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "13448"
       ],
       "in": [
-        "54004",
-        "42156",
-        "10473"
+        "6331",
+        "10473",
+        "42156"
       ]
+    },
+    "36064": {
+      "skill": 36064,
+      "name": "Immutable Dogma",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ImmutableDogma.png",
+      "isKeystone": true,
+      "stats": [
+        "Cannot Reroll Favours at Ritual Altars in your Maps",
+        "Monsters Sacrificed at Ritual Altars in your Maps grant 100% more Tribute"
+      ],
+      "flavourText": [
+        "Do not doubt. Do not question.",
+        "This is the way it has always been.",
+        "This is the way it shall always be."
+      ],
+      "group": 88,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "41442"
+      ],
+      "in": []
     },
     "57366": {
       "skill": 57366,
@@ -9588,7 +10136,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(An Oil Extractor destroys an Anointed Item to recover one of the Oils that was used to apply that Anointment)"
       ],
-      "group": 81,
+      "group": 89,
       "orbit": 2,
       "orbitIndex": 14,
       "out": [
@@ -9603,7 +10151,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Blight Chests in your Maps have 5% increased chance to contain Blighted Maps or Oils"
       ],
-      "group": 81,
+      "group": 89,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
@@ -9620,7 +10168,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Blight Chests in your Maps have 5% increased chance to contain Blighted Maps or Oils"
       ],
-      "group": 81,
+      "group": 89,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [],
@@ -9636,7 +10184,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Blight Chests in your Maps have 5% increased chance to contain Blighted Maps or Oils"
       ],
-      "group": 81,
+      "group": 89,
       "orbit": 2,
       "orbitIndex": 10,
       "out": [
@@ -9653,7 +10201,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Blight Chests in your Maps have 5% increased chance to contain Blighted Maps or Oils"
       ],
-      "group": 81,
+      "group": 89,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -9669,138 +10217,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBlight.png",
       "isMastery": true,
       "stats": [],
-      "group": 81,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "40355": {
-      "skill": 40355,
-      "name": "Imagined Pursuits",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png",
-      "isNotable": true,
-      "stats": [
-        "Delirium Reward Types in your Maps gain +1 to count on Map Completion"
-      ],
-      "group": 82,
-      "orbit": 3,
-      "orbitIndex": 1,
-      "out": [],
-      "in": [
-        "39954"
-      ]
-    },
-    "9972": {
-      "skill": 9972,
-      "name": "Screaming Whispers",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png",
-      "isNotable": true,
-      "stats": [
-        "18% increased Stack size of Simulacrum Splinters found in your Maps"
-      ],
-      "group": 82,
-      "orbit": 3,
-      "orbitIndex": 15,
-      "out": [],
-      "in": [
-        "61637"
-      ]
-    },
-    "39954": {
-      "skill": 39954,
-      "name": "Delirium Reward Progress",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "Delirious Monsters Killed in your Maps provide 10% increased Reward Progress"
-      ],
-      "group": 82,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "40355"
-      ],
-      "in": [
-        "1272"
-      ]
-    },
-    "61637": {
-      "skill": 61637,
-      "name": "Delirium Additional Splinters",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "6% increased Stack size of Simulacrum Splinters found in your Maps"
-      ],
-      "group": 82,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "9972"
-      ],
-      "in": [
-        "64580"
-      ]
-    },
-    "1272": {
-      "skill": 1272,
-      "name": "Delirium Reward Progress",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "Delirious Monsters Killed in your Maps provide 10% increased Reward Progress"
-      ],
-      "group": 82,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "39954"
-      ],
-      "in": [
-        "25856"
-      ]
-    },
-    "64580": {
-      "skill": 64580,
-      "name": "Delirium Additional Splinters",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "6% increased Stack size of Simulacrum Splinters found in your Maps"
-      ],
-      "group": 82,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [
-        "61637"
-      ],
-      "in": [
-        "25856"
-      ]
-    },
-    "25856": {
-      "skill": 25856,
-      "name": "Delirium Reward Progress and Additional Splinters",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
-      "stats": [
-        "Delirious Monsters Killed in your Maps provide 5% increased Reward Progress",
-        "3% increased Stack size of Simulacrum Splinters found in your Maps"
-      ],
-      "group": 82,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "64580",
-        "1272"
-      ],
-      "in": [
-        "42882"
-      ]
-    },
-    "2908": {
-      "skill": 2908,
-      "name": "Delirium",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelirium.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 82,
+      "group": 89,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -9818,12 +10235,89 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "In lieu of happiness, sometimes the absence of pain is good enough."
       ],
-      "group": 83,
+      "group": 90,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": [
         "10473"
+      ]
+    },
+    "21569": {
+      "skill": 21569,
+      "name": "Torment",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryTorment.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 91,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "54875": {
+      "skill": 54875,
+      "name": "Tormented Monster Item Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
+      "stats": [
+        "20% increased Quantity of Items dropped by Possessed or Touched Monsters in your Maps"
+      ],
+      "group": 91,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "31485",
+        "47914"
+      ],
+      "in": []
+    },
+    "31485": {
+      "skill": 31485,
+      "name": "Tormented Monster Item Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
+      "stats": [
+        "20% increased Quantity of Items dropped by Possessed or Touched Monsters in your Maps"
+      ],
+      "group": 91,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [],
+      "in": [
+        "54875",
+        "29946"
+      ]
+    },
+    "5239": {
+      "skill": 5239,
+      "name": "Seance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable2.png",
+      "isNotable": true,
+      "stats": [
+        "Up to 5 Rare Monsters in each of your Maps are Possessed and their Minions are Touched"
+      ],
+      "group": 91,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "29946"
+      ],
+      "in": []
+    },
+    "29946": {
+      "skill": 29946,
+      "name": "Tormented Monster Item Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
+      "stats": [
+        "20% increased Quantity of Items dropped by Possessed or Touched Monsters in your Maps"
+      ],
+      "group": 91,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "31485"
+      ],
+      "in": [
+        "5239"
       ]
     },
     "62184": {
@@ -9833,7 +10327,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 5% chance to contain an additional Essence"
       ],
-      "group": 84,
+      "group": 92,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -9850,7 +10344,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 5% chance to contain an additional Essence"
       ],
-      "group": 84,
+      "group": 92,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -9868,7 +10362,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Essences found in your Maps are a tier higher"
       ],
-      "group": 84,
+      "group": 92,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [],
@@ -9883,7 +10377,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 5% chance to contain an additional Essence"
       ],
-      "group": 84,
+      "group": 92,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -9899,110 +10393,160 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryEssence.png",
       "isMastery": true,
       "stats": [],
-      "group": 84,
+      "group": 92,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
     },
-    "13627": {
-      "skill": 13627,
-      "name": "Torment",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryTorment.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 85,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "1135": {
-      "skill": 1135,
-      "name": "Tormented Spirit Duration",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
+    "10473": {
+      "skill": 10473,
+      "name": "Map Drop Duplication",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MapDuplication.png",
       "stats": [
-        "Tormented Spirits in your Maps have 50% increased Duration"
+        "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 85,
-      "orbit": 2,
-      "orbitIndex": 1,
+      "group": 93,
+      "orbit": 0,
+      "orbitIndex": 0,
       "out": [
-        "17011"
+        "28971",
+        "8171"
       ],
       "in": [
-        "30484"
+        "58023"
       ]
     },
-    "17011": {
-      "skill": 17011,
-      "name": "Tormented Spirit Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
+    "40355": {
+      "skill": 40355,
+      "name": "Imagined Pursuits",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png",
+      "isNotable": true,
       "stats": [
-        "Your Maps have a 10% chance to contain an additional Tormented Spirit"
+        "Delirium Reward Types in your Maps gain +1 to count on Map Completion"
       ],
-      "group": 85,
+      "group": 94,
+      "orbit": 3,
+      "orbitIndex": 1,
+      "out": [],
+      "in": [
+        "39954"
+      ]
+    },
+    "9972": {
+      "skill": 9972,
+      "name": "Screaming Whispers",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png",
+      "isNotable": true,
+      "stats": [
+        "18% increased Stack size of Simulacrum Splinters found in your Maps"
+      ],
+      "group": 94,
+      "orbit": 3,
+      "orbitIndex": 15,
+      "out": [],
+      "in": [
+        "61637"
+      ]
+    },
+    "39954": {
+      "skill": 39954,
+      "name": "Delirium Reward Progress",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
+      "stats": [
+        "Delirious Monsters Killed in your Maps provide 10% increased Reward Progress"
+      ],
+      "group": 94,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "40355"
+      ],
+      "in": [
+        "1272"
+      ]
+    },
+    "61637": {
+      "skill": 61637,
+      "name": "Delirium Additional Splinters",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
+      "stats": [
+        "6% increased Stack size of Simulacrum Splinters found in your Maps"
+      ],
+      "group": 94,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
-        "47914"
+        "9972"
       ],
       "in": [
-        "1135",
-        "39402"
+        "64580"
       ]
     },
-    "21304": {
-      "skill": 21304,
-      "name": "Tormented Spirit Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
+    "1272": {
+      "skill": 1272,
+      "name": "Delirium Reward Progress",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
       "stats": [
-        "Your Maps have a 10% chance to contain an additional Tormented Spirit"
+        "Delirious Monsters Killed in your Maps provide 10% increased Reward Progress"
       ],
-      "group": 85,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "30484",
-        "39402"
-      ],
-      "in": []
-    },
-    "30484": {
-      "skill": 30484,
-      "name": "Unrelenting Torment",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
-      "isNotable": true,
-      "stats": [
-        "Map Bosses have 10% chance to be surrounded by Tormented Spirits",
-        "30% more Quantity of Items dropped by Possessed Monsters in your Maps"
-      ],
-      "group": 85,
+      "group": 94,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
-        "1135"
+        "39954"
       ],
       "in": [
-        "21304"
+        "25856"
       ]
     },
-    "39402": {
-      "skill": 39402,
-      "name": "Tormented Spirit Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png",
+    "64580": {
+      "skill": 64580,
+      "name": "Delirium Additional Splinters",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
       "stats": [
-        "Your Maps have a 10% chance to contain an additional Tormented Spirit"
+        "6% increased Stack size of Simulacrum Splinters found in your Maps"
       ],
-      "group": 85,
+      "group": 94,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
-        "17011"
+        "61637"
       ],
       "in": [
-        "21304"
+        "25856"
       ]
+    },
+    "25856": {
+      "skill": 25856,
+      "name": "Delirium Reward Progress and Additional Splinters",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNode1.png",
+      "stats": [
+        "Delirious Monsters Killed in your Maps provide 5% increased Reward Progress",
+        "3% increased Stack size of Simulacrum Splinters found in your Maps"
+      ],
+      "group": 94,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "64580",
+        "1272"
+      ],
+      "in": [
+        "42882"
+      ]
+    },
+    "2908": {
+      "skill": 2908,
+      "name": "Delirium",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelirium.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 94,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
     },
     "42882": {
       "skill": 42882,
@@ -10011,7 +10555,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 86,
+      "group": 95,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -10029,16 +10573,14 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 87,
+      "group": 96,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "58767",
         "28971"
       ],
-      "in": [
-        "34841"
-      ]
+      "in": []
     },
     "36137": {
       "skill": 36137,
@@ -10047,7 +10589,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 88,
+      "group": 97,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -10057,24 +10599,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "15967"
       ]
     },
-    "10473": {
-      "skill": 10473,
-      "name": "Map Drop Duplication",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MapDuplication.png",
-      "stats": [
-        "0.5% chance for Map Drops to be Duplicated"
-      ],
-      "group": 89,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [
-        "28971",
-        "8171"
-      ],
-      "in": [
-        "58023"
-      ]
-    },
     "8555": {
       "skill": 8555,
       "name": "Heist Smuggler's Cache Chance",
@@ -10082,9 +10606,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Smuggler's Cache"
       ],
-      "group": 90,
+      "group": 98,
       "orbit": 2,
-      "orbitIndex": 12,
+      "orbitIndex": 11,
       "out": [
         "41861",
         "8132",
@@ -10099,9 +10623,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Smuggler's Cache"
       ],
-      "group": 90,
+      "group": 98,
       "orbit": 2,
-      "orbitIndex": 15,
+      "orbitIndex": 13,
       "out": [
         "10961"
       ],
@@ -10117,13 +10641,12 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +12% chance to contain a Smuggler's Cache"
       ],
-      "group": 90,
+      "group": 98,
       "orbit": 2,
-      "orbitIndex": 1,
+      "orbitIndex": 0,
       "out": [],
       "in": [
-        "55736",
-        "26334"
+        "55736"
       ]
     },
     "41861": {
@@ -10133,32 +10656,14 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Smuggler's Cache"
       ],
-      "group": 90,
+      "group": 98,
       "orbit": 2,
-      "orbitIndex": 7,
+      "orbitIndex": 8,
       "out": [
-        "10884",
-        "26334"
+        "10884"
       ],
       "in": [
         "8555"
-      ]
-    },
-    "26334": {
-      "skill": 26334,
-      "name": "Heist Smuggler's Cache Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain a Smuggler's Cache"
-      ],
-      "group": 90,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [
-        "10961"
-      ],
-      "in": [
-        "41861"
       ]
     },
     "40323": {
@@ -10167,7 +10672,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHeist.png",
       "isMastery": true,
       "stats": [],
-      "group": 90,
+      "group": 98,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -10180,7 +10685,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Imprisoned Monsters in your Maps have 25% chance to drop an additional Rare Item with an Essence Modifier"
       ],
-      "group": 91,
+      "group": 99,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [],
@@ -10197,7 +10702,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Imprisoned Monsters in your Maps have 25% chance to drop an additional Rare Item with an Essence Modifier"
       ],
-      "group": 91,
+      "group": 99,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -10216,7 +10721,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps contain an additional Essence"
       ],
-      "group": 91,
+      "group": 99,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -10232,7 +10737,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Imprisoned Monsters in your Maps have 25% chance to drop an additional Rare Item with an Essence Modifier"
       ],
-      "group": 91,
+      "group": 99,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -10249,7 +10754,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Imprisoned Monsters in your Maps have 25% chance to drop an additional Rare Item with an Essence Modifier"
       ],
-      "group": 91,
+      "group": 99,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -10265,11 +10770,120 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryEssence.png",
       "isMastery": true,
       "stats": [],
-      "group": 91,
+      "group": 99,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
+    },
+    "10884": {
+      "skill": 10884,
+      "name": "Adjacent Map Drop Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
+      "stats": [
+        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
+      ],
+      "group": 100,
+      "orbit": 3,
+      "orbitIndex": 0,
+      "out": [
+        "15967",
+        "57739"
+      ],
+      "in": [
+        "41861",
+        "63608",
+        "63744"
+      ]
+    },
+    "45894": {
+      "skill": 45894,
+      "name": "Mining Partnership",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png",
+      "isNotable": true,
+      "stats": [
+        "Randomly encountered Masters in your Maps have 100% increased chance to be Niko\nMaster Missions from completing your Maps have 100% increased chance to be Niko"
+      ],
+      "group": 100,
+      "orbit": 4,
+      "orbitIndex": 12,
+      "out": [],
+      "in": [
+        "63608"
+      ]
+    },
+    "27142": {
+      "skill": 27142,
+      "name": "Covert Stakeouts",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png",
+      "isNotable": true,
+      "stats": [
+        "Randomly encountered Masters in your Maps have 100% increased chance to be Jun\nMaster Missions from completing your Maps have 100% increased chance to be Jun"
+      ],
+      "group": 100,
+      "orbit": 4,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "63608"
+      ]
+    },
+    "11237": {
+      "skill": 11237,
+      "name": "Archaeology Tour",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png",
+      "isNotable": true,
+      "stats": [
+        "Randomly encountered Masters in your Maps have 100% increased chance to be Alva\nMaster Missions from completing your Maps have 100% increased chance to be Alva"
+      ],
+      "group": 100,
+      "orbit": 4,
+      "orbitIndex": 28,
+      "out": [],
+      "in": [
+        "57739"
+      ]
+    },
+    "60347": {
+      "skill": 60347,
+      "name": "Hunting Season",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png",
+      "isNotable": true,
+      "stats": [
+        "Randomly encountered Masters in your Maps have 100% increased chance to be Einhar\nMaster Missions from completing your Maps have 100% increased chance to be Einhar"
+      ],
+      "group": 100,
+      "orbit": 4,
+      "orbitIndex": 32,
+      "out": [],
+      "in": [
+        "57739"
+      ]
+    },
+    "7235": {
+      "skill": 7235,
+      "name": "All Hands",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AllHands.png",
+      "isKeystone": true,
+      "stats": [
+        "Your Maps have +40% chance to contain a random Master encounter",
+        "Modifiers to chance to grant an additional Master Mission on Map Completion instead apply to chance for that Master to be randomly encountered in your Maps at 150% of their value",
+        "Your Maps do not grant Master Missions when Completed"
+      ],
+      "reminderText": [
+        "(Randomly encountered Masters are Alva, Einhar, Jun and Niko)"
+      ],
+      "flavourText": [
+        "The enemy is at the gates. Every single soldier we have may still not be enough..."
+      ],
+      "group": 100,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "57739",
+        "63608"
+      ]
     },
     "33757": {
       "skill": 33757,
@@ -10278,14 +10892,137 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 92,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
+      "group": 100,
+      "orbit": 3,
+      "orbitIndex": 8,
+      "out": [
+        "63608"
+      ],
       "in": [
         "57739",
         "64048"
       ]
+    },
+    "57739": {
+      "skill": 57739,
+      "name": "Adjacent Map Drop Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
+      "stats": [
+        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
+      ],
+      "group": 100,
+      "orbit": 3,
+      "orbitIndex": 12,
+      "out": [
+        "33757",
+        "11237",
+        "60347",
+        "7235"
+      ],
+      "in": [
+        "10884"
+      ]
+    },
+    "63608": {
+      "skill": 63608,
+      "name": "Adjacent Map Drop Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
+      "stats": [
+        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
+      ],
+      "group": 100,
+      "orbit": 3,
+      "orbitIndex": 4,
+      "out": [
+        "10884",
+        "27142",
+        "45894",
+        "7235"
+      ],
+      "in": [
+        "33757"
+      ]
+    },
+    "64048": {
+      "skill": 64048,
+      "name": "Adjacent Map Drop Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
+      "stats": [
+        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
+      ],
+      "group": 101,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "52858",
+        "33757"
+      ],
+      "in": [
+        "29045",
+        "35537"
+      ]
+    },
+    "61358": {
+      "skill": 61358,
+      "name": "Shaping the World",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png",
+      "isNotable": true,
+      "stats": [
+        "Final Map Boss in each Map has 5% chance to drop an additional connected Map",
+        "Maps found have 10% chance to be 1 tier higher"
+      ],
+      "group": 102,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "34662",
+        "866"
+      ]
+    },
+    "34662": {
+      "skill": 34662,
+      "name": "Higher Map Tier Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
+      "stats": [
+        "Maps found have 5% chance to be 1 tier higher"
+      ],
+      "group": 102,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "61358",
+        "14734"
+      ],
+      "in": []
+    },
+    "866": {
+      "skill": 866,
+      "name": "Higher Map Tier Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
+      "stats": [
+        "Maps found have 5% chance to be 1 tier higher"
+      ],
+      "group": 102,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "61358",
+        "48296"
+      ],
+      "in": []
+    },
+    "35951": {
+      "skill": 35951,
+      "name": "Maps",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMap.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 102,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
     },
     "57163": {
       "skill": 57163,
@@ -10296,7 +11033,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Harvest Crops in your Maps have 60% increased chance to contain a Tier 4 Plant",
         "Harvests in your Maps have 10% chance for the unchosen Crop to not wilt"
       ],
-      "group": 93,
+      "group": 103,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [],
@@ -10311,7 +11048,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harvest Crops in your Maps have 10% increased chance to contain Tier 3 Plants"
       ],
-      "group": 93,
+      "group": 103,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -10328,7 +11065,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harvest Crops in your Maps have 10% increased chance to contain Tier 3 Plants"
       ],
-      "group": 93,
+      "group": 103,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -10346,7 +11083,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harvest Crops in your Maps have 10% increased chance to contain Tier 3 Plants"
       ],
-      "group": 93,
+      "group": 103,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [
@@ -10361,7 +11098,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHarvest.png",
       "isMastery": true,
       "stats": [],
-      "group": 93,
+      "group": 103,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -10375,7 +11112,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "1% increased Quantity of Items found in your Maps",
         "5% increased Rarity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -10394,7 +11131,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "1% increased Quantity of Items found in your Maps",
         "5% increased Rarity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -10413,7 +11150,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "1% increased Quantity of Items found in your Maps",
         "5% increased Rarity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -10431,7 +11168,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 48,
       "out": [
@@ -10452,7 +11189,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 60,
       "out": [
@@ -10460,7 +11197,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "3939"
       ],
       "in": [
-        "17011",
+        "54875",
         "37420"
       ]
     },
@@ -10471,7 +11208,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 12,
       "out": [
@@ -10490,7 +11227,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 24,
       "out": [
@@ -10511,7 +11248,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 0,
       "out": [
@@ -10529,7 +11266,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 18,
       "out": [
@@ -10546,7 +11283,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 54,
       "out": [
@@ -10564,13 +11301,14 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 66,
       "out": [
         "55997"
       ],
       "in": [
+        "34662",
         "47914"
       ]
     },
@@ -10581,13 +11319,14 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 6,
       "out": [
         "64969"
       ],
       "in": [
+        "866",
         "55997"
       ]
     },
@@ -10598,7 +11337,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 42,
       "out": [
@@ -10615,7 +11354,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 30,
       "out": [
@@ -10632,7 +11371,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "1% increased Quantity of Items found in your Maps"
       ],
-      "group": 94,
+      "group": 104,
       "orbit": 6,
       "orbitIndex": 36,
       "out": [
@@ -10642,6 +11381,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "in": [
         "42156",
         "11386",
+        "41153",
         "62796"
       ]
     },
@@ -10652,7 +11392,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "10% chance for Rogue Exiles in your Maps to appear in Pairs"
       ],
-      "group": 95,
+      "group": 105,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -10669,7 +11409,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "10% chance for Rogue Exiles in your Maps to appear in Pairs"
       ],
-      "group": 95,
+      "group": 105,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -10686,7 +11426,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "10% chance for Rogue Exiles in your Maps to appear in Pairs"
       ],
-      "group": 95,
+      "group": 105,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -10704,7 +11444,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 8% chance to contain 20 additional Rogue Exiles"
       ],
-      "group": 95,
+      "group": 105,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [],
@@ -10720,7 +11460,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Rogue Exiles in your Maps are Possessed by a Tormented Spirit"
       ],
-      "group": 95,
+      "group": 105,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [],
@@ -10734,110 +11474,71 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAnarchy.png",
       "isMastery": true,
       "stats": [],
-      "group": 95,
+      "group": 105,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
     },
-    "7778": {
-      "skill": 7778,
-      "name": "Strongboxes",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryStrongbox.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 96,
+    "41153": {
+      "skill": 41153,
+      "name": "The Seventh Gate",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheSeventhGate.png",
+      "isKeystone": true,
+      "stats": [
+        "All possible League Map Crafting Options are Available while six Gateways are Allocated"
+      ],
+      "flavourText": [
+        "The most enigmatic threshold is not a 'where.'"
+      ],
+      "group": 106,
       "orbit": 0,
       "orbitIndex": 0,
-      "out": [],
+      "out": [
+        "34946",
+        "58767"
+      ],
       "in": []
     },
-    "22597": {
-      "skill": 22597,
-      "name": "Tamper-Proof",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png",
-      "isNotable": true,
+    "52359": {
+      "skill": 52359,
+      "name": "Overloaded Circuits",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/OverloadedCircuits.png",
+      "isKeystone": true,
       "stats": [
-        "Strongboxes in your Maps are Corrupted",
-        "Strongboxes in your Maps are at least Rare"
+        "League Map Crafting Options also choose 3 random Notable Atlas Passive Skills associated with that League to treat as allocated\n100% more cost of Map Crafting Options"
       ],
-      "group": 96,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [],
-      "in": [
-        "34841"
-      ]
-    },
-    "34841": {
-      "skill": 34841,
-      "name": "Strongbox Chance to be Reopenable ",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNode1.png",
-      "stats": [
-        "Strongboxes opened in your Maps have 2% chance to be openable again"
+      "flavourText": [
+        "\"Supplying the Map Device with more power has... unexpected effects.",
+        "Somehow, though, I doubt you'll be deterred.\""
       ],
-      "group": 96,
-      "orbit": 2,
-      "orbitIndex": 11,
+      "group": 107,
+      "orbit": 3,
+      "orbitIndex": 4,
       "out": [
-        "22597",
-        "42156"
+        "32888"
       ],
       "in": [
-        "44048"
+        "23165"
       ]
     },
-    "44048": {
-      "skill": 44048,
-      "name": "Strongbox Chance to be Reopenable ",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNode1.png",
+    "38833": {
+      "skill": 38833,
+      "name": "Bold Undertakings",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BoldUndertaking.png",
+      "isKeystone": true,
       "stats": [
-        "Strongboxes opened in your Maps have 2% chance to be openable again"
+        "Fortune Favours the Brave applies an additional random Option\n100% more cost of the Fortune Favours the Brave Map Crafting Option"
       ],
-      "group": 96,
-      "orbit": 2,
-      "orbitIndex": 8,
+      "flavourText": [
+        "Fortune will rain upon those who bring humour to Chaos."
+      ],
+      "group": 107,
+      "orbit": 3,
+      "orbitIndex": 12,
       "out": [
-        "34841"
-      ],
-      "in": [
-        "39979"
-      ]
-    },
-    "39979": {
-      "skill": 39979,
-      "name": "Strongbox Chance to be Reopenable ",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNode1.png",
-      "stats": [
-        "Strongboxes opened in your Maps have 2% chance to be openable again"
-      ],
-      "group": 96,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "44048",
-        "62796"
-      ],
-      "in": [
-        "63738"
-      ]
-    },
-    "63738": {
-      "skill": 63738,
-      "name": "Secret Operations",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png",
-      "isNotable": true,
-      "stats": [
-        "Strongboxes in your Maps have 6% chance to be an Operative's Strongbox"
-      ],
-      "reminderText": [
-        "(Operative's Strongboxes contain Scarabs)"
-      ],
-      "group": 96,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "39979"
+        "23991",
+        "41865"
       ],
       "in": []
     },
@@ -10846,13 +11547,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "name": "Higher Map Tier Chance",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
       "stats": [
-        "Maps found have 4% chance to be 1 tier higher"
+        "Maps found have 5% chance to be 1 tier higher"
       ],
-      "group": 97,
+      "group": 107,
       "orbit": 3,
-      "orbitIndex": 5,
+      "orbitIndex": 6,
       "out": [
-        "32888"
+        "52359"
       ],
       "in": [
         "59176"
@@ -10863,33 +11564,16 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "name": "Higher Map Tier Chance",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
       "stats": [
-        "Maps found have 4% chance to be 1 tier higher"
+        "Maps found have 5% chance to be 1 tier higher"
       ],
-      "group": 97,
+      "group": 107,
       "orbit": 3,
-      "orbitIndex": 4,
+      "orbitIndex": 2,
       "out": [
-        "61358"
+        "34946"
       ],
       "in": [
-        "23165"
-      ]
-    },
-    "61358": {
-      "skill": 61358,
-      "name": "Shaping the Seas",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png",
-      "isNotable": true,
-      "stats": [
-        "Maps found in your Maps have 3% chance to have a special Implicit Modifier",
-        "Maps found have 15% chance to be 1 tier higher"
-      ],
-      "group": 97,
-      "orbit": 3,
-      "orbitIndex": 3,
-      "out": [],
-      "in": [
-        "32888"
+        "52359"
       ]
     },
     "41865": {
@@ -10897,16 +11581,33 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "name": "Higher Map Tier Chance",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
       "stats": [
-        "Maps found have 4% chance to be 1 tier higher"
+        "Maps found have 5% chance to be 1 tier higher"
       ],
-      "group": 97,
+      "group": 107,
       "orbit": 3,
-      "orbitIndex": 12,
+      "orbitIndex": 14,
       "out": [
-        "23991"
+        "34946"
       ],
       "in": [
-        "6530"
+        "38833"
+      ]
+    },
+    "34946": {
+      "skill": 34946,
+      "name": "Higher Map Tier Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
+      "stats": [
+        "Maps found have 5% chance to be 1 tier higher"
+      ],
+      "group": 107,
+      "orbit": 3,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "41153",
+        "32888",
+        "41865"
       ]
     },
     "59176": {
@@ -10914,9 +11615,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "name": "Higher Map Tier Chance",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
       "stats": [
-        "Maps found have 4% chance to be 1 tier higher"
+        "Maps found have 5% chance to be 1 tier higher"
       ],
-      "group": 97,
+      "group": 107,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -10932,35 +11633,16 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "name": "Higher Map Tier Chance",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
       "stats": [
-        "Maps found have 4% chance to be 1 tier higher"
+        "Maps found have 5% chance to be 1 tier higher"
       ],
-      "group": 97,
+      "group": 107,
       "orbit": 3,
-      "orbitIndex": 11,
+      "orbitIndex": 10,
       "out": [],
       "in": [
-        "41865",
+        "38833",
         "59176"
       ]
-    },
-    "6530": {
-      "skill": 6530,
-      "name": "Shaping the Valleys",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable4.png",
-      "isNotable": true,
-      "stats": [
-        "10% increased Quantity of Items found in your Maps affected by Fortune Favours the Brave",
-        "10% increased Rarity of Items found in your Maps affected by Fortune Favours the Brave",
-        "10% increased Pack Size of your Maps affected by Fortune Favours the Brave",
-        "Maps found have 15% chance to be 1 tier higher"
-      ],
-      "group": 97,
-      "orbit": 3,
-      "orbitIndex": 13,
-      "out": [
-        "41865"
-      ],
-      "in": []
     },
     "30340": {
       "skill": 30340,
@@ -10968,7 +11650,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMap.png",
       "isMastery": true,
       "stats": [],
-      "group": 97,
+      "group": 107,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -10981,16 +11663,16 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
         "36137"
       ],
       "in": [
+        "10884",
         "38725",
         "2018",
-        "10884",
         "23513"
       ]
     },
@@ -11001,7 +11683,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Kirac Mission on Completion"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [
@@ -11018,7 +11700,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Kirac Mission on Completion"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -11035,7 +11717,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Kirac Mission on Completion"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -11052,7 +11734,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Kirac Mission on Completion"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -11067,7 +11749,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryKirac.png",
       "isMastery": true,
       "stats": [],
-      "group": 98,
+      "group": 108,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -11080,7 +11762,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [
@@ -11101,7 +11783,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "+5% to Quality of Maps offered by Kirac Missions in your Maps"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -11118,7 +11800,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "+5% to Quality of Maps offered by Kirac Missions in your Maps"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [
@@ -11135,7 +11817,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "+5% to Quality of Maps offered by Kirac Missions in your Maps"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [
@@ -11152,7 +11834,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "+5% to Quality of Maps offered by Kirac Missions in your Maps"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
@@ -11170,7 +11852,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Gain 1 additional Kirac Mission each day",
         "Your Maps have 3% chance to grant an additional Kirac Mission on Completion"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [],
@@ -11193,7 +11875,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "(Delirious Scouting Reports reroll all of Kirac's Atlas Missions, adding layers of Delirium to all non-Unique Maps)",
         "(Otherworldly Scouting Reports reroll all of Kirac's Atlas Missions, including at least one Breachstone)"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [],
@@ -11210,7 +11892,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "60% increased Atlas Scouting Reports found in your Maps"
       ],
-      "group": 98,
+      "group": 108,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -11220,129 +11902,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "18876"
       ]
     },
-    "10884": {
-      "skill": 10884,
-      "name": "Adjacent Map Drop Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
-      "stats": [
-        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
-      ],
-      "group": 99,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [
-        "15967",
-        "57739"
-      ],
-      "in": [
-        "41861",
-        "63744"
-      ]
-    },
-    "45894": {
-      "skill": 45894,
-      "name": "Mining Partnership",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png",
-      "isNotable": true,
-      "stats": [
-        "Randomly encountered Masters in your Maps have 100% increased chance to be Niko\nMaster Missions from completing your Maps have 100% increased chance to be Niko"
-      ],
-      "group": 100,
-      "orbit": 3,
-      "orbitIndex": 6,
-      "out": [],
-      "in": [
-        "57739"
-      ]
-    },
-    "27142": {
-      "skill": 27142,
-      "name": "Covert Stakeouts",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png",
-      "isNotable": true,
-      "stats": [
-        "Randomly encountered Masters in your Maps have 100% increased chance to be Jun\nMaster Missions from completing your Maps have 100% increased chance to be Jun"
-      ],
-      "group": 100,
-      "orbit": 3,
-      "orbitIndex": 2,
-      "out": [],
-      "in": [
-        "57739"
-      ]
-    },
-    "11237": {
-      "skill": 11237,
-      "name": "Archaeology Tour",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png",
-      "isNotable": true,
-      "stats": [
-        "Randomly encountered Masters in your Maps have 100% increased chance to be Alva\nMaster Missions from completing your Maps have 100% increased chance to be Alva"
-      ],
-      "group": 100,
-      "orbit": 3,
-      "orbitIndex": 10,
-      "out": [],
-      "in": [
-        "57739"
-      ]
-    },
-    "60347": {
-      "skill": 60347,
-      "name": "Hunting Season",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png",
-      "isNotable": true,
-      "stats": [
-        "Randomly encountered Masters in your Maps have 100% increased chance to be Einhar\nMaster Missions from completing your Maps have 100% increased chance to be Einhar"
-      ],
-      "group": 100,
-      "orbit": 3,
-      "orbitIndex": 14,
-      "out": [],
-      "in": [
-        "57739"
-      ]
-    },
-    "57739": {
-      "skill": 57739,
-      "name": "Adjacent Map Drop Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
-      "stats": [
-        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
-      ],
-      "group": 100,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [
-        "33757",
-        "11237",
-        "60347",
-        "27142",
-        "45894"
-      ],
-      "in": [
-        "10884"
-      ]
-    },
-    "64048": {
-      "skill": 64048,
-      "name": "Adjacent Map Drop Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
-      "stats": [
-        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
-      ],
-      "group": 101,
-      "orbit": 6,
-      "orbitIndex": 0,
-      "out": [
-        "52858",
-        "33757"
-      ],
-      "in": [
-        "29045",
-        "35537"
-      ]
-    },
     "55117": {
       "skill": 55117,
       "name": "Adjacent Map Drop Chance",
@@ -11350,7 +11909,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 101,
+      "group": 109,
       "orbit": 6,
       "orbitIndex": 6,
       "out": [
@@ -11368,7 +11927,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 101,
+      "group": 109,
       "orbit": 6,
       "orbitIndex": 66,
       "out": [
@@ -11384,7 +11943,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "name": "",
       "icon": "",
       "stats": [],
-      "group": 101,
+      "group": 109,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -11404,7 +11963,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Monster Packs Influenced by The Elder in your Maps have 3% increased Pack Size",
         "Monster Packs Influenced by The Shaper in your Maps have 3% increased Pack Size"
       ],
-      "group": 102,
+      "group": 110,
       "orbit": 5,
       "orbitIndex": 36,
       "out": [
@@ -11423,7 +11982,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Final Map Boss in each Map has 3% chance to drop an Elder Guardian Map (Tier 14+)",
         "Final Map Boss in each Map has 3% chance to drop a Shaper Guardian Map (Tier 14+)"
       ],
-      "group": 102,
+      "group": 110,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -11441,7 +12000,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by The Elder in your Maps have 5% increased Pack Size"
       ],
-      "group": 102,
+      "group": 110,
       "orbit": 2,
       "orbitIndex": 6,
       "out": [],
@@ -11458,7 +12017,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by The Elder in your Maps have 5% increased Pack Size"
       ],
-      "group": 102,
+      "group": 110,
       "orbit": 2,
       "orbitIndex": 2,
       "out": [
@@ -11475,7 +12034,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by The Shaper in your Maps have 5% increased Pack Size"
       ],
-      "group": 102,
+      "group": 110,
       "orbit": 2,
       "orbitIndex": 14,
       "out": [
@@ -11493,7 +12052,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by The Shaper in your Maps have 5% increased Pack Size"
       ],
-      "group": 102,
+      "group": 110,
       "orbit": 2,
       "orbitIndex": 10,
       "out": [
@@ -11512,7 +12071,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Monster Packs Influenced by The Elder in your Maps have 3% increased Pack Size",
         "Monster Packs Influenced by The Shaper in your Maps have 3% increased Pack Size"
       ],
-      "group": 102,
+      "group": 110,
       "orbit": 6,
       "orbitIndex": 36,
       "out": [
@@ -11534,7 +12093,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "A single act of love and defiance may cascade destruction across the cosmos."
       ],
-      "group": 102,
+      "group": 110,
       "orbit": 4,
       "orbitIndex": 0,
       "out": [],
@@ -11549,7 +12108,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryElderShaper.png",
       "isMastery": true,
       "stats": [],
-      "group": 102,
+      "group": 110,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -11562,7 +12121,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 103,
+      "group": 111,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -11586,13 +12145,32 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "You must rise from mere amusement to respected equal."
       ],
-      "group": 104,
-      "orbit": 3,
-      "orbitIndex": 8,
+      "group": 112,
+      "orbit": 4,
+      "orbitIndex": 10,
       "out": [],
       "in": [
-        "12302",
         "30365"
+      ]
+    },
+    "34384": {
+      "skill": 34384,
+      "name": "Destructive Play",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/DestructivePlay.png",
+      "isKeystone": true,
+      "stats": [
+        "The Maven summons 1 to 3 additional Bosses when Witnessing Map Bosses\nModifiers to the Final Map Boss in each Map also apply to these summoned Bosses"
+      ],
+      "flavourText": [
+        "She makes the rules up as she goes.",
+        "It was never going to be fair."
+      ],
+      "group": 112,
+      "orbit": 4,
+      "orbitIndex": 30,
+      "out": [],
+      "in": [
+        "12302"
       ]
     },
     "18900": {
@@ -11603,7 +12181,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Defeating a Map Boss while Witnessed by The Maven has 10% chance to count as also Witnessing an additional random Map Boss"
       ],
-      "group": 104,
+      "group": 112,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [
@@ -11621,11 +12199,11 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Final Map Boss in each Map has 8% increased chance to drop a Maven's Invitation (Tier 14+)"
       ],
-      "group": 104,
+      "group": 112,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
-        "56188"
+        "34384"
       ],
       "in": [
         "62212"
@@ -11638,7 +12216,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Final Map Boss in each Map has 8% increased chance to drop a Maven's Invitation (Tier 14+)"
       ],
-      "group": 104,
+      "group": 112,
       "orbit": 4,
       "orbitIndex": 0,
       "out": [
@@ -11654,7 +12232,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Final Map Boss in each Map has 8% increased chance to drop a Maven's Invitation (Tier 14+)"
       ],
-      "group": 104,
+      "group": 112,
       "orbit": 5,
       "orbitIndex": 0,
       "out": [
@@ -11671,7 +12249,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Final Map Boss in each Map has 8% increased chance to drop a Maven's Invitation (Tier 14+)"
       ],
-      "group": 104,
+      "group": 112,
       "orbit": 2,
       "orbitIndex": 2,
       "out": [
@@ -11688,7 +12266,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Final Map Boss in each Map has 8% increased chance to drop a Maven's Invitation (Tier 14+)"
       ],
-      "group": 104,
+      "group": 112,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -11705,7 +12283,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Final Map Boss in each Map has 8% increased chance to drop a Maven's Invitation (Tier 14+)"
       ],
-      "group": 104,
+      "group": 112,
       "orbit": 2,
       "orbitIndex": 14,
       "out": [
@@ -11722,7 +12300,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abyss Pits in your Maps have 3% chance to spawn 5 additional Rare Monsters"
       ],
-      "group": 105,
+      "group": 113,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -11739,7 +12317,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abyss Pits in your Maps have 3% chance to spawn 5 additional Rare Monsters"
       ],
-      "group": 106,
+      "group": 114,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -11755,7 +12333,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryStrongbox.png",
       "isMastery": true,
       "stats": [],
-      "group": 107,
+      "group": 115,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -11769,7 +12347,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps contain an additional Strongbox"
       ],
-      "group": 107,
+      "group": 115,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -11785,7 +12363,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 15% chance to be guarded by an additional Pack of Monsters"
       ],
-      "group": 107,
+      "group": 115,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -11803,7 +12381,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 15% chance to be guarded by an additional Pack of Monsters"
       ],
-      "group": 107,
+      "group": 115,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -11821,7 +12399,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 15% chance to be guarded by an additional Pack of Monsters"
       ],
-      "group": 107,
+      "group": 115,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -11838,7 +12416,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 15% chance to be guarded by an additional Pack of Monsters"
       ],
-      "group": 107,
+      "group": 115,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -11856,7 +12434,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abyss Cracks in your Maps have 5% chance to spawn all Monsters as Magic for each prior Pit in that Abyss"
       ],
-      "group": 108,
+      "group": 116,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -11873,9 +12451,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "25% increased Duration of Shrine Effects on Players in your Maps"
       ],
-      "group": 109,
+      "group": 117,
       "orbit": 2,
-      "orbitIndex": 4,
+      "orbitIndex": 5,
       "out": [
         "63744",
         "53410",
@@ -11890,9 +12468,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "25% increased Duration of Shrine Effects on Players in your Maps"
       ],
-      "group": 109,
+      "group": 117,
       "orbit": 2,
-      "orbitIndex": 9,
+      "orbitIndex": 8,
       "out": [
         "10884"
       ],
@@ -11908,9 +12486,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps contain an additional Shrine"
       ],
-      "group": 109,
+      "group": 117,
       "orbit": 2,
-      "orbitIndex": 15,
+      "orbitIndex": 0,
       "out": [],
       "in": [
         "23769"
@@ -11923,9 +12501,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "25% increased Duration of Shrine Effects on Players in your Maps"
       ],
-      "group": 109,
+      "group": 117,
       "orbit": 2,
-      "orbitIndex": 1,
+      "orbitIndex": 3,
       "out": [
         "20503"
       ],
@@ -11939,29 +12517,11 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDomination.png",
       "isMastery": true,
       "stats": [],
-      "group": 109,
+      "group": 117,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
-    },
-    "11915": {
-      "skill": 11915,
-      "name": "Map Drop Duplication",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MapDuplication.png",
-      "stats": [
-        "0.5% chance for Map Drops to be Duplicated"
-      ],
-      "group": 110,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [
-        "32019",
-        "48952"
-      ],
-      "in": [
-        "58023"
-      ]
     },
     "23513": {
       "skill": 23513,
@@ -11970,7 +12530,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 111,
+      "group": 118,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -11987,7 +12547,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abyss Pits in your Maps have 3% chance to spawn 5 additional Rare Monsters"
       ],
-      "group": 112,
+      "group": 119,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12004,16 +12564,14 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 113,
+      "group": 120,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "58767",
         "32019"
       ],
-      "in": [
-        "39979"
-      ]
+      "in": []
     },
     "60645": {
       "skill": 60645,
@@ -12022,7 +12580,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 114,
+      "group": 121,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12033,104 +12591,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "64178"
       ]
     },
-    "44380": {
-      "skill": 44380,
-      "name": "Expedition Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Expedition Encounter"
-      ],
-      "group": 115,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "33114"
-      ],
-      "in": [
-        "53322"
-      ]
-    },
-    "26706": {
-      "skill": 26706,
-      "name": "Expedition Artifact Quantity",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png",
-      "stats": [
-        "4% increased quantity of Artifacts dropped by Monsters"
-      ],
-      "group": 115,
-      "orbit": 2,
-      "orbitIndex": 7,
-      "out": [
-        "53322",
-        "55783"
-      ],
-      "in": []
-    },
-    "53322": {
-      "skill": 53322,
-      "name": "Expedition Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Expedition Encounter"
-      ],
-      "group": 115,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "44380"
-      ],
-      "in": [
-        "64969",
-        "26706"
-      ]
-    },
-    "55783": {
-      "skill": 55783,
-      "name": "Buried Knowledge",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png",
-      "isNotable": true,
-      "stats": [
-        "50% increased Quantity of Expedition Logbooks dropped by Runic Monsters in your Maps",
-        "Your Maps contain 20% increased number of Runic Monster Markers"
-      ],
-      "group": 115,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [],
-      "in": [
-        "26706",
-        "33114"
-      ]
-    },
-    "33114": {
-      "skill": 33114,
-      "name": "Expedition Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Expedition Encounter"
-      ],
-      "group": 115,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "55783"
-      ],
-      "in": [
-        "44380"
-      ]
-    },
-    "38161": {
-      "skill": 38161,
-      "name": "Expedition",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryExpedition.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 115,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
     "41712": {
       "skill": 41712,
       "name": "Abyss Magic Monster Chance",
@@ -12139,7 +12599,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Abyss Pits in your Maps have 3% chance to spawn all Monsters as at least Magic",
         "Abyss Cracks in your Maps have 3% chance to spawn all Monsters as at least Magic"
       ],
-      "group": 116,
+      "group": 122,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12156,7 +12616,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 5% chance to contain an additional Harbinger"
       ],
-      "group": 117,
+      "group": 123,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [
@@ -12174,7 +12634,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 5% chance to contain an additional Harbinger"
       ],
-      "group": 117,
+      "group": 123,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -12191,7 +12651,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harbingers in your Maps have 25% chance to be replaced by a powerful Harbinger boss"
       ],
-      "group": 117,
+      "group": 123,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -12206,7 +12666,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 5% chance to contain an additional Harbinger"
       ],
-      "group": 117,
+      "group": 123,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
@@ -12222,7 +12682,318 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHarbinger.png",
       "isMastery": true,
       "stats": [],
-      "group": 117,
+      "group": 123,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "44380": {
+      "skill": 44380,
+      "name": "Expedition Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Expedition Encounter"
+      ],
+      "group": 124,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "33114"
+      ],
+      "in": [
+        "53322"
+      ]
+    },
+    "26706": {
+      "skill": 26706,
+      "name": "Expedition Artifact Quantity",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png",
+      "stats": [
+        "4% increased quantity of Artifacts dropped by Monsters"
+      ],
+      "group": 124,
+      "orbit": 2,
+      "orbitIndex": 4,
+      "out": [
+        "53322",
+        "55783"
+      ],
+      "in": []
+    },
+    "53322": {
+      "skill": 53322,
+      "name": "Expedition Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Expedition Encounter"
+      ],
+      "group": 124,
+      "orbit": 2,
+      "orbitIndex": 1,
+      "out": [
+        "44380"
+      ],
+      "in": [
+        "64969",
+        "26706"
+      ]
+    },
+    "55783": {
+      "skill": 55783,
+      "name": "Buried Knowledge",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png",
+      "isNotable": true,
+      "stats": [
+        "50% increased Quantity of Expedition Logbooks dropped by Runic Monsters in your Maps",
+        "Your Maps contain 20% increased number of Runic Monster Markers"
+      ],
+      "group": 124,
+      "orbit": 2,
+      "orbitIndex": 7,
+      "out": [],
+      "in": [
+        "26706",
+        "33114"
+      ]
+    },
+    "33114": {
+      "skill": 33114,
+      "name": "Expedition Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Expedition Encounter"
+      ],
+      "group": 124,
+      "orbit": 2,
+      "orbitIndex": 12,
+      "out": [
+        "55783"
+      ],
+      "in": [
+        "44380"
+      ]
+    },
+    "38161": {
+      "skill": 38161,
+      "name": "Expedition",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryExpedition.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 124,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "11915": {
+      "skill": 11915,
+      "name": "Map Drop Duplication",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MapDuplication.png",
+      "stats": [
+        "0.5% chance for Map Drops to be Duplicated"
+      ],
+      "group": 125,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "32019",
+        "48952"
+      ],
+      "in": [
+        "58023"
+      ]
+    },
+    "14688": {
+      "skill": 14688,
+      "name": "Reactive Swarm",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssMonstersSpawn.png",
+      "isNotable": true,
+      "stats": [
+        "Abysses in your Maps spawn 10% increased Monsters for each prior Pit in that Abyss"
+      ],
+      "group": 126,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "30611"
+      ],
+      "in": [
+        "49390"
+      ]
+    },
+    "18532": {
+      "skill": 18532,
+      "name": "Abyss Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Abyss"
+      ],
+      "group": 126,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "46702"
+      ],
+      "in": [
+        "60645"
+      ]
+    },
+    "46702": {
+      "skill": 46702,
+      "name": "Abyss Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Abyss"
+      ],
+      "group": 126,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "49390"
+      ],
+      "in": [
+        "18532"
+      ]
+    },
+    "49390": {
+      "skill": 49390,
+      "name": "Abyss Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Abyss"
+      ],
+      "group": 126,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "14688"
+      ],
+      "in": [
+        "46702"
+      ]
+    },
+    "19599": {
+      "skill": 19599,
+      "name": "Abyss",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 126,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "9338": {
+      "skill": 9338,
+      "name": "Sustained Horde",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssTo3.png",
+      "isNotable": true,
+      "stats": [
+        "Abysses in your Maps that do not lead to an Abyssal Depths lead to at least 3 Pits if able"
+      ],
+      "group": 127,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "45159"
+      ],
+      "in": [
+        "9238"
+      ]
+    },
+    "12773": {
+      "skill": 12773,
+      "name": "Logistical Support",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png",
+      "isNotable": true,
+      "stats": [
+        "Legion Monsters in your Maps which have Rewards have 10% chance to gain two additional Rewards, and if not have 20% chance to gain one additional Reward",
+        "Legion Monsters in your Maps gain 50% more Life for each additional Reward they have"
+      ],
+      "group": 128,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [],
+      "in": [
+        "29889"
+      ]
+    },
+    "17160": {
+      "skill": 17160,
+      "name": "Pillaged Treasures",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png",
+      "isNotable": true,
+      "stats": [
+        "Legion Chests in your Maps contain an additional Random Reward"
+      ],
+      "group": 128,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "46594"
+      ]
+    },
+    "29889": {
+      "skill": 29889,
+      "name": "Legion Monster Duplicate Splinter Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
+      "stats": [
+        "Splinters dropped by Legion Monsters in your Maps have 10% chance to be Duplicated"
+      ],
+      "group": 128,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "12773"
+      ],
+      "in": [
+        "64301"
+      ]
+    },
+    "46594": {
+      "skill": 46594,
+      "name": "Legion Chest Duplicate Splinter Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
+      "stats": [
+        "Splinters contained in Legion Chests in your Maps have 10% chance to be Duplicated"
+      ],
+      "group": 128,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "17160"
+      ],
+      "in": [
+        "64301"
+      ]
+    },
+    "64301": {
+      "skill": 64301,
+      "name": "Legion Duplicate Splinter Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
+      "stats": [
+        "Splinters dropped by Legion Monsters or contained in Legion Chests in your Maps have 5% chance to be Duplicated"
+      ],
+      "group": 128,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "29889",
+        "46594",
+        "26601"
+      ],
+      "in": []
+    },
+    "57363": {
+      "skill": 57363,
+      "name": "Legion",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryLegion.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 128,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -12243,208 +13014,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "You fancy yourself a god. You see only what you want to see."
       ],
-      "group": 118,
+      "group": 129,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": [
         "11915"
       ]
-    },
-    "14688": {
-      "skill": 14688,
-      "name": "Reactive Swarm",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssMonstersSpawn.png",
-      "isNotable": true,
-      "stats": [
-        "Abysses in your Maps spawn 10% increased Monsters for each prior Pit in that Abyss"
-      ],
-      "group": 119,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "30611"
-      ],
-      "in": [
-        "49390"
-      ]
-    },
-    "18532": {
-      "skill": 18532,
-      "name": "Abyss Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Abyss"
-      ],
-      "group": 119,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "46702"
-      ],
-      "in": [
-        "60645"
-      ]
-    },
-    "46702": {
-      "skill": 46702,
-      "name": "Abyss Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Abyss"
-      ],
-      "group": 119,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [
-        "49390"
-      ],
-      "in": [
-        "18532"
-      ]
-    },
-    "49390": {
-      "skill": 49390,
-      "name": "Abyss Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Abyss"
-      ],
-      "group": 119,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "14688"
-      ],
-      "in": [
-        "46702"
-      ]
-    },
-    "19599": {
-      "skill": 19599,
-      "name": "Abyss",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 119,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "9338": {
-      "skill": 9338,
-      "name": "Sustained Horde",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssTo3.png",
-      "isNotable": true,
-      "stats": [
-        "Abysses in your Maps that do not lead to an Abyssal Depths lead to at least 3 Pits if able"
-      ],
-      "group": 120,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [
-        "45159"
-      ],
-      "in": [
-        "9238"
-      ]
-    },
-    "12773": {
-      "skill": 12773,
-      "name": "Logistical Support",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png",
-      "isNotable": true,
-      "stats": [
-        "Legion Monsters in your Maps which have Rewards have 10% chance to gain two additional Rewards, and if not have 20% chance to gain one additional Reward",
-        "Legion Monsters in your Maps gain 50% more Life for each additional Reward they have"
-      ],
-      "group": 121,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [],
-      "in": [
-        "29889"
-      ]
-    },
-    "17160": {
-      "skill": 17160,
-      "name": "Pillaged Treasures",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png",
-      "isNotable": true,
-      "stats": [
-        "Legion Chests in your Maps contain an additional Random Reward"
-      ],
-      "group": 121,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [],
-      "in": [
-        "46594"
-      ]
-    },
-    "29889": {
-      "skill": 29889,
-      "name": "Legion Monster Duplicate Splinter Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
-      "stats": [
-        "Splinters dropped by Legion Monsters in your Maps have 10% chance to be Duplicated"
-      ],
-      "group": 121,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "12773"
-      ],
-      "in": [
-        "64301"
-      ]
-    },
-    "46594": {
-      "skill": 46594,
-      "name": "Legion Chest Duplicate Splinter Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
-      "stats": [
-        "Splinters contained in Legion Chests in your Maps have 10% chance to be Duplicated"
-      ],
-      "group": 121,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "17160"
-      ],
-      "in": [
-        "64301"
-      ]
-    },
-    "64301": {
-      "skill": 64301,
-      "name": "Legion Duplicate Splinter Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
-      "stats": [
-        "Splinters dropped by Legion Monsters or contained in Legion Chests in your Maps have 5% chance to be Duplicated"
-      ],
-      "group": 121,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "29889",
-        "46594",
-        "26601"
-      ],
-      "in": []
-    },
-    "57363": {
-      "skill": 57363,
-      "name": "Legion",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryLegion.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 121,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
     },
     "58409": {
       "skill": 58409,
@@ -12454,7 +13030,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Abyss Pits in your Maps have 3% chance to spawn all Monsters as at least Magic",
         "Abyss Cracks in your Maps have 3% chance to spawn all Monsters as at least Magic"
       ],
-      "group": 122,
+      "group": 130,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12471,16 +13047,16 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 123,
+      "group": 131,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "6990"
       ],
       "in": [
-        "11915",
         "62796",
-        "6331"
+        "11915",
+        "54004"
       ]
     },
     "30611": {
@@ -12491,7 +13067,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Abyss Pits in your Maps have 3% chance to spawn 100% increased Monsters",
         "Abyss Cracks in your Maps have 3% chance to spawn 100% increased Monsters"
       ],
-      "group": 124,
+      "group": 132,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12508,7 +13084,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 125,
+      "group": 133,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12521,68 +13097,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "17321"
       ]
     },
-    "28939": {
-      "skill": 28939,
-      "name": "Higher Map Tier Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
-      "stats": [
-        "Maps found have 5% chance to be 1 tier higher"
-      ],
-      "group": 126,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "17321",
-        "65246"
-      ],
-      "in": []
-    },
-    "65246": {
-      "skill": 65246,
-      "name": "Higher Map Tier Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
-      "stats": [
-        "Maps found have 5% chance to be 1 tier higher"
-      ],
-      "group": 126,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "35608"
-      ],
-      "in": [
-        "28939"
-      ]
-    },
-    "35608": {
-      "skill": 35608,
-      "name": "Shaping the Skies",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png",
-      "isNotable": true,
-      "stats": [
-        "3% chance on Completing your Maps to gain a free use of a special Map Crafting option",
-        "Maps found have 15% chance to be 1 tier higher"
-      ],
-      "group": 126,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [],
-      "in": [
-        "65246"
-      ]
-    },
-    "56530": {
-      "skill": 56530,
-      "name": "Maps",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMap.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 126,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
     "18890": {
       "skill": 18890,
       "name": "Delve Sulphite Quantity",
@@ -12590,7 +13104,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Voltaxic Sulphite Veins and Chests in your Maps contain 3% increased Sulphite"
       ],
-      "group": 127,
+      "group": 134,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -12607,7 +13121,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Voltaxic Sulphite Veins and Chests in your Maps contain 3% increased Sulphite"
       ],
-      "group": 127,
+      "group": 134,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [
@@ -12624,7 +13138,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Voltaxic Sulphite Veins and Chests in your Maps contain 3% increased Sulphite"
       ],
-      "group": 127,
+      "group": 134,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -12642,7 +13156,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Sulphite Veins and Chests in your Maps have 10% chance to also contain an equal amount of Azurite"
       ],
-      "group": 127,
+      "group": 134,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [],
@@ -12657,7 +13171,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Voltaxic Sulphite Veins and Chests in your Maps contain 3% increased Sulphite"
       ],
-      "group": 127,
+      "group": 134,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
@@ -12673,7 +13187,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelve.png",
       "isMastery": true,
       "stats": [],
-      "group": 127,
+      "group": 134,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -12687,7 +13201,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Abyss Pits in your Maps have 3% chance to spawn 100% increased Monsters",
         "Abyss Cracks in your Maps have 3% chance to spawn 100% increased Monsters"
       ],
-      "group": 128,
+      "group": 135,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12705,7 +13219,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Abyss Pits in your Maps have 3% chance to spawn all Monsters as at least Magic",
         "Abyss Cracks in your Maps have 3% chance to spawn all Monsters as at least Magic"
       ],
-      "group": 129,
+      "group": 136,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12722,7 +13236,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Voltaxic Sulphite Veins and Chests in your Maps contain 3% increased Sulphite"
       ],
-      "group": 130,
+      "group": 137,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -12739,7 +13253,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Voltaxic Sulphite Veins and Chests in your Maps contain 3% increased Sulphite"
       ],
-      "group": 130,
+      "group": 137,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -12756,7 +13270,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 4% chance to grant an additional Niko Mission on Completion"
       ],
-      "group": 130,
+      "group": 137,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [],
@@ -12771,7 +13285,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelve.png",
       "isMastery": true,
       "stats": [],
-      "group": 130,
+      "group": 137,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -12784,7 +13298,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 131,
+      "group": 138,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12803,7 +13317,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Abyss Pits in your Maps have 3% chance to spawn 100% increased Monsters",
         "Abyss Cracks in your Maps have 3% chance to spawn 100% increased Monsters"
       ],
-      "group": 132,
+      "group": 139,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12820,7 +13334,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 133,
+      "group": 140,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12840,12 +13354,532 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abysses in your Maps that do not lead to an Abyssal Depths lead to 4 Pits if able"
       ],
-      "group": 134,
+      "group": 141,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": [
         "4284"
+      ]
+    },
+    "47692": {
+      "skill": 47692,
+      "name": "Domination Shrine Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
+      "stats": [
+        "Your Maps have a 10% chance to contain an additional Shrine"
+      ],
+      "group": 142,
+      "orbit": 2,
+      "orbitIndex": 12,
+      "out": [
+        "61121"
+      ],
+      "in": [
+        "1928"
+      ]
+    },
+    "61121": {
+      "skill": 61121,
+      "name": "Domination Shrine Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
+      "stats": [
+        "Your Maps have a 10% chance to contain an additional Shrine"
+      ],
+      "group": 142,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "8645"
+      ],
+      "in": [
+        "25525",
+        "47692"
+      ]
+    },
+    "1928": {
+      "skill": 1928,
+      "name": "Drawn to Power",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png",
+      "isNotable": true,
+      "stats": [
+        "Shrines in your Maps have 50% chance to be guarded by an additional Pack of Monsters",
+        "Shrines in your Maps are guarded by at least one Magic Pack"
+      ],
+      "group": 142,
+      "orbit": 2,
+      "orbitIndex": 9,
+      "out": [
+        "47692"
+      ],
+      "in": []
+    },
+    "8645": {
+      "skill": 8645,
+      "name": "Domination Shrine Effect",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
+      "stats": [
+        "20% increased Effect of Shrine Buffs on Players in your Maps"
+      ],
+      "group": 142,
+      "orbit": 2,
+      "orbitIndex": 1,
+      "out": [
+        "24679"
+      ],
+      "in": [
+        "61121"
+      ]
+    },
+    "24679": {
+      "skill": 24679,
+      "name": "Syncretism",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png",
+      "isNotable": true,
+      "stats": [
+        "30% increased Effect of Shrine Buffs on Players in your Maps",
+        "Shrines in your Maps grant a random additional Shrine Effect"
+      ],
+      "group": 142,
+      "orbit": 2,
+      "orbitIndex": 4,
+      "out": [],
+      "in": [
+        "8645"
+      ]
+    },
+    "18841": {
+      "skill": 18841,
+      "name": "Shrines",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDomination.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 142,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "55477": {
+      "skill": 55477,
+      "name": "Domination Shrine Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
+      "stats": [
+        "Your Maps have a 10% chance to contain an additional Shrine"
+      ],
+      "group": 143,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "28029"
+      ],
+      "in": [
+        "18432"
+      ]
+    },
+    "3810": {
+      "skill": 3810,
+      "name": "Domination Shrine Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
+      "stats": [
+        "Your Maps have a 10% chance to contain an additional Shrine"
+      ],
+      "group": 143,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "6091",
+        "18432"
+      ],
+      "in": []
+    },
+    "28029": {
+      "skill": 28029,
+      "name": "All That Glitters",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png",
+      "isNotable": true,
+      "stats": [
+        "Shrines in your Maps have 10% chance to be a Covetous Shrine"
+      ],
+      "reminderText": [
+        "(On monsters, Covetous Shrine's Aura increases Quantity and Rarity of dropped Items and reduces Damage Taken. On Players, Covetous Shrine's Buff increases Quantity and Rarity of Items found and increases Damage Taken)"
+      ],
+      "group": 143,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "55477"
+      ]
+    },
+    "18432": {
+      "skill": 18432,
+      "name": "Domination Shrine Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
+      "stats": [
+        "Your Maps have a 10% chance to contain an additional Shrine"
+      ],
+      "group": 143,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "55477"
+      ],
+      "in": [
+        "3810"
+      ]
+    },
+    "29807": {
+      "skill": 29807,
+      "name": "Shrines",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDomination.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 143,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "55388": {
+      "skill": 55388,
+      "name": "Breach Monster Splinters",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
+      "stats": [
+        "10% increased Quantity of Breach Splinters dropped by Breach Monsters in your Maps"
+      ],
+      "group": 144,
+      "orbit": 2,
+      "orbitIndex": 7,
+      "out": [
+        "64868"
+      ],
+      "in": [
+        "51100"
+      ]
+    },
+    "33440": {
+      "skill": 33440,
+      "name": "Breach Monster Density",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
+      "stats": [
+        "Breaches in your Maps have 5% increased Monster density"
+      ],
+      "group": 144,
+      "orbit": 2,
+      "orbitIndex": 12,
+      "out": [
+        "30619"
+      ],
+      "in": [
+        "51100"
+      ]
+    },
+    "51100": {
+      "skill": 51100,
+      "name": "Breach Density and Monster Splinters",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
+      "stats": [
+        "Breaches in your Maps have 3% increased Monster density",
+        "8% increased Quantity of Breach Splinters dropped by Breach Monsters in your Maps"
+      ],
+      "group": 144,
+      "orbit": 2,
+      "orbitIndex": 9,
+      "out": [
+        "33440",
+        "55388"
+      ],
+      "in": [
+        "63460"
+      ]
+    },
+    "30619": {
+      "skill": 30619,
+      "name": "Breach Monster Density",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
+      "stats": [
+        "Breaches in your Maps have 5% increased Monster density"
+      ],
+      "group": 144,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "53006"
+      ],
+      "in": [
+        "33440"
+      ]
+    },
+    "64868": {
+      "skill": 64868,
+      "name": "Breach Monster Splinters",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
+      "stats": [
+        "10% increased Quantity of Breach Splinters dropped by Breach Monsters in your Maps"
+      ],
+      "group": 144,
+      "orbit": 2,
+      "orbitIndex": 4,
+      "out": [
+        "53006"
+      ],
+      "in": [
+        "55388"
+      ]
+    },
+    "53006": {
+      "skill": 53006,
+      "name": "Otherworldly Artefacts",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png",
+      "isNotable": true,
+      "stats": [
+        "Breaches in your Maps have 20% increased Monster density",
+        "Breach Monsters in your Maps have 50% increased chance to drop a Breach Unique Item"
+      ],
+      "group": 144,
+      "orbit": 2,
+      "orbitIndex": 1,
+      "out": [],
+      "in": [
+        "30619",
+        "64868"
+      ]
+    },
+    "7787": {
+      "skill": 7787,
+      "name": "Breach",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBreach.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 144,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "19883": {
+      "skill": 19883,
+      "name": "Harvest Monster Duplication Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
+      "stats": [
+        "Plants Harvested in your Maps have 3% chance to spawn duplicated Monsters"
+      ],
+      "group": 145,
+      "orbit": 3,
+      "orbitIndex": 4,
+      "out": [
+        "50739",
+        "21895"
+      ],
+      "in": [
+        "22721"
+      ]
+    },
+    "58007": {
+      "skill": 58007,
+      "name": "Additional Lifeforce from Harvest",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
+      "stats": [
+        "Harvest Monsters in your Maps drop 3% increased Quantity of Lifeforce"
+      ],
+      "group": 145,
+      "orbit": 3,
+      "orbitIndex": 11,
+      "out": [
+        "62435"
+      ],
+      "in": [
+        "50843"
+      ]
+    },
+    "62435": {
+      "skill": 62435,
+      "name": "Additional Lifeforce from Harvest",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
+      "stats": [
+        "Harvest Monsters in your Maps drop 3% increased Quantity of Lifeforce"
+      ],
+      "group": 145,
+      "orbit": 3,
+      "orbitIndex": 12,
+      "out": [],
+      "in": [
+        "58007",
+        "39276"
+      ]
+    },
+    "53175": {
+      "skill": 53175,
+      "name": "Bountiful Harvest",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png",
+      "isNotable": true,
+      "stats": [
+        "Harvest Monsters in your Maps grant 200% increased Experience",
+        "Harvested Plants in your Maps have 10% chance to spawn an additional Monster"
+      ],
+      "group": 145,
+      "orbit": 3,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "21895"
+      ]
+    },
+    "22721": {
+      "skill": 22721,
+      "name": "Harvest Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
+      "stats": [
+        "Your Maps have +5% chance to contain The Sacred Grove"
+      ],
+      "group": 145,
+      "orbit": 3,
+      "orbitIndex": 5,
+      "out": [
+        "19883",
+        "11226"
+      ],
+      "in": []
+    },
+    "39276": {
+      "skill": 39276,
+      "name": "Bumper Crop",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png",
+      "isNotable": true,
+      "stats": [
+        "The Sacred Grove in your Maps has 50% chance to contain an additional Harvest"
+      ],
+      "group": 145,
+      "orbit": 3,
+      "orbitIndex": 13,
+      "out": [
+        "62435"
+      ],
+      "in": []
+    },
+    "11226": {
+      "skill": 11226,
+      "name": "Harvest Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
+      "stats": [
+        "Your Maps have +5% chance to contain The Sacred Grove"
+      ],
+      "group": 145,
+      "orbit": 3,
+      "orbitIndex": 7,
+      "out": [
+        "50843"
+      ],
+      "in": [
+        "22721"
+      ]
+    },
+    "50843": {
+      "skill": 50843,
+      "name": "Additional Lifeforce from Harvest",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
+      "stats": [
+        "Harvest Monsters in your Maps drop 3% increased Quantity of Lifeforce"
+      ],
+      "group": 145,
+      "orbit": 3,
+      "orbitIndex": 9,
+      "out": [
+        "58007"
+      ],
+      "in": [
+        "53410",
+        "11226"
+      ]
+    },
+    "21895": {
+      "skill": 21895,
+      "name": "Harvest Monster Duplication Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
+      "stats": [
+        "Plants Harvested in your Maps have 3% chance to spawn duplicated Monsters"
+      ],
+      "group": 145,
+      "orbit": 3,
+      "orbitIndex": 3,
+      "out": [
+        "53175"
+      ],
+      "in": [
+        "19883"
+      ]
+    },
+    "8038": {
+      "skill": 8038,
+      "name": "Map Drop Duplication",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MapDuplication.png",
+      "stats": [
+        "0.5% chance for Map Drops to be Duplicated"
+      ],
+      "group": 145,
+      "orbit": 6,
+      "orbitIndex": 12,
+      "out": [
+        "6990",
+        "59286",
+        "14332"
+      ],
+      "in": [
+        "50739",
+        "788"
+      ]
+    },
+    "50739": {
+      "skill": 50739,
+      "name": "Map Drop Duplication",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MapDuplication.png",
+      "stats": [
+        "0.5% chance for Map Drops to be Duplicated"
+      ],
+      "group": 145,
+      "orbit": 6,
+      "orbitIndex": 18,
+      "out": [
+        "8038"
+      ],
+      "in": [
+        "19883",
+        "60045",
+        "2017",
+        "33684"
+      ]
+    },
+    "3643": {
+      "skill": 3643,
+      "name": "Harvest",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHarvest.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 145,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "60045": {
+      "skill": 60045,
+      "name": "Adjacent Map Drop Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
+      "stats": [
+        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
+      ],
+      "group": 145,
+      "orbit": 6,
+      "orbitIndex": 24,
+      "out": [
+        "50739",
+        "58807"
+      ],
+      "in": [
+        "40521",
+        "17321",
+        "54407"
       ]
     },
     "10530": {
@@ -12860,7 +13894,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 135,
+      "group": 146,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [],
@@ -12880,7 +13914,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 135,
+      "group": 146,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [],
@@ -12900,7 +13934,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 135,
+      "group": 146,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [],
@@ -12920,7 +13954,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 135,
+      "group": 146,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [],
@@ -12941,7 +13975,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Abysses, Blight Encounters, Breaches, Expedition Encounters, Legion Encounters, Metamorph Encounters, Mirrors of Delirium, Monsters Imprisoned by Essences, Ritual Altars, Rogue Exiles, the Sacred Grove, Shrines, Smuggler's Caches, Strongboxes, and Tormented Spirits are Extra Content)"
       ],
-      "group": 135,
+      "group": 146,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [],
@@ -12956,7 +13990,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 135,
+      "group": 146,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -12971,525 +14005,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "24403"
       ]
     },
-    "47692": {
-      "skill": 47692,
-      "name": "Domination Shrine Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
-      "stats": [
-        "Your Maps have a 10% chance to contain an additional Shrine"
-      ],
-      "group": 136,
-      "orbit": 2,
-      "orbitIndex": 12,
-      "out": [
-        "61121"
-      ],
-      "in": [
-        "1928"
-      ]
-    },
-    "61121": {
-      "skill": 61121,
-      "name": "Domination Shrine Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
-      "stats": [
-        "Your Maps have a 10% chance to contain an additional Shrine"
-      ],
-      "group": 136,
-      "orbit": 2,
-      "orbitIndex": 15,
-      "out": [
-        "8645"
-      ],
-      "in": [
-        "25525",
-        "47692"
-      ]
-    },
-    "1928": {
-      "skill": 1928,
-      "name": "Drawn to Power",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png",
-      "isNotable": true,
-      "stats": [
-        "Shrines in your Maps have 50% chance to be guarded by an additional Pack of Monsters",
-        "Shrines in your Maps are guarded by at least one Magic Pack"
-      ],
-      "group": 136,
-      "orbit": 2,
-      "orbitIndex": 9,
-      "out": [
-        "47692"
-      ],
-      "in": []
-    },
-    "8645": {
-      "skill": 8645,
-      "name": "Domination Shrine Effect",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
-      "stats": [
-        "20% increased Effect of Shrine Buffs on Players in your Maps"
-      ],
-      "group": 136,
-      "orbit": 2,
-      "orbitIndex": 1,
-      "out": [
-        "24679"
-      ],
-      "in": [
-        "61121"
-      ]
-    },
-    "24679": {
-      "skill": 24679,
-      "name": "Syncretism",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png",
-      "isNotable": true,
-      "stats": [
-        "30% increased Effect of Shrine Buffs on Players in your Maps",
-        "Shrines in your Maps grant a random additional Shrine Effect"
-      ],
-      "group": 136,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [],
-      "in": [
-        "8645"
-      ]
-    },
-    "18841": {
-      "skill": 18841,
-      "name": "Shrines",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDomination.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 136,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "55477": {
-      "skill": 55477,
-      "name": "Domination Shrine Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
-      "stats": [
-        "Your Maps have a 10% chance to contain an additional Shrine"
-      ],
-      "group": 137,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "28029"
-      ],
-      "in": [
-        "18432"
-      ]
-    },
-    "3810": {
-      "skill": 3810,
-      "name": "Domination Shrine Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
-      "stats": [
-        "Your Maps have a 10% chance to contain an additional Shrine"
-      ],
-      "group": 137,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "6091",
-        "18432"
-      ],
-      "in": []
-    },
-    "28029": {
-      "skill": 28029,
-      "name": "All That Glitters",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png",
-      "isNotable": true,
-      "stats": [
-        "Shrines in your Maps have 10% chance to be a Covetous Shrine"
-      ],
-      "reminderText": [
-        "(On monsters, Covetous Shrine's Aura increases Quantity and Rarity of dropped Items and reduces Damage Taken. On Players, Covetous Shrine's Buff increases Quantity and Rarity of Items found and increases Damage Taken)"
-      ],
-      "group": 137,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [],
-      "in": [
-        "55477"
-      ]
-    },
-    "18432": {
-      "skill": 18432,
-      "name": "Domination Shrine Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png",
-      "stats": [
-        "Your Maps have a 10% chance to contain an additional Shrine"
-      ],
-      "group": 137,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "55477"
-      ],
-      "in": [
-        "3810"
-      ]
-    },
-    "29807": {
-      "skill": 29807,
-      "name": "Shrines",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDomination.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 137,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "55388": {
-      "skill": 55388,
-      "name": "Breach Monster Splinters",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
-      "stats": [
-        "10% increased Quantity of Breach Splinters dropped by Breach Monsters in your Maps"
-      ],
-      "group": 138,
-      "orbit": 2,
-      "orbitIndex": 7,
-      "out": [
-        "64868"
-      ],
-      "in": [
-        "51100"
-      ]
-    },
-    "33440": {
-      "skill": 33440,
-      "name": "Breach Monster Density",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
-      "stats": [
-        "Breaches in your Maps have 5% increased Monster density"
-      ],
-      "group": 138,
-      "orbit": 2,
-      "orbitIndex": 12,
-      "out": [
-        "30619"
-      ],
-      "in": [
-        "51100"
-      ]
-    },
-    "51100": {
-      "skill": 51100,
-      "name": "Breach Density and Monster Splinters",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
-      "stats": [
-        "Breaches in your Maps have 3% increased Monster density",
-        "8% increased Quantity of Breach Splinters dropped by Breach Monsters in your Maps"
-      ],
-      "group": 138,
-      "orbit": 2,
-      "orbitIndex": 9,
-      "out": [
-        "33440",
-        "55388"
-      ],
-      "in": [
-        "63460"
-      ]
-    },
-    "30619": {
-      "skill": 30619,
-      "name": "Breach Monster Density",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
-      "stats": [
-        "Breaches in your Maps have 5% increased Monster density"
-      ],
-      "group": 138,
-      "orbit": 2,
-      "orbitIndex": 15,
-      "out": [
-        "53006"
-      ],
-      "in": [
-        "33440"
-      ]
-    },
-    "64868": {
-      "skill": 64868,
-      "name": "Breach Monster Splinters",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNode2.png",
-      "stats": [
-        "10% increased Quantity of Breach Splinters dropped by Breach Monsters in your Maps"
-      ],
-      "group": 138,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [
-        "53006"
-      ],
-      "in": [
-        "55388"
-      ]
-    },
-    "53006": {
-      "skill": 53006,
-      "name": "Otherworldly Artefacts",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png",
-      "isNotable": true,
-      "stats": [
-        "Breaches in your Maps have 20% increased Monster density",
-        "Breach Monsters in your Maps have 50% increased chance to drop a Breach Unique Item"
-      ],
-      "group": 138,
-      "orbit": 2,
-      "orbitIndex": 1,
-      "out": [],
-      "in": [
-        "30619",
-        "64868"
-      ]
-    },
-    "7787": {
-      "skill": 7787,
-      "name": "Breach",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBreach.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 138,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "19883": {
-      "skill": 19883,
-      "name": "Harvest Monster Duplication Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
-      "stats": [
-        "Plants Harvested in your Maps have 3% chance to spawn duplicated Monsters"
-      ],
-      "group": 139,
-      "orbit": 3,
-      "orbitIndex": 4,
-      "out": [
-        "50739",
-        "21895"
-      ],
-      "in": [
-        "22721"
-      ]
-    },
-    "58007": {
-      "skill": 58007,
-      "name": "Additional Lifeforce from Harvest",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
-      "stats": [
-        "Harvest Monsters in your Maps drop 3% increased Quantity of Lifeforce"
-      ],
-      "group": 139,
-      "orbit": 3,
-      "orbitIndex": 11,
-      "out": [
-        "62435"
-      ],
-      "in": [
-        "50843"
-      ]
-    },
-    "62435": {
-      "skill": 62435,
-      "name": "Additional Lifeforce from Harvest",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
-      "stats": [
-        "Harvest Monsters in your Maps drop 3% increased Quantity of Lifeforce"
-      ],
-      "group": 139,
-      "orbit": 3,
-      "orbitIndex": 12,
-      "out": [],
-      "in": [
-        "58007",
-        "39276"
-      ]
-    },
-    "53175": {
-      "skill": 53175,
-      "name": "Bountiful Harvest",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png",
-      "isNotable": true,
-      "stats": [
-        "Harvest Monsters in your Maps grant 200% increased Experience",
-        "Harvested Plants in your Maps have 10% chance to spawn an additional Monster"
-      ],
-      "group": 139,
-      "orbit": 3,
-      "orbitIndex": 0,
-      "out": [],
-      "in": [
-        "21895"
-      ]
-    },
-    "22721": {
-      "skill": 22721,
-      "name": "Harvest Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
-      "stats": [
-        "Your Maps have +5% chance to contain The Sacred Grove"
-      ],
-      "group": 139,
-      "orbit": 3,
-      "orbitIndex": 5,
-      "out": [
-        "19883",
-        "11226"
-      ],
-      "in": []
-    },
-    "39276": {
-      "skill": 39276,
-      "name": "Bumper Crop",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png",
-      "isNotable": true,
-      "stats": [
-        "The Sacred Grove in your Maps has 50% chance to contain an additional Harvest"
-      ],
-      "group": 139,
-      "orbit": 3,
-      "orbitIndex": 13,
-      "out": [
-        "62435"
-      ],
-      "in": []
-    },
-    "11226": {
-      "skill": 11226,
-      "name": "Harvest Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
-      "stats": [
-        "Your Maps have +5% chance to contain The Sacred Grove"
-      ],
-      "group": 139,
-      "orbit": 3,
-      "orbitIndex": 7,
-      "out": [
-        "50843"
-      ],
-      "in": [
-        "22721"
-      ]
-    },
-    "50843": {
-      "skill": 50843,
-      "name": "Additional Lifeforce from Harvest",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
-      "stats": [
-        "Harvest Monsters in your Maps drop 3% increased Quantity of Lifeforce"
-      ],
-      "group": 139,
-      "orbit": 3,
-      "orbitIndex": 9,
-      "out": [
-        "58007"
-      ],
-      "in": [
-        "53410",
-        "11226"
-      ]
-    },
-    "21895": {
-      "skill": 21895,
-      "name": "Harvest Monster Duplication Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNode.png",
-      "stats": [
-        "Plants Harvested in your Maps have 3% chance to spawn duplicated Monsters"
-      ],
-      "group": 139,
-      "orbit": 3,
-      "orbitIndex": 3,
-      "out": [
-        "53175"
-      ],
-      "in": [
-        "19883"
-      ]
-    },
-    "8038": {
-      "skill": 8038,
-      "name": "Map Drop Duplication",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MapDuplication.png",
-      "stats": [
-        "0.5% chance for Map Drops to be Duplicated"
-      ],
-      "group": 139,
-      "orbit": 6,
-      "orbitIndex": 12,
-      "out": [
-        "6990",
-        "59286",
-        "14332"
-      ],
-      "in": [
-        "50739",
-        "28705"
-      ]
-    },
-    "50739": {
-      "skill": 50739,
-      "name": "Map Drop Duplication",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/MapDuplication.png",
-      "stats": [
-        "0.5% chance for Map Drops to be Duplicated"
-      ],
-      "group": 139,
-      "orbit": 6,
-      "orbitIndex": 18,
-      "out": [
-        "8038"
-      ],
-      "in": [
-        "19883",
-        "60045",
-        "2017",
-        "33684"
-      ]
-    },
-    "3643": {
-      "skill": 3643,
-      "name": "Harvest",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHarvest.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 139,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "60045": {
-      "skill": 60045,
-      "name": "Adjacent Map Drop Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BossMapDrops.png",
-      "stats": [
-        "2% chance for one Monster in each of your Maps to drop an additional connected Map"
-      ],
-      "group": 139,
-      "orbit": 6,
-      "orbitIndex": 24,
-      "out": [
-        "50739",
-        "58807"
-      ],
-      "in": [
-        "40521",
-        "17321"
-      ]
-    },
     "64104": {
       "skill": 64104,
       "name": "Delve Mission Chance",
@@ -13497,7 +14012,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Niko Mission on Completion"
       ],
-      "group": 140,
+      "group": 147,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -13514,7 +14029,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Niko Mission on Completion"
       ],
-      "group": 140,
+      "group": 147,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [],
@@ -13533,7 +14048,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Your Yellow Tier Maps grant 350 additional Voltaxic Sulphite on Completion",
         "Your Red Tier Maps grant 500 additional Voltaxic Sulphite on Completion"
       ],
-      "group": 140,
+      "group": 147,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [],
@@ -13548,7 +14063,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Niko Mission on Completion"
       ],
-      "group": 140,
+      "group": 147,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -13563,7 +14078,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelve.png",
       "isMastery": true,
       "stats": [],
-      "group": 140,
+      "group": 147,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -13576,7 +14091,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Immortal Syndicate Members in your Maps have 5% increased chance to be accompanied by reinforcements"
       ],
-      "group": 141,
+      "group": 148,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [],
@@ -13592,7 +14107,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Immortal Syndicate Members in your Maps have 5% increased chance to be accompanied by reinforcements"
       ],
-      "group": 141,
+      "group": 148,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -13610,7 +14125,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 4% chance to grant an additional Jun Mission on Completion"
       ],
-      "group": 141,
+      "group": 148,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -13626,7 +14141,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryJun.png",
       "isMastery": true,
       "stats": [],
-      "group": 141,
+      "group": 148,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -13639,7 +14154,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 141,
+      "group": 148,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -13655,7 +14170,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 141,
+      "group": 148,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -13673,7 +14188,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 141,
+      "group": 148,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -13693,7 +14208,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 142,
+      "group": 149,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -13713,13 +14228,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "100% increased effect of Small Atlas Passive Skills"
       ],
       "reminderText": [
-        "(Atlas Passive Skills that are not Notable or Keystones are Small)"
+        "(Atlas Passive Skills that are not Notable, Keystones or Gateways are Small)"
       ],
       "flavourText": [
         "Embrace the journey, Nomad, for there is no destination.",
         "This is the prime inescapable truth of eternity."
       ],
-      "group": 143,
+      "group": 150,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -13734,16 +14249,200 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 144,
+      "group": 151,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
-        "448"
+        "448",
+        "50249"
       ],
       "in": [
         "25525",
         "40658"
       ]
+    },
+    "35075": {
+      "skill": 35075,
+      "name": "Vaal Side Areas",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryVaal.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 152,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "788": {
+      "skill": 788,
+      "name": "Vaal Side Area Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalsideareasNode.png",
+      "stats": [
+        "Your Maps have +2% chance to contain a Vaal Side Area"
+      ],
+      "group": 152,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "54004",
+        "8038"
+      ],
+      "in": []
+    },
+    "54004": {
+      "skill": 54004,
+      "name": "Vaal Side Area Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalsideareasNode.png",
+      "stats": [
+        "Your Maps have +2% chance to contain a Vaal Side Area"
+      ],
+      "group": 152,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "59610",
+        "32019"
+      ],
+      "in": [
+        "788"
+      ]
+    },
+    "61918": {
+      "skill": 61918,
+      "name": "For Love of the Queen",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png",
+      "isNotable": true,
+      "stats": [
+        "Vaal Side Areas in your Maps have 20% chance to be an Alluring Vaal Side Area",
+        "Your Maps have +4% chance to contain a Vaal Side Area"
+      ],
+      "reminderText": [
+        "(Alluring Vaal Side Areas are more dangerous and drop Mortal Fragments)"
+      ],
+      "group": 152,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "59610"
+      ]
+    },
+    "59610": {
+      "skill": 59610,
+      "name": "Vaal Side Area Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalsideareasNode.png",
+      "stats": [
+        "Your Maps have +2% chance to contain a Vaal Side Area"
+      ],
+      "group": 152,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "61918"
+      ],
+      "in": [
+        "54004"
+      ]
+    },
+    "7778": {
+      "skill": 7778,
+      "name": "Strongboxes",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryStrongbox.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 153,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "22597": {
+      "skill": 22597,
+      "name": "Tamper-Proof",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png",
+      "isNotable": true,
+      "stats": [
+        "Strongboxes in your Maps are Corrupted",
+        "Strongboxes in your Maps are at least Rare"
+      ],
+      "group": 153,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [],
+      "in": [
+        "34841"
+      ]
+    },
+    "34841": {
+      "skill": 34841,
+      "name": "Strongbox Chance to be Reopenable ",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNode1.png",
+      "stats": [
+        "Strongboxes opened in your Maps have 2% chance to be openable again"
+      ],
+      "group": 153,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "22597"
+      ],
+      "in": [
+        "44048"
+      ]
+    },
+    "44048": {
+      "skill": 44048,
+      "name": "Strongbox Chance to be Reopenable ",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNode1.png",
+      "stats": [
+        "Strongboxes opened in your Maps have 2% chance to be openable again"
+      ],
+      "group": 153,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "34841"
+      ],
+      "in": [
+        "39979",
+        "6990"
+      ]
+    },
+    "39979": {
+      "skill": 39979,
+      "name": "Strongbox Chance to be Reopenable ",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNode1.png",
+      "stats": [
+        "Strongboxes opened in your Maps have 2% chance to be openable again"
+      ],
+      "group": 153,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [
+        "44048"
+      ],
+      "in": [
+        "63738"
+      ]
+    },
+    "63738": {
+      "skill": 63738,
+      "name": "Secret Operations",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png",
+      "isNotable": true,
+      "stats": [
+        "Strongboxes in your Maps have 6% chance to be an Operative's Strongbox"
+      ],
+      "reminderText": [
+        "(Operative's Strongboxes contain Scarabs)"
+      ],
+      "group": 153,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "39979"
+      ],
+      "in": []
     },
     "6990": {
       "skill": 6990,
@@ -13752,196 +14451,19 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 145,
+      "group": 154,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "46824",
         "50686",
-        "50249"
+        "44048"
       ],
       "in": [
         "32019",
         "18890",
         "8038"
       ]
-    },
-    "26020": {
-      "skill": 26020,
-      "name": "Abyssal Army",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNotable5.png",
-      "isNotable": true,
-      "stats": [
-        "Abyss Monsters in your Maps grant 50% increased Experience",
-        "Abysses in your Maps spawn 50% increased Monsters"
-      ],
-      "group": 146,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [],
-      "in": [
-        "27394"
-      ]
-    },
-    "49177": {
-      "skill": 49177,
-      "name": "Rare Item Abyssal Socket Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Abyssal Troves and Stygian Spires in your Maps have 5% chance to drop a Rare Item with an Abyssal Socket"
-      ],
-      "group": 146,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "37319",
-        "50249"
-      ],
-      "in": []
-    },
-    "50249": {
-      "skill": 50249,
-      "name": "Abyss Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Abyss"
-      ],
-      "group": 146,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "27394"
-      ],
-      "in": [
-        "6990",
-        "49177"
-      ]
-    },
-    "37319": {
-      "skill": 37319,
-      "name": "Votive Hoard",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNotable6.png",
-      "isNotable": true,
-      "stats": [
-        "Abyssal Troves and Stygian Spires in your Maps have 20% chance to drop a Rare Item with an Abyssal Socket"
-      ],
-      "group": 146,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [],
-      "in": [
-        "49177"
-      ]
-    },
-    "27394": {
-      "skill": 27394,
-      "name": "Abyss Monsters and Experience",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Abyss Monsters in your Maps grant 10% increased Experience",
-        "Abysses in your Maps spawn 5% increased Monsters"
-      ],
-      "group": 146,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [
-        "26020"
-      ],
-      "in": [
-        "50249"
-      ]
-    },
-    "21347": {
-      "skill": 21347,
-      "name": "Abyss",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 146,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "28705": {
-      "skill": 28705,
-      "name": "Labyrinth Trial Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AscendancyNode.png",
-      "stats": [
-        "Your Maps have +2% chance to contain a Trial of Ascendancy"
-      ],
-      "group": 147,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [
-        "8038",
-        "6331"
-      ],
-      "in": []
-    },
-    "6331": {
-      "skill": 6331,
-      "name": "Labyrinth Trial Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AscendancyNode.png",
-      "stats": [
-        "Your Maps have +2% chance to contain a Trial of Ascendancy"
-      ],
-      "group": 147,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [
-        "32019"
-      ],
-      "in": [
-        "28705",
-        "44997"
-      ]
-    },
-    "39180": {
-      "skill": 39180,
-      "name": "Trial of Glory",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Ascendancy.png",
-      "isNotable": true,
-      "stats": [
-        "Labyrinth Trials in your Maps have 20% chance to award an Improved Offering to the Goddess",
-        "Your Maps have +4% chance to contain a Trial of Ascendancy"
-      ],
-      "group": 147,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "44997"
-      ],
-      "in": []
-    },
-    "44997": {
-      "skill": 44997,
-      "name": "Labyrinth Trial Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AscendancyNode.png",
-      "stats": [
-        "Your Maps have +2% chance to contain a Trial of Ascendancy"
-      ],
-      "group": 147,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "6331"
-      ],
-      "in": [
-        "39180"
-      ]
-    },
-    "10529": {
-      "skill": 10529,
-      "name": "Labyrinth",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryLabyrinth.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 147,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
     },
     "40521": {
       "skill": 40521,
@@ -13950,7 +14472,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harbingers in your Maps have 20% chance to drop an additional Stack of Currency Shards"
       ],
-      "group": 148,
+      "group": 155,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -13966,7 +14488,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harbingers in your Maps have 20% chance to drop an additional Stack of Currency Shards"
       ],
-      "group": 148,
+      "group": 155,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -13985,7 +14507,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps contain an additional Harbinger"
       ],
-      "group": 148,
+      "group": 155,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [],
@@ -14000,7 +14522,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harbingers in your Maps have 20% chance to drop an additional Stack of Currency Shards"
       ],
-      "group": 148,
+      "group": 155,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -14016,7 +14538,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHarbinger.png",
       "isMastery": true,
       "stats": [],
-      "group": 148,
+      "group": 155,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -14029,7 +14551,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 149,
+      "group": 156,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -14037,7 +14559,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "60045"
       ],
       "in": [
-        "28939",
         "15263",
         "29991",
         "20361",
@@ -14051,12 +14572,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 150,
+      "group": 157,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "63460",
-        "33731"
+        "33731",
+        "57512"
       ],
       "in": [
         "3810",
@@ -14080,7 +14602,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "The waters of life roil and flow,",
         "birthing horrors of flesh and marrow."
       ],
-      "group": 151,
+      "group": 158,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [],
@@ -14095,7 +14617,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 151,
+      "group": 158,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -14112,7 +14634,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 151,
+      "group": 158,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [
@@ -14122,13 +14644,111 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "46461"
       ]
     },
+    "26020": {
+      "skill": 26020,
+      "name": "Abyssal Army",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNotable5.png",
+      "isNotable": true,
+      "stats": [
+        "Abyss Monsters in your Maps grant 50% increased Experience",
+        "Abysses in your Maps spawn 50% increased Monsters"
+      ],
+      "group": 159,
+      "orbit": 2,
+      "orbitIndex": 4,
+      "out": [],
+      "in": [
+        "27394"
+      ]
+    },
+    "49177": {
+      "skill": 49177,
+      "name": "Rare Item Abyssal Socket Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Abyssal Troves and Stygian Spires in your Maps have 5% chance to drop a Rare Item with an Abyssal Socket"
+      ],
+      "group": 159,
+      "orbit": 2,
+      "orbitIndex": 12,
+      "out": [
+        "50249"
+      ],
+      "in": [
+        "37319"
+      ]
+    },
+    "50249": {
+      "skill": 50249,
+      "name": "Abyss Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Abyss"
+      ],
+      "group": 159,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "27394"
+      ],
+      "in": [
+        "22683",
+        "49177"
+      ]
+    },
+    "37319": {
+      "skill": 37319,
+      "name": "Votive Hoard",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNotable6.png",
+      "isNotable": true,
+      "stats": [
+        "Abyssal Troves and Stygian Spires in your Maps have 20% chance to drop a Rare Item with an Abyssal Socket"
+      ],
+      "group": 159,
+      "orbit": 2,
+      "orbitIndex": 9,
+      "out": [
+        "49177"
+      ],
+      "in": []
+    },
+    "27394": {
+      "skill": 27394,
+      "name": "Abyss Monsters and Experience",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Abyss Monsters in your Maps grant 10% increased Experience",
+        "Abysses in your Maps spawn 5% increased Monsters"
+      ],
+      "group": 159,
+      "orbit": 2,
+      "orbitIndex": 1,
+      "out": [
+        "26020"
+      ],
+      "in": [
+        "50249"
+      ]
+    },
+    "21347": {
+      "skill": 21347,
+      "name": "Abyss",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 159,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
     "48577": {
       "skill": 48577,
       "name": "Strongboxes",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryStrongbox.png",
       "isMastery": true,
       "stats": [],
-      "group": 152,
+      "group": 160,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -14141,7 +14761,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "10% increased Quantity of Items contained in Strongboxes in your Maps"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -14161,7 +14781,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Divination Cards from Strongboxes in your Maps are Duplicated"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [],
@@ -14176,7 +14796,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 30% increased chance to be an Arcanist's Strongbox"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -14193,7 +14813,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 30% increased chance to be a Cartographer's Strongbox"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -14210,7 +14830,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 30% increased chance to be a Diviner's Strongbox"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [
@@ -14227,7 +14847,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Currency Items from Strongboxes in your Maps are Duplicated"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [],
@@ -14242,7 +14862,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 30% increased chance to be an Arcanist's Strongbox"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -14259,7 +14879,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 30% increased chance to be a Cartographer's Strongbox"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -14276,7 +14896,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Strongboxes in your Maps have 30% increased chance to be a Diviner's Strongbox"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -14294,7 +14914,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Maps from Strongboxes in your Maps are Duplicated"
       ],
-      "group": 152,
+      "group": 160,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -14309,7 +14929,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "4% increased quantity of Artifacts dropped by Monsters"
       ],
-      "group": 153,
+      "group": 161,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [],
@@ -14325,7 +14945,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain an Expedition Encounter"
       ],
-      "group": 153,
+      "group": 161,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -14343,7 +14963,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +12% chance to contain an Expedition Encounter"
       ],
-      "group": 153,
+      "group": 161,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -14360,7 +14980,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain an Expedition Encounter"
       ],
-      "group": 153,
+      "group": 161,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -14377,7 +14997,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain an Expedition Encounter"
       ],
-      "group": 153,
+      "group": 161,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -14394,7 +15014,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "4% increased quantity of Artifacts dropped by Monsters"
       ],
-      "group": 153,
+      "group": 161,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -14410,7 +15030,104 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryExpedition.png",
       "isMastery": true,
       "stats": [],
-      "group": 153,
+      "group": 161,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "57512": {
+      "skill": 57512,
+      "name": "Growing Hordes",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png",
+      "isKeystone": true,
+      "stats": [
+        "Rusted Scarabs instead grant 5% increased Pack Size\nPolished Scarabs instead grant 7% increased Pack Size\nGilded Scarabs instead grant 10% increased Pack Size\nWinged Scarabs instead grant 15% increased Pack Size"
+      ],
+      "flavourText": [
+        "The weight of history hangs heavy on the neck of civilisation."
+      ],
+      "group": 162,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "6091"
+      ]
+    },
+    "6201": {
+      "skill": 6201,
+      "name": "Abyss Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Abyss"
+      ],
+      "group": 163,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "27774"
+      ],
+      "in": [
+        "28069"
+      ]
+    },
+    "28069": {
+      "skill": 28069,
+      "name": "Abyss Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Abyss"
+      ],
+      "group": 163,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "6201"
+      ],
+      "in": [
+        "20361"
+      ]
+    },
+    "27774": {
+      "skill": 27774,
+      "name": "Underground Kingdom",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNotable2.png",
+      "isNotable": true,
+      "stats": [
+        "Your Maps have +1% chance to contain an Abyss per 2% increased Pack Size"
+      ],
+      "group": 163,
+      "orbit": 2,
+      "orbitIndex": 5,
+      "out": [],
+      "in": [
+        "6201"
+      ]
+    },
+    "20361": {
+      "skill": 20361,
+      "name": "Abyss Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain an Abyss"
+      ],
+      "group": 163,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "28069",
+        "17321"
+      ],
+      "in": []
+    },
+    "40130": {
+      "skill": 40130,
+      "name": "Abyss",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 163,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -14423,7 +15140,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by Conquerors in your Maps have 5% increased Pack Size"
       ],
-      "group": 154,
+      "group": 164,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -14440,7 +15157,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by Conquerors in your Maps have 5% increased Pack Size"
       ],
-      "group": 154,
+      "group": 164,
       "orbit": 4,
       "orbitIndex": 23,
       "out": [
@@ -14457,7 +15174,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by Conquerors in your Maps have 5% increased Pack Size"
       ],
-      "group": 154,
+      "group": 164,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -14478,7 +15195,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Conquerors are Baran, the Crusader, Veritania, the Redeemer, Al-Hezmin, the Hunter and Drox, the Warlord)"
       ],
-      "group": 154,
+      "group": 164,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [
@@ -14496,7 +15213,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by Conquerors in your Maps have 5% increased Pack Size"
       ],
-      "group": 154,
+      "group": 164,
       "orbit": 5,
       "orbitIndex": 42,
       "out": [
@@ -14513,7 +15230,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by Conquerors in your Maps have 5% increased Pack Size"
       ],
-      "group": 154,
+      "group": 164,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [
@@ -14530,7 +15247,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monster Packs Influenced by Conquerors in your Maps have 5% increased Pack Size"
       ],
-      "group": 154,
+      "group": 164,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -14552,7 +15269,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "Agony born of ennui. Hate born of love."
       ],
-      "group": 154,
+      "group": 164,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [],
@@ -14567,85 +15284,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryConqueror.png",
       "isMastery": true,
       "stats": [],
-      "group": 154,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "6201": {
-      "skill": 6201,
-      "name": "Abyss Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Abyss"
-      ],
-      "group": 155,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "27774"
-      ],
-      "in": [
-        "28069"
-      ]
-    },
-    "28069": {
-      "skill": 28069,
-      "name": "Abyss Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Abyss"
-      ],
-      "group": 155,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "6201"
-      ],
-      "in": [
-        "20361"
-      ]
-    },
-    "27774": {
-      "skill": 27774,
-      "name": "Underground Kingdom",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNotable2.png",
-      "isNotable": true,
-      "stats": [
-        "Your Maps have +1% chance to contain an Abyss per 2% increased Pack Size"
-      ],
-      "group": 155,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [],
-      "in": [
-        "6201"
-      ]
-    },
-    "20361": {
-      "skill": 20361,
-      "name": "Abyss Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain an Abyss"
-      ],
-      "group": 155,
-      "orbit": 2,
-      "orbitIndex": 11,
-      "out": [
-        "28069",
-        "17321"
-      ],
-      "in": []
-    },
-    "40130": {
-      "skill": 40130,
-      "name": "Abyss",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 155,
+      "group": 164,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -14658,7 +15297,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 156,
+      "group": 165,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -14678,7 +15317,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breach Boss' Clasped Hands in your Maps have 4% chance to spawn a Breach Boss when opened",
         "Breaches in your Maps have 100% increased chance to contain a Breach Boss' Clasped Hand"
       ],
-      "group": 156,
+      "group": 165,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [],
@@ -14693,7 +15332,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "8% increased Quantity of Breach Splinters found in Breach Hands in your Maps"
       ],
-      "group": 156,
+      "group": 165,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -14710,7 +15349,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 156,
+      "group": 165,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -14729,7 +15368,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps open and close 10% faster"
       ],
-      "group": 156,
+      "group": 165,
       "orbit": 4,
       "orbitIndex": 18,
       "out": [],
@@ -14745,7 +15384,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "8% increased Quantity of Breach Splinters found in Breach Hands in your Maps",
         "Breaches in your Maps contain 1 additional Clasped Hand"
       ],
-      "group": 156,
+      "group": 165,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -14763,7 +15402,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 156,
+      "group": 165,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [
@@ -14781,7 +15420,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps open and close 30% slower"
       ],
-      "group": 156,
+      "group": 165,
       "orbit": 4,
       "orbitIndex": 22,
       "out": [
@@ -14795,7 +15434,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBreach.png",
       "isMastery": true,
       "stats": [],
-      "group": 156,
+      "group": 165,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -14808,7 +15447,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Legion Encounter"
       ],
-      "group": 157,
+      "group": 166,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -14824,7 +15463,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Legion Encounter"
       ],
-      "group": 157,
+      "group": 166,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -14842,7 +15481,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +10% chance to contain a Legion Encounter"
       ],
-      "group": 157,
+      "group": 166,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [],
@@ -14857,7 +15496,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Legion Encounter"
       ],
-      "group": 157,
+      "group": 166,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -14873,7 +15512,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryLegion.png",
       "isMastery": true,
       "stats": [],
-      "group": 157,
+      "group": 166,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -14886,7 +15525,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "10% increased Quantity of Breach Splinters found in Breach Hands in your Maps"
       ],
-      "group": 158,
+      "group": 167,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -14903,7 +15542,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "10% increased Quantity of Breach Splinters dropped by Breach Monsters in your Maps"
       ],
-      "group": 158,
+      "group": 167,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -14921,7 +15560,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "10% increased Quantity of Breach Splinters found in Breach Hands in your Maps",
         "10% increased Quantity of Breach Splinters dropped by Breach Monsters in your Maps"
       ],
-      "group": 158,
+      "group": 167,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -14945,7 +15584,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "(Xesht-Ula can drop Breachstones of every Breach type)",
         "(Hand of Xesht-Ula can drop Breach Splinters of every Breach type)"
       ],
-      "group": 158,
+      "group": 167,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [],
@@ -14960,7 +15599,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBreach.png",
       "isMastery": true,
       "stats": [],
-      "group": 158,
+      "group": 167,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -14973,7 +15612,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 5% chance to contain an additional Harbinger"
       ],
-      "group": 159,
+      "group": 168,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -14991,7 +15630,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 5% chance to contain an additional Harbinger"
       ],
-      "group": 159,
+      "group": 168,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
@@ -15008,7 +15647,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harbingers in your Maps have 20% chance to drop an additional Stack of Currency Shards"
       ],
-      "group": 159,
+      "group": 168,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [
@@ -15027,7 +15666,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Harbingers in your Maps have 60% increased Cooldown Recovery Rate",
         "Currency Shards dropped by Harbingers in your Maps can drop as Currency Items instead"
       ],
-      "group": 159,
+      "group": 168,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -15044,7 +15683,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harbingers in your Maps have 20% chance to drop an additional Stack of Currency Shards"
       ],
-      "group": 159,
+      "group": 168,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -15061,7 +15700,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have a 5% chance to contain an additional Harbinger"
       ],
-      "group": 159,
+      "group": 168,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [
@@ -15077,7 +15716,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHarbinger.png",
       "isMastery": true,
       "stats": [],
-      "group": 159,
+      "group": 168,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -15091,7 +15730,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Lifeforce dropped by Harvest Monsters in your Maps has 10% chance to be Duplicated"
       ],
-      "group": 160,
+      "group": 169,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [],
@@ -15106,7 +15745,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harvest Monsters in your Maps drop 3% increased Quantity of Lifeforce"
       ],
-      "group": 160,
+      "group": 169,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -15123,7 +15762,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harvest Monsters in your Maps drop 3% increased Quantity of Lifeforce"
       ],
-      "group": 160,
+      "group": 169,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -15140,7 +15779,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harvest Monsters in your Maps drop 3% increased Quantity of Lifeforce"
       ],
-      "group": 160,
+      "group": 169,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -15156,106 +15795,11 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHarvest.png",
       "isMastery": true,
       "stats": [],
-      "group": 160,
+      "group": 169,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
-    },
-    "49827": {
-      "skill": 49827,
-      "name": "Sextants",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasterySextant.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 161,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "17227": {
-      "skill": 17227,
-      "name": "Atlas Currency Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnode1.png",
-      "stats": [
-        "Final Map Boss in each Map has 1% chance to drop additional Map Currency Items"
-      ],
-      "group": 161,
-      "orbit": 2,
-      "orbitIndex": 8,
-      "out": [],
-      "in": [
-        "20537",
-        "40286"
-      ]
-    },
-    "54630": {
-      "skill": 54630,
-      "name": "Atlas Currency Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnode1.png",
-      "stats": [
-        "Final Map Boss in each Map has 1% chance to drop additional Map Currency Items"
-      ],
-      "group": 161,
-      "orbit": 2,
-      "orbitIndex": 3,
-      "out": [
-        "20537"
-      ],
-      "in": [
-        "22499"
-      ]
-    },
-    "22499": {
-      "skill": 22499,
-      "name": "Atlas Currency Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnode1.png",
-      "stats": [
-        "Final Map Boss in each Map has 1% chance to drop additional Map Currency Items"
-      ],
-      "group": 161,
-      "orbit": 2,
-      "orbitIndex": 0,
-      "out": [
-        "54630"
-      ],
-      "in": [
-        "30852"
-      ]
-    },
-    "30852": {
-      "skill": 30852,
-      "name": "Enduring Influence",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png",
-      "isNotable": true,
-      "stats": [
-        "Sextants you apply to your Voidstones have 1 additional use"
-      ],
-      "group": 161,
-      "orbit": 2,
-      "orbitIndex": 13,
-      "out": [
-        "22499"
-      ],
-      "in": []
-    },
-    "20537": {
-      "skill": 20537,
-      "name": "Atlas Currency Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnode1.png",
-      "stats": [
-        "Final Map Boss in each Map has 1% chance to drop additional Map Currency Items"
-      ],
-      "group": 161,
-      "orbit": 2,
-      "orbitIndex": 5,
-      "out": [
-        "17227"
-      ],
-      "in": [
-        "54630"
-      ]
     },
     "40286": {
       "skill": 40286,
@@ -15264,7 +15808,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 162,
+      "group": 170,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -15272,7 +15816,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "6091",
         "17227"
       ],
-      "in": []
+      "in": [
+        "33070"
+      ]
     },
     "50686": {
       "skill": 50686,
@@ -15281,7 +15827,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 163,
+      "group": 171,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -15299,7 +15845,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 164,
+      "group": 172,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -15310,6 +15856,68 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "50434",
         "55454"
       ]
+    },
+    "26293": {
+      "skill": 26293,
+      "name": "Higher Map Tier Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
+      "stats": [
+        "Maps found have 5% chance to be 1 tier higher"
+      ],
+      "group": 173,
+      "orbit": 2,
+      "orbitIndex": 1,
+      "out": [
+        "24609"
+      ],
+      "in": [
+        "54407"
+      ]
+    },
+    "54407": {
+      "skill": 54407,
+      "name": "Higher Map Tier Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnode.png",
+      "stats": [
+        "Maps found have 5% chance to be 1 tier higher"
+      ],
+      "group": 173,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "26293",
+        "60045"
+      ],
+      "in": []
+    },
+    "24609": {
+      "skill": 24609,
+      "name": "Shaping the Mountains",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png",
+      "isNotable": true,
+      "stats": [
+        "10% chance on Completing your Maps to gain a free use of a random Map Crafting option",
+        "Maps found have 15% chance to be 1 tier higher"
+      ],
+      "group": 173,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "26293"
+      ]
+    },
+    "36203": {
+      "skill": 36203,
+      "name": "Maps",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryMap.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 173,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
     },
     "2017": {
       "skill": 2017,
@@ -15325,7 +15933,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "Memory cannot exist without Thought."
       ],
-      "group": 165,
+      "group": 174,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -15341,7 +15949,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 166,
+      "group": 175,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -15358,7 +15966,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 166,
+      "group": 175,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -15376,7 +15984,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +10% chance to contain Breaches"
       ],
-      "group": 166,
+      "group": 175,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [
@@ -15393,7 +16001,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps spawn 8% increased Magic Monsters"
       ],
-      "group": 166,
+      "group": 175,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -15410,7 +16018,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps spawn 8% increased Magic Monsters"
       ],
-      "group": 166,
+      "group": 175,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [],
@@ -15429,7 +16037,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breaches in your Maps spawn 3 additional Rare Monsters",
         "Breaches in your Maps spawn 30% increased Magic Monsters"
       ],
-      "group": 166,
+      "group": 175,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -15446,7 +16054,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps open and close 4% faster"
       ],
-      "group": 166,
+      "group": 175,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -15463,7 +16071,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps open and close 4% faster"
       ],
-      "group": 166,
+      "group": 175,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
@@ -15481,7 +16089,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breaches in your Maps spawn 4% increased Magic Monsters",
         "Your Maps have +2% chance to contain Breaches"
       ],
-      "group": 166,
+      "group": 175,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -15497,29 +16105,210 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBreach.png",
       "isMastery": true,
       "stats": [],
-      "group": 166,
+      "group": 175,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
     },
-    "57512": {
-      "skill": 57512,
-      "name": "Growing Hordes",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png",
+    "49827": {
+      "skill": 49827,
+      "name": "Sextants",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasterySextant.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 176,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "17227": {
+      "skill": 17227,
+      "name": "Atlas Currency Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnode1.png",
+      "stats": [
+        "Final Map Boss in each Map has 1% chance to drop additional Map Currency Items"
+      ],
+      "group": 176,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "40286",
+        "20537"
+      ]
+    },
+    "54630": {
+      "skill": 54630,
+      "name": "Atlas Currency Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnode1.png",
+      "stats": [
+        "Final Map Boss in each Map has 1% chance to drop additional Map Currency Items"
+      ],
+      "group": 176,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "20537"
+      ],
+      "in": [
+        "22499"
+      ]
+    },
+    "22499": {
+      "skill": 22499,
+      "name": "Atlas Currency Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnode1.png",
+      "stats": [
+        "Final Map Boss in each Map has 1% chance to drop additional Map Currency Items"
+      ],
+      "group": 176,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "54630"
+      ],
+      "in": [
+        "30852"
+      ]
+    },
+    "30852": {
+      "skill": 30852,
+      "name": "Enduring Influence",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png",
+      "isNotable": true,
+      "stats": [
+        "Sextants you apply to your Voidstones have 1 additional use"
+      ],
+      "group": 176,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "22499"
+      ],
+      "in": []
+    },
+    "20537": {
+      "skill": 20537,
+      "name": "Atlas Currency Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnode1.png",
+      "stats": [
+        "Final Map Boss in each Map has 1% chance to drop additional Map Currency Items"
+      ],
+      "group": 176,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "17227"
+      ],
+      "in": [
+        "54630"
+      ]
+    },
+    "1474": {
+      "skill": 1474,
+      "name": "Vaal Side Areas",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryVaal.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 177,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "44289": {
+      "skill": 44289,
+      "name": "Vaal Side Area Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalsideareasNode.png",
+      "stats": [
+        "Your Maps have +2% chance to contain a Vaal Side Area"
+      ],
+      "group": 177,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "40327",
+        "58795"
+      ],
+      "in": []
+    },
+    "33070": {
+      "skill": 33070,
+      "name": "Vaal Side Area Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalsideareasNode.png",
+      "stats": [
+        "Your Maps have +2% chance to contain a Vaal Side Area"
+      ],
+      "group": 177,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "40286",
+        "63874"
+      ],
+      "in": []
+    },
+    "58795": {
+      "skill": 58795,
+      "name": "Vaal Side Area Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalsideareasNode.png",
+      "stats": [
+        "Your Maps have +2% chance to contain a Vaal Side Area"
+      ],
+      "group": 177,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "43160"
+      ],
+      "in": [
+        "44289",
+        "63874"
+      ]
+    },
+    "63874": {
+      "skill": 63874,
+      "name": "Unimaginable Horrors",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalCluster.png",
+      "isNotable": true,
+      "stats": [
+        "Unique Bosses in Vaal Side Areas in your Maps deal 30% more Damage",
+        "Unique Bosses in Vaal Side Areas in your Maps have 100% more Life",
+        "Vaal Side Areas in your Maps have 20% chance for Rewards from Vaal Vessels to be Duplicated"
+      ],
+      "group": 177,
+      "orbit": 2,
+      "orbitIndex": 12,
+      "out": [
+        "58795"
+      ],
+      "in": [
+        "33070"
+      ]
+    },
+    "43160": {
+      "skill": 43160,
+      "name": "Lucid Dreams",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LucidDreams.png",
       "isKeystone": true,
       "stats": [
-        "Rusted Scarabs instead grant 5% increased Pack Size\nPolished Scarabs instead grant 7% increased Pack Size\nGilded Scarabs instead grant 10% increased Pack Size\nWinged Scarabs instead grant 15% increased Pack Size"
+        "Vaal Side Areas in your Maps are no longer Corrupted"
+      ],
+      "reminderText": [
+        "(Currency items can be used on non-Corrupted Vaal Side Areas)"
       ],
       "flavourText": [
-        "The weight of history hangs heavy on the neck of civilisation."
+        "Shattered fragments of reality float through the void,",
+        "waiting to be shaped by your mind's desire."
       ],
-      "group": 167,
+      "group": 178,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": [
-        "40327"
+        "58795"
       ]
     },
     "65225": {
@@ -15538,7 +16327,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "In a realm where thought is given form, action and will become one and the same."
       ],
-      "group": 168,
+      "group": 179,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -15554,9 +16343,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Expedition Monsters in your Maps spawn with an additional 20% of Life missing"
       ],
-      "group": 169,
+      "group": 180,
       "orbit": 2,
-      "orbitIndex": 1,
+      "orbitIndex": 0,
       "out": [],
       "in": [
         "56512"
@@ -15569,9 +16358,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Expedition Detonation Chains in your Maps travel 5% slower"
       ],
-      "group": 169,
+      "group": 180,
       "orbit": 2,
-      "orbitIndex": 12,
+      "orbitIndex": 8,
       "out": [
         "56512"
       ],
@@ -15586,9 +16375,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Expedition Detonation Chains in your Maps travel 5% slower"
       ],
-      "group": 169,
+      "group": 180,
       "orbit": 2,
-      "orbitIndex": 9,
+      "orbitIndex": 11,
       "out": [
         "10668"
       ],
@@ -15603,9 +16392,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Expedition Detonation Chains in your Maps travel 5% slower"
       ],
-      "group": 169,
+      "group": 180,
       "orbit": 2,
-      "orbitIndex": 15,
+      "orbitIndex": 5,
       "out": [
         "30021"
       ],
@@ -15619,7 +16408,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryExpedition.png",
       "isMastery": true,
       "stats": [],
-      "group": 169,
+      "group": 180,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -15632,7 +16421,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 170,
+      "group": 181,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -15650,7 +16439,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Legion Encounters in your Maps have 60% increased chance to include a Templar army"
       ],
-      "group": 171,
+      "group": 182,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -15670,7 +16459,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Legion Generals are Queen Hyrri Ngamaku, General Marceus Lioneye, Cardinal Sanctus Vox, Viper Napuatzi and Aukuna, the Black Sekhema)"
       ],
-      "group": 172,
+      "group": 183,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -15687,7 +16476,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Legion Encounters in your Maps have 90% increased chance to include an Eternal Empire army"
       ],
-      "group": 173,
+      "group": 184,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -15704,7 +16493,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Legion Encounter"
       ],
-      "group": 174,
+      "group": 185,
       "orbit": 4,
       "orbitIndex": 20,
       "out": [
@@ -15724,7 +16513,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Legion Encounters in your Maps have 75% increased chance to include a Vaal army"
       ],
-      "group": 174,
+      "group": 185,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -15742,7 +16531,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +10% chance to contain a Legion Encounter"
       ],
-      "group": 174,
+      "group": 185,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [],
@@ -15761,7 +16550,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Legion Encounter"
       ],
-      "group": 174,
+      "group": 185,
       "orbit": 4,
       "orbitIndex": 0,
       "out": [
@@ -15779,7 +16568,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Splinters dropped by Legion Monsters or contained in Legion Chests in your Maps have 5% chance to be Duplicated"
       ],
-      "group": 174,
+      "group": 185,
       "orbit": 4,
       "orbitIndex": 2,
       "out": [
@@ -15799,7 +16588,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Legion Generals are Queen Hyrri Ngamaku, General Marceus Lioneye, Cardinal Sanctus Vox, Viper Napuatzi and Aukuna, the Black Sekhema)"
       ],
-      "group": 174,
+      "group": 185,
       "orbit": 4,
       "orbitIndex": 38,
       "out": [],
@@ -15820,7 +16609,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Legion Generals are Queen Hyrri Ngamaku, General Marceus Lioneye, Cardinal Sanctus Vox, Viper Napuatzi and Aukuna, the Black Sekhema)"
       ],
-      "group": 174,
+      "group": 185,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -15837,7 +16626,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Each Legion in your Maps contains an additional War Hoard",
         "Legion Chests released from Stasis in your Maps release other Monsters and Chests with 100% increased Range"
       ],
-      "group": 174,
+      "group": 185,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [],
@@ -15851,7 +16640,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryLegion.png",
       "isMastery": true,
       "stats": [],
-      "group": 174,
+      "group": 185,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -15864,7 +16653,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 175,
+      "group": 186,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -15886,7 +16675,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Abysses in your Maps have 5% increased chance to lead to an Abyssal Depths",
         "Abysses in your Maps that do not lead to an Abyssal Depths have 5% increased chance to lead to a Stygian Spire"
       ],
-      "group": 176,
+      "group": 187,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [
@@ -15904,7 +16693,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Abysses in your Maps have 5% increased chance to lead to an Abyssal Depths",
         "Abysses in your Maps that do not lead to an Abyssal Depths have 5% increased chance to lead to a Stygian Spire"
       ],
-      "group": 176,
+      "group": 187,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [
@@ -15921,7 +16710,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abysses in your Maps that do not lead to an Abyssal Depths have 10% increased chance to lead to a Stygian Spire"
       ],
-      "group": 176,
+      "group": 187,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -15938,7 +16727,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abysses in your Maps that do not lead to an Abyssal Depths have 10% increased chance to lead to a Stygian Spire"
       ],
-      "group": 176,
+      "group": 187,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -15956,7 +16745,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Stygian Spires in your Maps drop Items with +1 to Item Level"
       ],
-      "group": 176,
+      "group": 187,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -15973,7 +16762,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain an Abyss"
       ],
-      "group": 176,
+      "group": 187,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [
@@ -15991,7 +16780,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abysses in your Maps have 10% increased chance to lead to an Abyssal Depths"
       ],
-      "group": 176,
+      "group": 187,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -16008,7 +16797,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abysses in your Maps have 10% increased chance to lead to an Abyssal Depths"
       ],
-      "group": 176,
+      "group": 187,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -16026,7 +16815,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abysses in your Maps have 100% increased chance to lead to an Abyssal Depths"
       ],
-      "group": 176,
+      "group": 187,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
@@ -16042,7 +16831,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
       "isMastery": true,
       "stats": [],
-      "group": 176,
+      "group": 187,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -16055,7 +16844,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Immortal Syndicate Members in your Maps have 5% increased chance to be accompanied by reinforcements"
       ],
-      "group": 177,
+      "group": 188,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -16072,7 +16861,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Immortal Syndicate Members in your Maps have 5% increased chance to be accompanied by reinforcements"
       ],
-      "group": 177,
+      "group": 188,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -16089,7 +16878,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Immortal Syndicate Members in your Maps have 5% increased chance to be accompanied by reinforcements"
       ],
-      "group": 177,
+      "group": 188,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -16110,7 +16899,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Safehouses which have already been Located can still be randomly selected)"
       ],
-      "group": 177,
+      "group": 188,
       "orbit": 2,
       "orbitIndex": 3,
       "out": [
@@ -16124,7 +16913,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryJun.png",
       "isMastery": true,
       "stats": [],
-      "group": 177,
+      "group": 188,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -16137,15 +16926,15 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 178,
+      "group": 189,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
-        "13478",
-        "57512"
+        "13478"
       ],
       "in": [
         "40286",
+        "44289",
         "46920",
         "20866"
       ]
@@ -16157,7 +16946,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +5% chance to contain The Sacred Grove"
       ],
-      "group": 179,
+      "group": 190,
       "orbit": 2,
       "orbitIndex": 0,
       "out": [
@@ -16173,7 +16962,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +5% chance to contain The Sacred Grove"
       ],
-      "group": 179,
+      "group": 190,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [],
@@ -16189,7 +16978,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +5% chance to contain The Sacred Grove"
       ],
-      "group": 179,
+      "group": 190,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -16207,7 +16996,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +15% chance to contain The Sacred Grove"
       ],
-      "group": 179,
+      "group": 190,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [],
@@ -16221,7 +17010,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHarvest.png",
       "isMastery": true,
       "stats": [],
-      "group": 179,
+      "group": 190,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -16234,7 +17023,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 180,
+      "group": 191,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -16253,7 +17042,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Niko Mission on Completion"
       ],
-      "group": 181,
+      "group": 192,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [
@@ -16270,7 +17059,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Voltaxic Sulphite Veins and Chests in your Maps contain 3% increased Sulphite"
       ],
-      "group": 181,
+      "group": 192,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -16287,7 +17076,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Voltaxic Sulphite Veins and Chests in your Maps contain 3% increased Sulphite"
       ],
-      "group": 181,
+      "group": 192,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
@@ -16304,7 +17093,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Niko Mission on Completion"
       ],
-      "group": 181,
+      "group": 192,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -16322,7 +17111,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Niko Mission on Completion"
       ],
-      "group": 181,
+      "group": 192,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -16342,7 +17131,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Voltaxic Sulphite Veins and Chests in your Maps have 5% chance to contain double Sulphite",
         "Sulphite Veins and Chests in your Maps are guarded by Sulphite-hoarding Monsters"
       ],
-      "group": 181,
+      "group": 192,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [
@@ -16363,7 +17152,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Maximum Resistances cannot be raised above 90%)"
       ],
-      "group": 181,
+      "group": 192,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -16377,7 +17166,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryDelve.png",
       "isMastery": true,
       "stats": [],
-      "group": 181,
+      "group": 192,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -16392,7 +17181,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "35% increased Explosive Radius in your Maps",
         "20% increased number of Explosives in your Maps"
       ],
-      "group": 182,
+      "group": 193,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -16409,16 +17198,15 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "20% increased Explosive Placement Range in your Maps"
       ],
-      "group": 182,
+      "group": 193,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
         "11223",
-        "63058"
+        "63058",
+        "13802"
       ],
-      "in": [
-        "54109"
-      ]
+      "in": []
     },
     "59286": {
       "skill": 59286,
@@ -16427,11 +17215,11 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "5% increased Quantity of Vendor Refresh Currencies dropped by Monsters in your Maps"
       ],
-      "group": 182,
+      "group": 193,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
-        "54109"
+        "13802"
       ],
       "in": [
         "8038",
@@ -16445,7 +17233,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain an Expedition Encounter"
       ],
-      "group": 182,
+      "group": 193,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -16462,7 +17250,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "5% increased Quantity of Vendor Refresh Currencies dropped by Monsters in your Maps"
       ],
-      "group": 182,
+      "group": 193,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -16481,7 +17269,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Remnants in your Maps have 30% chance to have an additional Suffix Modifier",
         "Expeditions in your Maps have +2 Remnants"
       ],
-      "group": 182,
+      "group": 193,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -16491,24 +17279,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "4489"
       ]
     },
-    "54109": {
-      "skill": 54109,
-      "name": "Explosive Placement Distance and Vendor Reroll Currency Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png",
-      "stats": [
-        "10% increased Explosive Placement Range in your Maps",
-        "3% increased Quantity of Vendor Refresh Currencies dropped by Monsters in your Maps"
-      ],
-      "group": 182,
-      "orbit": 3,
-      "orbitIndex": 8,
-      "out": [
-        "44058"
-      ],
-      "in": [
-        "59286"
-      ]
-    },
     "9726": {
       "skill": 9726,
       "name": "Expedition Chance",
@@ -16516,7 +17286,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain an Expedition Encounter"
       ],
-      "group": 182,
+      "group": 193,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [
@@ -16533,7 +17303,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "20% increased Explosive Placement Range in your Maps"
       ],
-      "group": 182,
+      "group": 193,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -16543,13 +17313,36 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "44058"
       ]
     },
+    "13802": {
+      "skill": 13802,
+      "name": "Extreme Archaeology",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/ExtremeArchaeology.png",
+      "isKeystone": true,
+      "stats": [
+        "200% increased Explosive Radius in your Maps",
+        "100% increased Explosive Placement Range in your Maps",
+        "Expedition Monsters in your Maps spawn with an additional 10% of Life missing",
+        "Number of Explosives is one"
+      ],
+      "flavourText": [
+        "Verisium is often found in a recent crater. Properly refined, it can easily make another."
+      ],
+      "group": 193,
+      "orbit": 3,
+      "orbitIndex": 8,
+      "out": [],
+      "in": [
+        "44058",
+        "59286"
+      ]
+    },
     "28389": {
       "skill": 28389,
       "name": "Expedition",
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryExpedition.png",
       "isMastery": true,
       "stats": [],
-      "group": 182,
+      "group": 193,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -16562,7 +17355,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Legion Encounters in your Maps have 90% increased chance to include a Karui army"
       ],
-      "group": 183,
+      "group": 194,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -16579,7 +17372,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Splinters dropped by Legion Monsters or contained in Legion Chests in your Maps have 5% chance to be Duplicated"
       ],
-      "group": 184,
+      "group": 195,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -16596,7 +17389,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Legion Encounters in your Maps have 55% increased chance to include a Maraketh army"
       ],
-      "group": 185,
+      "group": 196,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -16613,7 +17406,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Kirac Mission Areas have 5% increased Pack Size"
       ],
-      "group": 186,
+      "group": 197,
       "orbit": 2,
       "orbitIndex": 13,
       "out": [
@@ -16630,7 +17423,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Kirac Mission Areas have 5% increased Pack Size"
       ],
-      "group": 186,
+      "group": 197,
       "orbit": 2,
       "orbitIndex": 11,
       "out": [
@@ -16647,7 +17440,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Kirac Mission Areas have 5% increased Pack Size"
       ],
-      "group": 186,
+      "group": 197,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -16669,7 +17462,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "reminderText": [
         "(Operative's Scouting Reports reroll all of Kirac's Atlas Missions, granting missions with rewarding implicit modifiers.)"
       ],
-      "group": 186,
+      "group": 197,
       "orbit": 2,
       "orbitIndex": 5,
       "out": [],
@@ -16683,7 +17476,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryKirac.png",
       "isMastery": true,
       "stats": [],
-      "group": 186,
+      "group": 197,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -16696,7 +17489,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Eater of Worlds in your Maps have 0.2% chance to drop an item with an Eater of Worlds Implicit Modifier"
       ],
-      "group": 187,
+      "group": 198,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -16718,7 +17511,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "At the core of the mass, a fierce hunger seethes, as the Tangle's champion devours a myriad of worlds..."
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 3,
       "orbitIndex": 0,
       "out": [],
@@ -16733,7 +17526,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryTangle.png",
       "isMastery": true,
       "stats": [],
-      "group": 188,
+      "group": 199,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -16746,7 +17539,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Eater of Worlds in your Maps have 0.2% chance to drop an item with an Eater of Worlds Implicit Modifier"
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [
@@ -16762,7 +17555,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Eater of Worlds in your Maps have 0.2% chance to drop an item with an Eater of Worlds Implicit Modifier"
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 3,
       "orbitIndex": 13,
       "out": [
@@ -16779,7 +17572,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Eater of Worlds in your Maps have 0.2% chance to drop an item with an Eater of Worlds Implicit Modifier"
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -16796,7 +17589,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Eater of Worlds in your Maps have 0.2% chance to drop an item with an Eater of Worlds Implicit Modifier"
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 2,
       "orbitIndex": 8,
       "out": [
@@ -16814,7 +17607,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Eater of Worlds in your Maps have 0.2% chance to drop an item with an Eater of Worlds Implicit Modifier"
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -16830,7 +17623,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Eater of Worlds in your Maps have 0.2% chance to drop an item with an Eater of Worlds Implicit Modifier"
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -16847,7 +17640,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Eater of Worlds in your Maps have 0.2% chance to drop an item with an Eater of Worlds Implicit Modifier"
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [],
@@ -16864,7 +17657,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 10% chance to award double progress towards encountering The Eater of Worlds"
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [],
@@ -16881,7 +17674,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "20% increased chance to find Eater of Worlds Altars in your Maps"
       ],
-      "group": 188,
+      "group": 199,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -16898,7 +17691,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 189,
+      "group": 200,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -16909,129 +17702,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "50896"
       ]
     },
-    "33008": {
-      "skill": 33008,
-      "name": "Eldritch Gaze",
-      "icon": "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png",
-      "isKeystone": true,
-      "stats": [
-        "Eldritch Altars Influenced by The Eater of Worlds have an additional Downside",
-        "Eldritch Altars Influenced by The Eater of Worlds have 50% increased Effect of Upsides"
-      ],
-      "flavourText": [
-        "You were drunk on the power of the cosmos,",
-        "until a hideous gaze settled upon you,",
-        "and tendrils began to unfurl..."
-      ],
-      "group": 190,
-      "orbit": 3,
-      "orbitIndex": 8,
-      "out": [],
-      "in": [
-        "23539",
-        "24106"
-      ]
-    },
-    "9252": {
-      "skill": 9252,
-      "name": "The Eater of Worlds",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryTangle.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 190,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
-    "52881": {
-      "skill": 52881,
-      "name": "Eater of Worlds Influence Pack Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangleNode.png",
-      "stats": [
-        "Monster Packs Influenced by The Eater of Worlds in your Maps have 5% increased Pack Size"
-      ],
-      "group": 190,
-      "orbit": 2,
-      "orbitIndex": 15,
-      "out": [
-        "23539"
-      ],
-      "in": [
-        "28157"
-      ]
-    },
-    "23539": {
-      "skill": 23539,
-      "name": "Eater of Worlds Influence Pack Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangleNode.png",
-      "stats": [
-        "Monster Packs Influenced by The Eater of Worlds in your Maps have 5% increased Pack Size"
-      ],
-      "group": 190,
-      "orbit": 2,
-      "orbitIndex": 12,
-      "out": [
-        "27093",
-        "33008"
-      ],
-      "in": [
-        "52881"
-      ]
-    },
-    "46589": {
-      "skill": 46589,
-      "name": "Eater of Worlds Influence Pack Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangleNode.png",
-      "stats": [
-        "Monster Packs Influenced by The Eater of Worlds in your Maps have 5% increased Pack Size"
-      ],
-      "group": 190,
-      "orbit": 2,
-      "orbitIndex": 1,
-      "out": [
-        "28157"
-      ],
-      "in": [
-        "24106"
-      ]
-    },
-    "24106": {
-      "skill": 24106,
-      "name": "Eater of Worlds Influence Pack Size",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangleNode.png",
-      "stats": [
-        "Monster Packs Influenced by The Eater of Worlds in your Maps have 5% increased Pack Size"
-      ],
-      "group": 190,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [
-        "23246",
-        "46589",
-        "33008"
-      ],
-      "in": []
-    },
-    "28157": {
-      "skill": 28157,
-      "name": "Rampant Growth",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png",
-      "isNotable": true,
-      "stats": [
-        "Eldritch Ichor found in your Maps influenced by The Eater of Worlds have 10% chance to be Duplicated",
-        "Monster Packs Influenced by The Eater of Worlds in your Maps have 2% chance to contain an additional Touching Tentacle Mass"
-      ],
-      "group": 190,
-      "orbit": 3,
-      "orbitIndex": 0,
-      "out": [
-        "52881"
-      ],
-      "in": [
-        "46589"
-      ]
-    },
     "12341": {
       "skill": 12341,
       "name": "Map Drop Duplication",
@@ -17039,7 +17709,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 191,
+      "group": 201,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -17056,7 +17726,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Jun Mission on Completion"
       ],
-      "group": 192,
+      "group": 202,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [
@@ -17073,7 +17743,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Jun Mission on Completion"
       ],
-      "group": 192,
+      "group": 202,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -17091,7 +17761,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Jun Mission on Completion"
       ],
-      "group": 192,
+      "group": 202,
       "orbit": 3,
       "orbitIndex": 3,
       "out": [
@@ -17112,7 +17782,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Immortal Syndicate Members in your Maps are 100% more likely to be accompanied by their Leader",
         "Immortal Syndicate Leaders in your Maps drop an additional Veiled Item"
       ],
-      "group": 192,
+      "group": 202,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
@@ -17127,7 +17797,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Immortal Syndicate Members in your Maps have 15% chance to drop an additional Veiled Item"
       ],
-      "group": 192,
+      "group": 202,
       "orbit": 3,
       "orbitIndex": 4,
       "out": [
@@ -17144,7 +17814,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Immortal Syndicate Members in your Maps have 15% chance to drop an additional Veiled Item"
       ],
-      "group": 192,
+      "group": 202,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [
@@ -17163,7 +17833,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Immortal Syndicate Members in your Maps are 200% more\nlikely to offer to Bargain for Items",
         "Immortal Syndicate Members in your Maps drop 200% more\nItems when Bargained with for Items"
       ],
-      "group": 192,
+      "group": 202,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [],
@@ -17177,7 +17847,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryJun.png",
       "isMastery": true,
       "stats": [],
-      "group": 192,
+      "group": 202,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -17190,7 +17860,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Monsters Influenced by The Eater of Worlds in your Maps have 0.2% chance to drop an item with an Eater of Worlds Implicit Modifier"
       ],
-      "group": 193,
+      "group": 203,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -17200,6 +17870,129 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "19039"
       ]
     },
+    "33008": {
+      "skill": 33008,
+      "name": "Eldritch Gaze",
+      "icon": "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png",
+      "isKeystone": true,
+      "stats": [
+        "Eldritch Altars Influenced by The Eater of Worlds have an additional Downside",
+        "Eldritch Altars Influenced by The Eater of Worlds have 50% increased Effect of Upsides"
+      ],
+      "flavourText": [
+        "You were drunk on the power of the cosmos,",
+        "until a hideous gaze settled upon you,",
+        "and tendrils began to unfurl..."
+      ],
+      "group": 204,
+      "orbit": 3,
+      "orbitIndex": 7,
+      "out": [],
+      "in": [
+        "23539",
+        "24106"
+      ]
+    },
+    "9252": {
+      "skill": 9252,
+      "name": "The Eater of Worlds",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryTangle.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 204,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "52881": {
+      "skill": 52881,
+      "name": "Eater of Worlds Influence Pack Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangleNode.png",
+      "stats": [
+        "Monster Packs Influenced by The Eater of Worlds in your Maps have 5% increased Pack Size"
+      ],
+      "group": 204,
+      "orbit": 2,
+      "orbitIndex": 13,
+      "out": [
+        "23539"
+      ],
+      "in": [
+        "28157"
+      ]
+    },
+    "23539": {
+      "skill": 23539,
+      "name": "Eater of Worlds Influence Pack Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangleNode.png",
+      "stats": [
+        "Monster Packs Influenced by The Eater of Worlds in your Maps have 5% increased Pack Size"
+      ],
+      "group": 204,
+      "orbit": 2,
+      "orbitIndex": 11,
+      "out": [
+        "27093",
+        "33008"
+      ],
+      "in": [
+        "52881"
+      ]
+    },
+    "46589": {
+      "skill": 46589,
+      "name": "Eater of Worlds Influence Pack Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangleNode.png",
+      "stats": [
+        "Monster Packs Influenced by The Eater of Worlds in your Maps have 5% increased Pack Size"
+      ],
+      "group": 204,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [
+        "28157"
+      ],
+      "in": [
+        "24106"
+      ]
+    },
+    "24106": {
+      "skill": 24106,
+      "name": "Eater of Worlds Influence Pack Size",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangleNode.png",
+      "stats": [
+        "Monster Packs Influenced by The Eater of Worlds in your Maps have 5% increased Pack Size"
+      ],
+      "group": 204,
+      "orbit": 2,
+      "orbitIndex": 3,
+      "out": [
+        "23246",
+        "46589",
+        "33008"
+      ],
+      "in": []
+    },
+    "28157": {
+      "skill": 28157,
+      "name": "Rampant Growth",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png",
+      "isNotable": true,
+      "stats": [
+        "Eldritch Ichor found in your Maps influenced by The Eater of Worlds have 10% chance to be Duplicated",
+        "Monster Packs Influenced by The Eater of Worlds in your Maps have 2% chance to contain an additional Touching Tentacle Mass"
+      ],
+      "group": 204,
+      "orbit": 3,
+      "orbitIndex": 15,
+      "out": [
+        "52881"
+      ],
+      "in": [
+        "46589"
+      ]
+    },
     "12188": {
       "skill": 12188,
       "name": "Abyssal Jewel Chance",
@@ -17207,7 +18000,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abyssal Troves and Stygian Spires in your Maps have 10% increased chance to contain or drop an Abyss Jewel"
       ],
-      "group": 194,
+      "group": 205,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -17223,7 +18016,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abyssal Troves and Stygian Spires in your Maps have 10% increased chance to contain or drop an Abyss Jewel"
       ],
-      "group": 194,
+      "group": 205,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -17240,7 +18033,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abyssal Troves and Stygian Spires in your Maps have 10% increased chance to contain or drop an Abyss Jewel"
       ],
-      "group": 194,
+      "group": 205,
       "orbit": 2,
       "orbitIndex": 9,
       "out": [
@@ -17258,7 +18051,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Abyss Jewels found in Abyssal Troves or dropped by Stygian Spires in your Maps have 20% chance to be Corrupted and have 5 or 6 random Modifiers"
       ],
-      "group": 194,
+      "group": 205,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [],
@@ -17272,7 +18065,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
       "isMastery": true,
       "stats": [],
-      "group": 194,
+      "group": 205,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -17287,7 +18080,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breaches in your Maps have 20% increased chance to contain a Boss",
         "Breach Bosses in your Maps have 20% chance to drop double Breach Splinters"
       ],
-      "group": 195,
+      "group": 206,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -17308,7 +18101,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 195,
+      "group": 206,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -17323,131 +18116,106 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBreach.png",
       "isMastery": true,
       "stats": [],
-      "group": 195,
+      "group": 206,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
     },
-    "55070": {
-      "skill": 55070,
-      "name": "Legion Sergeant Reward Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
-      "stats": [
-        "Legion Sergeants in your Maps have 6% additional chance to have Rewards"
-      ],
-      "group": 196,
-      "orbit": 2,
-      "orbitIndex": 9,
-      "out": [
-        "64252"
-      ],
-      "in": [
-        "62053"
-      ]
-    },
-    "62053": {
-      "skill": 62053,
-      "name": "Legion Monolith Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
-      "stats": [
-        "Your Maps have +4% chance to contain a Legion Encounter"
-      ],
-      "group": 196,
-      "orbit": 2,
-      "orbitIndex": 7,
-      "out": [
-        "55070",
-        "25676"
-      ],
-      "in": [
-        "29605"
-      ]
-    },
-    "25676": {
-      "skill": 25676,
-      "name": "Legion Duration",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
-      "stats": [
-        "Legion Encounters in your Maps have 20% increased Duration"
-      ],
-      "group": 196,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [],
-      "in": [
-        "62053",
-        "9866"
-      ]
-    },
-    "15023": {
-      "skill": 15023,
-      "name": "Legion Sergeant Reward Chance and Duration",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
-      "stats": [
-        "Legion Encounters in your Maps have 10% increased Duration",
-        "Legion Sergeants in your Maps have 3% additional chance to have Rewards"
-      ],
-      "group": 196,
-      "orbit": 2,
-      "orbitIndex": 15,
-      "out": [
-        "64252"
-      ],
-      "in": [
-        "9866"
-      ]
-    },
-    "64252": {
-      "skill": 64252,
-      "name": "Chain of Command",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png",
+    "8105": {
+      "skill": 8105,
+      "name": "Ancient Conflict",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png",
       "isNotable": true,
       "stats": [
-        "Legion Encounters in your Maps contain 2 additional Sergeants",
-        "Legion Sergeants in your Maps have 20% additional chance to have Rewards"
+        "Abyssal Troves and Stygian Spires in your Maps have 3% chance to drop an Abyss Scarab"
       ],
-      "group": 196,
+      "group": 207,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [],
       "in": [
-        "55070",
-        "15023"
+        "8775"
       ]
     },
-    "9866": {
-      "skill": 9866,
-      "name": "Protracted Battle",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png",
-      "isNotable": true,
+    "4746": {
+      "skill": 4746,
+      "name": "Abyss Monster Count",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
       "stats": [
-        "Legion Encounters in your Maps have 40% increased Duration",
-        "Legion Monsters in your Maps take 50% increased Damage while in Stasis"
+        "Abysses in your Maps spawn 5% increased Monsters"
       ],
-      "reminderText": [
-        "(Monsters in Stasis do not take any actions)"
-      ],
-      "group": 196,
+      "group": 207,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
-        "25676",
-        "15023"
+        "8775"
+      ],
+      "in": [
+        "18626"
+      ]
+    },
+    "8775": {
+      "skill": 8775,
+      "name": "Abyss Monster Count",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Abysses in your Maps spawn 5% increased Monsters"
+      ],
+      "group": 207,
+      "orbit": 2,
+      "orbitIndex": 15,
+      "out": [
+        "8105"
+      ],
+      "in": [
+        "4746"
+      ]
+    },
+    "18626": {
+      "skill": 18626,
+      "name": "Abyss Monster Count",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
+      "stats": [
+        "Abysses in your Maps spawn 5% increased Monsters"
+      ],
+      "group": 207,
+      "orbit": 2,
+      "orbitIndex": 6,
+      "out": [
+        "4746",
+        "29605"
       ],
       "in": []
     },
-    "25829": {
-      "skill": 25829,
-      "name": "Legion",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryLegion.png",
+    "734": {
+      "skill": 734,
+      "name": "Abyss",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
       "isMastery": true,
       "stats": [],
-      "group": 196,
+      "group": 207,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": []
+    },
+    "60691": {
+      "skill": 60691,
+      "name": "Chayula Breach Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNodeChaos.png",
+      "stats": [
+        "Breaches in your Maps have 35% increased chance to belong to Chayula"
+      ],
+      "group": 208,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "41935"
+      ],
+      "in": [
+        "37316"
+      ]
     },
     "25648": {
       "skill": 25648,
@@ -17463,7 +18231,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "flavourText": [
         "... and the stars gaze back with hunger."
       ],
-      "group": 197,
+      "group": 209,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -17472,23 +18240,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       ],
       "in": []
     },
-    "60691": {
-      "skill": 60691,
-      "name": "Chayula Breach Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNodeChaos.png",
-      "stats": [
-        "Breaches in your Maps have 35% increased chance to belong to Chayula"
-      ],
-      "group": 198,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [
-        "41935"
-      ],
-      "in": [
-        "37316"
-      ]
-    },
     "41935": {
       "skill": 41935,
       "name": "Breach Chance",
@@ -17496,7 +18247,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 35% increased chance to belong to Chayula"
       ],
-      "group": 199,
+      "group": 210,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -17512,7 +18263,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 70% increased chance to belong to Tul"
       ],
-      "group": 200,
+      "group": 211,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -17522,85 +18273,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "37316"
       ]
     },
-    "8105": {
-      "skill": 8105,
-      "name": "Ancient Conflict",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png",
-      "isNotable": true,
-      "stats": [
-        "Abyssal Troves and Stygian Spires in your Maps have 3% chance to drop an Abyss Scarab"
-      ],
-      "group": 201,
-      "orbit": 2,
-      "orbitIndex": 4,
-      "out": [],
-      "in": [
-        "8775"
-      ]
-    },
-    "4746": {
-      "skill": 4746,
-      "name": "Abyss Monster Count",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Abysses in your Maps spawn 5% increased Monsters"
-      ],
-      "group": 201,
-      "orbit": 2,
-      "orbitIndex": 9,
-      "out": [
-        "8775"
-      ],
-      "in": [
-        "18626"
-      ]
-    },
-    "8775": {
-      "skill": 8775,
-      "name": "Abyss Monster Count",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Abysses in your Maps spawn 5% increased Monsters"
-      ],
-      "group": 201,
-      "orbit": 2,
-      "orbitIndex": 7,
-      "out": [
-        "8105"
-      ],
-      "in": [
-        "4746"
-      ]
-    },
-    "18626": {
-      "skill": 18626,
-      "name": "Abyss Monster Count",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png",
-      "stats": [
-        "Abysses in your Maps spawn 5% increased Monsters"
-      ],
-      "group": 201,
-      "orbit": 2,
-      "orbitIndex": 12,
-      "out": [
-        "4746"
-      ],
-      "in": [
-        "62099"
-      ]
-    },
-    "734": {
-      "skill": 734,
-      "name": "Abyss",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryAbyss.png",
-      "isMastery": true,
-      "stats": [],
-      "group": 201,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": []
-    },
     "50896": {
       "skill": 50896,
       "name": "Map Modifier Effect",
@@ -17608,7 +18280,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% increased effect of Modifiers on your Non-Unique Maps"
       ],
-      "group": 202,
+      "group": 212,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -17630,7 +18302,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 203,
+      "group": 213,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -17649,7 +18321,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 204,
+      "group": 214,
       "orbit": 6,
       "orbitIndex": 54,
       "out": [
@@ -17670,14 +18342,14 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 204,
+      "group": 214,
       "orbit": 6,
       "orbitIndex": 0,
       "out": [
-        "62053",
         "47052"
       ],
       "in": [
+        "18626",
         "206",
         "57077"
       ]
@@ -17689,13 +18361,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 204,
+      "group": 214,
       "orbit": 6,
       "orbitIndex": 42,
       "out": [
         "43900",
         "24699",
-        "18626"
+        "62053"
       ],
       "in": []
     },
@@ -17706,7 +18378,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "2% chance for one Monster in each of your Maps to drop an additional connected Map"
       ],
-      "group": 204,
+      "group": 214,
       "orbit": 6,
       "orbitIndex": 48,
       "out": [
@@ -17723,7 +18395,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 204,
+      "group": 214,
       "orbit": 6,
       "orbitIndex": 63,
       "out": [
@@ -17733,29 +18405,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "11223"
       ]
     },
-    "17000": {
-      "skill": 17000,
-      "name": "Mortal Gateway",
-      "icon": "Art/2DArt/SkillIcons/passives/MasteryBlank.png",
-      "isWormhole": true,
-      "stats": [
-        "Connects to Mortal Gateway"
-      ],
-      "reminderText": [
-        "(Allocating a Gateway allows you to allocate Atlas Passive Skills from its connected Gateway)"
-      ],
-      "flavourText": [
-        "Life and Death are two sides of the same coin."
-      ],
-      "group": 205,
-      "orbit": 0,
-      "orbitIndex": 0,
-      "out": [],
-      "in": [
-        "13842",
-        "43900"
-      ]
-    },
     "4358": {
       "skill": 4358,
       "name": "Xoph Breach Chance",
@@ -17763,7 +18412,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 70% increased chance to belong to Xoph"
       ],
-      "group": 206,
+      "group": 215,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -17780,7 +18429,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 40% increased chance to belong to Uul-Netol"
       ],
-      "group": 207,
+      "group": 216,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -17797,7 +18446,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 70% increased chance to belong to Esh"
       ],
-      "group": 208,
+      "group": 217,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -17805,6 +18454,187 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       ],
       "in": [
         "37316"
+      ]
+    },
+    "48004": {
+      "skill": 48004,
+      "name": "Timeless Conflict",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuptureMeter.png",
+      "isKeystone": true,
+      "stats": [
+        "Legion Encounters in your Maps have no Timer\nBreaking out Monsters and Chests that are in stasis progressively causes a Schism\nLegion Encounters in your Maps begin once the Schism has occurred"
+      ],
+      "flavourText": [
+        "Haste is irrelevant in the face of eternity."
+      ],
+      "group": 218,
+      "orbit": 4,
+      "orbitIndex": 10,
+      "out": [
+        "15023"
+      ],
+      "in": []
+    },
+    "55070": {
+      "skill": 55070,
+      "name": "Legion Sergeant Reward Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
+      "stats": [
+        "Legion Sergeants in your Maps have 6% additional chance to have Rewards"
+      ],
+      "group": 218,
+      "orbit": 3,
+      "orbitIndex": 10,
+      "out": [],
+      "in": [
+        "62053",
+        "64252"
+      ]
+    },
+    "62053": {
+      "skill": 62053,
+      "name": "Legion Monolith Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
+      "stats": [
+        "Your Maps have +4% chance to contain a Legion Encounter"
+      ],
+      "group": 218,
+      "orbit": 3,
+      "orbitIndex": 12,
+      "out": [
+        "25676",
+        "55070"
+      ],
+      "in": [
+        "62099"
+      ]
+    },
+    "25676": {
+      "skill": 25676,
+      "name": "Legion Duration",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
+      "stats": [
+        "Legion Encounters in your Maps have 20% increased Duration"
+      ],
+      "group": 218,
+      "orbit": 2,
+      "orbitIndex": 12,
+      "out": [
+        "9866"
+      ],
+      "in": [
+        "62053"
+      ]
+    },
+    "15023": {
+      "skill": 15023,
+      "name": "Legion Sergeant Reward Chance and Duration",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
+      "stats": [
+        "Legion Encounters in your Maps have 10% increased Duration",
+        "Legion Sergeants in your Maps have 3% additional chance to have Rewards"
+      ],
+      "group": 218,
+      "orbit": 2,
+      "orbitIndex": 4,
+      "out": [
+        "9866"
+      ],
+      "in": [
+        "48004",
+        "56599"
+      ]
+    },
+    "64252": {
+      "skill": 64252,
+      "name": "Chain of Command",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png",
+      "isNotable": true,
+      "stats": [
+        "Legion Encounters in your Maps contain 2 additional Sergeants",
+        "Legion Sergeants in your Maps have 20% additional chance to have Rewards"
+      ],
+      "group": 218,
+      "orbit": 3,
+      "orbitIndex": 8,
+      "out": [
+        "55070",
+        "56599"
+      ],
+      "in": []
+    },
+    "9866": {
+      "skill": 9866,
+      "name": "Protracted Battle",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png",
+      "isNotable": true,
+      "stats": [
+        "Legion Encounters in your Maps have 40% increased Duration",
+        "Legion Monsters in your Maps take 50% increased Damage while in Stasis"
+      ],
+      "reminderText": [
+        "(Monsters in Stasis do not take any actions)"
+      ],
+      "group": 218,
+      "orbit": 2,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "25676",
+        "15023"
+      ]
+    },
+    "56599": {
+      "skill": 56599,
+      "name": "Legion Sergeant Reward Chance and Duration",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNode1.png",
+      "stats": [
+        "Legion Encounters in your Maps have 10% increased Duration",
+        "Legion Sergeants in your Maps have 3% additional chance to have Rewards"
+      ],
+      "group": 218,
+      "orbit": 2,
+      "orbitIndex": 8,
+      "out": [
+        "15023"
+      ],
+      "in": [
+        "64252"
+      ]
+    },
+    "25829": {
+      "skill": 25829,
+      "name": "Legion",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryLegion.png",
+      "isMastery": true,
+      "stats": [],
+      "group": 218,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": []
+    },
+    "17000": {
+      "skill": 17000,
+      "name": "Mortal Gateway",
+      "icon": "Art/2DArt/SkillIcons/passives/MasteryBlank.png",
+      "isWormhole": true,
+      "stats": [
+        "Connects to Mortal Gateway"
+      ],
+      "reminderText": [
+        "(Allocating a Gateway allows you to allocate Atlas Passive Skills from its connected Gateway)"
+      ],
+      "flavourText": [
+        "Life and Death are two sides of the same coin."
+      ],
+      "group": 219,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [],
+      "in": [
+        "13842",
+        "43900"
       ]
     },
     "51650": {
@@ -17816,61 +18646,13 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breaches in your Maps have 45% increased chance to belong to Chayula",
         "Chayula, Who Dreamt in your Maps has a 50% chance to be Duplicated"
       ],
-      "group": 209,
+      "group": 220,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
         "41935"
       ],
       "in": []
-    },
-    "44049": {
-      "skill": 44049,
-      "name": "Primal Drought",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsBlue.png",
-      "isNotable": true,
-      "stats": [
-        "Harvest Crops in your Maps have 25% reduced chance to grow Blue Plants"
-      ],
-      "group": 210,
-      "orbit": 6,
-      "orbitIndex": 22,
-      "out": [],
-      "in": [
-        "30336"
-      ]
-    },
-    "27485": {
-      "skill": 27485,
-      "name": "Wild Drought",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsPurple.png",
-      "isNotable": true,
-      "stats": [
-        "Harvest Crops in your Maps have 25% reduced chance to grow Purple Plants"
-      ],
-      "group": 210,
-      "orbit": 6,
-      "orbitIndex": 14,
-      "out": [],
-      "in": [
-        "49222"
-      ]
-    },
-    "65089": {
-      "skill": 65089,
-      "name": "Vivid Drought",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsYellow.png",
-      "isNotable": true,
-      "stats": [
-        "Harvest Crops in your Maps have 25% reduced chance to grow Yellow Plants"
-      ],
-      "group": 210,
-      "orbit": 6,
-      "orbitIndex": 18,
-      "out": [],
-      "in": [
-        "21927"
-      ]
     },
     "64599": {
       "skill": 64599,
@@ -17879,7 +18661,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harvest Crops in your Maps have 10% reduced chance to grow Purple Plants"
       ],
-      "group": 210,
+      "group": 221,
       "orbit": 4,
       "orbitIndex": 8,
       "out": [
@@ -17889,23 +18671,6 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "49699"
       ]
     },
-    "49222": {
-      "skill": 49222,
-      "name": "Harvest non-Purple Plant Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsPurple.png",
-      "stats": [
-        "Harvest Crops in your Maps have 10% reduced chance to grow Purple Plants"
-      ],
-      "group": 210,
-      "orbit": 5,
-      "orbitIndex": 14,
-      "out": [
-        "27485"
-      ],
-      "in": [
-        "64599"
-      ]
-    },
     "49699": {
       "skill": 49699,
       "name": "Harvest Chance",
@@ -17913,7 +18678,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +5% chance to contain The Sacred Grove"
       ],
-      "group": 210,
+      "group": 221,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -17931,62 +18696,11 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Harvest Crops in your Maps have 10% reduced chance to grow Blue Plants"
       ],
-      "group": 210,
+      "group": 221,
       "orbit": 4,
       "orbitIndex": 12,
       "out": [
         "30336"
-      ],
-      "in": [
-        "49699"
-      ]
-    },
-    "30336": {
-      "skill": 30336,
-      "name": "Harvest non-Blue Plant Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsBlue.png",
-      "stats": [
-        "Harvest Crops in your Maps have 10% reduced chance to grow Blue Plants"
-      ],
-      "group": 210,
-      "orbit": 5,
-      "orbitIndex": 22,
-      "out": [
-        "44049"
-      ],
-      "in": [
-        "16132"
-      ]
-    },
-    "21927": {
-      "skill": 21927,
-      "name": "Harvest non-Yellow Plant Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsYellow.png",
-      "stats": [
-        "Harvest Crops in your Maps have 10% reduced chance to grow Yellow Plants"
-      ],
-      "group": 210,
-      "orbit": 5,
-      "orbitIndex": 18,
-      "out": [
-        "65089"
-      ],
-      "in": [
-        "53027"
-      ]
-    },
-    "53027": {
-      "skill": 53027,
-      "name": "Harvest non-Yellow Plant Chance",
-      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsYellow.png",
-      "stats": [
-        "Harvest Crops in your Maps have 10% reduced chance to grow Yellow Plants"
-      ],
-      "group": 210,
-      "orbit": 4,
-      "orbitIndex": 10,
-      "out": [
-        "21927"
       ],
       "in": [
         "49699"
@@ -17998,7 +18712,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryHarvest.png",
       "isMastery": true,
       "stats": [],
-      "group": 210,
+      "group": 221,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -18011,7 +18725,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.5% chance for Map Drops to be Duplicated"
       ],
-      "group": 210,
+      "group": 221,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -18029,7 +18743,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 70% increased chance to belong to Tul"
       ],
-      "group": 211,
+      "group": 222,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -18047,7 +18761,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Expeditions in your Maps have 90% increased chance to be led by Gwennen"
       ],
-      "group": 212,
+      "group": 223,
       "orbit": 5,
       "orbitIndex": 54,
       "out": [],
@@ -18063,7 +18777,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Expeditions in your Maps have 90% increased chance to be led by Rog"
       ],
-      "group": 212,
+      "group": 223,
       "orbit": 5,
       "orbitIndex": 18,
       "out": [],
@@ -18079,7 +18793,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Expeditions in your Maps have 65% increased chance to be led by Dannig"
       ],
-      "group": 212,
+      "group": 223,
       "orbit": 3,
       "orbitIndex": 1,
       "out": [],
@@ -18095,7 +18809,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Expeditions in your Maps have 90% increased chance to be led by Tujen"
       ],
-      "group": 212,
+      "group": 223,
       "orbit": 3,
       "orbitIndex": 15,
       "out": [],
@@ -18110,7 +18824,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "5% increased Quantity of Vendor Refresh Currencies dropped by Monsters in your Maps"
       ],
-      "group": 212,
+      "group": 223,
       "orbit": 3,
       "orbitIndex": 5,
       "out": [
@@ -18128,7 +18842,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "4% increased quantity of Artifacts dropped by Monsters"
       ],
-      "group": 212,
+      "group": 223,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [
@@ -18145,7 +18859,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "5% increased Quantity of Vendor Refresh Currencies dropped by Monsters in your Maps"
       ],
-      "group": 212,
+      "group": 223,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [
@@ -18163,7 +18877,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "4% increased quantity of Artifacts dropped by Monsters"
       ],
-      "group": 212,
+      "group": 223,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [
@@ -18180,7 +18894,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain an Expedition Encounter"
       ],
-      "group": 212,
+      "group": 223,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -18197,7 +18911,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryExpedition.png",
       "isMastery": true,
       "stats": [],
-      "group": 212,
+      "group": 223,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -18210,7 +18924,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 70% increased chance to belong to Xoph"
       ],
-      "group": 213,
+      "group": 224,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -18227,7 +18941,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 40% increased chance to belong to Uul-Netol"
       ],
-      "group": 214,
+      "group": 225,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -18244,7 +18958,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 70% increased chance to belong to Esh"
       ],
-      "group": 215,
+      "group": 226,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [
@@ -18263,7 +18977,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breaches in your Maps have 85% increased chance to belong to Tul",
         "Tul, Creeping Avalanche in your Maps has a 50% chance to be Duplicated"
       ],
-      "group": 216,
+      "group": 227,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -18278,7 +18992,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Jun Mission on Completion"
       ],
-      "group": 217,
+      "group": 228,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -18295,7 +19009,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Jun Mission on Completion"
       ],
-      "group": 217,
+      "group": 228,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
@@ -18312,7 +19026,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Immortal Syndicate Members Executed in your Maps have 100% chance to gain an additional Rank"
       ],
-      "group": 217,
+      "group": 228,
       "orbit": 2,
       "orbitIndex": 7,
       "out": [],
@@ -18327,7 +19041,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have 1% chance to grant an additional Jun Mission on Completion"
       ],
-      "group": 217,
+      "group": 228,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [
@@ -18343,7 +19057,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryJun.png",
       "isMastery": true,
       "stats": [],
-      "group": 217,
+      "group": 228,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -18358,7 +19072,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breaches in your Maps have 50% increased chance to belong to Uul-Netol",
         "Uul-Netol, Unburdened Flesh in your Maps has a 50% chance to be Duplicated"
       ],
-      "group": 218,
+      "group": 229,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -18375,12 +19089,29 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breaches in your Maps have 85% increased chance to belong to Xoph",
         "Xoph, Dark Embers in your Maps has a 50% chance to be Duplicated"
       ],
-      "group": 219,
+      "group": 230,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": [
         "43038"
+      ]
+    },
+    "53027": {
+      "skill": 53027,
+      "name": "Harvest non-Yellow Plant Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsYellow.png",
+      "stats": [
+        "Harvest Crops in your Maps have 10% reduced chance to grow Yellow Plants"
+      ],
+      "group": 231,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "21927"
+      ],
+      "in": [
+        "49699"
       ]
     },
     "42714": {
@@ -18390,7 +19121,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 8% increased chance to contain a Boss"
       ],
-      "group": 220,
+      "group": 232,
       "orbit": 2,
       "orbitIndex": 1,
       "out": [
@@ -18407,7 +19138,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 220,
+      "group": 232,
       "orbit": 3,
       "orbitIndex": 12,
       "out": [
@@ -18426,7 +19157,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breach Bosses Defeated in your Maps have 4% chance to drop a Breachstone",
         "Breachstones dropped by Breach Bosses in your Maps have 5% chance to be Flawless"
       ],
-      "group": 220,
+      "group": 232,
       "orbit": 2,
       "orbitIndex": 4,
       "out": [],
@@ -18441,7 +19172,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 8% increased chance to contain a Boss"
       ],
-      "group": 220,
+      "group": 232,
       "orbit": 2,
       "orbitIndex": 15,
       "out": [
@@ -18458,7 +19189,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 220,
+      "group": 232,
       "orbit": 3,
       "orbitIndex": 9,
       "out": [
@@ -18475,7 +19206,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 220,
+      "group": 232,
       "orbit": 3,
       "orbitIndex": 8,
       "out": [
@@ -18491,7 +19222,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain Breaches"
       ],
-      "group": 220,
+      "group": 232,
       "orbit": 3,
       "orbitIndex": 11,
       "out": [],
@@ -18511,7 +19242,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Your Maps which contain Breaches have 2% chance to contain three additional Breaches",
         "Your Maps which contain Breaches have 1% chance to contain ten additional Breaches"
       ],
-      "group": 220,
+      "group": 232,
       "orbit": 3,
       "orbitIndex": 7,
       "out": [],
@@ -18526,7 +19257,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Breaches in your Maps have 8% increased chance to contain a Boss"
       ],
-      "group": 220,
+      "group": 232,
       "orbit": 2,
       "orbitIndex": 12,
       "out": [
@@ -18542,7 +19273,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryBreach.png",
       "isMastery": true,
       "stats": [],
-      "group": 220,
+      "group": 232,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -18556,9 +19287,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.6% chance for Timeless Splinters to drop as Timeless Emblems instead in your Maps"
       ],
-      "group": 221,
+      "group": 233,
       "orbit": 2,
-      "orbitIndex": 4,
+      "orbitIndex": 12,
       "out": [],
       "in": [
         "26232",
@@ -18572,9 +19303,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Legion Encounter"
       ],
-      "group": 221,
-      "orbit": 2,
-      "orbitIndex": 8,
+      "group": 233,
+      "orbit": 3,
+      "orbitIndex": 11,
       "out": [
         "4650"
       ],
@@ -18589,7 +19320,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Legion Encounter"
       ],
-      "group": 221,
+      "group": 233,
       "orbit": 4,
       "orbitIndex": 30,
       "out": [
@@ -18607,9 +19338,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.2% chance for Timeless Splinters to drop as Timeless Emblems instead in your Maps"
       ],
-      "group": 221,
-      "orbit": 2,
-      "orbitIndex": 0,
+      "group": 233,
+      "orbit": 3,
+      "orbitIndex": 13,
       "out": [
         "4650"
       ],
@@ -18624,9 +19355,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "Your Maps have +4% chance to contain a Legion Encounter"
       ],
-      "group": 221,
-      "orbit": 3,
-      "orbitIndex": 11,
+      "group": 233,
+      "orbit": 4,
+      "orbitIndex": 28,
       "out": [
         "26232"
       ],
@@ -18641,9 +19372,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "stats": [
         "0.2% chance for Timeless Splinters to drop as Timeless Emblems instead in your Maps"
       ],
-      "group": 221,
-      "orbit": 3,
-      "orbitIndex": 13,
+      "group": 233,
+      "orbit": 4,
+      "orbitIndex": 32,
       "out": [
         "4076"
       ],
@@ -18657,7 +19388,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
       "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasPassiveMasteryLegion.png",
       "isMastery": true,
       "stats": [],
-      "group": 221,
+      "group": 233,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
@@ -18672,18 +19403,145 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         "Breaches in your Maps have 85% increased chance to belong to Esh",
         "Esh, Forked Thought in your Maps has a 50% chance to be Duplicated"
       ],
-      "group": 222,
+      "group": 234,
       "orbit": 0,
       "orbitIndex": 0,
       "out": [],
       "in": [
         "47711"
       ]
+    },
+    "21927": {
+      "skill": 21927,
+      "name": "Harvest non-Yellow Plant Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsYellow.png",
+      "stats": [
+        "Harvest Crops in your Maps have 10% reduced chance to grow Yellow Plants"
+      ],
+      "group": 235,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "65089"
+      ],
+      "in": [
+        "53027"
+      ]
+    },
+    "30336": {
+      "skill": 30336,
+      "name": "Harvest non-Blue Plant Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsBlue.png",
+      "stats": [
+        "Harvest Crops in your Maps have 10% reduced chance to grow Blue Plants"
+      ],
+      "group": 236,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "44049"
+      ],
+      "in": [
+        "16132"
+      ]
+    },
+    "49222": {
+      "skill": 49222,
+      "name": "Harvest non-Purple Plant Chance",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsPurple.png",
+      "stats": [
+        "Harvest Crops in your Maps have 10% reduced chance to grow Purple Plants"
+      ],
+      "group": 237,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "27485"
+      ],
+      "in": [
+        "64599"
+      ]
+    },
+    "44049": {
+      "skill": 44049,
+      "name": "Primal Drought",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsBlue.png",
+      "isNotable": true,
+      "stats": [
+        "Harvest Crops in your Maps have 25% reduced chance to grow Blue Plants"
+      ],
+      "group": 238,
+      "orbit": 3,
+      "orbitIndex": 8,
+      "out": [
+        "51310"
+      ],
+      "in": [
+        "30336"
+      ]
+    },
+    "27485": {
+      "skill": 27485,
+      "name": "Wild Drought",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsPurple.png",
+      "isNotable": true,
+      "stats": [
+        "Harvest Crops in your Maps have 25% reduced chance to grow Purple Plants"
+      ],
+      "group": 238,
+      "orbit": 3,
+      "orbitIndex": 0,
+      "out": [
+        "51310"
+      ],
+      "in": [
+        "49222"
+      ]
+    },
+    "65089": {
+      "skill": 65089,
+      "name": "Vivid Drought",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/AtlasHarvestCropsYellow.png",
+      "isNotable": true,
+      "stats": [
+        "Harvest Crops in your Maps have 25% reduced chance to grow Yellow Plants"
+      ],
+      "group": 238,
+      "orbit": 0,
+      "orbitIndex": 0,
+      "out": [
+        "51310"
+      ],
+      "in": [
+        "21927"
+      ]
+    },
+    "51310": {
+      "skill": 51310,
+      "name": "Crop Rotation",
+      "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/CropRotation.png",
+      "isKeystone": true,
+      "stats": [
+        "Harvest Crops in your Maps contain only Tier 1 Plants",
+        "Harvesting Crops in your Maps has a chance to upgrade the Tier of Plants of different colours"
+      ],
+      "flavourText": [
+        "A good sword is worthless without a hundred plowshares behind it."
+      ],
+      "group": 238,
+      "orbit": 3,
+      "orbitIndex": 4,
+      "out": [],
+      "in": [
+        "44049",
+        "27485",
+        "65089"
+      ]
     }
   },
-  "min_x": -5068,
+  "min_x": -5363,
   "min_y": -10375,
-  "max_x": 5264,
+  "max_x": 5524,
   "max_y": 0,
   "constants": {
     "classes": [],
@@ -18711,7 +19569,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
   "sprites": {
     "background": {
       "0.1246": {
-        "filename": "/assets/background-0.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/background-0.png?10de0b14",
         "w": 31,
         "h": 31,
         "coords": {
@@ -18724,7 +19582,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/background-1.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/background-1.png?5c9b3192",
         "w": 53,
         "h": 53,
         "coords": {
@@ -18737,7 +19595,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/background-2.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/background-2.png?182714e7",
         "w": 76,
         "h": 76,
         "coords": {
@@ -18750,7 +19608,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/background-3.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/background-3.png?f8ce4f31",
         "w": 98,
         "h": 98,
         "coords": {
@@ -18765,9 +19623,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "normalActive": {
       "0.1246": {
-        "filename": "/assets/atlas-skills-0.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-0.jpg?b0934493",
         "w": 168,
-        "h": 235,
+        "h": 269,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png": {
             "x": 0,
@@ -19084,9 +19942,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-skills-1.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-1.jpg?c7033530",
         "w": 280,
-        "h": 396,
+        "h": 454,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png": {
             "x": 0,
@@ -19403,9 +20261,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-skills-2.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-2.jpg?b1aa3030",
         "w": 406,
-        "h": 570,
+        "h": 652,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png": {
             "x": 0,
@@ -19722,9 +20580,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-skills-3.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-3.jpg?41883907",
         "w": 518,
-        "h": 731,
+        "h": 837,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png": {
             "x": 0,
@@ -20043,9 +20901,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "notableActive": {
       "0.1246": {
-        "filename": "/assets/atlas-skills-0.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-0.jpg?b0934493",
         "w": 168,
-        "h": 235,
+        "h": 269,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png": {
             "x": 0,
@@ -20239,872 +21097,896 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss1.png": {
             "x": 48,
+            "y": 48,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss2.png": {
+            "x": 60,
+            "y": 48,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss3.png": {
+            "x": 72,
+            "y": 48,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+            "x": 84,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable3.png": {
-            "x": 60,
+            "x": 96,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png": {
-            "x": 72,
+            "x": 108,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png": {
-            "x": 84,
+            "x": 120,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png": {
-            "x": 96,
+            "x": 132,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightMapsEncounter.png": {
-            "x": 108,
+            "x": 144,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable2.png": {
-            "x": 120,
+            "x": 156,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable3.png": {
-            "x": 132,
-            "y": 48,
+            "x": 0,
+            "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable4.png": {
-            "x": 144,
-            "y": 48,
+            "x": 12,
+            "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable5.png": {
-            "x": 156,
-            "y": 48,
+            "x": 24,
+            "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable6.png": {
-            "x": 0,
+            "x": 36,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.png": {
-            "x": 12,
+            "x": 48,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable1.png": {
-            "x": 24,
+            "x": 60,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable2.png": {
-            "x": 36,
+            "x": 72,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable3.png": {
-            "x": 48,
+            "x": 84,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.png": {
-            "x": 60,
+            "x": 96,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable5.png": {
-            "x": 72,
+            "x": 108,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable6.png": {
-            "x": 84,
+            "x": 120,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable7.png": {
-            "x": 96,
+            "x": 132,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ChayulaChaosNotable.png": {
-            "x": 108,
+            "x": 144,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ConquerorNotable3.png": {
-            "x": 120,
+            "x": 156,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png": {
-            "x": 132,
-            "y": 60,
+            "x": 0,
+            "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable1.png": {
-            "x": 144,
-            "y": 60,
+            "x": 12,
+            "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable2.png": {
-            "x": 156,
-            "y": 60,
+            "x": 24,
+            "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable3.png": {
-            "x": 0,
+            "x": 36,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable4.png": {
-            "x": 12,
+            "x": 48,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable5.png": {
-            "x": 24,
+            "x": 60,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable6.png": {
-            "x": 36,
+            "x": 72,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png": {
-            "x": 48,
+            "x": 84,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable1.png": {
-            "x": 60,
+            "x": 96,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png": {
-            "x": 72,
+            "x": 108,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable3.png": {
-            "x": 84,
+            "x": 120,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable4.png": {
-            "x": 96,
+            "x": 132,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable6.png": {
-            "x": 108,
+            "x": 144,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png": {
-            "x": 120,
+            "x": 156,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png": {
-            "x": 132,
-            "y": 72,
+            "x": 0,
+            "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png": {
-            "x": 144,
-            "y": 72,
+            "x": 12,
+            "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png": {
-            "x": 156,
-            "y": 72,
+            "x": 24,
+            "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ElderShaperNotable1.png": {
-            "x": 0,
+            "x": 36,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EshLightningNotable.png": {
-            "x": 12,
+            "x": 48,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png": {
-            "x": 24,
+            "x": 60,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable1.png": {
-            "x": 36,
+            "x": 72,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable2.png": {
-            "x": 48,
+            "x": 84,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable3.png": {
-            "x": 60,
+            "x": 96,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionDannig.png": {
-            "x": 72,
+            "x": 108,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionGwennen.png": {
-            "x": 84,
+            "x": 120,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png": {
-            "x": 96,
+            "x": 132,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png": {
-            "x": 108,
+            "x": 144,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable2.png": {
-            "x": 120,
+            "x": 156,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable3.png": {
-            "x": 132,
-            "y": 84,
+            "x": 0,
+            "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionRog.png": {
-            "x": 144,
-            "y": 84,
+            "x": 12,
+            "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionSpawnMissingLife.png": {
-            "x": 156,
-            "y": 84,
+            "x": 24,
+            "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionTujen.png": {
-            "x": 0,
+            "x": 36,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png": {
-            "x": 12,
+            "x": 48,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNode1.png": {
-            "x": 24,
+            "x": 60,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable1.png": {
-            "x": 36,
+            "x": 72,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable3.png": {
-            "x": 48,
+            "x": 84,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png": {
-            "x": 60,
+            "x": 96,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png": {
-            "x": 72,
+            "x": 108,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable3.png": {
-            "x": 84,
+            "x": 120,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable6.png": {
-            "x": 96,
+            "x": 132,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistContractsDrop.png": {
-            "x": 108,
+            "x": 144,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistHuck.png": {
-            "x": 120,
+            "x": 156,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements.png": {
-            "x": 132,
-            "y": 96,
+            "x": 0,
+            "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements2.png": {
-            "x": 144,
-            "y": 96,
+            "x": 12,
+            "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements3.png": {
-            "x": 156,
-            "y": 96,
+            "x": 24,
+            "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png": {
-            "x": 0,
+            "x": 36,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png": {
-            "x": 12,
+            "x": 48,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png": {
-            "x": 24,
+            "x": 60,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable1.png": {
-            "x": 36,
+            "x": 72,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable2.png": {
-            "x": 48,
+            "x": 84,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable4.png": {
-            "x": 60,
+            "x": 96,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable5.png": {
-            "x": 72,
+            "x": 108,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable6.png": {
-            "x": 84,
+            "x": 120,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNode.png": {
-            "x": 96,
+            "x": 132,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable1.png": {
-            "x": 108,
+            "x": 144,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable2.png": {
-            "x": 120,
+            "x": 156,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable3.png": {
-            "x": 132,
-            "y": 108,
+            "x": 0,
+            "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable4.png": {
-            "x": 144,
-            "y": 108,
+            "x": 12,
+            "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png": {
-            "x": 156,
-            "y": 108,
+            "x": 24,
+            "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable1.png": {
-            "x": 0,
+            "x": 36,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable2.png": {
-            "x": 12,
+            "x": 48,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png": {
-            "x": 24,
+            "x": 60,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable4.png": {
-            "x": 36,
+            "x": 72,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png": {
-            "x": 48,
+            "x": 84,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable6.png": {
-            "x": 60,
+            "x": 96,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png": {
-            "x": 72,
+            "x": 108,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png": {
-            "x": 84,
+            "x": 120,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png": {
-            "x": 96,
+            "x": 132,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png": {
-            "x": 108,
-            "y": 120,
-            "w": 12,
-            "h": 12
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable4.png": {
-            "x": 120,
+            "x": 144,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MapsAdditionalBreaches.png": {
-            "x": 132,
+            "x": 156,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png": {
-            "x": 144,
-            "y": 120,
+            "x": 0,
+            "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png": {
-            "x": 156,
-            "y": 120,
+            "x": 12,
+            "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphLessDifficult.png": {
-            "x": 0,
+            "x": 24,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable1.png": {
-            "x": 12,
+            "x": 36,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable2.png": {
-            "x": 24,
+            "x": 48,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png": {
-            "x": 36,
+            "x": 60,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable4.png": {
-            "x": 48,
+            "x": 72,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable6.png": {
-            "x": 60,
+            "x": 84,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png": {
-            "x": 72,
+            "x": 96,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png": {
-            "x": 84,
+            "x": 108,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png": {
-            "x": 96,
+            "x": 120,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png": {
-            "x": 108,
+            "x": 132,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png": {
-            "x": 120,
+            "x": 144,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable2.png": {
-            "x": 132,
+            "x": 156,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReduceRerollCost.png": {
-            "x": 144,
-            "y": 132,
+            "x": 0,
+            "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReducedCostDeferRewards.png": {
-            "x": 156,
-            "y": 132,
+            "x": 12,
+            "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png": {
-            "x": 0,
+            "x": 24,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png": {
-            "x": 12,
+            "x": 36,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png": {
-            "x": 24,
+            "x": 48,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png": {
-            "x": 36,
+            "x": 60,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png": {
-            "x": 48,
+            "x": 72,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCelestial.png": {
-            "x": 60,
+            "x": 84,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCurrency.png": {
-            "x": 72,
+            "x": 96,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxDiviner.png": {
-            "x": 84,
+            "x": 108,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable1.png": {
-            "x": 96,
+            "x": 120,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png": {
-            "x": 108,
+            "x": 132,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png": {
-            "x": 120,
+            "x": 144,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SynthesisNotable3.png": {
-            "x": 132,
+            "x": 156,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire1.png": {
-            "x": 144,
-            "y": 144,
+            "x": 0,
+            "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire3.png": {
-            "x": 156,
-            "y": 144,
+            "x": 12,
+            "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png": {
-            "x": 0,
+            "x": 24,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheMaven1.png": {
-            "x": 12,
+            "x": 36,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle1.png": {
-            "x": 24,
+            "x": 48,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle3.png": {
-            "x": 36,
+            "x": 60,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png": {
-            "x": 48,
-            "y": 156,
-            "w": 12,
-            "h": 12
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png": {
-            "x": 60,
+            "x": 72,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png": {
-            "x": 72,
-            "y": 156,
-            "w": 12,
-            "h": 12
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 84,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable2.png": {
             "x": 96,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable3.png": {
             "x": 108,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 120,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
             "x": 132,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalCluster.png": {
             "x": 144,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
             "x": 156,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
             "x": 0,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
             "x": 12,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
             "x": 24,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
             "x": 36,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
             "x": 48,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
             "x": 60,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
             "x": 72,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
             "x": 84,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
             "x": 96,
+            "y": 168,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+            "x": 108,
+            "y": 168,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+            "x": 120,
+            "y": 168,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+            "x": 132,
+            "y": 168,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+            "x": 144,
             "y": 168,
             "w": 12,
             "h": 12
@@ -21112,9 +21994,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-skills-1.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-1.jpg?c7033530",
         "w": 280,
-        "h": 396,
+        "h": 454,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png": {
             "x": 0,
@@ -21308,872 +22190,896 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss1.png": {
             "x": 80,
+            "y": 82,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss2.png": {
+            "x": 100,
+            "y": 82,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss3.png": {
+            "x": 120,
+            "y": 82,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+            "x": 140,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable3.png": {
-            "x": 100,
+            "x": 160,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png": {
-            "x": 120,
+            "x": 180,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png": {
-            "x": 140,
+            "x": 200,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png": {
-            "x": 160,
+            "x": 220,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightMapsEncounter.png": {
-            "x": 180,
+            "x": 240,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable2.png": {
-            "x": 200,
+            "x": 260,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable3.png": {
-            "x": 220,
-            "y": 82,
+            "x": 0,
+            "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable4.png": {
-            "x": 240,
-            "y": 82,
+            "x": 20,
+            "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable5.png": {
-            "x": 260,
-            "y": 82,
+            "x": 40,
+            "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable6.png": {
-            "x": 0,
+            "x": 60,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.png": {
-            "x": 20,
+            "x": 80,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable1.png": {
-            "x": 40,
+            "x": 100,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable2.png": {
-            "x": 60,
+            "x": 120,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable3.png": {
-            "x": 80,
+            "x": 140,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.png": {
-            "x": 100,
+            "x": 160,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable5.png": {
-            "x": 120,
+            "x": 180,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable6.png": {
-            "x": 140,
+            "x": 200,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable7.png": {
-            "x": 160,
+            "x": 220,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ChayulaChaosNotable.png": {
-            "x": 180,
+            "x": 240,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ConquerorNotable3.png": {
-            "x": 200,
+            "x": 260,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png": {
-            "x": 220,
-            "y": 102,
+            "x": 0,
+            "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable1.png": {
-            "x": 240,
-            "y": 102,
+            "x": 20,
+            "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable2.png": {
-            "x": 260,
-            "y": 102,
+            "x": 40,
+            "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable3.png": {
-            "x": 0,
+            "x": 60,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable4.png": {
-            "x": 20,
+            "x": 80,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable5.png": {
-            "x": 40,
+            "x": 100,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable6.png": {
-            "x": 60,
+            "x": 120,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png": {
-            "x": 80,
+            "x": 140,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable1.png": {
-            "x": 100,
+            "x": 160,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png": {
-            "x": 120,
+            "x": 180,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable3.png": {
-            "x": 140,
+            "x": 200,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable4.png": {
-            "x": 160,
+            "x": 220,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable6.png": {
-            "x": 180,
+            "x": 240,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png": {
-            "x": 200,
+            "x": 260,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png": {
-            "x": 220,
-            "y": 122,
+            "x": 0,
+            "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png": {
-            "x": 240,
-            "y": 122,
+            "x": 20,
+            "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png": {
-            "x": 260,
-            "y": 122,
+            "x": 40,
+            "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ElderShaperNotable1.png": {
-            "x": 0,
+            "x": 60,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EshLightningNotable.png": {
-            "x": 20,
+            "x": 80,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png": {
-            "x": 40,
+            "x": 100,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable1.png": {
-            "x": 60,
+            "x": 120,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable2.png": {
-            "x": 80,
+            "x": 140,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable3.png": {
-            "x": 100,
+            "x": 160,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionDannig.png": {
-            "x": 120,
+            "x": 180,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionGwennen.png": {
-            "x": 140,
+            "x": 200,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png": {
-            "x": 160,
+            "x": 220,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png": {
-            "x": 180,
+            "x": 240,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable2.png": {
-            "x": 200,
+            "x": 260,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable3.png": {
-            "x": 220,
-            "y": 142,
+            "x": 0,
+            "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionRog.png": {
-            "x": 240,
-            "y": 142,
+            "x": 20,
+            "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionSpawnMissingLife.png": {
-            "x": 260,
-            "y": 142,
+            "x": 40,
+            "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionTujen.png": {
-            "x": 0,
+            "x": 60,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png": {
-            "x": 20,
+            "x": 80,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNode1.png": {
-            "x": 40,
+            "x": 100,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable1.png": {
-            "x": 60,
+            "x": 120,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable3.png": {
-            "x": 80,
+            "x": 140,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png": {
-            "x": 100,
+            "x": 160,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png": {
-            "x": 120,
+            "x": 180,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable3.png": {
-            "x": 140,
+            "x": 200,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable6.png": {
-            "x": 160,
+            "x": 220,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistContractsDrop.png": {
-            "x": 180,
+            "x": 240,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistHuck.png": {
-            "x": 200,
+            "x": 260,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements.png": {
-            "x": 220,
-            "y": 162,
+            "x": 0,
+            "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements2.png": {
-            "x": 240,
-            "y": 162,
+            "x": 20,
+            "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements3.png": {
-            "x": 260,
-            "y": 162,
+            "x": 40,
+            "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png": {
-            "x": 0,
+            "x": 60,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png": {
-            "x": 20,
+            "x": 80,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png": {
-            "x": 40,
+            "x": 100,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable1.png": {
-            "x": 60,
+            "x": 120,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable2.png": {
-            "x": 80,
+            "x": 140,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable4.png": {
-            "x": 100,
+            "x": 160,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable5.png": {
-            "x": 120,
+            "x": 180,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable6.png": {
-            "x": 140,
+            "x": 200,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNode.png": {
-            "x": 160,
+            "x": 220,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable1.png": {
-            "x": 180,
+            "x": 240,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable2.png": {
-            "x": 200,
+            "x": 260,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable3.png": {
-            "x": 220,
-            "y": 182,
+            "x": 0,
+            "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable4.png": {
-            "x": 240,
-            "y": 182,
+            "x": 20,
+            "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png": {
-            "x": 260,
-            "y": 182,
+            "x": 40,
+            "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable1.png": {
-            "x": 0,
+            "x": 60,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable2.png": {
-            "x": 20,
+            "x": 80,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png": {
-            "x": 40,
+            "x": 100,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable4.png": {
-            "x": 60,
+            "x": 120,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png": {
-            "x": 80,
+            "x": 140,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable6.png": {
-            "x": 100,
+            "x": 160,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png": {
-            "x": 120,
+            "x": 180,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png": {
-            "x": 140,
+            "x": 200,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png": {
-            "x": 160,
+            "x": 220,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png": {
-            "x": 180,
-            "y": 202,
-            "w": 20,
-            "h": 20
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable4.png": {
-            "x": 200,
+            "x": 240,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MapsAdditionalBreaches.png": {
-            "x": 220,
+            "x": 260,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png": {
-            "x": 240,
-            "y": 202,
+            "x": 0,
+            "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png": {
-            "x": 260,
-            "y": 202,
+            "x": 20,
+            "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphLessDifficult.png": {
-            "x": 0,
+            "x": 40,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable1.png": {
-            "x": 20,
+            "x": 60,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable2.png": {
-            "x": 40,
+            "x": 80,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png": {
-            "x": 60,
+            "x": 100,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable4.png": {
-            "x": 80,
+            "x": 120,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable6.png": {
-            "x": 100,
+            "x": 140,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png": {
-            "x": 120,
+            "x": 160,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png": {
-            "x": 140,
+            "x": 180,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png": {
-            "x": 160,
+            "x": 200,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png": {
-            "x": 180,
+            "x": 220,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png": {
-            "x": 200,
+            "x": 240,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable2.png": {
-            "x": 220,
+            "x": 260,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReduceRerollCost.png": {
-            "x": 240,
-            "y": 222,
+            "x": 0,
+            "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReducedCostDeferRewards.png": {
-            "x": 260,
-            "y": 222,
+            "x": 20,
+            "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png": {
-            "x": 0,
+            "x": 40,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png": {
-            "x": 20,
+            "x": 60,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png": {
-            "x": 40,
+            "x": 80,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png": {
-            "x": 60,
+            "x": 100,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png": {
-            "x": 80,
+            "x": 120,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCelestial.png": {
-            "x": 100,
+            "x": 140,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCurrency.png": {
-            "x": 120,
+            "x": 160,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxDiviner.png": {
-            "x": 140,
+            "x": 180,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable1.png": {
-            "x": 160,
+            "x": 200,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png": {
-            "x": 180,
+            "x": 220,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png": {
-            "x": 200,
+            "x": 240,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SynthesisNotable3.png": {
-            "x": 220,
+            "x": 260,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire1.png": {
-            "x": 240,
-            "y": 242,
+            "x": 0,
+            "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire3.png": {
-            "x": 260,
-            "y": 242,
+            "x": 20,
+            "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png": {
-            "x": 0,
+            "x": 40,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheMaven1.png": {
-            "x": 20,
+            "x": 60,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle1.png": {
-            "x": 40,
+            "x": 80,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle3.png": {
-            "x": 60,
+            "x": 100,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png": {
-            "x": 80,
-            "y": 262,
-            "w": 20,
-            "h": 20
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png": {
-            "x": 100,
+            "x": 120,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png": {
-            "x": 120,
-            "y": 262,
-            "w": 20,
-            "h": 20
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 140,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable2.png": {
             "x": 160,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable3.png": {
             "x": 180,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 200,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
             "x": 220,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalCluster.png": {
             "x": 240,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
             "x": 260,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
             "x": 0,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
             "x": 20,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
             "x": 40,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
             "x": 60,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
             "x": 80,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
             "x": 100,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
             "x": 120,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
             "x": 140,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
             "x": 160,
+            "y": 282,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+            "x": 180,
+            "y": 282,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+            "x": 200,
+            "y": 282,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+            "x": 220,
+            "y": 282,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+            "x": 240,
             "y": 282,
             "w": 20,
             "h": 20
@@ -22181,9 +23087,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-skills-2.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-2.jpg?b1aa3030",
         "w": 406,
-        "h": 570,
+        "h": 652,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png": {
             "x": 0,
@@ -22377,872 +23283,896 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss1.png": {
             "x": 116,
+            "y": 118,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss2.png": {
+            "x": 145,
+            "y": 118,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss3.png": {
+            "x": 174,
+            "y": 118,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+            "x": 203,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable3.png": {
-            "x": 145,
+            "x": 232,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png": {
-            "x": 174,
+            "x": 261,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png": {
-            "x": 203,
+            "x": 290,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png": {
-            "x": 232,
+            "x": 319,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightMapsEncounter.png": {
-            "x": 261,
+            "x": 348,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable2.png": {
-            "x": 290,
+            "x": 377,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable3.png": {
-            "x": 319,
-            "y": 118,
+            "x": 0,
+            "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable4.png": {
-            "x": 348,
-            "y": 118,
+            "x": 29,
+            "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable5.png": {
-            "x": 377,
-            "y": 118,
+            "x": 58,
+            "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable6.png": {
-            "x": 0,
+            "x": 87,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.png": {
-            "x": 29,
+            "x": 116,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable1.png": {
-            "x": 58,
+            "x": 145,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable2.png": {
-            "x": 87,
+            "x": 174,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable3.png": {
-            "x": 116,
+            "x": 203,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.png": {
-            "x": 145,
+            "x": 232,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable5.png": {
-            "x": 174,
+            "x": 261,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable6.png": {
-            "x": 203,
+            "x": 290,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable7.png": {
-            "x": 232,
+            "x": 319,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ChayulaChaosNotable.png": {
-            "x": 261,
+            "x": 348,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ConquerorNotable3.png": {
-            "x": 290,
+            "x": 377,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png": {
-            "x": 319,
-            "y": 147,
+            "x": 0,
+            "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable1.png": {
-            "x": 348,
-            "y": 147,
+            "x": 29,
+            "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable2.png": {
-            "x": 377,
-            "y": 147,
+            "x": 58,
+            "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable3.png": {
-            "x": 0,
+            "x": 87,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable4.png": {
-            "x": 29,
+            "x": 116,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable5.png": {
-            "x": 58,
+            "x": 145,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable6.png": {
-            "x": 87,
+            "x": 174,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png": {
-            "x": 116,
+            "x": 203,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable1.png": {
-            "x": 145,
+            "x": 232,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png": {
-            "x": 174,
+            "x": 261,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable3.png": {
-            "x": 203,
+            "x": 290,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable4.png": {
-            "x": 232,
+            "x": 319,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable6.png": {
-            "x": 261,
+            "x": 348,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png": {
-            "x": 290,
+            "x": 377,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png": {
-            "x": 319,
-            "y": 176,
+            "x": 0,
+            "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png": {
-            "x": 348,
-            "y": 176,
+            "x": 29,
+            "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png": {
-            "x": 377,
-            "y": 176,
+            "x": 58,
+            "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ElderShaperNotable1.png": {
-            "x": 0,
+            "x": 87,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EshLightningNotable.png": {
-            "x": 29,
+            "x": 116,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png": {
-            "x": 58,
+            "x": 145,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable1.png": {
-            "x": 87,
+            "x": 174,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable2.png": {
-            "x": 116,
+            "x": 203,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable3.png": {
-            "x": 145,
+            "x": 232,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionDannig.png": {
-            "x": 174,
+            "x": 261,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionGwennen.png": {
-            "x": 203,
+            "x": 290,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png": {
-            "x": 232,
+            "x": 319,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png": {
-            "x": 261,
+            "x": 348,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable2.png": {
-            "x": 290,
+            "x": 377,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable3.png": {
-            "x": 319,
-            "y": 205,
+            "x": 0,
+            "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionRog.png": {
-            "x": 348,
-            "y": 205,
+            "x": 29,
+            "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionSpawnMissingLife.png": {
-            "x": 377,
-            "y": 205,
+            "x": 58,
+            "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionTujen.png": {
-            "x": 0,
+            "x": 87,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png": {
-            "x": 29,
+            "x": 116,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNode1.png": {
-            "x": 58,
+            "x": 145,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable1.png": {
-            "x": 87,
+            "x": 174,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable3.png": {
-            "x": 116,
+            "x": 203,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png": {
-            "x": 145,
+            "x": 232,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png": {
-            "x": 174,
+            "x": 261,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable3.png": {
-            "x": 203,
+            "x": 290,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable6.png": {
-            "x": 232,
+            "x": 319,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistContractsDrop.png": {
-            "x": 261,
+            "x": 348,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistHuck.png": {
-            "x": 290,
+            "x": 377,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements.png": {
-            "x": 319,
-            "y": 234,
+            "x": 0,
+            "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements2.png": {
-            "x": 348,
-            "y": 234,
+            "x": 29,
+            "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements3.png": {
-            "x": 377,
-            "y": 234,
+            "x": 58,
+            "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png": {
-            "x": 0,
+            "x": 87,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png": {
-            "x": 29,
+            "x": 116,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png": {
-            "x": 58,
+            "x": 145,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable1.png": {
-            "x": 87,
+            "x": 174,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable2.png": {
-            "x": 116,
+            "x": 203,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable4.png": {
-            "x": 145,
+            "x": 232,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable5.png": {
-            "x": 174,
+            "x": 261,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable6.png": {
-            "x": 203,
+            "x": 290,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNode.png": {
-            "x": 232,
+            "x": 319,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable1.png": {
-            "x": 261,
+            "x": 348,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable2.png": {
-            "x": 290,
+            "x": 377,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable3.png": {
-            "x": 319,
-            "y": 263,
+            "x": 0,
+            "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable4.png": {
-            "x": 348,
-            "y": 263,
+            "x": 29,
+            "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png": {
-            "x": 377,
-            "y": 263,
+            "x": 58,
+            "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable1.png": {
-            "x": 0,
+            "x": 87,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable2.png": {
-            "x": 29,
+            "x": 116,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png": {
-            "x": 58,
+            "x": 145,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable4.png": {
-            "x": 87,
+            "x": 174,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png": {
-            "x": 116,
+            "x": 203,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable6.png": {
-            "x": 145,
+            "x": 232,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png": {
-            "x": 174,
+            "x": 261,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png": {
-            "x": 203,
+            "x": 290,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png": {
-            "x": 232,
+            "x": 319,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png": {
-            "x": 261,
-            "y": 292,
-            "w": 29,
-            "h": 29
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable4.png": {
-            "x": 290,
+            "x": 348,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MapsAdditionalBreaches.png": {
-            "x": 319,
+            "x": 377,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png": {
-            "x": 348,
-            "y": 292,
+            "x": 0,
+            "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png": {
-            "x": 377,
-            "y": 292,
+            "x": 29,
+            "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphLessDifficult.png": {
-            "x": 0,
+            "x": 58,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable1.png": {
-            "x": 29,
+            "x": 87,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable2.png": {
-            "x": 58,
+            "x": 116,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png": {
-            "x": 87,
+            "x": 145,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable4.png": {
-            "x": 116,
+            "x": 174,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable6.png": {
-            "x": 145,
+            "x": 203,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png": {
-            "x": 174,
+            "x": 232,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png": {
-            "x": 203,
+            "x": 261,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png": {
-            "x": 232,
+            "x": 290,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png": {
-            "x": 261,
+            "x": 319,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png": {
-            "x": 290,
+            "x": 348,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable2.png": {
-            "x": 319,
+            "x": 377,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReduceRerollCost.png": {
-            "x": 348,
-            "y": 321,
+            "x": 0,
+            "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReducedCostDeferRewards.png": {
-            "x": 377,
-            "y": 321,
+            "x": 29,
+            "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png": {
-            "x": 0,
+            "x": 58,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png": {
-            "x": 29,
+            "x": 87,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png": {
-            "x": 58,
+            "x": 116,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png": {
-            "x": 87,
+            "x": 145,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png": {
-            "x": 116,
+            "x": 174,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCelestial.png": {
-            "x": 145,
+            "x": 203,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCurrency.png": {
-            "x": 174,
+            "x": 232,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxDiviner.png": {
-            "x": 203,
+            "x": 261,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable1.png": {
-            "x": 232,
+            "x": 290,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png": {
-            "x": 261,
+            "x": 319,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png": {
-            "x": 290,
+            "x": 348,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SynthesisNotable3.png": {
-            "x": 319,
+            "x": 377,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire1.png": {
-            "x": 348,
-            "y": 350,
+            "x": 0,
+            "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire3.png": {
-            "x": 377,
-            "y": 350,
+            "x": 29,
+            "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png": {
-            "x": 0,
+            "x": 58,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheMaven1.png": {
-            "x": 29,
+            "x": 87,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle1.png": {
-            "x": 58,
+            "x": 116,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle3.png": {
-            "x": 87,
+            "x": 145,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png": {
-            "x": 116,
-            "y": 379,
-            "w": 29,
-            "h": 29
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png": {
-            "x": 145,
+            "x": 174,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png": {
-            "x": 174,
-            "y": 379,
-            "w": 29,
-            "h": 29
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 203,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable2.png": {
             "x": 232,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable3.png": {
             "x": 261,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 290,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
             "x": 319,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalCluster.png": {
             "x": 348,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
             "x": 377,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
             "x": 0,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
             "x": 29,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
             "x": 58,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
             "x": 87,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
             "x": 116,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
             "x": 145,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
             "x": 174,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
             "x": 203,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
             "x": 232,
+            "y": 408,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+            "x": 261,
+            "y": 408,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+            "x": 290,
+            "y": 408,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+            "x": 319,
+            "y": 408,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+            "x": 348,
             "y": 408,
             "w": 29,
             "h": 29
@@ -23250,9 +24180,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-skills-3.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-3.jpg?41883907",
         "w": 518,
-        "h": 731,
+        "h": 837,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png": {
             "x": 0,
@@ -23446,872 +24376,896 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss1.png": {
             "x": 148,
+            "y": 152,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss2.png": {
+            "x": 185,
+            "y": 152,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss3.png": {
+            "x": 222,
+            "y": 152,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+            "x": 259,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable3.png": {
-            "x": 185,
+            "x": 296,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png": {
-            "x": 222,
+            "x": 333,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png": {
-            "x": 259,
+            "x": 370,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png": {
-            "x": 296,
+            "x": 407,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightMapsEncounter.png": {
-            "x": 333,
+            "x": 444,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable2.png": {
-            "x": 370,
+            "x": 481,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable3.png": {
-            "x": 407,
-            "y": 152,
+            "x": 0,
+            "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable4.png": {
-            "x": 444,
-            "y": 152,
+            "x": 37,
+            "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable5.png": {
-            "x": 481,
-            "y": 152,
+            "x": 74,
+            "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable6.png": {
-            "x": 0,
+            "x": 111,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.png": {
-            "x": 37,
+            "x": 148,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable1.png": {
-            "x": 74,
+            "x": 185,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable2.png": {
-            "x": 111,
+            "x": 222,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable3.png": {
-            "x": 148,
+            "x": 259,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.png": {
-            "x": 185,
+            "x": 296,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable5.png": {
-            "x": 222,
+            "x": 333,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable6.png": {
-            "x": 259,
+            "x": 370,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable7.png": {
-            "x": 296,
+            "x": 407,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ChayulaChaosNotable.png": {
-            "x": 333,
+            "x": 444,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ConquerorNotable3.png": {
-            "x": 370,
+            "x": 481,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png": {
-            "x": 407,
-            "y": 189,
+            "x": 0,
+            "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable1.png": {
-            "x": 444,
-            "y": 189,
+            "x": 37,
+            "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable2.png": {
-            "x": 481,
-            "y": 189,
+            "x": 74,
+            "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable3.png": {
-            "x": 0,
+            "x": 111,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable4.png": {
-            "x": 37,
+            "x": 148,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable5.png": {
-            "x": 74,
+            "x": 185,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable6.png": {
-            "x": 111,
+            "x": 222,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png": {
-            "x": 148,
+            "x": 259,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable1.png": {
-            "x": 185,
+            "x": 296,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png": {
-            "x": 222,
+            "x": 333,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable3.png": {
-            "x": 259,
+            "x": 370,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable4.png": {
-            "x": 296,
+            "x": 407,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable6.png": {
-            "x": 333,
+            "x": 444,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png": {
-            "x": 370,
+            "x": 481,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png": {
-            "x": 407,
-            "y": 226,
+            "x": 0,
+            "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png": {
-            "x": 444,
-            "y": 226,
+            "x": 37,
+            "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png": {
-            "x": 481,
-            "y": 226,
+            "x": 74,
+            "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ElderShaperNotable1.png": {
-            "x": 0,
+            "x": 111,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EshLightningNotable.png": {
-            "x": 37,
+            "x": 148,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png": {
-            "x": 74,
+            "x": 185,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable1.png": {
-            "x": 111,
+            "x": 222,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable2.png": {
-            "x": 148,
+            "x": 259,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable3.png": {
-            "x": 185,
+            "x": 296,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionDannig.png": {
-            "x": 222,
+            "x": 333,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionGwennen.png": {
-            "x": 259,
+            "x": 370,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png": {
-            "x": 296,
+            "x": 407,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png": {
-            "x": 333,
+            "x": 444,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable2.png": {
-            "x": 370,
+            "x": 481,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable3.png": {
-            "x": 407,
-            "y": 263,
+            "x": 0,
+            "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionRog.png": {
-            "x": 444,
-            "y": 263,
+            "x": 37,
+            "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionSpawnMissingLife.png": {
-            "x": 481,
-            "y": 263,
+            "x": 74,
+            "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionTujen.png": {
-            "x": 0,
+            "x": 111,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png": {
-            "x": 37,
+            "x": 148,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNode1.png": {
-            "x": 74,
+            "x": 185,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable1.png": {
-            "x": 111,
+            "x": 222,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable3.png": {
-            "x": 148,
+            "x": 259,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png": {
-            "x": 185,
+            "x": 296,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png": {
-            "x": 222,
+            "x": 333,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable3.png": {
-            "x": 259,
+            "x": 370,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable6.png": {
-            "x": 296,
+            "x": 407,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistContractsDrop.png": {
-            "x": 333,
+            "x": 444,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistHuck.png": {
-            "x": 370,
+            "x": 481,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements.png": {
-            "x": 407,
-            "y": 300,
+            "x": 0,
+            "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements2.png": {
-            "x": 444,
-            "y": 300,
+            "x": 37,
+            "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements3.png": {
-            "x": 481,
-            "y": 300,
+            "x": 74,
+            "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png": {
-            "x": 0,
+            "x": 111,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png": {
-            "x": 37,
+            "x": 148,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png": {
-            "x": 74,
+            "x": 185,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable1.png": {
-            "x": 111,
+            "x": 222,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable2.png": {
-            "x": 148,
+            "x": 259,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable4.png": {
-            "x": 185,
+            "x": 296,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable5.png": {
-            "x": 222,
+            "x": 333,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable6.png": {
-            "x": 259,
+            "x": 370,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNode.png": {
-            "x": 296,
+            "x": 407,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable1.png": {
-            "x": 333,
+            "x": 444,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable2.png": {
-            "x": 370,
+            "x": 481,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable3.png": {
-            "x": 407,
-            "y": 337,
+            "x": 0,
+            "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable4.png": {
-            "x": 444,
-            "y": 337,
+            "x": 37,
+            "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png": {
-            "x": 481,
-            "y": 337,
+            "x": 74,
+            "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable1.png": {
-            "x": 0,
+            "x": 111,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable2.png": {
-            "x": 37,
+            "x": 148,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png": {
-            "x": 74,
+            "x": 185,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable4.png": {
-            "x": 111,
+            "x": 222,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png": {
-            "x": 148,
+            "x": 259,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable6.png": {
-            "x": 185,
+            "x": 296,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png": {
-            "x": 222,
+            "x": 333,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png": {
-            "x": 259,
+            "x": 370,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png": {
-            "x": 296,
+            "x": 407,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png": {
-            "x": 333,
-            "y": 374,
-            "w": 37,
-            "h": 37
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable4.png": {
-            "x": 370,
+            "x": 444,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MapsAdditionalBreaches.png": {
-            "x": 407,
+            "x": 481,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png": {
-            "x": 444,
-            "y": 374,
+            "x": 0,
+            "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png": {
-            "x": 481,
-            "y": 374,
+            "x": 37,
+            "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphLessDifficult.png": {
-            "x": 0,
+            "x": 74,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable1.png": {
-            "x": 37,
+            "x": 111,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable2.png": {
-            "x": 74,
+            "x": 148,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png": {
-            "x": 111,
+            "x": 185,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable4.png": {
-            "x": 148,
+            "x": 222,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable6.png": {
-            "x": 185,
+            "x": 259,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png": {
-            "x": 222,
+            "x": 296,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png": {
-            "x": 259,
+            "x": 333,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png": {
-            "x": 296,
+            "x": 370,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png": {
-            "x": 333,
+            "x": 407,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png": {
-            "x": 370,
+            "x": 444,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable2.png": {
-            "x": 407,
+            "x": 481,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReduceRerollCost.png": {
-            "x": 444,
-            "y": 411,
+            "x": 0,
+            "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReducedCostDeferRewards.png": {
-            "x": 481,
-            "y": 411,
+            "x": 37,
+            "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png": {
-            "x": 0,
+            "x": 74,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png": {
-            "x": 37,
+            "x": 111,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png": {
-            "x": 74,
+            "x": 148,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png": {
-            "x": 111,
+            "x": 185,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png": {
-            "x": 148,
+            "x": 222,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCelestial.png": {
-            "x": 185,
+            "x": 259,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCurrency.png": {
-            "x": 222,
+            "x": 296,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxDiviner.png": {
-            "x": 259,
+            "x": 333,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable1.png": {
-            "x": 296,
+            "x": 370,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png": {
-            "x": 333,
+            "x": 407,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png": {
-            "x": 370,
+            "x": 444,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SynthesisNotable3.png": {
-            "x": 407,
+            "x": 481,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire1.png": {
-            "x": 444,
-            "y": 448,
+            "x": 0,
+            "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire3.png": {
-            "x": 481,
-            "y": 448,
+            "x": 37,
+            "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png": {
-            "x": 0,
+            "x": 74,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheMaven1.png": {
-            "x": 37,
+            "x": 111,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle1.png": {
-            "x": 74,
+            "x": 148,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle3.png": {
-            "x": 111,
+            "x": 185,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png": {
-            "x": 148,
-            "y": 485,
-            "w": 37,
-            "h": 37
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png": {
-            "x": 185,
+            "x": 222,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png": {
-            "x": 222,
-            "y": 485,
-            "w": 37,
-            "h": 37
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 259,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable2.png": {
             "x": 296,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable3.png": {
             "x": 333,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 370,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
             "x": 407,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalCluster.png": {
             "x": 444,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
             "x": 481,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
             "x": 0,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
             "x": 37,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
             "x": 74,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
             "x": 111,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
             "x": 148,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
             "x": 185,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
             "x": 222,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
             "x": 259,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
             "x": 296,
+            "y": 522,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+            "x": 333,
+            "y": 522,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+            "x": 370,
+            "y": 522,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+            "x": 407,
+            "y": 522,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+            "x": 444,
             "y": 522,
             "w": 37,
             "h": 37
@@ -24321,436 +25275,820 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "keystoneActive": {
       "0.1246": {
-        "filename": "/assets/atlas-skills-0.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-0.jpg?b0934493",
         "w": 168,
-        "h": 235,
+        "h": 269,
         "coords": {
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/AllHands.png": {
             "x": 0,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ArbitraryTenets.png": {
             "x": 17,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BoldUndertaking.png": {
             "x": 34,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CassiasPride.png": {
             "x": 51,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CropRotation.png": {
             "x": 68,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/DestructivePlay.png": {
             "x": 85,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.png": {
             "x": 102,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ExtremeArchaeology.png": {
             "x": 119,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ImmutableDogma.png": {
             "x": 136,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/LucidDreams.png": {
             "x": 0,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/MeticulousAppraiser.png": {
             "x": 17,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/OverloadedCircuits.png": {
             "x": 34,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/RuptureMeter.png": {
             "x": 51,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
             "x": 68,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
             "x": 85,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.png": {
             "x": 102,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TheSeventhGate.png": {
             "x": 119,
             "y": 197,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UnendingNightmare.png": {
+            "x": 136,
+            "y": 197,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+            "x": 0,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+            "x": 17,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+            "x": 34,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+            "x": 51,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+            "x": 68,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+            "x": 85,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+            "x": 102,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+            "x": 119,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+            "x": 136,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+            "x": 0,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+            "x": 17,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+            "x": 34,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+            "x": 51,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+            "x": 68,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+            "x": 85,
+            "y": 231,
             "w": 17,
             "h": 17
           }
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-skills-1.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-1.jpg?c7033530",
         "w": 280,
-        "h": 396,
+        "h": 454,
         "coords": {
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/AllHands.png": {
             "x": 0,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ArbitraryTenets.png": {
             "x": 28,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BoldUndertaking.png": {
             "x": 56,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CassiasPride.png": {
             "x": 84,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CropRotation.png": {
             "x": 112,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/DestructivePlay.png": {
             "x": 140,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.png": {
             "x": 168,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ExtremeArchaeology.png": {
             "x": 196,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ImmutableDogma.png": {
             "x": 224,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/LucidDreams.png": {
             "x": 252,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/MeticulousAppraiser.png": {
             "x": 0,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/OverloadedCircuits.png": {
             "x": 28,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/RuptureMeter.png": {
             "x": 56,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
             "x": 84,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
             "x": 112,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.png": {
             "x": 140,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TheSeventhGate.png": {
             "x": 168,
             "y": 331,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UnendingNightmare.png": {
+            "x": 196,
+            "y": 331,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+            "x": 224,
+            "y": 331,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+            "x": 252,
+            "y": 331,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+            "x": 0,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+            "x": 28,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+            "x": 56,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+            "x": 84,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+            "x": 112,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+            "x": 140,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+            "x": 168,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+            "x": 196,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+            "x": 224,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+            "x": 252,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+            "x": 0,
+            "y": 389,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+            "x": 28,
+            "y": 389,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+            "x": 56,
+            "y": 389,
             "w": 28,
             "h": 29
           }
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-skills-2.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-2.jpg?b1aa3030",
         "w": 406,
-        "h": 570,
+        "h": 652,
         "coords": {
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/AllHands.png": {
             "x": 0,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ArbitraryTenets.png": {
             "x": 40,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BoldUndertaking.png": {
             "x": 80,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CassiasPride.png": {
             "x": 120,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CropRotation.png": {
             "x": 160,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/DestructivePlay.png": {
             "x": 200,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.png": {
             "x": 240,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ExtremeArchaeology.png": {
             "x": 280,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ImmutableDogma.png": {
             "x": 320,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/LucidDreams.png": {
             "x": 360,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/MeticulousAppraiser.png": {
             "x": 0,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/OverloadedCircuits.png": {
             "x": 40,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/RuptureMeter.png": {
             "x": 80,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
             "x": 120,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
             "x": 160,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.png": {
             "x": 200,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TheSeventhGate.png": {
             "x": 240,
             "y": 478,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UnendingNightmare.png": {
+            "x": 280,
+            "y": 478,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+            "x": 320,
+            "y": 478,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+            "x": 360,
+            "y": 478,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+            "x": 0,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+            "x": 40,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+            "x": 80,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+            "x": 120,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+            "x": 160,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+            "x": 200,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+            "x": 240,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+            "x": 280,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+            "x": 320,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+            "x": 360,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+            "x": 0,
+            "y": 560,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+            "x": 40,
+            "y": 560,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+            "x": 80,
+            "y": 560,
             "w": 40,
             "h": 41
           }
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-skills-3.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-3.jpg?41883907",
         "w": 518,
-        "h": 731,
+        "h": 837,
         "coords": {
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/AllHands.png": {
             "x": 0,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ArbitraryTenets.png": {
             "x": 52,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BoldUndertaking.png": {
             "x": 104,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CassiasPride.png": {
             "x": 156,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CropRotation.png": {
             "x": 208,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/DestructivePlay.png": {
             "x": 260,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.png": {
             "x": 312,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ExtremeArchaeology.png": {
             "x": 364,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ImmutableDogma.png": {
             "x": 416,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/LucidDreams.png": {
             "x": 0,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/MeticulousAppraiser.png": {
             "x": 52,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/OverloadedCircuits.png": {
             "x": 104,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/RuptureMeter.png": {
             "x": 156,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
             "x": 208,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
             "x": 260,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.png": {
             "x": 312,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TheSeventhGate.png": {
             "x": 364,
             "y": 612,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UnendingNightmare.png": {
+            "x": 416,
+            "y": 612,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+            "x": 0,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+            "x": 52,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+            "x": 104,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+            "x": 156,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+            "x": 208,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+            "x": 260,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+            "x": 312,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+            "x": 364,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+            "x": 416,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+            "x": 0,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+            "x": 52,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+            "x": 104,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+            "x": 156,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+            "x": 208,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+            "x": 260,
+            "y": 718,
             "w": 52,
             "h": 53
           }
@@ -24759,52 +26097,52 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "wormholeActive": {
       "0.1246": {
-        "filename": "/assets/atlas-skills-0.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-0.jpg?b0934493",
         "w": 168,
-        "h": 235,
+        "h": 269,
         "coords": {
           "Wormhole": {
             "x": 0,
-            "y": 214,
+            "y": 248,
             "w": 21,
             "h": 21
           }
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-skills-1.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-1.jpg?c7033530",
         "w": 280,
-        "h": 396,
+        "h": 454,
         "coords": {
           "Wormhole": {
             "x": 0,
-            "y": 360,
+            "y": 418,
             "w": 36,
             "h": 36
           }
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-skills-2.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-2.jpg?b1aa3030",
         "w": 406,
-        "h": 570,
+        "h": 652,
         "coords": {
           "Wormhole": {
             "x": 0,
-            "y": 519,
+            "y": 601,
             "w": 51,
             "h": 51
           }
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-skills-3.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-3.jpg?41883907",
         "w": 518,
-        "h": 731,
+        "h": 837,
         "coords": {
           "Wormhole": {
             "x": 0,
-            "y": 665,
+            "y": 771,
             "w": 66,
             "h": 66
           }
@@ -24813,9 +26151,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "normalInactive": {
       "0.1246": {
-        "filename": "/assets/atlas-skills-disabled-0.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-0.jpg?3699fb7a",
         "w": 168,
-        "h": 235,
+        "h": 269,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png": {
             "x": 0,
@@ -25132,9 +26470,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-skills-disabled-1.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-1.jpg?70f92037",
         "w": 280,
-        "h": 396,
+        "h": 454,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png": {
             "x": 0,
@@ -25451,9 +26789,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-skills-disabled-2.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-2.jpg?539897ba",
         "w": 406,
-        "h": 570,
+        "h": 652,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png": {
             "x": 0,
@@ -25770,9 +27108,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-skills-disabled-3.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-3.jpg?a31af178",
         "w": 518,
-        "h": 731,
+        "h": 837,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssNode1.png": {
             "x": 0,
@@ -26091,9 +27429,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "notableInactive": {
       "0.1246": {
-        "filename": "/assets/atlas-skills-disabled-0.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-0.jpg?3699fb7a",
         "w": 168,
-        "h": 235,
+        "h": 269,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png": {
             "x": 0,
@@ -26287,872 +27625,896 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss1.png": {
             "x": 48,
+            "y": 48,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss2.png": {
+            "x": 60,
+            "y": 48,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss3.png": {
+            "x": 72,
+            "y": 48,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+            "x": 84,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable3.png": {
-            "x": 60,
+            "x": 96,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png": {
-            "x": 72,
+            "x": 108,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png": {
-            "x": 84,
+            "x": 120,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png": {
-            "x": 96,
+            "x": 132,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightMapsEncounter.png": {
-            "x": 108,
+            "x": 144,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable2.png": {
-            "x": 120,
+            "x": 156,
             "y": 48,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable3.png": {
-            "x": 132,
-            "y": 48,
+            "x": 0,
+            "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable4.png": {
-            "x": 144,
-            "y": 48,
+            "x": 12,
+            "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable5.png": {
-            "x": 156,
-            "y": 48,
+            "x": 24,
+            "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable6.png": {
-            "x": 0,
+            "x": 36,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.png": {
-            "x": 12,
+            "x": 48,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable1.png": {
-            "x": 24,
+            "x": 60,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable2.png": {
-            "x": 36,
+            "x": 72,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable3.png": {
-            "x": 48,
+            "x": 84,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.png": {
-            "x": 60,
+            "x": 96,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable5.png": {
-            "x": 72,
+            "x": 108,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable6.png": {
-            "x": 84,
+            "x": 120,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable7.png": {
-            "x": 96,
+            "x": 132,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ChayulaChaosNotable.png": {
-            "x": 108,
+            "x": 144,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ConquerorNotable3.png": {
-            "x": 120,
+            "x": 156,
             "y": 60,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png": {
-            "x": 132,
-            "y": 60,
+            "x": 0,
+            "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable1.png": {
-            "x": 144,
-            "y": 60,
+            "x": 12,
+            "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable2.png": {
-            "x": 156,
-            "y": 60,
+            "x": 24,
+            "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable3.png": {
-            "x": 0,
+            "x": 36,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable4.png": {
-            "x": 12,
+            "x": 48,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable5.png": {
-            "x": 24,
+            "x": 60,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable6.png": {
-            "x": 36,
+            "x": 72,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png": {
-            "x": 48,
+            "x": 84,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable1.png": {
-            "x": 60,
+            "x": 96,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png": {
-            "x": 72,
+            "x": 108,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable3.png": {
-            "x": 84,
+            "x": 120,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable4.png": {
-            "x": 96,
+            "x": 132,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable6.png": {
-            "x": 108,
+            "x": 144,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png": {
-            "x": 120,
+            "x": 156,
             "y": 72,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png": {
-            "x": 132,
-            "y": 72,
+            "x": 0,
+            "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png": {
-            "x": 144,
-            "y": 72,
+            "x": 12,
+            "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png": {
-            "x": 156,
-            "y": 72,
+            "x": 24,
+            "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ElderShaperNotable1.png": {
-            "x": 0,
+            "x": 36,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EshLightningNotable.png": {
-            "x": 12,
+            "x": 48,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png": {
-            "x": 24,
+            "x": 60,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable1.png": {
-            "x": 36,
+            "x": 72,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable2.png": {
-            "x": 48,
+            "x": 84,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable3.png": {
-            "x": 60,
+            "x": 96,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionDannig.png": {
-            "x": 72,
+            "x": 108,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionGwennen.png": {
-            "x": 84,
+            "x": 120,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png": {
-            "x": 96,
+            "x": 132,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png": {
-            "x": 108,
+            "x": 144,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable2.png": {
-            "x": 120,
+            "x": 156,
             "y": 84,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable3.png": {
-            "x": 132,
-            "y": 84,
+            "x": 0,
+            "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionRog.png": {
-            "x": 144,
-            "y": 84,
+            "x": 12,
+            "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionSpawnMissingLife.png": {
-            "x": 156,
-            "y": 84,
+            "x": 24,
+            "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionTujen.png": {
-            "x": 0,
+            "x": 36,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png": {
-            "x": 12,
+            "x": 48,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNode1.png": {
-            "x": 24,
+            "x": 60,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable1.png": {
-            "x": 36,
+            "x": 72,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable3.png": {
-            "x": 48,
+            "x": 84,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png": {
-            "x": 60,
+            "x": 96,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png": {
-            "x": 72,
+            "x": 108,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable3.png": {
-            "x": 84,
+            "x": 120,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable6.png": {
-            "x": 96,
+            "x": 132,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistContractsDrop.png": {
-            "x": 108,
+            "x": 144,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistHuck.png": {
-            "x": 120,
+            "x": 156,
             "y": 96,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements.png": {
-            "x": 132,
-            "y": 96,
+            "x": 0,
+            "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements2.png": {
-            "x": 144,
-            "y": 96,
+            "x": 12,
+            "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements3.png": {
-            "x": 156,
-            "y": 96,
+            "x": 24,
+            "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png": {
-            "x": 0,
+            "x": 36,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png": {
-            "x": 12,
+            "x": 48,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png": {
-            "x": 24,
+            "x": 60,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable1.png": {
-            "x": 36,
+            "x": 72,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable2.png": {
-            "x": 48,
+            "x": 84,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable4.png": {
-            "x": 60,
+            "x": 96,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable5.png": {
-            "x": 72,
+            "x": 108,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable6.png": {
-            "x": 84,
+            "x": 120,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNode.png": {
-            "x": 96,
+            "x": 132,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable1.png": {
-            "x": 108,
+            "x": 144,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable2.png": {
-            "x": 120,
+            "x": 156,
             "y": 108,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable3.png": {
-            "x": 132,
-            "y": 108,
+            "x": 0,
+            "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable4.png": {
-            "x": 144,
-            "y": 108,
+            "x": 12,
+            "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png": {
-            "x": 156,
-            "y": 108,
+            "x": 24,
+            "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable1.png": {
-            "x": 0,
+            "x": 36,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable2.png": {
-            "x": 12,
+            "x": 48,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png": {
-            "x": 24,
+            "x": 60,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable4.png": {
-            "x": 36,
+            "x": 72,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png": {
-            "x": 48,
+            "x": 84,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable6.png": {
-            "x": 60,
+            "x": 96,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png": {
-            "x": 72,
+            "x": 108,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png": {
-            "x": 84,
+            "x": 120,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png": {
-            "x": 96,
+            "x": 132,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png": {
-            "x": 108,
-            "y": 120,
-            "w": 12,
-            "h": 12
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable4.png": {
-            "x": 120,
+            "x": 144,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MapsAdditionalBreaches.png": {
-            "x": 132,
+            "x": 156,
             "y": 120,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png": {
-            "x": 144,
-            "y": 120,
+            "x": 0,
+            "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png": {
-            "x": 156,
-            "y": 120,
+            "x": 12,
+            "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphLessDifficult.png": {
-            "x": 0,
+            "x": 24,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable1.png": {
-            "x": 12,
+            "x": 36,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable2.png": {
-            "x": 24,
+            "x": 48,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png": {
-            "x": 36,
+            "x": 60,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable4.png": {
-            "x": 48,
+            "x": 72,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable6.png": {
-            "x": 60,
+            "x": 84,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png": {
-            "x": 72,
+            "x": 96,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png": {
-            "x": 84,
+            "x": 108,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png": {
-            "x": 96,
+            "x": 120,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png": {
-            "x": 108,
+            "x": 132,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png": {
-            "x": 120,
+            "x": 144,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable2.png": {
-            "x": 132,
+            "x": 156,
             "y": 132,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReduceRerollCost.png": {
-            "x": 144,
-            "y": 132,
+            "x": 0,
+            "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReducedCostDeferRewards.png": {
-            "x": 156,
-            "y": 132,
+            "x": 12,
+            "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png": {
-            "x": 0,
+            "x": 24,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png": {
-            "x": 12,
+            "x": 36,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png": {
-            "x": 24,
+            "x": 48,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png": {
-            "x": 36,
+            "x": 60,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png": {
-            "x": 48,
+            "x": 72,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCelestial.png": {
-            "x": 60,
+            "x": 84,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCurrency.png": {
-            "x": 72,
+            "x": 96,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxDiviner.png": {
-            "x": 84,
+            "x": 108,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable1.png": {
-            "x": 96,
+            "x": 120,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png": {
-            "x": 108,
+            "x": 132,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png": {
-            "x": 120,
+            "x": 144,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SynthesisNotable3.png": {
-            "x": 132,
+            "x": 156,
             "y": 144,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire1.png": {
-            "x": 144,
-            "y": 144,
+            "x": 0,
+            "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire3.png": {
-            "x": 156,
-            "y": 144,
+            "x": 12,
+            "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png": {
-            "x": 0,
+            "x": 24,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheMaven1.png": {
-            "x": 12,
+            "x": 36,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle1.png": {
-            "x": 24,
+            "x": 48,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle3.png": {
-            "x": 36,
+            "x": 60,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png": {
-            "x": 48,
-            "y": 156,
-            "w": 12,
-            "h": 12
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png": {
-            "x": 60,
+            "x": 72,
             "y": 156,
             "w": 12,
             "h": 12
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png": {
-            "x": 72,
-            "y": 156,
-            "w": 12,
-            "h": 12
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 84,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable2.png": {
             "x": 96,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable3.png": {
             "x": 108,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 120,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
             "x": 132,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalCluster.png": {
             "x": 144,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
             "x": 156,
             "y": 156,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
             "x": 0,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
             "x": 12,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
             "x": 24,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
             "x": 36,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
             "x": 48,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
             "x": 60,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
             "x": 72,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
             "x": 84,
             "y": 168,
             "w": 12,
             "h": 12
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
             "x": 96,
+            "y": 168,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+            "x": 108,
+            "y": 168,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+            "x": 120,
+            "y": 168,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+            "x": 132,
+            "y": 168,
+            "w": 12,
+            "h": 12
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+            "x": 144,
             "y": 168,
             "w": 12,
             "h": 12
@@ -27160,9 +28522,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-skills-disabled-1.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-1.jpg?70f92037",
         "w": 280,
-        "h": 396,
+        "h": 454,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png": {
             "x": 0,
@@ -27356,872 +28718,896 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss1.png": {
             "x": 80,
+            "y": 82,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss2.png": {
+            "x": 100,
+            "y": 82,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss3.png": {
+            "x": 120,
+            "y": 82,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+            "x": 140,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable3.png": {
-            "x": 100,
+            "x": 160,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png": {
-            "x": 120,
+            "x": 180,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png": {
-            "x": 140,
+            "x": 200,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png": {
-            "x": 160,
+            "x": 220,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightMapsEncounter.png": {
-            "x": 180,
+            "x": 240,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable2.png": {
-            "x": 200,
+            "x": 260,
             "y": 82,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable3.png": {
-            "x": 220,
-            "y": 82,
+            "x": 0,
+            "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable4.png": {
-            "x": 240,
-            "y": 82,
+            "x": 20,
+            "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable5.png": {
-            "x": 260,
-            "y": 82,
+            "x": 40,
+            "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable6.png": {
-            "x": 0,
+            "x": 60,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.png": {
-            "x": 20,
+            "x": 80,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable1.png": {
-            "x": 40,
+            "x": 100,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable2.png": {
-            "x": 60,
+            "x": 120,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable3.png": {
-            "x": 80,
+            "x": 140,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.png": {
-            "x": 100,
+            "x": 160,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable5.png": {
-            "x": 120,
+            "x": 180,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable6.png": {
-            "x": 140,
+            "x": 200,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable7.png": {
-            "x": 160,
+            "x": 220,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ChayulaChaosNotable.png": {
-            "x": 180,
+            "x": 240,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ConquerorNotable3.png": {
-            "x": 200,
+            "x": 260,
             "y": 102,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png": {
-            "x": 220,
-            "y": 102,
+            "x": 0,
+            "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable1.png": {
-            "x": 240,
-            "y": 102,
+            "x": 20,
+            "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable2.png": {
-            "x": 260,
-            "y": 102,
+            "x": 40,
+            "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable3.png": {
-            "x": 0,
+            "x": 60,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable4.png": {
-            "x": 20,
+            "x": 80,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable5.png": {
-            "x": 40,
+            "x": 100,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable6.png": {
-            "x": 60,
+            "x": 120,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png": {
-            "x": 80,
+            "x": 140,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable1.png": {
-            "x": 100,
+            "x": 160,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png": {
-            "x": 120,
+            "x": 180,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable3.png": {
-            "x": 140,
+            "x": 200,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable4.png": {
-            "x": 160,
+            "x": 220,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable6.png": {
-            "x": 180,
+            "x": 240,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png": {
-            "x": 200,
+            "x": 260,
             "y": 122,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png": {
-            "x": 220,
-            "y": 122,
+            "x": 0,
+            "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png": {
-            "x": 240,
-            "y": 122,
+            "x": 20,
+            "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png": {
-            "x": 260,
-            "y": 122,
+            "x": 40,
+            "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ElderShaperNotable1.png": {
-            "x": 0,
+            "x": 60,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EshLightningNotable.png": {
-            "x": 20,
+            "x": 80,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png": {
-            "x": 40,
+            "x": 100,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable1.png": {
-            "x": 60,
+            "x": 120,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable2.png": {
-            "x": 80,
+            "x": 140,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable3.png": {
-            "x": 100,
+            "x": 160,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionDannig.png": {
-            "x": 120,
+            "x": 180,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionGwennen.png": {
-            "x": 140,
+            "x": 200,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png": {
-            "x": 160,
+            "x": 220,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png": {
-            "x": 180,
+            "x": 240,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable2.png": {
-            "x": 200,
+            "x": 260,
             "y": 142,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable3.png": {
-            "x": 220,
-            "y": 142,
+            "x": 0,
+            "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionRog.png": {
-            "x": 240,
-            "y": 142,
+            "x": 20,
+            "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionSpawnMissingLife.png": {
-            "x": 260,
-            "y": 142,
+            "x": 40,
+            "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionTujen.png": {
-            "x": 0,
+            "x": 60,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png": {
-            "x": 20,
+            "x": 80,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNode1.png": {
-            "x": 40,
+            "x": 100,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable1.png": {
-            "x": 60,
+            "x": 120,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable3.png": {
-            "x": 80,
+            "x": 140,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png": {
-            "x": 100,
+            "x": 160,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png": {
-            "x": 120,
+            "x": 180,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable3.png": {
-            "x": 140,
+            "x": 200,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable6.png": {
-            "x": 160,
+            "x": 220,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistContractsDrop.png": {
-            "x": 180,
+            "x": 240,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistHuck.png": {
-            "x": 200,
+            "x": 260,
             "y": 162,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements.png": {
-            "x": 220,
-            "y": 162,
+            "x": 0,
+            "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements2.png": {
-            "x": 240,
-            "y": 162,
+            "x": 20,
+            "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements3.png": {
-            "x": 260,
-            "y": 162,
+            "x": 40,
+            "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png": {
-            "x": 0,
+            "x": 60,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png": {
-            "x": 20,
+            "x": 80,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png": {
-            "x": 40,
+            "x": 100,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable1.png": {
-            "x": 60,
+            "x": 120,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable2.png": {
-            "x": 80,
+            "x": 140,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable4.png": {
-            "x": 100,
+            "x": 160,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable5.png": {
-            "x": 120,
+            "x": 180,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable6.png": {
-            "x": 140,
+            "x": 200,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNode.png": {
-            "x": 160,
+            "x": 220,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable1.png": {
-            "x": 180,
+            "x": 240,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable2.png": {
-            "x": 200,
+            "x": 260,
             "y": 182,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable3.png": {
-            "x": 220,
-            "y": 182,
+            "x": 0,
+            "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable4.png": {
-            "x": 240,
-            "y": 182,
+            "x": 20,
+            "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png": {
-            "x": 260,
-            "y": 182,
+            "x": 40,
+            "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable1.png": {
-            "x": 0,
+            "x": 60,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable2.png": {
-            "x": 20,
+            "x": 80,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png": {
-            "x": 40,
+            "x": 100,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable4.png": {
-            "x": 60,
+            "x": 120,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png": {
-            "x": 80,
+            "x": 140,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable6.png": {
-            "x": 100,
+            "x": 160,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png": {
-            "x": 120,
+            "x": 180,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png": {
-            "x": 140,
+            "x": 200,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png": {
-            "x": 160,
+            "x": 220,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png": {
-            "x": 180,
-            "y": 202,
-            "w": 20,
-            "h": 20
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable4.png": {
-            "x": 200,
+            "x": 240,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MapsAdditionalBreaches.png": {
-            "x": 220,
+            "x": 260,
             "y": 202,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png": {
-            "x": 240,
-            "y": 202,
+            "x": 0,
+            "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png": {
-            "x": 260,
-            "y": 202,
+            "x": 20,
+            "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphLessDifficult.png": {
-            "x": 0,
+            "x": 40,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable1.png": {
-            "x": 20,
+            "x": 60,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable2.png": {
-            "x": 40,
+            "x": 80,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png": {
-            "x": 60,
+            "x": 100,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable4.png": {
-            "x": 80,
+            "x": 120,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable6.png": {
-            "x": 100,
+            "x": 140,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png": {
-            "x": 120,
+            "x": 160,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png": {
-            "x": 140,
+            "x": 180,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png": {
-            "x": 160,
+            "x": 200,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png": {
-            "x": 180,
+            "x": 220,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png": {
-            "x": 200,
+            "x": 240,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable2.png": {
-            "x": 220,
+            "x": 260,
             "y": 222,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReduceRerollCost.png": {
-            "x": 240,
-            "y": 222,
+            "x": 0,
+            "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReducedCostDeferRewards.png": {
-            "x": 260,
-            "y": 222,
+            "x": 20,
+            "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png": {
-            "x": 0,
+            "x": 40,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png": {
-            "x": 20,
+            "x": 60,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png": {
-            "x": 40,
+            "x": 80,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png": {
-            "x": 60,
+            "x": 100,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png": {
-            "x": 80,
+            "x": 120,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCelestial.png": {
-            "x": 100,
+            "x": 140,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCurrency.png": {
-            "x": 120,
+            "x": 160,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxDiviner.png": {
-            "x": 140,
+            "x": 180,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable1.png": {
-            "x": 160,
+            "x": 200,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png": {
-            "x": 180,
+            "x": 220,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png": {
-            "x": 200,
+            "x": 240,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SynthesisNotable3.png": {
-            "x": 220,
+            "x": 260,
             "y": 242,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire1.png": {
-            "x": 240,
-            "y": 242,
+            "x": 0,
+            "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire3.png": {
-            "x": 260,
-            "y": 242,
+            "x": 20,
+            "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png": {
-            "x": 0,
+            "x": 40,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheMaven1.png": {
-            "x": 20,
+            "x": 60,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle1.png": {
-            "x": 40,
+            "x": 80,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle3.png": {
-            "x": 60,
+            "x": 100,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png": {
-            "x": 80,
-            "y": 262,
-            "w": 20,
-            "h": 20
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png": {
-            "x": 100,
+            "x": 120,
             "y": 262,
             "w": 20,
             "h": 20
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png": {
-            "x": 120,
-            "y": 262,
-            "w": 20,
-            "h": 20
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 140,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable2.png": {
             "x": 160,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable3.png": {
             "x": 180,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 200,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
             "x": 220,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalCluster.png": {
             "x": 240,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
             "x": 260,
             "y": 262,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
             "x": 0,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
             "x": 20,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
             "x": 40,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
             "x": 60,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
             "x": 80,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
             "x": 100,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
             "x": 120,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
             "x": 140,
             "y": 282,
             "w": 20,
             "h": 20
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
             "x": 160,
+            "y": 282,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+            "x": 180,
+            "y": 282,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+            "x": 200,
+            "y": 282,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+            "x": 220,
+            "y": 282,
+            "w": 20,
+            "h": 20
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+            "x": 240,
             "y": 282,
             "w": 20,
             "h": 20
@@ -28229,9 +29615,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-skills-disabled-2.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-2.jpg?539897ba",
         "w": 406,
-        "h": 570,
+        "h": 652,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png": {
             "x": 0,
@@ -28425,872 +29811,896 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss1.png": {
             "x": 116,
+            "y": 118,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss2.png": {
+            "x": 145,
+            "y": 118,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss3.png": {
+            "x": 174,
+            "y": 118,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+            "x": 203,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable3.png": {
-            "x": 145,
+            "x": 232,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png": {
-            "x": 174,
+            "x": 261,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png": {
-            "x": 203,
+            "x": 290,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png": {
-            "x": 232,
+            "x": 319,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightMapsEncounter.png": {
-            "x": 261,
+            "x": 348,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable2.png": {
-            "x": 290,
+            "x": 377,
             "y": 118,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable3.png": {
-            "x": 319,
-            "y": 118,
+            "x": 0,
+            "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable4.png": {
-            "x": 348,
-            "y": 118,
+            "x": 29,
+            "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable5.png": {
-            "x": 377,
-            "y": 118,
+            "x": 58,
+            "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable6.png": {
-            "x": 0,
+            "x": 87,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.png": {
-            "x": 29,
+            "x": 116,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable1.png": {
-            "x": 58,
+            "x": 145,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable2.png": {
-            "x": 87,
+            "x": 174,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable3.png": {
-            "x": 116,
+            "x": 203,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.png": {
-            "x": 145,
+            "x": 232,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable5.png": {
-            "x": 174,
+            "x": 261,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable6.png": {
-            "x": 203,
+            "x": 290,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable7.png": {
-            "x": 232,
+            "x": 319,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ChayulaChaosNotable.png": {
-            "x": 261,
+            "x": 348,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ConquerorNotable3.png": {
-            "x": 290,
+            "x": 377,
             "y": 147,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png": {
-            "x": 319,
-            "y": 147,
+            "x": 0,
+            "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable1.png": {
-            "x": 348,
-            "y": 147,
+            "x": 29,
+            "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable2.png": {
-            "x": 377,
-            "y": 147,
+            "x": 58,
+            "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable3.png": {
-            "x": 0,
+            "x": 87,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable4.png": {
-            "x": 29,
+            "x": 116,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable5.png": {
-            "x": 58,
+            "x": 145,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable6.png": {
-            "x": 87,
+            "x": 174,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png": {
-            "x": 116,
+            "x": 203,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable1.png": {
-            "x": 145,
+            "x": 232,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png": {
-            "x": 174,
+            "x": 261,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable3.png": {
-            "x": 203,
+            "x": 290,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable4.png": {
-            "x": 232,
+            "x": 319,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable6.png": {
-            "x": 261,
+            "x": 348,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png": {
-            "x": 290,
+            "x": 377,
             "y": 176,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png": {
-            "x": 319,
-            "y": 176,
+            "x": 0,
+            "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png": {
-            "x": 348,
-            "y": 176,
+            "x": 29,
+            "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png": {
-            "x": 377,
-            "y": 176,
+            "x": 58,
+            "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ElderShaperNotable1.png": {
-            "x": 0,
+            "x": 87,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EshLightningNotable.png": {
-            "x": 29,
+            "x": 116,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png": {
-            "x": 58,
+            "x": 145,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable1.png": {
-            "x": 87,
+            "x": 174,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable2.png": {
-            "x": 116,
+            "x": 203,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable3.png": {
-            "x": 145,
+            "x": 232,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionDannig.png": {
-            "x": 174,
+            "x": 261,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionGwennen.png": {
-            "x": 203,
+            "x": 290,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png": {
-            "x": 232,
+            "x": 319,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png": {
-            "x": 261,
+            "x": 348,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable2.png": {
-            "x": 290,
+            "x": 377,
             "y": 205,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable3.png": {
-            "x": 319,
-            "y": 205,
+            "x": 0,
+            "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionRog.png": {
-            "x": 348,
-            "y": 205,
+            "x": 29,
+            "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionSpawnMissingLife.png": {
-            "x": 377,
-            "y": 205,
+            "x": 58,
+            "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionTujen.png": {
-            "x": 0,
+            "x": 87,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png": {
-            "x": 29,
+            "x": 116,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNode1.png": {
-            "x": 58,
+            "x": 145,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable1.png": {
-            "x": 87,
+            "x": 174,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable3.png": {
-            "x": 116,
+            "x": 203,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png": {
-            "x": 145,
+            "x": 232,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png": {
-            "x": 174,
+            "x": 261,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable3.png": {
-            "x": 203,
+            "x": 290,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable6.png": {
-            "x": 232,
+            "x": 319,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistContractsDrop.png": {
-            "x": 261,
+            "x": 348,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistHuck.png": {
-            "x": 290,
+            "x": 377,
             "y": 234,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements.png": {
-            "x": 319,
-            "y": 234,
+            "x": 0,
+            "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements2.png": {
-            "x": 348,
-            "y": 234,
+            "x": 29,
+            "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements3.png": {
-            "x": 377,
-            "y": 234,
+            "x": 58,
+            "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png": {
-            "x": 0,
+            "x": 87,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png": {
-            "x": 29,
+            "x": 116,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png": {
-            "x": 58,
+            "x": 145,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable1.png": {
-            "x": 87,
+            "x": 174,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable2.png": {
-            "x": 116,
+            "x": 203,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable4.png": {
-            "x": 145,
+            "x": 232,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable5.png": {
-            "x": 174,
+            "x": 261,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable6.png": {
-            "x": 203,
+            "x": 290,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNode.png": {
-            "x": 232,
+            "x": 319,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable1.png": {
-            "x": 261,
+            "x": 348,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable2.png": {
-            "x": 290,
+            "x": 377,
             "y": 263,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable3.png": {
-            "x": 319,
-            "y": 263,
+            "x": 0,
+            "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable4.png": {
-            "x": 348,
-            "y": 263,
+            "x": 29,
+            "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png": {
-            "x": 377,
-            "y": 263,
+            "x": 58,
+            "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable1.png": {
-            "x": 0,
+            "x": 87,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable2.png": {
-            "x": 29,
+            "x": 116,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png": {
-            "x": 58,
+            "x": 145,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable4.png": {
-            "x": 87,
+            "x": 174,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png": {
-            "x": 116,
+            "x": 203,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable6.png": {
-            "x": 145,
+            "x": 232,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png": {
-            "x": 174,
+            "x": 261,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png": {
-            "x": 203,
+            "x": 290,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png": {
-            "x": 232,
+            "x": 319,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png": {
-            "x": 261,
-            "y": 292,
-            "w": 29,
-            "h": 29
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable4.png": {
-            "x": 290,
+            "x": 348,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MapsAdditionalBreaches.png": {
-            "x": 319,
+            "x": 377,
             "y": 292,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png": {
-            "x": 348,
-            "y": 292,
+            "x": 0,
+            "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png": {
-            "x": 377,
-            "y": 292,
+            "x": 29,
+            "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphLessDifficult.png": {
-            "x": 0,
+            "x": 58,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable1.png": {
-            "x": 29,
+            "x": 87,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable2.png": {
-            "x": 58,
+            "x": 116,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png": {
-            "x": 87,
+            "x": 145,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable4.png": {
-            "x": 116,
+            "x": 174,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable6.png": {
-            "x": 145,
+            "x": 203,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png": {
-            "x": 174,
+            "x": 232,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png": {
-            "x": 203,
+            "x": 261,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png": {
-            "x": 232,
+            "x": 290,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png": {
-            "x": 261,
+            "x": 319,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png": {
-            "x": 290,
+            "x": 348,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable2.png": {
-            "x": 319,
+            "x": 377,
             "y": 321,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReduceRerollCost.png": {
-            "x": 348,
-            "y": 321,
+            "x": 0,
+            "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReducedCostDeferRewards.png": {
-            "x": 377,
-            "y": 321,
+            "x": 29,
+            "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png": {
-            "x": 0,
+            "x": 58,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png": {
-            "x": 29,
+            "x": 87,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png": {
-            "x": 58,
+            "x": 116,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png": {
-            "x": 87,
+            "x": 145,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png": {
-            "x": 116,
+            "x": 174,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCelestial.png": {
-            "x": 145,
+            "x": 203,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCurrency.png": {
-            "x": 174,
+            "x": 232,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxDiviner.png": {
-            "x": 203,
+            "x": 261,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable1.png": {
-            "x": 232,
+            "x": 290,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png": {
-            "x": 261,
+            "x": 319,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png": {
-            "x": 290,
+            "x": 348,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SynthesisNotable3.png": {
-            "x": 319,
+            "x": 377,
             "y": 350,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire1.png": {
-            "x": 348,
-            "y": 350,
+            "x": 0,
+            "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire3.png": {
-            "x": 377,
-            "y": 350,
+            "x": 29,
+            "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png": {
-            "x": 0,
+            "x": 58,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheMaven1.png": {
-            "x": 29,
+            "x": 87,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle1.png": {
-            "x": 58,
+            "x": 116,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle3.png": {
-            "x": 87,
+            "x": 145,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png": {
-            "x": 116,
-            "y": 379,
-            "w": 29,
-            "h": 29
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png": {
-            "x": 145,
+            "x": 174,
             "y": 379,
             "w": 29,
             "h": 29
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png": {
-            "x": 174,
-            "y": 379,
-            "w": 29,
-            "h": 29
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 203,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable2.png": {
             "x": 232,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable3.png": {
             "x": 261,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 290,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
             "x": 319,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalCluster.png": {
             "x": 348,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
             "x": 377,
             "y": 379,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
             "x": 0,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
             "x": 29,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
             "x": 58,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
             "x": 87,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
             "x": 116,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
             "x": 145,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
             "x": 174,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
             "x": 203,
             "y": 408,
             "w": 29,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
             "x": 232,
+            "y": 408,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+            "x": 261,
+            "y": 408,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+            "x": 290,
+            "y": 408,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+            "x": 319,
+            "y": 408,
+            "w": 29,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+            "x": 348,
             "y": 408,
             "w": 29,
             "h": 29
@@ -29298,9 +30708,9 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-skills-disabled-3.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-3.jpg?a31af178",
         "w": 518,
-        "h": 731,
+        "h": 837,
         "coords": {
           "Art/2DArt/SkillIcons/passives/AtlasTrees/AbyssAbyssalTroves.png": {
             "x": 0,
@@ -29494,872 +30904,896 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss1.png": {
             "x": 148,
+            "y": 152,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss2.png": {
+            "x": 185,
+            "y": 152,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondBoss3.png": {
+            "x": 222,
+            "y": 152,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable2.png": {
+            "x": 259,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable3.png": {
-            "x": 185,
+            "x": 296,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BeyondNotable5.png": {
-            "x": 222,
+            "x": 333,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BightIchorPumpTower.png": {
-            "x": 259,
+            "x": 370,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInjectorNotable.png": {
-            "x": 296,
+            "x": 407,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightMapsEncounter.png": {
-            "x": 333,
+            "x": 444,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable2.png": {
-            "x": 370,
+            "x": 481,
             "y": 152,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable3.png": {
-            "x": 407,
-            "y": 152,
+            "x": 0,
+            "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable4.png": {
-            "x": 444,
-            "y": 152,
+            "x": 37,
+            "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable5.png": {
-            "x": 481,
-            "y": 152,
+            "x": 74,
+            "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BlightNotable6.png": {
-            "x": 0,
+            "x": 111,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.png": {
-            "x": 37,
+            "x": 148,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable1.png": {
-            "x": 74,
+            "x": 185,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable2.png": {
-            "x": 111,
+            "x": 222,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable3.png": {
-            "x": 148,
+            "x": 259,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.png": {
-            "x": 185,
+            "x": 296,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable5.png": {
-            "x": 222,
+            "x": 333,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable6.png": {
-            "x": 259,
+            "x": 370,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable7.png": {
-            "x": 296,
+            "x": 407,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ChayulaChaosNotable.png": {
-            "x": 333,
+            "x": 444,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ConquerorNotable3.png": {
-            "x": 370,
+            "x": 481,
             "y": 189,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriousClusterJewelsOrbs.png": {
-            "x": 407,
-            "y": 189,
+            "x": 0,
+            "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable1.png": {
-            "x": 444,
-            "y": 189,
+            "x": 37,
+            "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable2.png": {
-            "x": 481,
-            "y": 189,
+            "x": 74,
+            "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable3.png": {
-            "x": 0,
+            "x": 111,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable4.png": {
-            "x": 37,
+            "x": 148,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable5.png": {
-            "x": 74,
+            "x": 185,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumNotable6.png": {
-            "x": 111,
+            "x": 222,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DeliriumRewardIcons.png": {
-            "x": 148,
+            "x": 259,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable1.png": {
-            "x": 185,
+            "x": 296,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png": {
-            "x": 222,
+            "x": 333,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable3.png": {
-            "x": 259,
+            "x": 370,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable4.png": {
-            "x": 296,
+            "x": 407,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable6.png": {
-            "x": 333,
+            "x": 444,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterAlva.png": {
-            "x": 370,
+            "x": 481,
             "y": 226,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterEinhar.png": {
-            "x": 407,
-            "y": 226,
+            "x": 0,
+            "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterJun.png": {
-            "x": 444,
-            "y": 226,
+            "x": 37,
+            "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/DisablingMasterNiko.png": {
-            "x": 481,
-            "y": 226,
+            "x": 74,
+            "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ElderShaperNotable1.png": {
-            "x": 0,
+            "x": 111,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EshLightningNotable.png": {
-            "x": 37,
+            "x": 148,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNode2.png": {
-            "x": 74,
+            "x": 185,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable1.png": {
-            "x": 111,
+            "x": 222,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable2.png": {
-            "x": 148,
+            "x": 259,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/EssenceNotable3.png": {
-            "x": 185,
+            "x": 296,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionDannig.png": {
-            "x": 222,
+            "x": 333,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionGwennen.png": {
-            "x": 259,
+            "x": 370,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNode1.png": {
-            "x": 296,
+            "x": 407,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable1.png": {
-            "x": 333,
+            "x": 444,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable2.png": {
-            "x": 370,
+            "x": 481,
             "y": 263,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionNotable3.png": {
-            "x": 407,
-            "y": 263,
+            "x": 0,
+            "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionRog.png": {
-            "x": 444,
-            "y": 263,
+            "x": 37,
+            "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionSpawnMissingLife.png": {
-            "x": 481,
-            "y": 263,
+            "x": 74,
+            "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ExpeditionTujen.png": {
-            "x": 0,
+            "x": 111,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/GreedShrinenoteble.png": {
-            "x": 37,
+            "x": 148,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNode1.png": {
-            "x": 74,
+            "x": 185,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable1.png": {
-            "x": 111,
+            "x": 222,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarbingerNotable3.png": {
-            "x": 148,
+            "x": 259,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable1.png": {
-            "x": 185,
+            "x": 296,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable2.png": {
-            "x": 222,
+            "x": 333,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable3.png": {
-            "x": 259,
+            "x": 370,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HarvestNotable6.png": {
-            "x": 296,
+            "x": 407,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistContractsDrop.png": {
-            "x": 333,
+            "x": 444,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistHuck.png": {
-            "x": 370,
+            "x": 481,
             "y": 300,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements.png": {
-            "x": 407,
-            "y": 300,
+            "x": 0,
+            "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements2.png": {
-            "x": 444,
-            "y": 300,
+            "x": 37,
+            "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistJobRequirements3.png": {
-            "x": 481,
-            "y": 300,
+            "x": 74,
+            "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable1.png": {
-            "x": 0,
+            "x": 111,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistNotable2.png": {
-            "x": 37,
+            "x": 148,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/HeistRobot.png": {
-            "x": 74,
+            "x": 185,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable1.png": {
-            "x": 111,
+            "x": 222,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable2.png": {
-            "x": 148,
+            "x": 259,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable4.png": {
-            "x": 185,
+            "x": 296,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable5.png": {
-            "x": 222,
+            "x": 333,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/JunNotable6.png": {
-            "x": 259,
+            "x": 370,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNode.png": {
-            "x": 296,
+            "x": 407,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable1.png": {
-            "x": 333,
+            "x": 444,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable2.png": {
-            "x": 370,
+            "x": 481,
             "y": 337,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable3.png": {
-            "x": 407,
-            "y": 337,
+            "x": 0,
+            "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/KiracNotable4.png": {
-            "x": 444,
-            "y": 337,
+            "x": 37,
+            "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionAdditionalReward.png": {
-            "x": 481,
-            "y": 337,
+            "x": 74,
+            "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable1.png": {
-            "x": 0,
+            "x": 111,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable2.png": {
-            "x": 37,
+            "x": 148,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable3.png": {
-            "x": 74,
+            "x": 185,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable4.png": {
-            "x": 111,
+            "x": 222,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable5.png": {
-            "x": 148,
+            "x": 259,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionNotable6.png": {
-            "x": 185,
+            "x": 296,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/LegionPackSize.png": {
-            "x": 222,
+            "x": 333,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable1.png": {
-            "x": 259,
+            "x": 370,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable2.png": {
-            "x": 296,
+            "x": 407,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable3.png": {
-            "x": 333,
-            "y": 374,
-            "w": 37,
-            "h": 37
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Mapnotable4.png": {
-            "x": 370,
+            "x": 444,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MapsAdditionalBreaches.png": {
-            "x": 407,
+            "x": 481,
             "y": 374,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphAdditionalCatalystDrops.png": {
-            "x": 444,
-            "y": 374,
+            "x": 0,
+            "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphExperienceScarabDrop.png": {
-            "x": 481,
-            "y": 374,
+            "x": 37,
+            "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphLessDifficult.png": {
-            "x": 0,
+            "x": 74,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable1.png": {
-            "x": 37,
+            "x": 111,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable2.png": {
-            "x": 74,
+            "x": 148,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable3.png": {
-            "x": 111,
+            "x": 185,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable4.png": {
-            "x": 148,
+            "x": 222,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphNotable6.png": {
-            "x": 185,
+            "x": 259,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/MetamorphQuantityRarityExtraReward.png": {
-            "x": 222,
+            "x": 296,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RareBreachMonsterBlessing.png": {
-            "x": 259,
+            "x": 333,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Ritual.png": {
-            "x": 296,
+            "x": 370,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualChanceBloodFilledVessel.png": {
-            "x": 333,
+            "x": 407,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable1.png": {
-            "x": 370,
+            "x": 444,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualNotable2.png": {
-            "x": 407,
+            "x": 481,
             "y": 411,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReduceRerollCost.png": {
-            "x": 444,
-            "y": 411,
+            "x": 0,
+            "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/RitualReducedCostDeferRewards.png": {
-            "x": 481,
-            "y": 411,
+            "x": 37,
+            "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabNotable1.png": {
-            "x": 0,
+            "x": 74,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Sextantnotable1.png": {
-            "x": 37,
+            "x": 111,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/Shrines.png": {
-            "x": 74,
+            "x": 148,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/ShrinesNode.png": {
-            "x": 111,
+            "x": 185,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SimulacrumSplitersDrop.png": {
-            "x": 148,
+            "x": 222,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCelestial.png": {
-            "x": 185,
+            "x": 259,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxCurrency.png": {
-            "x": 222,
+            "x": 296,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxDiviner.png": {
-            "x": 259,
+            "x": 333,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable1.png": {
-            "x": 296,
+            "x": 370,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxNotable2.png": {
-            "x": 333,
+            "x": 407,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/StrongboxScarab.png": {
-            "x": 370,
+            "x": 444,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/SynthesisNotable3.png": {
-            "x": 407,
+            "x": 481,
             "y": 448,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire1.png": {
-            "x": 444,
-            "y": 448,
+            "x": 0,
+            "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire3.png": {
-            "x": 481,
-            "y": 448,
+            "x": 37,
+            "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheCleansingFire4.png": {
-            "x": 0,
+            "x": 74,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheMaven1.png": {
-            "x": 37,
+            "x": 111,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle1.png": {
-            "x": 74,
+            "x": 148,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle3.png": {
-            "x": 111,
+            "x": 185,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TheTangle4.png": {
-            "x": 148,
-            "y": 485,
-            "w": 37,
-            "h": 37
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNode1.png": {
-            "x": 185,
+            "x": 222,
             "y": 485,
             "w": 37,
             "h": 37
           },
           "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable1.png": {
-            "x": 222,
-            "y": 485,
-            "w": 37,
-            "h": 37
-          },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 259,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable2.png": {
             "x": 296,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TormentNotable3.png": {
             "x": 333,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TulColdNotable.png": {
             "x": 370,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UulNetolPhysicalNotable.png": {
             "x": 407,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalCluster.png": {
             "x": 444,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable1.png": {
             "x": 481,
             "y": 485,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/VaalNotable2.png": {
             "x": 0,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/Vaalsideareas.png": {
             "x": 37,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingAbyss.png": {
             "x": 74,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBlight.png": {
             "x": 111,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingBreach.png": {
             "x": 148,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingDelirium.png": {
             "x": 185,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingExpedition.png": {
             "x": 222,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHarvest.png": {
             "x": 259,
             "y": 522,
             "w": 37,
             "h": 37
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingHeist.png": {
             "x": 296,
+            "y": 522,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingLegion.png": {
+            "x": 333,
+            "y": 522,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingMetamorph.png": {
+            "x": 370,
+            "y": 522,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/WheelofDisablingRitual.png": {
+            "x": 407,
+            "y": 522,
+            "w": 37,
+            "h": 37
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/XophFireNotable.png": {
+            "x": 444,
             "y": 522,
             "w": 37,
             "h": 37
@@ -30369,436 +31803,820 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "keystoneInactive": {
       "0.1246": {
-        "filename": "/assets/atlas-skills-disabled-0.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-0.jpg?3699fb7a",
         "w": 168,
-        "h": 235,
+        "h": 269,
         "coords": {
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/AllHands.png": {
             "x": 0,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ArbitraryTenets.png": {
             "x": 17,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BoldUndertaking.png": {
             "x": 34,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CassiasPride.png": {
             "x": 51,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CropRotation.png": {
             "x": 68,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/DestructivePlay.png": {
             "x": 85,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.png": {
             "x": 102,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ExtremeArchaeology.png": {
             "x": 119,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ImmutableDogma.png": {
             "x": 136,
             "y": 180,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/LucidDreams.png": {
             "x": 0,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/MeticulousAppraiser.png": {
             "x": 17,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/OverloadedCircuits.png": {
             "x": 34,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/RuptureMeter.png": {
             "x": 51,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
             "x": 68,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
             "x": 85,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.png": {
             "x": 102,
             "y": 197,
             "w": 17,
             "h": 17
           },
-          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TheSeventhGate.png": {
             "x": 119,
             "y": 197,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UnendingNightmare.png": {
+            "x": 136,
+            "y": 197,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+            "x": 0,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+            "x": 17,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+            "x": 34,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+            "x": 51,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+            "x": 68,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+            "x": 85,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+            "x": 102,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+            "x": 119,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+            "x": 136,
+            "y": 214,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+            "x": 0,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+            "x": 17,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+            "x": 34,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+            "x": 51,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+            "x": 68,
+            "y": 231,
+            "w": 17,
+            "h": 17
+          },
+          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+            "x": 85,
+            "y": 231,
             "w": 17,
             "h": 17
           }
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-skills-disabled-1.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-1.jpg?70f92037",
         "w": 280,
-        "h": 396,
+        "h": 454,
         "coords": {
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/AllHands.png": {
             "x": 0,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ArbitraryTenets.png": {
             "x": 28,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BoldUndertaking.png": {
             "x": 56,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CassiasPride.png": {
             "x": 84,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CropRotation.png": {
             "x": 112,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/DestructivePlay.png": {
             "x": 140,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.png": {
             "x": 168,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ExtremeArchaeology.png": {
             "x": 196,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ImmutableDogma.png": {
             "x": 224,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/LucidDreams.png": {
             "x": 252,
             "y": 302,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/MeticulousAppraiser.png": {
             "x": 0,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/OverloadedCircuits.png": {
             "x": 28,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/RuptureMeter.png": {
             "x": 56,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
             "x": 84,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
             "x": 112,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.png": {
             "x": 140,
             "y": 331,
             "w": 28,
             "h": 29
           },
-          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TheSeventhGate.png": {
             "x": 168,
             "y": 331,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UnendingNightmare.png": {
+            "x": 196,
+            "y": 331,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+            "x": 224,
+            "y": 331,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+            "x": 252,
+            "y": 331,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+            "x": 0,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+            "x": 28,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+            "x": 56,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+            "x": 84,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+            "x": 112,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+            "x": 140,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+            "x": 168,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+            "x": 196,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+            "x": 224,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+            "x": 252,
+            "y": 360,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+            "x": 0,
+            "y": 389,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+            "x": 28,
+            "y": 389,
+            "w": 28,
+            "h": 29
+          },
+          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+            "x": 56,
+            "y": 389,
             "w": 28,
             "h": 29
           }
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-skills-disabled-2.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-2.jpg?539897ba",
         "w": 406,
-        "h": 570,
+        "h": 652,
         "coords": {
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/AllHands.png": {
             "x": 0,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ArbitraryTenets.png": {
             "x": 40,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BoldUndertaking.png": {
             "x": 80,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CassiasPride.png": {
             "x": 120,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CropRotation.png": {
             "x": 160,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/DestructivePlay.png": {
             "x": 200,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.png": {
             "x": 240,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ExtremeArchaeology.png": {
             "x": 280,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ImmutableDogma.png": {
             "x": 320,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/LucidDreams.png": {
             "x": 360,
             "y": 437,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/MeticulousAppraiser.png": {
             "x": 0,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/OverloadedCircuits.png": {
             "x": 40,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/RuptureMeter.png": {
             "x": 80,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
             "x": 120,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
             "x": 160,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.png": {
             "x": 200,
             "y": 478,
             "w": 40,
             "h": 41
           },
-          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TheSeventhGate.png": {
             "x": 240,
             "y": 478,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UnendingNightmare.png": {
+            "x": 280,
+            "y": 478,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+            "x": 320,
+            "y": 478,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+            "x": 360,
+            "y": 478,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+            "x": 0,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+            "x": 40,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+            "x": 80,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+            "x": 120,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+            "x": 160,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+            "x": 200,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+            "x": 240,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+            "x": 280,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+            "x": 320,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+            "x": 360,
+            "y": 519,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+            "x": 0,
+            "y": 560,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+            "x": 40,
+            "y": 560,
+            "w": 40,
+            "h": 41
+          },
+          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+            "x": 80,
+            "y": 560,
             "w": 40,
             "h": 41
           }
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-skills-disabled-3.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-3.jpg?a31af178",
         "w": 518,
-        "h": 731,
+        "h": 837,
         "coords": {
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/AllHands.png": {
             "x": 0,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ArbitraryTenets.png": {
             "x": 52,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/BoldUndertaking.png": {
             "x": 104,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CassiasPride.png": {
             "x": 156,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/CropRotation.png": {
             "x": 208,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/DestructivePlay.png": {
             "x": 260,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.png": {
             "x": 312,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ExtremeArchaeology.png": {
             "x": 364,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ImmutableDogma.png": {
             "x": 416,
             "y": 559,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/LucidDreams.png": {
             "x": 0,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/MeticulousAppraiser.png": {
             "x": 52,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/OverloadedCircuits.png": {
             "x": 104,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/RuptureMeter.png": {
             "x": 156,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ScarabKeystone.png": {
             "x": 208,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/ShadowShaping.png": {
             "x": 260,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.png": {
             "x": 312,
             "y": 612,
             "w": 52,
             "h": 53
           },
-          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/TheSeventhGate.png": {
             "x": 364,
             "y": 612,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/AtlasTrees/UnendingNightmare.png": {
+            "x": 416,
+            "y": 612,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/CortexKeystone.png": {
+            "x": 0,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/DanceofDestructKeystone.png": {
+            "x": 52,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/EaterOfWorldsKeystone.png": {
+            "x": 104,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/EldritchGazeKeystone.png": {
+            "x": 156,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/GrandDesignKeystone.png": {
+            "x": 208,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/SearingExarchKeystone.png": {
+            "x": 260,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/ShaperAndElderKeystone.png": {
+            "x": 312,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/SingularFocusKeystone.png": {
+            "x": 364,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/SirusKeystone.png": {
+            "x": 416,
+            "y": 665,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/StreamOfConsciousnessKeystone.png": {
+            "x": 0,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/TwistOfFateKeystone.png": {
+            "x": 52,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/UberMavenKeystone.png": {
+            "x": 104,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/WanderingPathKeystone.png": {
+            "x": 156,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/WellspringofCreationKeystone.png": {
+            "x": 208,
+            "y": 718,
+            "w": 52,
+            "h": 53
+          },
+          "Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png": {
+            "x": 260,
+            "y": 718,
             "w": 52,
             "h": 53
           }
@@ -30807,52 +32625,52 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "wormholeInactive": {
       "0.1246": {
-        "filename": "/assets/atlas-skills-disabled-0.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-0.jpg?3699fb7a",
         "w": 168,
-        "h": 235,
+        "h": 269,
         "coords": {
           "Wormhole": {
             "x": 0,
-            "y": 214,
+            "y": 248,
             "w": 21,
             "h": 21
           }
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-skills-disabled-1.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-1.jpg?70f92037",
         "w": 280,
-        "h": 396,
+        "h": 454,
         "coords": {
           "Wormhole": {
             "x": 0,
-            "y": 360,
+            "y": 418,
             "w": 36,
             "h": 36
           }
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-skills-disabled-2.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-2.jpg?539897ba",
         "w": 406,
-        "h": 570,
+        "h": 652,
         "coords": {
           "Wormhole": {
             "x": 0,
-            "y": 519,
+            "y": 601,
             "w": 51,
             "h": 51
           }
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-skills-disabled-3.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-skills-disabled-3.jpg?a31af178",
         "w": 518,
-        "h": 731,
+        "h": 837,
         "coords": {
           "Wormhole": {
             "x": 0,
-            "y": 665,
+            "y": 771,
             "w": 66,
             "h": 66
           }
@@ -30861,7 +32679,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "mastery": {
       "0.1246": {
-        "filename": "/assets/atlas-mastery-0.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-mastery-0.png?c0345e5d",
         "w": 168,
         "h": 168,
         "coords": {
@@ -31060,7 +32878,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-mastery-1.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-mastery-1.png?a136a0cc",
         "w": 282,
         "h": 282,
         "coords": {
@@ -31259,7 +33077,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-mastery-2.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-mastery-2.png?dba06277",
         "w": 402,
         "h": 402,
         "coords": {
@@ -31458,7 +33276,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-mastery-3.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-mastery-3.png?9c00e64e",
         "w": 516,
         "h": 516,
         "coords": {
@@ -31659,7 +33477,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "masteryOverlay": {
       "1": {
-        "filename": "/assets/atlas-mastery-overlay.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-mastery-overlay.png?ba3cb21d",
         "w": 1536,
         "h": 1536,
         "coords": {
@@ -31860,7 +33678,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "groupBackground": {
       "0.1246": {
-        "filename": "/assets/atlas-group-background-0.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-group-background-0.png?ea00ce6c",
         "w": 446,
         "h": 374,
         "coords": {
@@ -31915,7 +33733,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-group-background-1.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-group-background-1.png?e173ebdd",
         "w": 756,
         "h": 635,
         "coords": {
@@ -31970,7 +33788,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-group-background-2.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-group-background-2.png?2f58cceb",
         "w": 1066,
         "h": 895,
         "coords": {
@@ -32025,7 +33843,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-group-background-3.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-group-background-3.png?baf3269f",
         "w": 1377,
         "h": 1155,
         "coords": {
@@ -32082,7 +33900,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "startNode": {
       "0.1246": {
-        "filename": "/assets/atlas-group-background-0.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-group-background-0.png?ea00ce6c",
         "w": 446,
         "h": 374,
         "coords": {
@@ -32095,7 +33913,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-group-background-1.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-group-background-1.png?e173ebdd",
         "w": 756,
         "h": 635,
         "coords": {
@@ -32108,7 +33926,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-group-background-2.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-group-background-2.png?2f58cceb",
         "w": 1066,
         "h": 895,
         "coords": {
@@ -32121,7 +33939,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-group-background-3.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-group-background-3.png?baf3269f",
         "w": 1377,
         "h": 1155,
         "coords": {
@@ -32136,7 +33954,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "frame": {
       "0.1246": {
-        "filename": "/assets/atlas-frame-0.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-frame-0.png?46e0a02f",
         "w": 99,
         "h": 99,
         "coords": {
@@ -32221,7 +34039,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-frame-1.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-frame-1.png?dafd2002",
         "w": 183,
         "h": 170,
         "coords": {
@@ -32306,7 +34124,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-frame-2.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-frame-2.png?18fd2526",
         "w": 258,
         "h": 239,
         "coords": {
@@ -32391,7 +34209,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-frame-3.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-frame-3.png?8e391d22",
         "w": 333,
         "h": 309,
         "coords": {
@@ -32478,7 +34296,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "line": {
       "0.1246": {
-        "filename": "/assets/atlas-line-0.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-line-0.png?dbeba5ce",
         "w": 119,
         "h": 370,
         "coords": {
@@ -32623,7 +34441,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-line-1.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-line-1.png?acedc080",
         "w": 202,
         "h": 627,
         "coords": {
@@ -32768,7 +34586,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-line-2.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-line-2.png?a6169787",
         "w": 285,
         "h": 883,
         "coords": {
@@ -32913,7 +34731,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-line-3.png",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-line-3.png?dae78046",
         "w": 368,
         "h": 1140,
         "coords": {
@@ -33060,7 +34878,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
     },
     "atlasBackground": {
       "0.1246": {
-        "filename": "/assets/atlas-background-0.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-background-0.jpg?dedb202c",
         "w": 510,
         "h": 492,
         "coords": {
@@ -33073,7 +34891,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2109": {
-        "filename": "/assets/atlas-background-1.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-background-1.jpg?40d6288b",
         "w": 863,
         "h": 832,
         "coords": {
@@ -33086,7 +34904,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.2972": {
-        "filename": "/assets/atlas-background-2.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-background-2.jpg?c8f5a7bc",
         "w": 1217,
         "h": 1173,
         "coords": {
@@ -33099,7 +34917,7 @@ const ATLAS_DATA: AtlasTreeInfoGGG = {
         }
       },
       "0.3835": {
-        "filename": "/assets/atlas-background-3.jpg",
+        "filename": "https://web.poecdn.com/image/passive-skill/atlas-background-3.jpg?e73747dc",
         "w": 1570,
         "h": 1514,
         "coords": {
