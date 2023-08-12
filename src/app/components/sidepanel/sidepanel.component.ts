@@ -16,6 +16,7 @@ export class SidepanelComponent implements OnChanges{
   nodes: Set<AtlasNode> = new Set<AtlasNode>();
   @Output()
   findNodeEvent = new EventEmitter<string>();
+  searchstring:string = "";
   categories:Category[] = [];
   nodeToMasteryName:Map<AtlasNode,string> = new Map<AtlasNode, string>();
   masteryNames:Set<string> = new Set<string>()
@@ -47,6 +48,11 @@ export class SidepanelComponent implements OnChanges{
       }
 
     }
+  }
+
+  onInputChange(){
+    this.findNodeEvent.emit(this.searchstring);
+    console.log("emitting searchstring",this.searchstring);
   }
   seperateNodesIntoCategories(){
     this.categories = [];
