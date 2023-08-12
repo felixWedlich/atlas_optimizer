@@ -21,8 +21,11 @@ app-nodecount-display{
 }
 app-sidepanel{
   position: absolute;
-  right: 0;
+  left: 86%;
   top: 0;
   height: 100%;
   width: 14%;
+  padding: 8px;
+  box-sizing:border-box;
+  background-color: white;
 }
