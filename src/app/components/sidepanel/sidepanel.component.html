@@ -22,9 +22,6 @@
           <div *ngFor="let groupedstat of cat.groupedStats; let i = index;">
             <ng-container *ngFor="let section of groupedstat.sections">
               <span *ngIf="section.isNumeric" class="numeric">{{section.content}}</span>
-              <ng-container *ngIf="section.isNumeric">
-                %
-              </ng-container>
               <ng-container *ngIf="!section.isNumeric">
                 {{section.content}}
               </ng-container>

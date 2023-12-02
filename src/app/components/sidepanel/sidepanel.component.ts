@@ -81,7 +81,7 @@ export class SidepanelComponent implements OnChanges{
     // i.e if `Your Maps have +4% chance to contain Breaches` and `Your Maps have +5% chance to contain Breaches` are passed in
     // the result will be `Your Maps have +9% chance to contain Breaches`
 
-    const regex =  /(\d+(?:\.\d+)?%?)/g;
+    const regex =  /(\d+(?:\.\d+)?)/g;
     let grouped = new Map<string,number[]> ();
     for (let stat of stats){
       let matchIter = stat.matchAll(regex);
