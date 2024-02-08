@@ -492,4 +492,20 @@ export class AppComponent implements OnInit, OnDestroy {
     }
     this.requestDraw();
   }
+
+  resetAllocatedNodes() {
+    this.sidebarNodes = new Set<AtlasNode>();
+
+    for (const node of this.allocatedPreCNodes) {
+      node.isTerminal = false;
+    }
+
+    for (const node of this.travelPreCNodes) {
+      node.isTravel = false;
+    }
+    this.allocatedPreCNodes = new Set<AtlasNode>();
+    this.travelPreCNodes = new Set<AtlasNode>();
+    this.updateUrl();
+    this.requestDraw();
+  }
 }

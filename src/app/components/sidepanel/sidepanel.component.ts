@@ -16,6 +16,8 @@ export class SidepanelComponent implements OnChanges{
   nodes: Set<AtlasNode> = new Set<AtlasNode>();
   @Output()
   findNodeEvent = new EventEmitter<string>();
+  @Output()
+  resetNodesEvent = new EventEmitter<void>();
   searchstring:string = "";
   categories:Category[] = [];
   nodeToMasteryName:Map<AtlasNode,string> = new Map<AtlasNode, string>();
@@ -119,6 +121,9 @@ export class SidepanelComponent implements OnChanges{
     return result;
   }
 
+  resetAllocatedNodes() {
+  this.resetNodesEvent.emit();
+  }
 }
 
 interface Category{
