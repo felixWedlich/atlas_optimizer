@@ -148,6 +148,10 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private updateUrl() {
+    if (this.allocatedPreCNodes.size === 0) {
+      this._location.go("/");
+      return;
+    }
     this._location.go("/?" + btoa(JSON.stringify(Array.from(this.allocatedPreCNodes.values()).map(node => node.id))));
   }
 
