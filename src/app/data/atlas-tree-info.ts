@@ -23,6 +23,7 @@ export interface AtlasNodeGGG {
   reminderText?: string[];
   flavourText?: string[];
   isKeystone?: boolean;
+  grantedPassivePoints?: number;
 }
 
 export interface ImageInfo{
